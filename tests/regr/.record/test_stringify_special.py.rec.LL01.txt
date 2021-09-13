@@ -1,0 +1,455 @@
+Handshake: Solution = Solution, App = test_stringify_special.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =  174, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Variable:  SId =    8, Value = <class 'threading.Thread'>
+  Static:    SId =   12
+  Variable:  SId =  175, Value = b'123'
+  Static:    SId =   16
+  Variable:  SId =   17, Value = <memory at 0x7fa56ef35870>
+  Variable:  SId =  176, Value = <memory at 0x7fa56ef35870>
+  Static:    SId =   20
+  Variable:  SId =   21, Value = '<memory at 0x7fa56ef35870>'
+  Static:    SId =   24
+  Variable:  SId =   27, Value = <released memory at 0x7fa56ef35870>
+  Variable:  SId =  177, Value = <released memory at 0x7fa56ef35870>
+  Static:    SId =   30
+  Variable:  SId =   31, Value = '<released memory at 0x7fa56ef35870>'
+  Variable:  SId =  178, Value = '/dev/null'
+  Static:    SId =   34
+  Variable:  SId =   35, Value = <_io.TextIOWrapper name='/dev/null'>
+  Variable:  SId =  179, Value = <_io.TextIOWrapper name='/dev/null'>
+  Static:    SId =   38
+  Variable:  SId =   39, Value = '<_io.TextIOWrapper name=\'/dev/null\' mode=\'r\' encoding=\'UTF-8\'>'
+  Static:    SId =   42
+  Variable:  SId =  180, Value = '/dev/null'
+  Variable:  SId =  181, Value = 'rb'
+  Static:    SId =   47
+  Variable:  SId =   48, Value = <_io.BufferedReader name='/dev/null'>
+  Variable:  SId =  182, Value = <_io.BufferedReader name='/dev/null'>
+  Static:    SId =   51
+  Variable:  SId =   52, Value = '<_io.BufferedReader name=\'/dev/null\'>'
+  Static:    SId =   55
+  Static:    SId =   63
+  Method:    SId =  201, Phase = Enter
+  Variable:  SId =  198, Value = <function __init__ at 0x7fa56def89b0>
+  Method:    SId =  201, Phase = Exit
+  Variable:  SId =   64, Value = <class '__main__.MyThread2'>
+  Static:    SId =   71
+  Method:    SId =  209, Phase = Enter
+  Static:    SId =  206
+  Method:    SId =  209, Phase = Exit
+  Variable:  SId =   72, Value = <class '__main__.MyThread3'>
+  Static:    SId =   79
+  Method:    SId =  218, Phase = Enter
+  Variable:  SId =  215, Value = False
+  Method:    SId =  218, Phase = Exit
+  Variable:  SId =   80, Value = <class '__main__.MyThread4'>
+  Static:    SId =   87
+  Method:    SId =  227, Phase = Enter
+  Variable:  SId =  224, Value = None
+  Method:    SId =  227, Phase = Exit
+  Variable:  SId =   88, Value = <class '__main__.MyThread5'>
+  Static:    SId =   90
+  Variable:  SId =   91, Value = <Thread(Thread-1)>
+  Variable:  SId =  183, Value = <Thread(Thread-1)>
+  Static:    SId =   94
+  Variable:  SId =   95, Value = '<Thread(Thread-1, initial)>'
+  Static:    SId =   97
+  Variable:  SId =  240, Value = <MyThread2(*UNINITIALIZED*)>
+  Variable:  SId =  241, Value = ()
+  Variable:  SId =  242, Value = {}
+  Method:    SId =  243, Phase = Enter
+  Variable:  SId =  244, Value = (<MyThread2(*UNINITIALIZED*)>,)
+  Static:    SId =  238
+  Variable:  SId =  239, Value = None
+  Method:    SId =  243, Phase = Exit
+  Variable:  SId =   98, Value = <MyThread2(Thread-2)>
+  Variable:  SId =  184, Value = <MyThread2(Thread-2)>
+  Static:    SId =  101
+  Variable:  SId =  102, Value = '<MyThread2(Thread-2, initial)>'
+  Static:    SId =  104
+  Variable:  SId =  240, Value = <MyThread3(*UNINITIALIZED*)>
+  Variable:  SId =  241, Value = ()
+  Variable:  SId =  242, Value = {}
+  Method:    SId =  243, Phase = Enter
+  Variable:  SId =  244, Value = (<MyThread3(*UNINITIALIZED*)>,)
+  Static:    SId =  238
+  Variable:  SId =  239, Value = None
+  Method:    SId =  243, Phase = Exit
+  Variable:  SId =  105, Value = <MyThread3(Thread-3)>
+  Variable:  SId =  185, Value = <MyThread3(Thread-3)>
+  Static:    SId =  108
+  Variable:  SId =  109, Value = '<MyThread3(Thread-3, initial)>'
+  Static:    SId =  111
+  Variable:  SId =  112, Value = <MyThread4(Thread-4)>
+  Variable:  SId =  186, Value = <MyThread4(Thread-4)>
+  Static:    SId =  115
+  Variable:  SId =  116, Value = '<MyThread4(Thread-4, initial)>'
+  Static:    SId =  118
+  Variable:  SId =  119, Value = <MyThread5(Thread-5)>
+  Variable:  SId =  187, Value = <MyThread5(Thread-5)>
+  Static:    SId =  122
+  Variable:  SId =  123, Value = '<MyThread5(Thread-5, initial)>'
+  Static:    SId =  129
+  Variable:  SId =  130, Value = <function _import at 0x7fa56def8f50>
+  Static:    SId =  132
+  Static:    SId =  135
+  Variable:  SId =  136, Value = <_socket.socket object at 0x7fa56ef660e0>
+  Variable:  SId =  188, Value = <_socket.socket object at 0x7fa56ef660e0>
+  Static:    SId =  139
+  Variable:  SId =  140, Value = '<socket object, fd=7, family=2, type=1, proto=0>'
+  Static:    SId =  143
+  Static:    SId =  146
+  Variable:  SId =  147, Value = <socket.socket object at 0x7fa56defe440>
+  Variable:  SId =  189, Value = <socket.socket object at 0x7fa56defe440>
+  Static:    SId =  150
+  Variable:  SId =  151, Value = '<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=(\'0.0.0.0\', 0)>'
+  Static:    SId =  154
+  Static:    SId =  158
+  Variable:  SId =  166, Value = False
+  Method:    SId =  174, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_stringify_special.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    5, Start =    40, Len =    28
+      Location: Id =    2, FId =  0, Line =    7, Start =    70, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    70, Len =    16
+      Location: Id =    4, FId =  0, Line =   11, Start =   106, Len =    10
+      Location: Id =    5, FId =  0, Line =   11, Start =   106, Len =    18
+      Location: Id =    6, FId =  0, Line =   11, Start =   117, Len =     6
+      Location: Id =    7, FId =  0, Line =   11, Start =   102, Len =     1
+      Location: Id =    8, FId =  0, Line =   12, Start =   129, Len =     4
+      Location: Id =    9, FId =  0, Line =   12, Start =   134, Len =     1
+      Location: Id =   10, FId =  0, Line =   12, Start =   129, Len =     7
+      Location: Id =   11, FId =  0, Line =   12, Start =   125, Len =     1
+      Location: Id =   12, FId =  0, Line =   14, Start =   138, Len =     1
+      Location: Id =   13, FId =  0, Line =   14, Start =   138, Len =    11
+      Location: Id =   14, FId =  0, Line =   16, Start =   155, Len =     1
+      Location: Id =   15, FId =  0, Line =   16, Start =   151, Len =     1
+      Location: Id =   16, FId =  0, Line =   17, Start =   161, Len =     4
+      Location: Id =   17, FId =  0, Line =   17, Start =   166, Len =     1
+      Location: Id =   18, FId =  0, Line =   17, Start =   161, Len =     7
+      Location: Id =   19, FId =  0, Line =   17, Start =   157, Len =     1
+      Location: Id =   20, FId =  0, Line =   21, Start =   185, Len =     4
+      Location: Id =   21, FId =  0, Line =   21, Start =   185, Len =    17
+      Location: Id =   22, FId =  0, Line =   21, Start =   190, Len =    11
+      Location: Id =   23, FId =  0, Line =   21, Start =   181, Len =     1
+      Location: Id =   24, FId =  0, Line =   22, Start =   207, Len =     4
+      Location: Id =   25, FId =  0, Line =   22, Start =   212, Len =     1
+      Location: Id =   26, FId =  0, Line =   22, Start =   207, Len =     7
+      Location: Id =   27, FId =  0, Line =   22, Start =   203, Len =     1
+      Location: Id =   28, FId =  0, Line =   23, Start =   215, Len =     1
+      Location: Id =   29, FId =  0, Line =   23, Start =   215, Len =     9
+      Location: Id =   30, FId =  0, Line =   25, Start =   230, Len =     4
+      Location: Id =   31, FId =  0, Line =   25, Start =   230, Len =    23
+      Location: Id =   32, FId =  0, Line =   25, Start =   235, Len =    11
+      Location: Id =   33, FId =  0, Line =   25, Start =   248, Len =     4
+      Location: Id =   34, FId =  0, Line =   25, Start =   226, Len =     1
+      Location: Id =   35, FId =  0, Line =   26, Start =   258, Len =     4
+      Location: Id =   36, FId =  0, Line =   26, Start =   263, Len =     1
+      Location: Id =   37, FId =  0, Line =   26, Start =   258, Len =     7
+      Location: Id =   38, FId =  0, Line =   26, Start =   254, Len =     1
+      Location: Id =   39, FId =  0, Line =   27, Start =   266, Len =     1
+      Location: Id =   40, FId =  0, Line =   27, Start =   266, Len =     9
+      Location: Id =   41, FId =  0, Line =   33, Start =   317, Len =   119
+      Location: Id =   42, FId =  0, Line =   33, Start =   333, Len =     6
+      Location: Id =   43, FId =  0, Line =   33, Start =   317, Len =    24
+      Location: Id =   44, FId =  0, Line =   33, Start =   317, Len =    15
+      Location: Id =   45, FId =  0, Line =   37, Start =   438, Len =    36
+      Location: Id =   46, FId =  0, Line =   37, Start =   454, Len =     9
+      Location: Id =   47, FId =  0, Line =   37, Start =   438, Len =    27
+      Location: Id =   48, FId =  0, Line =   37, Start =   438, Len =    15
+      Location: Id =   49, FId =  0, Line =   40, Start =   476, Len =    48
+      Location: Id =   50, FId =  0, Line =   40, Start =   492, Len =     6
+      Location: Id =   51, FId =  0, Line =   40, Start =   476, Len =    24
+      Location: Id =   52, FId =  0, Line =   40, Start =   476, Len =    15
+      Location: Id =   53, FId =  0, Line =   43, Start =   526, Len =    47
+      Location: Id =   54, FId =  0, Line =   43, Start =   542, Len =     6
+      Location: Id =   55, FId =  0, Line =   43, Start =   526, Len =    24
+      Location: Id =   56, FId =  0, Line =   43, Start =   526, Len =    15
+      Location: Id =   57, FId =  0, Line =   46, Start =   584, Len =     6
+      Location: Id =   58, FId =  0, Line =   46, Start =   584, Len =     8
+      Location: Id =   59, FId =  0, Line =   46, Start =   575, Len =     6
+      Location: Id =   60, FId =  0, Line =   47, Start =   597, Len =     4
+      Location: Id =   61, FId =  0, Line =   47, Start =   602, Len =     6
+      Location: Id =   62, FId =  0, Line =   47, Start =   597, Len =    12
+      Location: Id =   63, FId =  0, Line =   47, Start =   593, Len =     1
+      Location: Id =   64, FId =  0, Line =   49, Start =   623, Len =     9
+      Location: Id =   65, FId =  0, Line =   49, Start =   623, Len =    11
+      Location: Id =   66, FId =  0, Line =   49, Start =   611, Len =     9
+      Location: Id =   67, FId =  0, Line =   50, Start =   639, Len =     4
+      Location: Id =   68, FId =  0, Line =   50, Start =   644, Len =     9
+      Location: Id =   69, FId =  0, Line =   50, Start =   639, Len =    15
+      Location: Id =   70, FId =  0, Line =   50, Start =   635, Len =     1
+      Location: Id =   71, FId =  0, Line =   52, Start =   668, Len =     9
+      Location: Id =   72, FId =  0, Line =   52, Start =   668, Len =    11
+      Location: Id =   73, FId =  0, Line =   52, Start =   656, Len =     9
+      Location: Id =   74, FId =  0, Line =   53, Start =   684, Len =     4
+      Location: Id =   75, FId =  0, Line =   53, Start =   689, Len =     9
+      Location: Id =   76, FId =  0, Line =   53, Start =   684, Len =    15
+      Location: Id =   77, FId =  0, Line =   53, Start =   680, Len =     1
+      Location: Id =   78, FId =  0, Line =   55, Start =   713, Len =     9
+      Location: Id =   79, FId =  0, Line =   55, Start =   713, Len =    11
+      Location: Id =   80, FId =  0, Line =   55, Start =   701, Len =     9
+      Location: Id =   81, FId =  0, Line =   56, Start =   729, Len =     4
+      Location: Id =   82, FId =  0, Line =   56, Start =   734, Len =     9
+      Location: Id =   83, FId =  0, Line =   56, Start =   729, Len =    15
+      Location: Id =   84, FId =  0, Line =   56, Start =   725, Len =     1
+      Location: Id =   85, FId =  0, Line =   58, Start =   758, Len =     9
+      Location: Id =   86, FId =  0, Line =   58, Start =   758, Len =    11
+      Location: Id =   87, FId =  0, Line =   58, Start =   746, Len =     9
+      Location: Id =   88, FId =  0, Line =   59, Start =   774, Len =     4
+      Location: Id =   89, FId =  0, Line =   59, Start =   779, Len =     9
+      Location: Id =   90, FId =  0, Line =   59, Start =   774, Len =    15
+      Location: Id =   91, FId =  0, Line =   59, Start =   770, Len =     1
+      Location: Id =   92, FId =  0, Line =   63, Start =   803, Len =     8
+      Location: Id =   93, FId =  0, Line =   63, Start =   803, Len =    17
+      Location: Id =   94, FId =  0, Line =   63, Start =   803, Len =   141
+      Location: Id =   95, FId =  0, Line =   63, Start =   802, Len =    18
+      Location: Id =   96, FId =  0, Line =   64, Start =   821, Len =    11
+      Location: Id =   97, FId =  0, Line =   69, Start =   946, Len =     7
+      Location: Id =   98, FId =  0, Line =   69, Start =   946, Len =     9
+      Location: Id =   99, FId =  0, Line =   71, Start =   961, Len =     7
+      Location: Id =  100, FId =  0, Line =   71, Start =   961, Len =     9
+      Location: Id =  101, FId =  0, Line =   71, Start =   957, Len =     1
+      Location: Id =  102, FId =  0, Line =   72, Start =   975, Len =     4
+      Location: Id =  103, FId =  0, Line =   72, Start =   980, Len =     1
+      Location: Id =  104, FId =  0, Line =   72, Start =   975, Len =     7
+      Location: Id =  105, FId =  0, Line =   72, Start =   971, Len =     1
+      Location: Id =  106, FId =  0, Line =   73, Start =   983, Len =     1
+      Location: Id =  107, FId =  0, Line =   73, Start =   983, Len =     9
+      Location: Id =  108, FId =  0, Line =   75, Start =   998, Len =     6
+      Location: Id =  109, FId =  0, Line =   75, Start =   998, Len =     8
+      Location: Id =  110, FId =  0, Line =   75, Start =   994, Len =     1
+      Location: Id =  111, FId =  0, Line =   76, Start =  1011, Len =     4
+      Location: Id =  112, FId =  0, Line =   76, Start =  1016, Len =     1
+      Location: Id =  113, FId =  0, Line =   76, Start =  1011, Len =     7
+      Location: Id =  114, FId =  0, Line =   76, Start =  1007, Len =     1
+      Location: Id =  115, FId =  0, Line =   77, Start =  1019, Len =     1
+      Location: Id =  116, FId =  0, Line =   77, Start =  1019, Len =     9
+      Location: Id =  117, FId =  0, Line =   79, Start =  1030, Len =     8
+      Location: Id =  118, FId =  0, Line =   79, Start =  1030, Len =    16
+      Location: Id =  119, FId =  0, Line =   81, Start =  1072, Len =     8
+      Location: Id =  120, FId =  0, Line =   81, Start =  1072, Len =    13
+      Location: Id =  121, FId =  0, Line =   81, Start =  1072, Len =    18
+      Location: Id =  122, FId =  0, Line =   81, Start =  1094, Len =     8
+      Location: Id =  123, FId =  0, Line =   81, Start =  1094, Len =    14
+      Location: Id =  124, FId =  0, Line =   81, Start =  1072, Len =    36
+      Location: Id =  125, FId =  0, Line =   81, Start =  1069, Len =    40
+      Location: Id =  126, FId =  0, Line =   82, Start =  1120, Len =    12
+      Location: Id =  127, FId =  0, Line =   82, Start =  1120, Len =    20
+      Location: Id =  128, FId =  0, Line =   82, Start =  1133, Len =     6
+      Location: Id =  129, FId =  0, Line =   82, Start =  1114, Len =    26
+      Location: Id =  130, FId =  0, Line =    3, Start =    23, Len =  1117
+      Location: Id =  131, FId =  0, Line =   34, Start =   346, Len =    90
+      Location: Id =  132, FId =  0, Line =   34, Start =   346, Len =    12
+      Location: Id =  133, FId =  0, Line =   38, Start =   470, Len =     4
+      Location: Id =  134, FId =  0, Line =   41, Start =   505, Len =    11
+      Location: Id =  135, FId =  0, Line =   44, Start =   555, Len =    11
+      Location: Id =  136, FId =  0, Line =   35, Start =   398, Len =     6
+      Location: Id =  137, FId =  0, Line =   35, Start =   398, Len =    15
+      Location: Id =  138, FId =  0, Line =   35, Start =   414, Len =     4
+      Location: Id =  139, FId =  0, Line =   35, Start =   398, Len =    38
+      Location: Id =  140, FId =  0, Line =   35, Start =   421, Len =     4
+      Location: Id =  141, FId =  0, Line =   35, Start =   429, Len =     6
+      Location: Id =  142, FId =  0, Line =   35, Start =   414, Len =    21
+      Location: Id =  143, FId =  0, Line =   35, Start =   391, Len =    45
+      Location: Id =  144, FId =  0, Line =   34, Start =   359, Len =     4
+      Location: Id =  145, FId =  0, Line =   34, Start =   366, Len =     4
+      Location: Id =  146, FId =  0, Line =   34, Start =   374, Len =     6
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = Thread
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    3, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   14, LId =    4, Ident = ...
+      Invocation: Id =   16, LId =    5, Ident = memoryview(b'123'), Method = memoryview
+      Identifier: Id =   17, LId =    7, Ident = m
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Identifier: Id =   19, LId =    9, Ident = ...
+      Invocation: Id =   20, LId =   10, Ident = repr(m), Method = repr
+      Identifier: Id =   21, LId =   11, Ident = s
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Identifier: Id =   23, LId =   13, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = m.release(), Method = release
+      Identifier: Id =   26, LId =   14, Ident = ...
+      Identifier: Id =   27, LId =   15, Ident = m
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Invocation: Id =   30, LId =   18, Ident = repr(m), Method = repr
+      Identifier: Id =   31, LId =   19, Ident = s
+      Identifier: Id =   32, LId =   20, Ident = ...
+      Invocation: Id =   34, LId =   21, Ident = open('/dev/null'), Method = open
+      Identifier: Id =   35, LId =   23, Ident = f
+      Identifier: Id =   36, LId =   24, Ident = ...
+      Identifier: Id =   37, LId =   25, Ident = ...
+      Invocation: Id =   38, LId =   26, Ident = repr(f), Method = repr
+      Identifier: Id =   39, LId =   27, Ident = s
+      Identifier: Id =   40, LId =   28, Ident = ...
+      Identifier: Id =   41, LId =   29, Ident = ...
+      Invocation: Id =   42, LId =   29, Ident = f.close(), Method = close
+      Identifier: Id =   44, LId =   30, Ident = ...
+      Invocation: Id =   47, LId =   31, Ident = open('/dev/null', 'rb'), Method = open
+      Identifier: Id =   48, LId =   34, Ident = f
+      Identifier: Id =   49, LId =   35, Ident = ...
+      Identifier: Id =   50, LId =   36, Ident = ...
+      Invocation: Id =   51, LId =   37, Ident = repr(f), Method = repr
+      Identifier: Id =   52, LId =   38, Ident = s
+      Identifier: Id =   53, LId =   39, Ident = ...
+      Identifier: Id =   54, LId =   40, Ident = ...
+      Invocation: Id =   55, LId =   40, Ident = f.close(), Method = close
+      Identifier: Id =   57, LId =   41, Ident = ...
+      Identifier: Id =   60, LId =   41, Ident = ...
+      Identifier: Id =   62, LId =   42, Ident = ...
+      Invocation: Id =   63, LId =   43, Ident = class MyThread2(Thread), Method = class MyThread2
+      Identifier: Id =   64, LId =   44, Ident = MyThread2
+      Identifier: Id =   65, LId =   45, Ident = ...
+      Identifier: Id =   68, LId =   45, Ident = ...
+      Identifier: Id =   70, LId =   46, Ident = ...
+      Invocation: Id =   71, LId =   47, Ident = class MyThread3(MyThread2), Method = class MyThread3
+      Identifier: Id =   72, LId =   48, Ident = MyThread3
+      Identifier: Id =   73, LId =   49, Ident = ...
+      Identifier: Id =   76, LId =   49, Ident = ...
+      Identifier: Id =   78, LId =   50, Ident = ...
+      Invocation: Id =   79, LId =   51, Ident = class MyThread4(Thread), Method = class MyThread4
+      Identifier: Id =   80, LId =   52, Ident = MyThread4
+      Identifier: Id =   81, LId =   53, Ident = ...
+      Identifier: Id =   84, LId =   53, Ident = ...
+      Identifier: Id =   86, LId =   54, Ident = ...
+      Invocation: Id =   87, LId =   55, Ident = class MyThread5(Thread), Method = class MyThread5
+      Identifier: Id =   88, LId =   56, Ident = MyThread5
+      Identifier: Id =   89, LId =   57, Ident = ...
+      Invocation: Id =   90, LId =   58, Ident = Thread(), Method = Thread
+      Identifier: Id =   91, LId =   59, Ident = thread
+      Identifier: Id =   92, LId =   60, Ident = ...
+      Identifier: Id =   93, LId =   61, Ident = ...
+      Invocation: Id =   94, LId =   62, Ident = repr(thread), Method = repr
+      Identifier: Id =   95, LId =   63, Ident = s
+      Identifier: Id =   96, LId =   64, Ident = ...
+      Invocation: Id =   97, LId =   65, Ident = MyThread2(), Method = MyThread2
+      Identifier: Id =   98, LId =   66, Ident = mythread2
+      Identifier: Id =   99, LId =   67, Ident = ...
+      Identifier: Id =  100, LId =   68, Ident = ...
+      Invocation: Id =  101, LId =   69, Ident = repr(mythread2), Method = repr
+      Identifier: Id =  102, LId =   70, Ident = s
+      Identifier: Id =  103, LId =   71, Ident = ...
+      Invocation: Id =  104, LId =   72, Ident = MyThread3(), Method = MyThread3
+      Identifier: Id =  105, LId =   73, Ident = mythread3
+      Identifier: Id =  106, LId =   74, Ident = ...
+      Identifier: Id =  107, LId =   75, Ident = ...
+      Invocation: Id =  108, LId =   76, Ident = repr(mythread3), Method = repr
+      Identifier: Id =  109, LId =   77, Ident = s
+      Identifier: Id =  110, LId =   78, Ident = ...
+      Invocation: Id =  111, LId =   79, Ident = MyThread4(), Method = MyThread4
+      Identifier: Id =  112, LId =   80, Ident = mythread4
+      Identifier: Id =  113, LId =   81, Ident = ...
+      Identifier: Id =  114, LId =   82, Ident = ...
+      Invocation: Id =  115, LId =   83, Ident = repr(mythread4), Method = repr
+      Identifier: Id =  116, LId =   84, Ident = s
+      Identifier: Id =  117, LId =   85, Ident = ...
+      Invocation: Id =  118, LId =   86, Ident = MyThread5(), Method = MyThread5
+      Identifier: Id =  119, LId =   87, Ident = mythread5
+      Identifier: Id =  120, LId =   88, Ident = ...
+      Identifier: Id =  121, LId =   89, Ident = ...
+      Invocation: Id =  122, LId =   90, Ident = repr(mythread5), Method = repr
+      Identifier: Id =  123, LId =   91, Ident = s
+      Identifier: Id =  124, LId =   92, Ident = ...
+      Identifier: Id =  125, LId =   93, Ident = ...
+      Identifier: Id =  128, LId =   94, Ident = ...
+      Invocation: Id =  129, LId =   95, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =  130, LId =   96, Ident = _import
+      Identifier: Id =  131, LId =   97, Ident = ...
+      Invocation: Id =  132, LId =   98, Ident = _import(), Method = _import
+      Identifier: Id =  134, LId =   99, Ident = ...
+      Invocation: Id =  135, LId =  100, Ident = _socket(), Method = _socket
+      Identifier: Id =  136, LId =  101, Ident = s
+      Identifier: Id =  137, LId =  102, Ident = ...
+      Identifier: Id =  138, LId =  103, Ident = ...
+      Invocation: Id =  139, LId =  104, Ident = repr(s), Method = repr
+      Identifier: Id =  140, LId =  105, Ident = t
+      Identifier: Id =  141, LId =  106, Ident = ...
+      Identifier: Id =  142, LId =  107, Ident = ...
+      Invocation: Id =  143, LId =  107, Ident = s.close(), Method = close
+      Identifier: Id =  145, LId =  108, Ident = ...
+      Invocation: Id =  146, LId =  109, Ident = socket(), Method = socket
+      Identifier: Id =  147, LId =  110, Ident = s
+      Identifier: Id =  148, LId =  111, Ident = ...
+      Identifier: Id =  149, LId =  112, Ident = ...
+      Invocation: Id =  150, LId =  113, Ident = repr(s), Method = repr
+      Identifier: Id =  151, LId =  114, Ident = t
+      Identifier: Id =  152, LId =  115, Ident = ...
+      Identifier: Id =  153, LId =  116, Ident = ...
+      Invocation: Id =  154, LId =  116, Ident = s.close(), Method = close
+      Identifier: Id =  156, LId =  117, Ident = ...
+      Identifier: Id =  157, LId =  118, Ident = ...
+      Invocation: Id =  158, LId =  118, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =  160, LId =  119, Ident = ...
+      Identifier: Id =  161, LId =  120, Ident = ...
+      Identifier: Id =  162, LId =  121, Ident = ...
+      Identifier: Id =  163, LId =  122, Ident = ...
+      Identifier: Id =  164, LId =  123, Ident = ...
+      Identifier: Id =  165, LId =  124, Ident = ...
+      Identifier: Id =  166, LId =  125, Ident = if
+      Identifier: Id =  168, LId =  126, Ident = ...
+      Invocation: Id =  170, LId =  127, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =  171, LId =  129, Ident = ...
+      Method:     Id =  174, LId =  130, Ident = test_stringify_special.py, Method = test_stringify_special.py
+      Argument:   Id =  175, LId =    6, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  176, LId =    9, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  177, LId =   17, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  178, LId =   22, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  179, LId =   25, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  180, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  181, LId =   33, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  182, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  183, LId =   61, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  184, LId =   68, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  185, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  186, LId =   82, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  187, LId =   89, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  188, LId =  103, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  189, LId =  112, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  190, LId =  128, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  197, LId =  131, Ident = ...
+      Identifier: Id =  198, LId =  132, Ident = __init__
+      Method:     Id =  201, LId =   41, Ident = MyThread2, Method = MyThread2
+      Invocation: Id =  206, LId =  133, Ident = pass, Method = pass
+      Method:     Id =  209, LId =   45, Ident = MyThread3, Method = MyThread3
+      Identifier: Id =  215, LId =  134, Ident = __recrepr__
+      Method:     Id =  218, LId =   49, Ident = MyThread4, Method = MyThread4
+      Identifier: Id =  224, LId =  135, Ident = __recrepr__
+      Method:     Id =  227, LId =   53, Ident = MyThread5, Method = MyThread5
+      Identifier: Id =  228, LId =  136, Ident = ...
+      Identifier: Id =  229, LId =  137, Ident = ...
+      Identifier: Id =  230, LId =  138, Ident = ...
+      Identifier: Id =  231, LId =  139, Ident = ...
+      Identifier: Id =  232, LId =  140, Ident = ...
+      Identifier: Id =  233, LId =  139, Ident = ...
+      Identifier: Id =  234, LId =  139, Ident = ...
+      Identifier: Id =  235, LId =  139, Ident = ...
+      Identifier: Id =  236, LId =  141, Ident = ...
+      Identifier: Id =  237, LId =  139, Ident = ...
+      Invocation: Id =  238, LId =  139, Ident = Thread.__init__(self, *args, **kwargs), Method = __init__
+      Identifier: Id =  239, LId =  143, Ident = return
+      Parameter:  Id =  240, LId =  144, Ident = self, ParamIdx = 0
+      Parameter:  Id =  241, LId =  145, Ident = args, ParamIdx = 1
+      Parameter:  Id =  242, LId =  146, Ident = kwargs, ParamIdx = 2
+      Method:     Id =  243, LId =  131, Ident = __init__, Method = __init__
+      Argument:   Id =  244, LId =  142, Ident = *args, ArgIdx = 0
+      Argument:   Id =  245, LId =  142, Ident = **kwargs, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

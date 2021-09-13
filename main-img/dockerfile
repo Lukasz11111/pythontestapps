@@ -1,0 +1,26 @@
+# FROM  python-revdebug:3.9
+FROM  docker-test.revdebug.com/python-revdebug:3.9
+WORKDIR /app
+
+RUN pip3 install django==2.2.0
+RUN pip3 install flask
+RUN pip3 install tornado
+RUN pip3 install sanic
+RUN pip3 install requests
+RUN pip3 install aiohttp
+RUN pip3 install pyramid
+
+RUN pip3 install psycopg2-binary
+RUN pip3 install celery==4.4.7
+RUN pip3 install redis
+RUN pip3 install django-celery-beat
+RUN pip3 install django-celery-results
+
+RUN pip3 install PyMySQL
+RUN pip3 install cryptography
+RUN pip3 install pymongo
+
+
+ARG REVDEBUG_HOST_ARG=localhost
+ENV REVDEBUG_HOST=$REVDEBUG_HOST_ARG
+ENV REVDEBUG_EXC_STATUS=404

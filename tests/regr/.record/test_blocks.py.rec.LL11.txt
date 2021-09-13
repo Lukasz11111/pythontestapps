@@ -1,0 +1,3066 @@
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =  109, Phase = Enter
+  Variable:  SId =    3, Value = <module 'asyncio' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/asyncio/__init__.py'>
+  Variable:  SId =    8, Value = <built-in function copy_context>
+  Variable:  SId =   13, Value = <module 'time' (built-in)>
+  Variable:  SId =   17, Value = <function func1 at 0x7fc741019af0>
+  Variable:  SId =   21, Value = <function func2 at 0x7fc740fae9b0>
+  Variable:  SId =   25, Value = <function func3 at 0x7fc7412e09b0>
+  Variable:  SId =   29, Value = <function main1 at 0x7fc73fadde10>
+  Static:    SId =   33
+  Variable:  SId =  110, Value = <coroutine object main1 at 0x7fc741052b90>
+  Static:    SId =   34
+  Method:    SId =  179, Phase = Enter
+  Static:    SId =  124
+  Variable:  SId =  180, Value = <coroutine object func1 at 0x7fc73fadcc20>
+  Static:    SId =  125
+  Variable:  SId =  126, Value = <Task finished name='Task-2' coro=<func1() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:8> result=None>
+  Variable:  SId =  181, Value = 0.02
+  Static:    SId =  130
+  Variable:  SId =  133, Value = <Future finished result=None>
+  Method:    SId =  179, Phase = Yield
+  Method:    SId =  203, Phase = Enter
+  Variable:  SId =  190, Value = 1
+  Variable:  SId =  204, Value = 0.06
+  Static:    SId =  194
+  Variable:  SId =  197, Value = <Future finished result=None>
+  Method:    SId =  203, Phase = Yield
+  Method:    SId =  179, Phase = Continue
+  Static:    SId =  138
+  Variable:  SId =  182, Value = <coroutine object func2 at 0x7fc73fadcb90>
+  Static:    SId =  139
+  Variable:  SId =  140, Value = <Task finished name='Task-3' coro=<func2() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:13> result=None>
+  Variable:  SId =  183, Value = 0.02
+  Static:    SId =  144
+  Variable:  SId =  147, Value = <Future finished result=None>
+  Method:    SId =  179, Phase = Yield
+  Method:    SId =  219, Phase = Enter
+  Variable:  SId =  206, Value = 2
+  Variable:  SId =  220, Value = 0.06
+  Static:    SId =  210
+  Variable:  SId =  213, Value = <Future finished result=None>
+  Method:    SId =  219, Phase = Yield
+  Method:    SId =  179, Phase = Continue
+  Static:    SId =  152
+  Variable:  SId =  184, Value = <coroutine object func3 at 0x7fc73fadcdd0>
+  Static:    SId =  153
+  Variable:  SId =  154, Value = <Task finished name='Task-4' coro=<func3() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:18> result=None>
+  Variable:  SId =  185, Value = 0.02
+  Static:    SId =  158
+  Variable:  SId =  161, Value = <Future finished result=None>
+  Method:    SId =  179, Phase = Yield
+  Method:    SId =  235, Phase = Enter
+  Variable:  SId =  222, Value = 3
+  Variable:  SId =  236, Value = 0.06
+  Static:    SId =  226
+  Variable:  SId =  229, Value = <Future finished result=None>
+  Method:    SId =  235, Phase = Yield
+  Method:    SId =  203, Phase = Continue
+  Variable:  SId =  200, Value = 4
+  Method:    SId =  203, Phase = Exit
+  Method:    SId =  179, Phase = Continue
+  Variable:  SId =  186, Value = <Task finished name='Task-2' coro=<func1() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:8> result=None>
+  Variable:  SId =  187, Value = <Task finished name='Task-3' coro=<func2() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:13> result=None>
+  Variable:  SId =  188, Value = <Task finished name='Task-4' coro=<func3() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:18> result=None>
+  Static:    SId =  168
+  Variable:  SId =  171, Value = <_GatheringFuture finished result=[None, None, None]>
+  Method:    SId =  179, Phase = Yield
+  Method:    SId =  219, Phase = Continue
+  Variable:  SId =  216, Value = 5
+  Method:    SId =  219, Phase = Exit
+  Method:    SId =  235, Phase = Continue
+  Variable:  SId =  232, Value = 6
+  Method:    SId =  235, Phase = Exit
+  Method:    SId =  179, Phase = Continue
+  Static:    SId =  175
+  Method:    SId =  179, Phase = Exit
+  Variable:  SId =   39, Value = <function main2 at 0x7fc73faddaf0>
+  Static:    SId =   43
+  Variable:  SId =  111, Value = <coroutine object main2 at 0x7fc741052b90>
+  Static:    SId =   44
+  Method:    SId =  268, Phase = Enter
+  Static:    SId =  239
+  Variable:  SId =  112, Value = 'main'
+  Static:    SId =   49
+  Variable:  SId =  113, Value = 0.02
+  Static:    SId =   54
+  Variable:  SId =   59, Value = <function main3 at 0x7fc73faf70f0>
+  Static:    SId =   63
+  Variable:  SId =  114, Value = <coroutine object main3 at 0x7fc741052b90>
+  Static:    SId =   64
+  Method:    SId =  374, Phase = Enter
+  Variable:  SId =  291, Value = <function main3.<locals>.func1 at 0x7fc73fa7e230>
+  Variable:  SId =  295, Value = <function main3.<locals>.func2 at 0x7fc73fa7e2d0>
+  Variable:  SId =  375, Value = '1'
+  Static:    SId =  298
+  Variable:  SId =  399, Value = '1'
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  401, Value = '1'
+  Static:    SId =  390
+  Variable:  SId =  402, Value = 0.02
+  Static:    SId =  395
+  Method:    SId =  400, Phase = Exit
+  Variable:  SId =  376, Value = 0.02
+  Static:    SId =  306
+  Variable:  SId =  309, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  377, Value = '2'
+  Static:    SId =  315
+  Variable:  SId =  378, Value = <coroutine object main3.<locals>.func1 at 0x7fc73faf67a0>
+  Static:    SId =  316
+  Variable:  SId =  319, Value = <Task finished name='Task-11' coro=<main3.<locals>.func1() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:57> result=None>
+  Method:    SId =  374, Phase = Yield
+  Variable:  SId =  399, Value = '2'
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  401, Value = '2'
+  Static:    SId =  390
+  Variable:  SId =  402, Value = 0.02
+  Static:    SId =  395
+  Method:    SId =  400, Phase = Exit
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  379, Value = 0.02
+  Static:    SId =  324
+  Variable:  SId =  327, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  380, Value = '3'
+  Static:    SId =  333
+  Variable:  SId =  381, Value = <coroutine object main3.<locals>.func2 at 0x7fc73faaea70>
+  Static:    SId =  334
+  Variable:  SId =  337, Value = <Task finished name='Task-12' coro=<main3.<locals>.func2() done, defined at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:61> result=None>
+  Method:    SId =  374, Phase = Yield
+  Variable:  SId =  419, Value = '3'
+  Method:    SId =  420, Phase = Enter
+  Static:    SId =  405
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  382, Value = 0.02
+  Static:    SId =  342
+  Variable:  SId =  345, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  383, Value = '4'
+  Static:    SId =  349
+  Variable:  SId =  419, Value = '4'
+  Method:    SId =  420, Phase = Enter
+  Static:    SId =  405
+  Variable:  SId =  115, Value = '6'
+  Static:    SId =   69
+  Variable:  SId =  116, Value = 0.02
+  Static:    SId =   74
+  Variable:  SId =   79, Value = <function func4 at 0x7fc73fa6eeb0>
+  Static:    SId =   81
+  Variable:  SId =  117, Value = <function func4 at 0x7fc73fa6eeb0>
+  Variable:  SId =  118, Value = '7'
+  Static:    SId =   85
+  Variable:  SId =  439, Value = '7'
+  Method:    SId =  440, Phase = Enter
+  Static:    SId =  425
+  Static:    SId =   92
+  Variable:  SId =   93, Value = <function func5 at 0x7fc73fa7e2d0>
+  Static:    SId =   95
+  Variable:  SId =  439, Value = '8'
+  Method:    SId =  440, Phase = Enter
+  Static:    SId =  425
+  Variable:  SId =  119, Value = '9'
+  Static:    SId =  100
+  Variable:  SId =  120, Value = 0.02
+  Static:    SId =  105
+  Method:    SId =  109, Phase = Exit
+
+AppState: Thread = 1
+  Variable:  SId =  269, Value = 'block 1'
+  Static:    SId =  244
+  Variable:  SId =  270, Value = 0.02
+  Static:    SId =  249
+  Variable:  SId =  254, Value = <function main2.<locals>.func at 0x7fc73fa6eeb0>
+  Static:    SId =  256
+  Variable:  SId =  271, Value = <function main2.<locals>.func at 0x7fc73fa6eeb0>
+  Static:    SId =  259
+  Method:    SId =  285, Phase = Enter
+  Variable:  SId =  286, Value = 'block 2'
+  Static:    SId =  276
+  Variable:  SId =  287, Value = 0.02
+  Static:    SId =  281
+  Method:    SId =  285, Phase = Exit
+  Variable:  SId =  272, Value = 0.02
+  Static:    SId =  264
+  Method:    SId =  268, Phase = Exit
+
+AppState: Thread = 2
+  Variable:  SId =  421, Value = '3'
+  Static:    SId =  410
+  Variable:  SId =  422, Value = 0.02
+  Static:    SId =  415
+  Method:    SId =  420, Phase = Exit
+
+AppState: Thread = 3
+  Variable:  SId =  421, Value = '4'
+  Static:    SId =  410
+  Variable:  SId =  422, Value = 0.02
+  Static:    SId =  415
+  Method:    SId =  420, Phase = Exit
+  Variable:  SId =  384, Value = 0.02
+  Static:    SId =  357
+  Variable:  SId =  360, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  385, Value = '5'
+  Static:    SId =  365
+  Variable:  SId =  386, Value = 0.02
+  Static:    SId =  370
+  Method:    SId =  374, Phase = Exit
+
+AppState: Thread = 4
+  Variable:  SId =  441, Value = '7'
+  Static:    SId =  430
+  Variable:  SId =  442, Value = 0.02
+  Static:    SId =  435
+  Method:    SId =  440, Phase = Exit
+
+AppState: Thread = 5
+  Variable:  SId =  441, Value = '8'
+  Static:    SId =  430
+  Variable:  SId =  442, Value = 0.02
+  Static:    SId =  435
+  Method:    SId =  440, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   24, Start =   322, Len =     3
+      Location: Id =   61, FId =  0, Line =   24, Start =   322, Len =    24
+      Location: Id =   62, FId =  0, Line =   24, Start =   338, Len =     5
+      Location: Id =   63, FId =  0, Line =   24, Start =   338, Len =     7
+      Location: Id =   64, FId =  0, Line =   24, Start =   317, Len =     2
+      Location: Id =   65, FId =  0, Line =   25, Start =   357, Len =     3
+      Location: Id =   66, FId =  0, Line =   25, Start =   357, Len =    15
+      Location: Id =   67, FId =  0, Line =   25, Start =   367, Len =     4
+      Location: Id =   68, FId =  0, Line =   25, Start =   351, Len =    21
+      Location: Id =   69, FId =  0, Line =   26, Start =   382, Len =     3
+      Location: Id =   70, FId =  0, Line =   26, Start =   382, Len =    24
+      Location: Id =   71, FId =  0, Line =   26, Start =   398, Len =     5
+      Location: Id =   72, FId =  0, Line =   26, Start =   398, Len =     7
+      Location: Id =   73, FId =  0, Line =   26, Start =   377, Len =     2
+      Location: Id =   74, FId =  0, Line =   27, Start =   417, Len =     3
+      Location: Id =   75, FId =  0, Line =   27, Start =   417, Len =    15
+      Location: Id =   76, FId =  0, Line =   27, Start =   427, Len =     4
+      Location: Id =   77, FId =  0, Line =   27, Start =   411, Len =    21
+      Location: Id =   78, FId =  0, Line =   28, Start =   442, Len =     3
+      Location: Id =   79, FId =  0, Line =   28, Start =   442, Len =    24
+      Location: Id =   80, FId =  0, Line =   28, Start =   458, Len =     5
+      Location: Id =   81, FId =  0, Line =   28, Start =   458, Len =     7
+      Location: Id =   82, FId =  0, Line =   28, Start =   437, Len =     2
+      Location: Id =   83, FId =  0, Line =   29, Start =   477, Len =     3
+      Location: Id =   84, FId =  0, Line =   29, Start =   477, Len =    15
+      Location: Id =   85, FId =  0, Line =   29, Start =   487, Len =     4
+      Location: Id =   86, FId =  0, Line =   29, Start =   471, Len =    21
+      Location: Id =   87, FId =  0, Line =   31, Start =   504, Len =     3
+      Location: Id =   88, FId =  0, Line =   31, Start =   504, Len =    22
+      Location: Id =   89, FId =  0, Line =   31, Start =   515, Len =     2
+      Location: Id =   90, FId =  0, Line =   31, Start =   519, Len =     2
+      Location: Id =   91, FId =  0, Line =   31, Start =   523, Len =     2
+      Location: Id =   92, FId =  0, Line =   31, Start =   498, Len =    28
+      Location: Id =   93, FId =  0, Line =   33, Start =   532, Len =     8
+      Location: Id =   94, FId =  0, Line =   33, Start =   532, Len =    16
+      Location: Id =   95, FId =  0, Line =    9, Start =   119, Len =     1
+      Location: Id =   96, FId =  0, Line =   10, Start =   135, Len =     3
+      Location: Id =   97, FId =  0, Line =   10, Start =   135, Len =    15
+      Location: Id =   98, FId =  0, Line =   10, Start =   145, Len =     4
+      Location: Id =   99, FId =  0, Line =   10, Start =   129, Len =    21
+      Location: Id =  100, FId =  0, Line =   11, Start =   155, Len =     1
+      Location: Id =  101, FId =  0, Line =   14, Start =   185, Len =     1
+      Location: Id =  102, FId =  0, Line =   15, Start =   201, Len =     3
+      Location: Id =  103, FId =  0, Line =   15, Start =   201, Len =    15
+      Location: Id =  104, FId =  0, Line =   15, Start =   211, Len =     4
+      Location: Id =  105, FId =  0, Line =   15, Start =   195, Len =    21
+      Location: Id =  106, FId =  0, Line =   16, Start =   221, Len =     1
+      Location: Id =  107, FId =  0, Line =   19, Start =   251, Len =     1
+      Location: Id =  108, FId =  0, Line =   20, Start =   267, Len =     3
+      Location: Id =  109, FId =  0, Line =   20, Start =   267, Len =    15
+      Location: Id =  110, FId =  0, Line =   20, Start =   277, Len =     4
+      Location: Id =  111, FId =  0, Line =   20, Start =   261, Len =    21
+      Location: Id =  112, FId =  0, Line =   21, Start =   287, Len =     1
+      Location: Id =  113, FId =  0, Line =   39, Start =   592, Len =     8
+      Location: Id =  114, FId =  0, Line =   39, Start =   592, Len =    16
+      Location: Id =  115, FId =  0, Line =   40, Start =   613, Len =     8
+      Location: Id =  116, FId =  0, Line =   40, Start =   613, Len =    28
+      Location: Id =  117, FId =  0, Line =   40, Start =   631, Len =     9
+      Location: Id =  118, FId =  0, Line =   41, Start =   646, Len =     4
+      Location: Id =  119, FId =  0, Line =   41, Start =   646, Len =    16
+      Location: Id =  120, FId =  0, Line =   41, Start =   657, Len =     4
+      Location: Id =  121, FId =  0, Line =   43, Start =   668, Len =    73
+      Location: Id =  122, FId =  0, Line =   43, Start =   668, Len =     8
+      Location: Id =  123, FId =  0, Line =   47, Start =   747, Len =    12
+      Location: Id =  124, FId =  0, Line =   47, Start =   747, Len =    14
+      Location: Id =  125, FId =  0, Line =   47, Start =   747, Len =    24
+      Location: Id =  126, FId =  0, Line =   47, Start =   766, Len =     4
+      Location: Id =  127, FId =  0, Line =   48, Start =   776, Len =     4
+      Location: Id =  128, FId =  0, Line =   48, Start =   776, Len =    16
+      Location: Id =  129, FId =  0, Line =   48, Start =   787, Len =     4
+      Location: Id =  130, FId =  0, Line =   44, Start =   688, Len =     8
+      Location: Id =  131, FId =  0, Line =   44, Start =   688, Len =    28
+      Location: Id =  132, FId =  0, Line =   44, Start =   706, Len =     9
+      Location: Id =  133, FId =  0, Line =   45, Start =   725, Len =     4
+      Location: Id =  134, FId =  0, Line =   45, Start =   725, Len =    16
+      Location: Id =  135, FId =  0, Line =   45, Start =   736, Len =     4
+      Location: Id =  136, FId =  0, Line =   57, Start =   880, Len =    79
+      Location: Id =  137, FId =  0, Line =   57, Start =   880, Len =    15
+      Location: Id =  138, FId =  0, Line =   61, Start =   965, Len =   104
+      Location: Id =  139, FId =  0, Line =   61, Start =   965, Len =    15
+      Location: Id =  140, FId =  0, Line =   66, Start =  1081, Len =     5
+      Location: Id =  141, FId =  0, Line =   66, Start =  1081, Len =    10
+      Location: Id =  142, FId =  0, Line =   66, Start =  1087, Len =     3
+      Location: Id =  143, FId =  0, Line =   66, Start =  1075, Len =    16
+      Location: Id =  144, FId =  0, Line =   67, Start =  1102, Len =     3
+      Location: Id =  145, FId =  0, Line =   67, Start =  1102, Len =    15
+      Location: Id =  146, FId =  0, Line =   67, Start =  1112, Len =     4
+      Location: Id =  147, FId =  0, Line =   67, Start =  1096, Len =    21
+      Location: Id =  148, FId =  0, Line =   68, Start =  1128, Len =     3
+      Location: Id =  149, FId =  0, Line =   68, Start =  1128, Len =    27
+      Location: Id =  150, FId =  0, Line =   68, Start =  1144, Len =     5
+      Location: Id =  151, FId =  0, Line =   68, Start =  1144, Len =    10
+      Location: Id =  152, FId =  0, Line =   68, Start =  1150, Len =     3
+      Location: Id =  153, FId =  0, Line =   68, Start =  1122, Len =    33
+      Location: Id =  154, FId =  0, Line =   69, Start =  1166, Len =     3
+      Location: Id =  155, FId =  0, Line =   69, Start =  1166, Len =    15
+      Location: Id =  156, FId =  0, Line =   69, Start =  1176, Len =     4
+      Location: Id =  157, FId =  0, Line =   69, Start =  1160, Len =    21
+      Location: Id =  158, FId =  0, Line =   70, Start =  1192, Len =     3
+      Location: Id =  159, FId =  0, Line =   70, Start =  1192, Len =    27
+      Location: Id =  160, FId =  0, Line =   70, Start =  1208, Len =     5
+      Location: Id =  161, FId =  0, Line =   70, Start =  1208, Len =    10
+      Location: Id =  162, FId =  0, Line =   70, Start =  1214, Len =     3
+      Location: Id =  163, FId =  0, Line =   70, Start =  1186, Len =    33
+      Location: Id =  164, FId =  0, Line =   71, Start =  1230, Len =     3
+      Location: Id =  165, FId =  0, Line =   71, Start =  1230, Len =    15
+      Location: Id =  166, FId =  0, Line =   71, Start =  1240, Len =     4
+      Location: Id =  167, FId =  0, Line =   71, Start =  1224, Len =    21
+      Location: Id =  168, FId =  0, Line =   72, Start =  1256, Len =     5
+      Location: Id =  169, FId =  0, Line =   72, Start =  1256, Len =    10
+      Location: Id =  170, FId =  0, Line =   72, Start =  1262, Len =     3
+      Location: Id =  171, FId =  0, Line =   72, Start =  1250, Len =    16
+      Location: Id =  172, FId =  0, Line =   73, Start =  1277, Len =     3
+      Location: Id =  173, FId =  0, Line =   73, Start =  1277, Len =    15
+      Location: Id =  174, FId =  0, Line =   73, Start =  1287, Len =     4
+      Location: Id =  175, FId =  0, Line =   73, Start =  1271, Len =    21
+      Location: Id =  176, FId =  0, Line =   75, Start =  1298, Len =     8
+      Location: Id =  177, FId =  0, Line =   75, Start =  1298, Len =    22
+      Location: Id =  178, FId =  0, Line =   75, Start =  1316, Len =     3
+      Location: Id =  179, FId =  0, Line =   76, Start =  1325, Len =     4
+      Location: Id =  180, FId =  0, Line =   76, Start =  1325, Len =    16
+      Location: Id =  181, FId =  0, Line =   76, Start =  1336, Len =     4
+      Location: Id =  182, FId =  0, Line =   58, Start =   911, Len =     8
+      Location: Id =  183, FId =  0, Line =   58, Start =   911, Len =    23
+      Location: Id =  184, FId =  0, Line =   58, Start =   929, Len =     4
+      Location: Id =  185, FId =  0, Line =   59, Start =   943, Len =     4
+      Location: Id =  186, FId =  0, Line =   59, Start =   943, Len =    16
+      Location: Id =  187, FId =  0, Line =   59, Start =   954, Len =     4
+      Location: Id =  188, FId =  0, Line =   57, Start =   896, Len =     4
+      Location: Id =  189, FId =  0, Line =   62, Start =   996, Len =     8
+      Location: Id =  190, FId =  0, Line =   62, Start =   996, Len =    16
+      Location: Id =  191, FId =  0, Line =   63, Start =  1021, Len =     8
+      Location: Id =  192, FId =  0, Line =   63, Start =  1021, Len =    23
+      Location: Id =  193, FId =  0, Line =   63, Start =  1039, Len =     4
+      Location: Id =  194, FId =  0, Line =   64, Start =  1053, Len =     4
+      Location: Id =  195, FId =  0, Line =   64, Start =  1053, Len =    16
+      Location: Id =  196, FId =  0, Line =   64, Start =  1064, Len =     4
+      Location: Id =  197, FId =  0, Line =   61, Start =   981, Len =     4
+      Location: Id =  198, FId =  0, Line =   85, Start =  1424, Len =     8
+      Location: Id =  199, FId =  0, Line =   85, Start =  1424, Len =    16
+      Location: Id =  200, FId =  0, Line =   86, Start =  1445, Len =     8
+      Location: Id =  201, FId =  0, Line =   86, Start =  1445, Len =    23
+      Location: Id =  202, FId =  0, Line =   86, Start =  1463, Len =     4
+      Location: Id =  203, FId =  0, Line =   87, Start =  1473, Len =     4
+      Location: Id =  204, FId =  0, Line =   87, Start =  1473, Len =    16
+      Location: Id =  205, FId =  0, Line =   87, Start =  1484, Len =     4
+      Location: Id =  206, FId =  0, Line =   84, Start =  1413, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  121, LId =   60, Ident = ...
+      Identifier: Id =  122, LId =   61, Ident = ...
+      Identifier: Id =  123, LId =   62, Ident = ...
+      Invocation: Id =  124, LId =   63, Ident = func1(), Method = func1
+      Invocation: Id =  125, LId =   61, Ident = aio.create_task(func1()), Method = create_task
+      Identifier: Id =  126, LId =   64, Ident = t1
+      Identifier: Id =  127, LId =   65, Ident = ...
+      Identifier: Id =  128, LId =   66, Ident = ...
+      Invocation: Id =  130, LId =   66, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  131, LId =   68, Ident = ...
+      Identifier: Id =  133, LId =   68, Ident = await
+      Identifier: Id =  135, LId =   69, Ident = ...
+      Identifier: Id =  136, LId =   70, Ident = ...
+      Identifier: Id =  137, LId =   71, Ident = ...
+      Invocation: Id =  138, LId =   72, Ident = func2(), Method = func2
+      Invocation: Id =  139, LId =   70, Ident = aio.create_task(func2()), Method = create_task
+      Identifier: Id =  140, LId =   73, Ident = t2
+      Identifier: Id =  141, LId =   74, Ident = ...
+      Identifier: Id =  142, LId =   75, Ident = ...
+      Invocation: Id =  144, LId =   75, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  145, LId =   77, Ident = ...
+      Identifier: Id =  147, LId =   77, Ident = await
+      Identifier: Id =  149, LId =   78, Ident = ...
+      Identifier: Id =  150, LId =   79, Ident = ...
+      Identifier: Id =  151, LId =   80, Ident = ...
+      Invocation: Id =  152, LId =   81, Ident = func3(), Method = func3
+      Invocation: Id =  153, LId =   79, Ident = aio.create_task(func3()), Method = create_task
+      Identifier: Id =  154, LId =   82, Ident = t3
+      Identifier: Id =  155, LId =   83, Ident = ...
+      Identifier: Id =  156, LId =   84, Ident = ...
+      Invocation: Id =  158, LId =   84, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  159, LId =   86, Ident = ...
+      Identifier: Id =  161, LId =   86, Ident = await
+      Identifier: Id =  163, LId =   87, Ident = ...
+      Identifier: Id =  164, LId =   88, Ident = ...
+      Identifier: Id =  165, LId =   89, Ident = ...
+      Identifier: Id =  166, LId =   90, Ident = ...
+      Identifier: Id =  167, LId =   91, Ident = ...
+      Invocation: Id =  168, LId =   88, Ident = aio.gather(t1, t2, t3), Method = gather
+      Identifier: Id =  169, LId =   92, Ident = ...
+      Identifier: Id =  171, LId =   92, Ident = await
+      Identifier: Id =  173, LId =   93, Ident = ...
+      Identifier: Id =  174, LId =   94, Ident = ...
+      Invocation: Id =  175, LId =   94, Ident = revdebug.flush(), Method = flush
+      Method:     Id =  179, LId =    9, Ident = main1, Method = main1
+      Argument:   Id =  180, LId =   63, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  181, LId =   67, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  182, LId =   72, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  183, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  184, LId =   81, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  185, LId =   85, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  186, LId =   89, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  187, LId =   90, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  188, LId =   91, Ident = arg3, ArgIdx = 2
+      Identifier: Id =  190, LId =   95, Ident = i
+      Identifier: Id =  191, LId =   96, Ident = ...
+      Identifier: Id =  192, LId =   97, Ident = ...
+      Invocation: Id =  194, LId =   97, Ident = aio.sleep(0.06), Method = sleep
+      Identifier: Id =  195, LId =   99, Ident = ...
+      Identifier: Id =  197, LId =   99, Ident = await
+      Identifier: Id =  200, LId =  100, Ident = i
+      Method:     Id =  203, LId =    3, Ident = func1, Method = func1
+      Argument:   Id =  204, LId =   98, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  206, LId =  101, Ident = i
+      Identifier: Id =  207, LId =  102, Ident = ...
+      Identifier: Id =  208, LId =  103, Ident = ...
+      Invocation: Id =  210, LId =  103, Ident = aio.sleep(0.06), Method = sleep
+      Identifier: Id =  211, LId =  105, Ident = ...
+      Identifier: Id =  213, LId =  105, Ident = await
+      Identifier: Id =  216, LId =  106, Ident = i
+      Method:     Id =  219, LId =    5, Ident = func2, Method = func2
+      Argument:   Id =  220, LId =  104, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  222, LId =  107, Ident = i
+      Identifier: Id =  223, LId =  108, Ident = ...
+      Identifier: Id =  224, LId =  109, Ident = ...
+      Invocation: Id =  226, LId =  109, Ident = aio.sleep(0.06), Method = sleep
+      Identifier: Id =  227, LId =  111, Ident = ...
+      Identifier: Id =  229, LId =  111, Ident = await
+      Identifier: Id =  232, LId =  112, Ident = i
+      Method:     Id =  235, LId =    7, Ident = func3, Method = func3
+      Argument:   Id =  236, LId =  110, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  237, LId =  113, Ident = ...
+      Identifier: Id =  238, LId =  114, Ident = ...
+      Invocation: Id =  239, LId =  114, Ident = revdebug.block(), Method = block
+      Identifier: Id =  241, LId =  115, Ident = ...
+      Identifier: Id =  242, LId =  116, Ident = ...
+      Invocation: Id =  244, LId =  116, Ident = revdebug.snapshot('block 1'), Method = snapshot
+      Identifier: Id =  246, LId =  118, Ident = ...
+      Identifier: Id =  247, LId =  119, Ident = ...
+      Invocation: Id =  249, LId =  119, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =  253, LId =  121, Ident = ...
+      Identifier: Id =  254, LId =  122, Ident = func
+      Identifier: Id =  255, LId =  123, Ident = ...
+      Invocation: Id =  256, LId =  124, Ident = copy_context(), Method = copy_context
+      Identifier: Id =  257, LId =  125, Ident = ...
+      Identifier: Id =  258, LId =  126, Ident = ...
+      Invocation: Id =  259, LId =  125, Ident = copy_context().run(func), Method = run
+      Identifier: Id =  261, LId =  127, Ident = ...
+      Identifier: Id =  262, LId =  128, Ident = ...
+      Invocation: Id =  264, LId =  128, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  268, LId =   15, Ident = main2, Method = main2
+      Argument:   Id =  269, LId =  117, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  270, LId =  120, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  271, LId =  126, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  272, LId =  129, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  273, LId =  130, Ident = ...
+      Identifier: Id =  274, LId =  131, Ident = ...
+      Invocation: Id =  276, LId =  131, Ident = revdebug.snapshot('block 2'), Method = snapshot
+      Identifier: Id =  278, LId =  133, Ident = ...
+      Identifier: Id =  279, LId =  134, Ident = ...
+      Invocation: Id =  281, LId =  134, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  285, LId =  121, Ident = func, Method = func
+      Argument:   Id =  286, LId =  132, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  287, LId =  135, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  290, LId =  136, Ident = ...
+      Identifier: Id =  291, LId =  137, Ident = func1
+      Identifier: Id =  294, LId =  138, Ident = ...
+      Identifier: Id =  295, LId =  139, Ident = func2
+      Identifier: Id =  296, LId =  140, Ident = ...
+      Invocation: Id =  298, LId =  141, Ident = func1('1'), Method = func1
+      Identifier: Id =  299, LId =  143, Ident = ...
+      Identifier: Id =  301, LId =  143, Ident = await
+      Identifier: Id =  303, LId =  144, Ident = ...
+      Identifier: Id =  304, LId =  145, Ident = ...
+      Invocation: Id =  306, LId =  145, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  307, LId =  147, Ident = ...
+      Identifier: Id =  309, LId =  147, Ident = await
+      Identifier: Id =  311, LId =  148, Ident = ...
+      Identifier: Id =  312, LId =  149, Ident = ...
+      Identifier: Id =  313, LId =  150, Ident = ...
+      Invocation: Id =  315, LId =  151, Ident = func1('2'), Method = func1
+      Invocation: Id =  316, LId =  149, Ident = aio.create_task(func1('2')), Method = create_task
+      Identifier: Id =  317, LId =  153, Ident = ...
+      Identifier: Id =  319, LId =  153, Ident = await
+      Identifier: Id =  321, LId =  154, Ident = ...
+      Identifier: Id =  322, LId =  155, Ident = ...
+      Invocation: Id =  324, LId =  155, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  325, LId =  157, Ident = ...
+      Identifier: Id =  327, LId =  157, Ident = await
+      Identifier: Id =  329, LId =  158, Ident = ...
+      Identifier: Id =  330, LId =  159, Ident = ...
+      Identifier: Id =  331, LId =  160, Ident = ...
+      Invocation: Id =  333, LId =  161, Ident = func2('3'), Method = func2
+      Invocation: Id =  334, LId =  159, Ident = aio.create_task(func2('3')), Method = create_task
+      Identifier: Id =  335, LId =  163, Ident = ...
+      Identifier: Id =  337, LId =  163, Ident = await
+      Identifier: Id =  339, LId =  164, Ident = ...
+      Identifier: Id =  340, LId =  165, Ident = ...
+      Invocation: Id =  342, LId =  165, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  343, LId =  167, Ident = ...
+      Identifier: Id =  345, LId =  167, Ident = await
+      Identifier: Id =  347, LId =  168, Ident = ...
+      Invocation: Id =  349, LId =  169, Ident = func2('4'), Method = func2
+      Identifier: Id =  350, LId =  171, Ident = ...
+      Identifier: Id =  352, LId =  171, Ident = await
+      Identifier: Id =  354, LId =  172, Ident = ...
+      Identifier: Id =  355, LId =  173, Ident = ...
+      Invocation: Id =  357, LId =  173, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  358, LId =  175, Ident = ...
+      Identifier: Id =  360, LId =  175, Ident = await
+      Identifier: Id =  362, LId =  176, Ident = ...
+      Identifier: Id =  363, LId =  177, Ident = ...
+      Invocation: Id =  365, LId =  177, Ident = revdebug.snapshot('5'), Method = snapshot
+      Identifier: Id =  367, LId =  179, Ident = ...
+      Identifier: Id =  368, LId =  180, Ident = ...
+      Invocation: Id =  370, LId =  180, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  374, LId =   27, Ident = main3, Method = main3
+      Argument:   Id =  375, LId =  142, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  376, LId =  146, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  377, LId =  152, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  378, LId =  151, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  379, LId =  156, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  380, LId =  162, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  381, LId =  161, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  382, LId =  166, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  383, LId =  170, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  384, LId =  174, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  385, LId =  178, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  386, LId =  181, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  387, LId =  182, Ident = ...
+      Identifier: Id =  388, LId =  183, Ident = ...
+      Identifier: Id =  389, LId =  184, Ident = ...
+      Invocation: Id =  390, LId =  183, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  392, LId =  185, Ident = ...
+      Identifier: Id =  393, LId =  186, Ident = ...
+      Invocation: Id =  395, LId =  186, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  399, LId =  188, Ident = name, ParamIdx = 0
+      Method:     Id =  400, LId =  136, Ident = func1, Method = func1
+      Argument:   Id =  401, LId =  184, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  402, LId =  187, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  403, LId =  189, Ident = ...
+      Identifier: Id =  404, LId =  190, Ident = ...
+      Invocation: Id =  405, LId =  190, Ident = revdebug.block(), Method = block
+      Identifier: Id =  407, LId =  191, Ident = ...
+      Identifier: Id =  408, LId =  192, Ident = ...
+      Identifier: Id =  409, LId =  193, Ident = ...
+      Invocation: Id =  410, LId =  192, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  412, LId =  194, Ident = ...
+      Identifier: Id =  413, LId =  195, Ident = ...
+      Invocation: Id =  415, LId =  195, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  419, LId =  197, Ident = name, ParamIdx = 0
+      Method:     Id =  420, LId =  138, Ident = func2, Method = func2
+      Argument:   Id =  421, LId =  193, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  422, LId =  196, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  423, LId =  198, Ident = ...
+      Identifier: Id =  424, LId =  199, Ident = ...
+      Invocation: Id =  425, LId =  199, Ident = revdebug.block(), Method = block
+      Identifier: Id =  427, LId =  200, Ident = ...
+      Identifier: Id =  428, LId =  201, Ident = ...
+      Identifier: Id =  429, LId =  202, Ident = ...
+      Invocation: Id =  430, LId =  201, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  432, LId =  203, Ident = ...
+      Identifier: Id =  433, LId =  204, Ident = ...
+      Invocation: Id =  435, LId =  204, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  439, LId =  206, Ident = name, ParamIdx = 0
+      Method:     Id =  440, LId =   39, Ident = func4, Method = func4
+      Argument:   Id =  441, LId =  202, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  442, LId =  205, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_block 1_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  269, Value = 'block 1'
+  Static:    SId =  244
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   39, Start =   592, Len =     8
+      Location: Id =   61, FId =  0, Line =   39, Start =   592, Len =    16
+      Location: Id =   62, FId =  0, Line =   40, Start =   613, Len =     8
+      Location: Id =   63, FId =  0, Line =   40, Start =   613, Len =    28
+      Location: Id =   64, FId =  0, Line =   40, Start =   631, Len =     9
+      Location: Id =   65, FId =  0, Line =   41, Start =   646, Len =     4
+      Location: Id =   66, FId =  0, Line =   41, Start =   646, Len =    16
+      Location: Id =   67, FId =  0, Line =   41, Start =   657, Len =     4
+      Location: Id =   68, FId =  0, Line =   43, Start =   668, Len =    73
+      Location: Id =   69, FId =  0, Line =   43, Start =   668, Len =     8
+      Location: Id =   70, FId =  0, Line =   47, Start =   747, Len =    12
+      Location: Id =   71, FId =  0, Line =   47, Start =   747, Len =    14
+      Location: Id =   72, FId =  0, Line =   47, Start =   747, Len =    24
+      Location: Id =   73, FId =  0, Line =   47, Start =   766, Len =     4
+      Location: Id =   74, FId =  0, Line =   48, Start =   776, Len =     4
+      Location: Id =   75, FId =  0, Line =   48, Start =   776, Len =    16
+      Location: Id =   76, FId =  0, Line =   48, Start =   787, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  237, LId =   60, Ident = ...
+      Identifier: Id =  238, LId =   61, Ident = ...
+      Invocation: Id =  239, LId =   61, Ident = revdebug.block(), Method = block
+      Identifier: Id =  241, LId =   62, Ident = ...
+      Identifier: Id =  242, LId =   63, Ident = ...
+      Invocation: Id =  244, LId =   63, Ident = revdebug.snapshot('block 1'), Method = snapshot
+      Identifier: Id =  246, LId =   65, Ident = ...
+      Identifier: Id =  247, LId =   66, Ident = ...
+      Invocation: Id =  249, LId =   66, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =  253, LId =   68, Ident = ...
+      Identifier: Id =  254, LId =   69, Ident = func
+      Identifier: Id =  255, LId =   70, Ident = ...
+      Invocation: Id =  256, LId =   71, Ident = copy_context(), Method = copy_context
+      Identifier: Id =  257, LId =   72, Ident = ...
+      Identifier: Id =  258, LId =   73, Ident = ...
+      Invocation: Id =  259, LId =   72, Ident = copy_context().run(func), Method = run
+      Identifier: Id =  261, LId =   74, Ident = ...
+      Identifier: Id =  262, LId =   75, Ident = ...
+      Invocation: Id =  264, LId =   75, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  268, LId =   15, Ident = main2, Method = main2
+      Argument:   Id =  269, LId =   64, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  270, LId =   67, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  271, LId =   73, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  272, LId =   76, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_block 2_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  269, Value = 'block 1'
+  Static:    SId =  244
+  Variable:  SId =  270, Value = 0.02
+  Static:    SId =  249
+  Variable:  SId =  254, Value = <function main2.<locals>.func at 0x7fc73fa6eeb0>
+  Static:    SId =  256
+  Variable:  SId =  271, Value = <function main2.<locals>.func at 0x7fc73fa6eeb0>
+  Static:    SId =  259
+  Method:    SId =  285, Phase = Enter
+  Variable:  SId =  286, Value = 'block 2'
+  Static:    SId =  276
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   39, Start =   592, Len =     8
+      Location: Id =   61, FId =  0, Line =   39, Start =   592, Len =    16
+      Location: Id =   62, FId =  0, Line =   40, Start =   613, Len =     8
+      Location: Id =   63, FId =  0, Line =   40, Start =   613, Len =    28
+      Location: Id =   64, FId =  0, Line =   40, Start =   631, Len =     9
+      Location: Id =   65, FId =  0, Line =   41, Start =   646, Len =     4
+      Location: Id =   66, FId =  0, Line =   41, Start =   646, Len =    16
+      Location: Id =   67, FId =  0, Line =   41, Start =   657, Len =     4
+      Location: Id =   68, FId =  0, Line =   43, Start =   668, Len =    73
+      Location: Id =   69, FId =  0, Line =   43, Start =   668, Len =     8
+      Location: Id =   70, FId =  0, Line =   47, Start =   747, Len =    12
+      Location: Id =   71, FId =  0, Line =   47, Start =   747, Len =    14
+      Location: Id =   72, FId =  0, Line =   47, Start =   747, Len =    24
+      Location: Id =   73, FId =  0, Line =   47, Start =   766, Len =     4
+      Location: Id =   74, FId =  0, Line =   48, Start =   776, Len =     4
+      Location: Id =   75, FId =  0, Line =   48, Start =   776, Len =    16
+      Location: Id =   76, FId =  0, Line =   48, Start =   787, Len =     4
+      Location: Id =   77, FId =  0, Line =   44, Start =   688, Len =     8
+      Location: Id =   78, FId =  0, Line =   44, Start =   688, Len =    28
+      Location: Id =   79, FId =  0, Line =   44, Start =   706, Len =     9
+      Location: Id =   80, FId =  0, Line =   45, Start =   725, Len =     4
+      Location: Id =   81, FId =  0, Line =   45, Start =   725, Len =    16
+      Location: Id =   82, FId =  0, Line =   45, Start =   736, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  237, LId =   60, Ident = ...
+      Identifier: Id =  238, LId =   61, Ident = ...
+      Invocation: Id =  239, LId =   61, Ident = revdebug.block(), Method = block
+      Identifier: Id =  241, LId =   62, Ident = ...
+      Identifier: Id =  242, LId =   63, Ident = ...
+      Invocation: Id =  244, LId =   63, Ident = revdebug.snapshot('block 1'), Method = snapshot
+      Identifier: Id =  246, LId =   65, Ident = ...
+      Identifier: Id =  247, LId =   66, Ident = ...
+      Invocation: Id =  249, LId =   66, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =  253, LId =   68, Ident = ...
+      Identifier: Id =  254, LId =   69, Ident = func
+      Identifier: Id =  255, LId =   70, Ident = ...
+      Invocation: Id =  256, LId =   71, Ident = copy_context(), Method = copy_context
+      Identifier: Id =  257, LId =   72, Ident = ...
+      Identifier: Id =  258, LId =   73, Ident = ...
+      Invocation: Id =  259, LId =   72, Ident = copy_context().run(func), Method = run
+      Identifier: Id =  261, LId =   74, Ident = ...
+      Identifier: Id =  262, LId =   75, Ident = ...
+      Invocation: Id =  264, LId =   75, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  268, LId =   15, Ident = main2, Method = main2
+      Argument:   Id =  269, LId =   64, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  270, LId =   67, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  271, LId =   73, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  272, LId =   76, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  273, LId =   77, Ident = ...
+      Identifier: Id =  274, LId =   78, Ident = ...
+      Invocation: Id =  276, LId =   78, Ident = revdebug.snapshot('block 2'), Method = snapshot
+      Identifier: Id =  278, LId =   80, Ident = ...
+      Identifier: Id =  279, LId =   81, Ident = ...
+      Invocation: Id =  281, LId =   81, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  285, LId =   68, Ident = func, Method = func
+      Argument:   Id =  286, LId =   79, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  287, LId =   82, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_main_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  112, Value = 'main'
+  Static:    SId =   49
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_1_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  112, Value = 'main'
+  Static:    SId =   49
+  Variable:  SId =  113, Value = 0.02
+  Static:    SId =   54
+  Variable:  SId =   59, Value = <function main3 at 0x7fc73faf70f0>
+  Static:    SId =   63
+  Variable:  SId =  114, Value = <coroutine object main3 at 0x7fc741052b90>
+  Static:    SId =   64
+  Method:    SId =  374, Phase = Enter
+  Variable:  SId =  291, Value = <function main3.<locals>.func1 at 0x7fc73fa7e230>
+  Variable:  SId =  295, Value = <function main3.<locals>.func2 at 0x7fc73fa7e2d0>
+  Variable:  SId =  375, Value = '1'
+  Static:    SId =  298
+  Variable:  SId =  399, Value = '1'
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  401, Value = '1'
+  Static:    SId =  390
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   57, Start =   880, Len =    79
+      Location: Id =   61, FId =  0, Line =   57, Start =   880, Len =    15
+      Location: Id =   62, FId =  0, Line =   61, Start =   965, Len =   104
+      Location: Id =   63, FId =  0, Line =   61, Start =   965, Len =    15
+      Location: Id =   64, FId =  0, Line =   66, Start =  1081, Len =     5
+      Location: Id =   65, FId =  0, Line =   66, Start =  1081, Len =    10
+      Location: Id =   66, FId =  0, Line =   66, Start =  1087, Len =     3
+      Location: Id =   67, FId =  0, Line =   66, Start =  1075, Len =    16
+      Location: Id =   68, FId =  0, Line =   67, Start =  1102, Len =     3
+      Location: Id =   69, FId =  0, Line =   67, Start =  1102, Len =    15
+      Location: Id =   70, FId =  0, Line =   67, Start =  1112, Len =     4
+      Location: Id =   71, FId =  0, Line =   67, Start =  1096, Len =    21
+      Location: Id =   72, FId =  0, Line =   68, Start =  1128, Len =     3
+      Location: Id =   73, FId =  0, Line =   68, Start =  1128, Len =    27
+      Location: Id =   74, FId =  0, Line =   68, Start =  1144, Len =     5
+      Location: Id =   75, FId =  0, Line =   68, Start =  1144, Len =    10
+      Location: Id =   76, FId =  0, Line =   68, Start =  1150, Len =     3
+      Location: Id =   77, FId =  0, Line =   68, Start =  1122, Len =    33
+      Location: Id =   78, FId =  0, Line =   69, Start =  1166, Len =     3
+      Location: Id =   79, FId =  0, Line =   69, Start =  1166, Len =    15
+      Location: Id =   80, FId =  0, Line =   69, Start =  1176, Len =     4
+      Location: Id =   81, FId =  0, Line =   69, Start =  1160, Len =    21
+      Location: Id =   82, FId =  0, Line =   70, Start =  1192, Len =     3
+      Location: Id =   83, FId =  0, Line =   70, Start =  1192, Len =    27
+      Location: Id =   84, FId =  0, Line =   70, Start =  1208, Len =     5
+      Location: Id =   85, FId =  0, Line =   70, Start =  1208, Len =    10
+      Location: Id =   86, FId =  0, Line =   70, Start =  1214, Len =     3
+      Location: Id =   87, FId =  0, Line =   70, Start =  1186, Len =    33
+      Location: Id =   88, FId =  0, Line =   71, Start =  1230, Len =     3
+      Location: Id =   89, FId =  0, Line =   71, Start =  1230, Len =    15
+      Location: Id =   90, FId =  0, Line =   71, Start =  1240, Len =     4
+      Location: Id =   91, FId =  0, Line =   71, Start =  1224, Len =    21
+      Location: Id =   92, FId =  0, Line =   72, Start =  1256, Len =     5
+      Location: Id =   93, FId =  0, Line =   72, Start =  1256, Len =    10
+      Location: Id =   94, FId =  0, Line =   72, Start =  1262, Len =     3
+      Location: Id =   95, FId =  0, Line =   72, Start =  1250, Len =    16
+      Location: Id =   96, FId =  0, Line =   73, Start =  1277, Len =     3
+      Location: Id =   97, FId =  0, Line =   73, Start =  1277, Len =    15
+      Location: Id =   98, FId =  0, Line =   73, Start =  1287, Len =     4
+      Location: Id =   99, FId =  0, Line =   73, Start =  1271, Len =    21
+      Location: Id =  100, FId =  0, Line =   75, Start =  1298, Len =     8
+      Location: Id =  101, FId =  0, Line =   75, Start =  1298, Len =    22
+      Location: Id =  102, FId =  0, Line =   75, Start =  1316, Len =     3
+      Location: Id =  103, FId =  0, Line =   76, Start =  1325, Len =     4
+      Location: Id =  104, FId =  0, Line =   76, Start =  1325, Len =    16
+      Location: Id =  105, FId =  0, Line =   76, Start =  1336, Len =     4
+      Location: Id =  106, FId =  0, Line =   58, Start =   911, Len =     8
+      Location: Id =  107, FId =  0, Line =   58, Start =   911, Len =    23
+      Location: Id =  108, FId =  0, Line =   58, Start =   929, Len =     4
+      Location: Id =  109, FId =  0, Line =   59, Start =   943, Len =     4
+      Location: Id =  110, FId =  0, Line =   59, Start =   943, Len =    16
+      Location: Id =  111, FId =  0, Line =   59, Start =   954, Len =     4
+      Location: Id =  112, FId =  0, Line =   57, Start =   896, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  290, LId =   60, Ident = ...
+      Identifier: Id =  291, LId =   61, Ident = func1
+      Identifier: Id =  294, LId =   62, Ident = ...
+      Identifier: Id =  295, LId =   63, Ident = func2
+      Identifier: Id =  296, LId =   64, Ident = ...
+      Invocation: Id =  298, LId =   65, Ident = func1('1'), Method = func1
+      Identifier: Id =  299, LId =   67, Ident = ...
+      Identifier: Id =  301, LId =   67, Ident = await
+      Identifier: Id =  303, LId =   68, Ident = ...
+      Identifier: Id =  304, LId =   69, Ident = ...
+      Invocation: Id =  306, LId =   69, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  307, LId =   71, Ident = ...
+      Identifier: Id =  309, LId =   71, Ident = await
+      Identifier: Id =  311, LId =   72, Ident = ...
+      Identifier: Id =  312, LId =   73, Ident = ...
+      Identifier: Id =  313, LId =   74, Ident = ...
+      Invocation: Id =  315, LId =   75, Ident = func1('2'), Method = func1
+      Invocation: Id =  316, LId =   73, Ident = aio.create_task(func1('2')), Method = create_task
+      Identifier: Id =  317, LId =   77, Ident = ...
+      Identifier: Id =  319, LId =   77, Ident = await
+      Identifier: Id =  321, LId =   78, Ident = ...
+      Identifier: Id =  322, LId =   79, Ident = ...
+      Invocation: Id =  324, LId =   79, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  325, LId =   81, Ident = ...
+      Identifier: Id =  327, LId =   81, Ident = await
+      Identifier: Id =  329, LId =   82, Ident = ...
+      Identifier: Id =  330, LId =   83, Ident = ...
+      Identifier: Id =  331, LId =   84, Ident = ...
+      Invocation: Id =  333, LId =   85, Ident = func2('3'), Method = func2
+      Invocation: Id =  334, LId =   83, Ident = aio.create_task(func2('3')), Method = create_task
+      Identifier: Id =  335, LId =   87, Ident = ...
+      Identifier: Id =  337, LId =   87, Ident = await
+      Identifier: Id =  339, LId =   88, Ident = ...
+      Identifier: Id =  340, LId =   89, Ident = ...
+      Invocation: Id =  342, LId =   89, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  343, LId =   91, Ident = ...
+      Identifier: Id =  345, LId =   91, Ident = await
+      Identifier: Id =  347, LId =   92, Ident = ...
+      Invocation: Id =  349, LId =   93, Ident = func2('4'), Method = func2
+      Identifier: Id =  350, LId =   95, Ident = ...
+      Identifier: Id =  352, LId =   95, Ident = await
+      Identifier: Id =  354, LId =   96, Ident = ...
+      Identifier: Id =  355, LId =   97, Ident = ...
+      Invocation: Id =  357, LId =   97, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  358, LId =   99, Ident = ...
+      Identifier: Id =  360, LId =   99, Ident = await
+      Identifier: Id =  362, LId =  100, Ident = ...
+      Identifier: Id =  363, LId =  101, Ident = ...
+      Invocation: Id =  365, LId =  101, Ident = revdebug.snapshot('5'), Method = snapshot
+      Identifier: Id =  367, LId =  103, Ident = ...
+      Identifier: Id =  368, LId =  104, Ident = ...
+      Invocation: Id =  370, LId =  104, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  374, LId =   27, Ident = main3, Method = main3
+      Argument:   Id =  375, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  376, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  377, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  378, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  379, LId =   80, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  380, LId =   86, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  381, LId =   85, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  382, LId =   90, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  383, LId =   94, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  384, LId =   98, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  385, LId =  102, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  386, LId =  105, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  387, LId =  106, Ident = ...
+      Identifier: Id =  388, LId =  107, Ident = ...
+      Identifier: Id =  389, LId =  108, Ident = ...
+      Invocation: Id =  390, LId =  107, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  392, LId =  109, Ident = ...
+      Identifier: Id =  393, LId =  110, Ident = ...
+      Invocation: Id =  395, LId =  110, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  399, LId =  112, Ident = name, ParamIdx = 0
+      Method:     Id =  400, LId =   60, Ident = func1, Method = func1
+      Argument:   Id =  401, LId =  108, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  402, LId =  111, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_2_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  112, Value = 'main'
+  Static:    SId =   49
+  Variable:  SId =  113, Value = 0.02
+  Static:    SId =   54
+  Variable:  SId =   59, Value = <function main3 at 0x7fc73faf70f0>
+  Static:    SId =   63
+  Variable:  SId =  114, Value = <coroutine object main3 at 0x7fc741052b90>
+  Static:    SId =   64
+  Method:    SId =  374, Phase = Enter
+  Variable:  SId =  291, Value = <function main3.<locals>.func1 at 0x7fc73fa7e230>
+  Variable:  SId =  295, Value = <function main3.<locals>.func2 at 0x7fc73fa7e2d0>
+  Variable:  SId =  375, Value = '1'
+  Static:    SId =  298
+  Variable:  SId =  399, Value = '1'
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  401, Value = '1'
+  Static:    SId =  390
+  Variable:  SId =  402, Value = 0.02
+  Static:    SId =  395
+  Method:    SId =  400, Phase = Exit
+  Variable:  SId =  376, Value = 0.02
+  Static:    SId =  306
+  Variable:  SId =  309, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  377, Value = '2'
+  Static:    SId =  315
+  Variable:  SId =  378, Value = <coroutine object main3.<locals>.func1 at 0x7fc73faf67a0>
+  Static:    SId =  316
+  Variable:  SId =  319, Value = <Task pending name='Task-11' coro=<main3.<locals>.func1() running at /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py:58> cb=[<TaskWakeupMethWrapper object at 0x7fc73fad3a10>()]>
+  Method:    SId =  374, Phase = Yield
+  Variable:  SId =  399, Value = '2'
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  401, Value = '2'
+  Static:    SId =  390
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   57, Start =   880, Len =    79
+      Location: Id =   61, FId =  0, Line =   57, Start =   880, Len =    15
+      Location: Id =   62, FId =  0, Line =   61, Start =   965, Len =   104
+      Location: Id =   63, FId =  0, Line =   61, Start =   965, Len =    15
+      Location: Id =   64, FId =  0, Line =   66, Start =  1081, Len =     5
+      Location: Id =   65, FId =  0, Line =   66, Start =  1081, Len =    10
+      Location: Id =   66, FId =  0, Line =   66, Start =  1087, Len =     3
+      Location: Id =   67, FId =  0, Line =   66, Start =  1075, Len =    16
+      Location: Id =   68, FId =  0, Line =   67, Start =  1102, Len =     3
+      Location: Id =   69, FId =  0, Line =   67, Start =  1102, Len =    15
+      Location: Id =   70, FId =  0, Line =   67, Start =  1112, Len =     4
+      Location: Id =   71, FId =  0, Line =   67, Start =  1096, Len =    21
+      Location: Id =   72, FId =  0, Line =   68, Start =  1128, Len =     3
+      Location: Id =   73, FId =  0, Line =   68, Start =  1128, Len =    27
+      Location: Id =   74, FId =  0, Line =   68, Start =  1144, Len =     5
+      Location: Id =   75, FId =  0, Line =   68, Start =  1144, Len =    10
+      Location: Id =   76, FId =  0, Line =   68, Start =  1150, Len =     3
+      Location: Id =   77, FId =  0, Line =   68, Start =  1122, Len =    33
+      Location: Id =   78, FId =  0, Line =   69, Start =  1166, Len =     3
+      Location: Id =   79, FId =  0, Line =   69, Start =  1166, Len =    15
+      Location: Id =   80, FId =  0, Line =   69, Start =  1176, Len =     4
+      Location: Id =   81, FId =  0, Line =   69, Start =  1160, Len =    21
+      Location: Id =   82, FId =  0, Line =   70, Start =  1192, Len =     3
+      Location: Id =   83, FId =  0, Line =   70, Start =  1192, Len =    27
+      Location: Id =   84, FId =  0, Line =   70, Start =  1208, Len =     5
+      Location: Id =   85, FId =  0, Line =   70, Start =  1208, Len =    10
+      Location: Id =   86, FId =  0, Line =   70, Start =  1214, Len =     3
+      Location: Id =   87, FId =  0, Line =   70, Start =  1186, Len =    33
+      Location: Id =   88, FId =  0, Line =   71, Start =  1230, Len =     3
+      Location: Id =   89, FId =  0, Line =   71, Start =  1230, Len =    15
+      Location: Id =   90, FId =  0, Line =   71, Start =  1240, Len =     4
+      Location: Id =   91, FId =  0, Line =   71, Start =  1224, Len =    21
+      Location: Id =   92, FId =  0, Line =   72, Start =  1256, Len =     5
+      Location: Id =   93, FId =  0, Line =   72, Start =  1256, Len =    10
+      Location: Id =   94, FId =  0, Line =   72, Start =  1262, Len =     3
+      Location: Id =   95, FId =  0, Line =   72, Start =  1250, Len =    16
+      Location: Id =   96, FId =  0, Line =   73, Start =  1277, Len =     3
+      Location: Id =   97, FId =  0, Line =   73, Start =  1277, Len =    15
+      Location: Id =   98, FId =  0, Line =   73, Start =  1287, Len =     4
+      Location: Id =   99, FId =  0, Line =   73, Start =  1271, Len =    21
+      Location: Id =  100, FId =  0, Line =   75, Start =  1298, Len =     8
+      Location: Id =  101, FId =  0, Line =   75, Start =  1298, Len =    22
+      Location: Id =  102, FId =  0, Line =   75, Start =  1316, Len =     3
+      Location: Id =  103, FId =  0, Line =   76, Start =  1325, Len =     4
+      Location: Id =  104, FId =  0, Line =   76, Start =  1325, Len =    16
+      Location: Id =  105, FId =  0, Line =   76, Start =  1336, Len =     4
+      Location: Id =  106, FId =  0, Line =   58, Start =   911, Len =     8
+      Location: Id =  107, FId =  0, Line =   58, Start =   911, Len =    23
+      Location: Id =  108, FId =  0, Line =   58, Start =   929, Len =     4
+      Location: Id =  109, FId =  0, Line =   59, Start =   943, Len =     4
+      Location: Id =  110, FId =  0, Line =   59, Start =   943, Len =    16
+      Location: Id =  111, FId =  0, Line =   59, Start =   954, Len =     4
+      Location: Id =  112, FId =  0, Line =   57, Start =   896, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  290, LId =   60, Ident = ...
+      Identifier: Id =  291, LId =   61, Ident = func1
+      Identifier: Id =  294, LId =   62, Ident = ...
+      Identifier: Id =  295, LId =   63, Ident = func2
+      Identifier: Id =  296, LId =   64, Ident = ...
+      Invocation: Id =  298, LId =   65, Ident = func1('1'), Method = func1
+      Identifier: Id =  299, LId =   67, Ident = ...
+      Identifier: Id =  301, LId =   67, Ident = await
+      Identifier: Id =  303, LId =   68, Ident = ...
+      Identifier: Id =  304, LId =   69, Ident = ...
+      Invocation: Id =  306, LId =   69, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  307, LId =   71, Ident = ...
+      Identifier: Id =  309, LId =   71, Ident = await
+      Identifier: Id =  311, LId =   72, Ident = ...
+      Identifier: Id =  312, LId =   73, Ident = ...
+      Identifier: Id =  313, LId =   74, Ident = ...
+      Invocation: Id =  315, LId =   75, Ident = func1('2'), Method = func1
+      Invocation: Id =  316, LId =   73, Ident = aio.create_task(func1('2')), Method = create_task
+      Identifier: Id =  317, LId =   77, Ident = ...
+      Identifier: Id =  319, LId =   77, Ident = await
+      Identifier: Id =  321, LId =   78, Ident = ...
+      Identifier: Id =  322, LId =   79, Ident = ...
+      Invocation: Id =  324, LId =   79, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  325, LId =   81, Ident = ...
+      Identifier: Id =  327, LId =   81, Ident = await
+      Identifier: Id =  329, LId =   82, Ident = ...
+      Identifier: Id =  330, LId =   83, Ident = ...
+      Identifier: Id =  331, LId =   84, Ident = ...
+      Invocation: Id =  333, LId =   85, Ident = func2('3'), Method = func2
+      Invocation: Id =  334, LId =   83, Ident = aio.create_task(func2('3')), Method = create_task
+      Identifier: Id =  335, LId =   87, Ident = ...
+      Identifier: Id =  337, LId =   87, Ident = await
+      Identifier: Id =  339, LId =   88, Ident = ...
+      Identifier: Id =  340, LId =   89, Ident = ...
+      Invocation: Id =  342, LId =   89, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  343, LId =   91, Ident = ...
+      Identifier: Id =  345, LId =   91, Ident = await
+      Identifier: Id =  347, LId =   92, Ident = ...
+      Invocation: Id =  349, LId =   93, Ident = func2('4'), Method = func2
+      Identifier: Id =  350, LId =   95, Ident = ...
+      Identifier: Id =  352, LId =   95, Ident = await
+      Identifier: Id =  354, LId =   96, Ident = ...
+      Identifier: Id =  355, LId =   97, Ident = ...
+      Invocation: Id =  357, LId =   97, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  358, LId =   99, Ident = ...
+      Identifier: Id =  360, LId =   99, Ident = await
+      Identifier: Id =  362, LId =  100, Ident = ...
+      Identifier: Id =  363, LId =  101, Ident = ...
+      Invocation: Id =  365, LId =  101, Ident = revdebug.snapshot('5'), Method = snapshot
+      Identifier: Id =  367, LId =  103, Ident = ...
+      Identifier: Id =  368, LId =  104, Ident = ...
+      Invocation: Id =  370, LId =  104, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  374, LId =   27, Ident = main3, Method = main3
+      Argument:   Id =  375, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  376, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  377, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  378, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  379, LId =   80, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  380, LId =   86, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  381, LId =   85, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  382, LId =   90, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  383, LId =   94, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  384, LId =   98, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  385, LId =  102, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  386, LId =  105, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  387, LId =  106, Ident = ...
+      Identifier: Id =  388, LId =  107, Ident = ...
+      Identifier: Id =  389, LId =  108, Ident = ...
+      Invocation: Id =  390, LId =  107, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  392, LId =  109, Ident = ...
+      Identifier: Id =  393, LId =  110, Ident = ...
+      Invocation: Id =  395, LId =  110, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  399, LId =  112, Ident = name, ParamIdx = 0
+      Method:     Id =  400, LId =   60, Ident = func1, Method = func1
+      Argument:   Id =  401, LId =  108, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  402, LId =  111, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_3_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  421, Value = '3'
+  Static:    SId =  410
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   62, Start =   996, Len =     8
+      Location: Id =   61, FId =  0, Line =   62, Start =   996, Len =    16
+      Location: Id =   62, FId =  0, Line =   63, Start =  1021, Len =     8
+      Location: Id =   63, FId =  0, Line =   63, Start =  1021, Len =    23
+      Location: Id =   64, FId =  0, Line =   63, Start =  1039, Len =     4
+      Location: Id =   65, FId =  0, Line =   64, Start =  1053, Len =     4
+      Location: Id =   66, FId =  0, Line =   64, Start =  1053, Len =    16
+      Location: Id =   67, FId =  0, Line =   64, Start =  1064, Len =     4
+      Location: Id =   68, FId =  0, Line =   61, Start =   981, Len =     4
+      Location: Id =   69, FId =  0, Line =   61, Start =   965, Len =   104
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  403, LId =   60, Ident = ...
+      Identifier: Id =  404, LId =   61, Ident = ...
+      Invocation: Id =  405, LId =   61, Ident = revdebug.block(), Method = block
+      Identifier: Id =  407, LId =   62, Ident = ...
+      Identifier: Id =  408, LId =   63, Ident = ...
+      Identifier: Id =  409, LId =   64, Ident = ...
+      Invocation: Id =  410, LId =   63, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  412, LId =   65, Ident = ...
+      Identifier: Id =  413, LId =   66, Ident = ...
+      Invocation: Id =  415, LId =   66, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  419, LId =   68, Ident = name, ParamIdx = 0
+      Method:     Id =  420, LId =   69, Ident = func2, Method = func2
+      Argument:   Id =  421, LId =   64, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  422, LId =   67, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_4_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  421, Value = '4'
+  Static:    SId =  410
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =   57, Start =   880, Len =    79
+      Location: Id =    1, FId =  0, Line =   57, Start =   880, Len =    15
+      Location: Id =    2, FId =  0, Line =   61, Start =   965, Len =   104
+      Location: Id =    3, FId =  0, Line =   61, Start =   965, Len =    15
+      Location: Id =    4, FId =  0, Line =   66, Start =  1081, Len =     5
+      Location: Id =    5, FId =  0, Line =   66, Start =  1081, Len =    10
+      Location: Id =    6, FId =  0, Line =   66, Start =  1087, Len =     3
+      Location: Id =    7, FId =  0, Line =   66, Start =  1075, Len =    16
+      Location: Id =    8, FId =  0, Line =   67, Start =  1102, Len =     3
+      Location: Id =    9, FId =  0, Line =   67, Start =  1102, Len =    15
+      Location: Id =   10, FId =  0, Line =   67, Start =  1112, Len =     4
+      Location: Id =   11, FId =  0, Line =   67, Start =  1096, Len =    21
+      Location: Id =   12, FId =  0, Line =   68, Start =  1128, Len =     3
+      Location: Id =   13, FId =  0, Line =   68, Start =  1128, Len =    27
+      Location: Id =   14, FId =  0, Line =   68, Start =  1144, Len =     5
+      Location: Id =   15, FId =  0, Line =   68, Start =  1144, Len =    10
+      Location: Id =   16, FId =  0, Line =   68, Start =  1150, Len =     3
+      Location: Id =   17, FId =  0, Line =   68, Start =  1122, Len =    33
+      Location: Id =   18, FId =  0, Line =   69, Start =  1166, Len =     3
+      Location: Id =   19, FId =  0, Line =   69, Start =  1166, Len =    15
+      Location: Id =   20, FId =  0, Line =   69, Start =  1176, Len =     4
+      Location: Id =   21, FId =  0, Line =   69, Start =  1160, Len =    21
+      Location: Id =   22, FId =  0, Line =   70, Start =  1192, Len =     3
+      Location: Id =   23, FId =  0, Line =   70, Start =  1192, Len =    27
+      Location: Id =   24, FId =  0, Line =   70, Start =  1208, Len =     5
+      Location: Id =   25, FId =  0, Line =   70, Start =  1208, Len =    10
+      Location: Id =   26, FId =  0, Line =   70, Start =  1214, Len =     3
+      Location: Id =   27, FId =  0, Line =   70, Start =  1186, Len =    33
+      Location: Id =   28, FId =  0, Line =   71, Start =  1230, Len =     3
+      Location: Id =   29, FId =  0, Line =   71, Start =  1230, Len =    15
+      Location: Id =   30, FId =  0, Line =   71, Start =  1240, Len =     4
+      Location: Id =   31, FId =  0, Line =   71, Start =  1224, Len =    21
+      Location: Id =   32, FId =  0, Line =   72, Start =  1256, Len =     5
+      Location: Id =   33, FId =  0, Line =   72, Start =  1256, Len =    10
+      Location: Id =   34, FId =  0, Line =   72, Start =  1262, Len =     3
+      Location: Id =   35, FId =  0, Line =   72, Start =  1250, Len =    16
+      Location: Id =   36, FId =  0, Line =   73, Start =  1277, Len =     3
+      Location: Id =   37, FId =  0, Line =   73, Start =  1277, Len =    15
+      Location: Id =   38, FId =  0, Line =   73, Start =  1287, Len =     4
+      Location: Id =   39, FId =  0, Line =   73, Start =  1271, Len =    21
+      Location: Id =   40, FId =  0, Line =   75, Start =  1298, Len =     8
+      Location: Id =   41, FId =  0, Line =   75, Start =  1298, Len =    22
+      Location: Id =   42, FId =  0, Line =   75, Start =  1316, Len =     3
+      Location: Id =   43, FId =  0, Line =   76, Start =  1325, Len =     4
+      Location: Id =   44, FId =  0, Line =   76, Start =  1325, Len =    16
+      Location: Id =   45, FId =  0, Line =   76, Start =  1336, Len =     4
+      Location: Id =   46, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   47, FId =  0, Line =   62, Start =   996, Len =     8
+      Location: Id =   48, FId =  0, Line =   62, Start =   996, Len =    16
+      Location: Id =   49, FId =  0, Line =   63, Start =  1021, Len =     8
+      Location: Id =   50, FId =  0, Line =   63, Start =  1021, Len =    23
+      Location: Id =   51, FId =  0, Line =   63, Start =  1039, Len =     4
+      Location: Id =   52, FId =  0, Line =   64, Start =  1053, Len =     4
+      Location: Id =   53, FId =  0, Line =   64, Start =  1053, Len =    16
+      Location: Id =   54, FId =  0, Line =   64, Start =  1064, Len =     4
+      Location: Id =   55, FId =  0, Line =   61, Start =   981, Len =     4
+    Statements:
+      Identifier: Id =  290, LId =    0, Ident = ...
+      Identifier: Id =  291, LId =    1, Ident = func1
+      Identifier: Id =  294, LId =    2, Ident = ...
+      Identifier: Id =  295, LId =    3, Ident = func2
+      Identifier: Id =  296, LId =    4, Ident = ...
+      Invocation: Id =  298, LId =    5, Ident = func1('1'), Method = func1
+      Identifier: Id =  299, LId =    7, Ident = ...
+      Identifier: Id =  301, LId =    7, Ident = await
+      Identifier: Id =  303, LId =    8, Ident = ...
+      Identifier: Id =  304, LId =    9, Ident = ...
+      Invocation: Id =  306, LId =    9, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  307, LId =   11, Ident = ...
+      Identifier: Id =  309, LId =   11, Ident = await
+      Identifier: Id =  311, LId =   12, Ident = ...
+      Identifier: Id =  312, LId =   13, Ident = ...
+      Identifier: Id =  313, LId =   14, Ident = ...
+      Invocation: Id =  315, LId =   15, Ident = func1('2'), Method = func1
+      Invocation: Id =  316, LId =   13, Ident = aio.create_task(func1('2')), Method = create_task
+      Identifier: Id =  317, LId =   17, Ident = ...
+      Identifier: Id =  319, LId =   17, Ident = await
+      Identifier: Id =  321, LId =   18, Ident = ...
+      Identifier: Id =  322, LId =   19, Ident = ...
+      Invocation: Id =  324, LId =   19, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  325, LId =   21, Ident = ...
+      Identifier: Id =  327, LId =   21, Ident = await
+      Identifier: Id =  329, LId =   22, Ident = ...
+      Identifier: Id =  330, LId =   23, Ident = ...
+      Identifier: Id =  331, LId =   24, Ident = ...
+      Invocation: Id =  333, LId =   25, Ident = func2('3'), Method = func2
+      Invocation: Id =  334, LId =   23, Ident = aio.create_task(func2('3')), Method = create_task
+      Identifier: Id =  335, LId =   27, Ident = ...
+      Identifier: Id =  337, LId =   27, Ident = await
+      Identifier: Id =  339, LId =   28, Ident = ...
+      Identifier: Id =  340, LId =   29, Ident = ...
+      Invocation: Id =  342, LId =   29, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  343, LId =   31, Ident = ...
+      Identifier: Id =  345, LId =   31, Ident = await
+      Identifier: Id =  347, LId =   32, Ident = ...
+      Invocation: Id =  349, LId =   33, Ident = func2('4'), Method = func2
+      Identifier: Id =  350, LId =   35, Ident = ...
+      Identifier: Id =  352, LId =   35, Ident = await
+      Identifier: Id =  354, LId =   36, Ident = ...
+      Identifier: Id =  355, LId =   37, Ident = ...
+      Invocation: Id =  357, LId =   37, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  358, LId =   39, Ident = ...
+      Identifier: Id =  360, LId =   39, Ident = await
+      Identifier: Id =  362, LId =   40, Ident = ...
+      Identifier: Id =  363, LId =   41, Ident = ...
+      Invocation: Id =  365, LId =   41, Ident = revdebug.snapshot('5'), Method = snapshot
+      Identifier: Id =  367, LId =   43, Ident = ...
+      Identifier: Id =  368, LId =   44, Ident = ...
+      Invocation: Id =  370, LId =   44, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  374, LId =   46, Ident = main3, Method = main3
+      Argument:   Id =  375, LId =    6, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  376, LId =   10, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  377, LId =   16, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  378, LId =   15, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  379, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  380, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  381, LId =   25, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  382, LId =   30, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  383, LId =   34, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  384, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  385, LId =   42, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  386, LId =   45, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  403, LId =   47, Ident = ...
+      Identifier: Id =  404, LId =   48, Ident = ...
+      Invocation: Id =  405, LId =   48, Ident = revdebug.block(), Method = block
+      Identifier: Id =  407, LId =   49, Ident = ...
+      Identifier: Id =  408, LId =   50, Ident = ...
+      Identifier: Id =  409, LId =   51, Ident = ...
+      Invocation: Id =  410, LId =   50, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  412, LId =   52, Ident = ...
+      Identifier: Id =  413, LId =   53, Ident = ...
+      Invocation: Id =  415, LId =   53, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  419, LId =   55, Ident = name, ParamIdx = 0
+      Method:     Id =  420, LId =    2, Ident = func2, Method = func2
+      Argument:   Id =  421, LId =   51, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  422, LId =   54, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_5_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  421, Value = '4'
+  Static:    SId =  410
+  Variable:  SId =  422, Value = 0.02
+  Static:    SId =  415
+  Method:    SId =  420, Phase = Exit
+  Variable:  SId =  384, Value = 0.02
+  Static:    SId =  357
+  Variable:  SId =  360, Value = <Future finished result=None>
+  Method:    SId =  374, Phase = Yield
+  Method:    SId =  374, Phase = Continue
+  Variable:  SId =  385, Value = '5'
+  Static:    SId =  365
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =   57, Start =   880, Len =    79
+      Location: Id =    1, FId =  0, Line =   57, Start =   880, Len =    15
+      Location: Id =    2, FId =  0, Line =   61, Start =   965, Len =   104
+      Location: Id =    3, FId =  0, Line =   61, Start =   965, Len =    15
+      Location: Id =    4, FId =  0, Line =   66, Start =  1081, Len =     5
+      Location: Id =    5, FId =  0, Line =   66, Start =  1081, Len =    10
+      Location: Id =    6, FId =  0, Line =   66, Start =  1087, Len =     3
+      Location: Id =    7, FId =  0, Line =   66, Start =  1075, Len =    16
+      Location: Id =    8, FId =  0, Line =   67, Start =  1102, Len =     3
+      Location: Id =    9, FId =  0, Line =   67, Start =  1102, Len =    15
+      Location: Id =   10, FId =  0, Line =   67, Start =  1112, Len =     4
+      Location: Id =   11, FId =  0, Line =   67, Start =  1096, Len =    21
+      Location: Id =   12, FId =  0, Line =   68, Start =  1128, Len =     3
+      Location: Id =   13, FId =  0, Line =   68, Start =  1128, Len =    27
+      Location: Id =   14, FId =  0, Line =   68, Start =  1144, Len =     5
+      Location: Id =   15, FId =  0, Line =   68, Start =  1144, Len =    10
+      Location: Id =   16, FId =  0, Line =   68, Start =  1150, Len =     3
+      Location: Id =   17, FId =  0, Line =   68, Start =  1122, Len =    33
+      Location: Id =   18, FId =  0, Line =   69, Start =  1166, Len =     3
+      Location: Id =   19, FId =  0, Line =   69, Start =  1166, Len =    15
+      Location: Id =   20, FId =  0, Line =   69, Start =  1176, Len =     4
+      Location: Id =   21, FId =  0, Line =   69, Start =  1160, Len =    21
+      Location: Id =   22, FId =  0, Line =   70, Start =  1192, Len =     3
+      Location: Id =   23, FId =  0, Line =   70, Start =  1192, Len =    27
+      Location: Id =   24, FId =  0, Line =   70, Start =  1208, Len =     5
+      Location: Id =   25, FId =  0, Line =   70, Start =  1208, Len =    10
+      Location: Id =   26, FId =  0, Line =   70, Start =  1214, Len =     3
+      Location: Id =   27, FId =  0, Line =   70, Start =  1186, Len =    33
+      Location: Id =   28, FId =  0, Line =   71, Start =  1230, Len =     3
+      Location: Id =   29, FId =  0, Line =   71, Start =  1230, Len =    15
+      Location: Id =   30, FId =  0, Line =   71, Start =  1240, Len =     4
+      Location: Id =   31, FId =  0, Line =   71, Start =  1224, Len =    21
+      Location: Id =   32, FId =  0, Line =   72, Start =  1256, Len =     5
+      Location: Id =   33, FId =  0, Line =   72, Start =  1256, Len =    10
+      Location: Id =   34, FId =  0, Line =   72, Start =  1262, Len =     3
+      Location: Id =   35, FId =  0, Line =   72, Start =  1250, Len =    16
+      Location: Id =   36, FId =  0, Line =   73, Start =  1277, Len =     3
+      Location: Id =   37, FId =  0, Line =   73, Start =  1277, Len =    15
+      Location: Id =   38, FId =  0, Line =   73, Start =  1287, Len =     4
+      Location: Id =   39, FId =  0, Line =   73, Start =  1271, Len =    21
+      Location: Id =   40, FId =  0, Line =   75, Start =  1298, Len =     8
+      Location: Id =   41, FId =  0, Line =   75, Start =  1298, Len =    22
+      Location: Id =   42, FId =  0, Line =   75, Start =  1316, Len =     3
+      Location: Id =   43, FId =  0, Line =   76, Start =  1325, Len =     4
+      Location: Id =   44, FId =  0, Line =   76, Start =  1325, Len =    16
+      Location: Id =   45, FId =  0, Line =   76, Start =  1336, Len =     4
+      Location: Id =   46, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   47, FId =  0, Line =   62, Start =   996, Len =     8
+      Location: Id =   48, FId =  0, Line =   62, Start =   996, Len =    16
+      Location: Id =   49, FId =  0, Line =   63, Start =  1021, Len =     8
+      Location: Id =   50, FId =  0, Line =   63, Start =  1021, Len =    23
+      Location: Id =   51, FId =  0, Line =   63, Start =  1039, Len =     4
+      Location: Id =   52, FId =  0, Line =   64, Start =  1053, Len =     4
+      Location: Id =   53, FId =  0, Line =   64, Start =  1053, Len =    16
+      Location: Id =   54, FId =  0, Line =   64, Start =  1064, Len =     4
+      Location: Id =   55, FId =  0, Line =   61, Start =   981, Len =     4
+    Statements:
+      Identifier: Id =  290, LId =    0, Ident = ...
+      Identifier: Id =  291, LId =    1, Ident = func1
+      Identifier: Id =  294, LId =    2, Ident = ...
+      Identifier: Id =  295, LId =    3, Ident = func2
+      Identifier: Id =  296, LId =    4, Ident = ...
+      Invocation: Id =  298, LId =    5, Ident = func1('1'), Method = func1
+      Identifier: Id =  299, LId =    7, Ident = ...
+      Identifier: Id =  301, LId =    7, Ident = await
+      Identifier: Id =  303, LId =    8, Ident = ...
+      Identifier: Id =  304, LId =    9, Ident = ...
+      Invocation: Id =  306, LId =    9, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  307, LId =   11, Ident = ...
+      Identifier: Id =  309, LId =   11, Ident = await
+      Identifier: Id =  311, LId =   12, Ident = ...
+      Identifier: Id =  312, LId =   13, Ident = ...
+      Identifier: Id =  313, LId =   14, Ident = ...
+      Invocation: Id =  315, LId =   15, Ident = func1('2'), Method = func1
+      Invocation: Id =  316, LId =   13, Ident = aio.create_task(func1('2')), Method = create_task
+      Identifier: Id =  317, LId =   17, Ident = ...
+      Identifier: Id =  319, LId =   17, Ident = await
+      Identifier: Id =  321, LId =   18, Ident = ...
+      Identifier: Id =  322, LId =   19, Ident = ...
+      Invocation: Id =  324, LId =   19, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  325, LId =   21, Ident = ...
+      Identifier: Id =  327, LId =   21, Ident = await
+      Identifier: Id =  329, LId =   22, Ident = ...
+      Identifier: Id =  330, LId =   23, Ident = ...
+      Identifier: Id =  331, LId =   24, Ident = ...
+      Invocation: Id =  333, LId =   25, Ident = func2('3'), Method = func2
+      Invocation: Id =  334, LId =   23, Ident = aio.create_task(func2('3')), Method = create_task
+      Identifier: Id =  335, LId =   27, Ident = ...
+      Identifier: Id =  337, LId =   27, Ident = await
+      Identifier: Id =  339, LId =   28, Ident = ...
+      Identifier: Id =  340, LId =   29, Ident = ...
+      Invocation: Id =  342, LId =   29, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  343, LId =   31, Ident = ...
+      Identifier: Id =  345, LId =   31, Ident = await
+      Identifier: Id =  347, LId =   32, Ident = ...
+      Invocation: Id =  349, LId =   33, Ident = func2('4'), Method = func2
+      Identifier: Id =  350, LId =   35, Ident = ...
+      Identifier: Id =  352, LId =   35, Ident = await
+      Identifier: Id =  354, LId =   36, Ident = ...
+      Identifier: Id =  355, LId =   37, Ident = ...
+      Invocation: Id =  357, LId =   37, Ident = aio.sleep(0.02), Method = sleep
+      Identifier: Id =  358, LId =   39, Ident = ...
+      Identifier: Id =  360, LId =   39, Ident = await
+      Identifier: Id =  362, LId =   40, Ident = ...
+      Identifier: Id =  363, LId =   41, Ident = ...
+      Invocation: Id =  365, LId =   41, Ident = revdebug.snapshot('5'), Method = snapshot
+      Identifier: Id =  367, LId =   43, Ident = ...
+      Identifier: Id =  368, LId =   44, Ident = ...
+      Invocation: Id =  370, LId =   44, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  374, LId =   46, Ident = main3, Method = main3
+      Argument:   Id =  375, LId =    6, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  376, LId =   10, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  377, LId =   16, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  378, LId =   15, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  379, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  380, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  381, LId =   25, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  382, LId =   30, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  383, LId =   34, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  384, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  385, LId =   42, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  386, LId =   45, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  403, LId =   47, Ident = ...
+      Identifier: Id =  404, LId =   48, Ident = ...
+      Invocation: Id =  405, LId =   48, Ident = revdebug.block(), Method = block
+      Identifier: Id =  407, LId =   49, Ident = ...
+      Identifier: Id =  408, LId =   50, Ident = ...
+      Identifier: Id =  409, LId =   51, Ident = ...
+      Invocation: Id =  410, LId =   50, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  412, LId =   52, Ident = ...
+      Identifier: Id =  413, LId =   53, Ident = ...
+      Invocation: Id =  415, LId =   53, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  419, LId =   55, Ident = name, ParamIdx = 0
+      Method:     Id =  420, LId =    2, Ident = func2, Method = func2
+      Argument:   Id =  421, LId =   51, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  422, LId =   54, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_6_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  115, Value = '6'
+  Static:    SId =   69
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_7_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  441, Value = '7'
+  Static:    SId =  430
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   85, Start =  1424, Len =     8
+      Location: Id =   61, FId =  0, Line =   85, Start =  1424, Len =    16
+      Location: Id =   62, FId =  0, Line =   86, Start =  1445, Len =     8
+      Location: Id =   63, FId =  0, Line =   86, Start =  1445, Len =    23
+      Location: Id =   64, FId =  0, Line =   86, Start =  1463, Len =     4
+      Location: Id =   65, FId =  0, Line =   87, Start =  1473, Len =     4
+      Location: Id =   66, FId =  0, Line =   87, Start =  1473, Len =    16
+      Location: Id =   67, FId =  0, Line =   87, Start =  1484, Len =     4
+      Location: Id =   68, FId =  0, Line =   84, Start =  1413, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  423, LId =   60, Ident = ...
+      Identifier: Id =  424, LId =   61, Ident = ...
+      Invocation: Id =  425, LId =   61, Ident = revdebug.block(), Method = block
+      Identifier: Id =  427, LId =   62, Ident = ...
+      Identifier: Id =  428, LId =   63, Ident = ...
+      Identifier: Id =  429, LId =   64, Ident = ...
+      Invocation: Id =  430, LId =   63, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  432, LId =   65, Ident = ...
+      Identifier: Id =  433, LId =   66, Ident = ...
+      Invocation: Id =  435, LId =   66, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  439, LId =   68, Ident = name, ParamIdx = 0
+      Method:     Id =  440, LId =   39, Ident = func4, Method = func4
+      Argument:   Id =  441, LId =   64, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  442, LId =   67, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_8_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  441, Value = '8'
+  Static:    SId =  430
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+      Location: Id =   60, FId =  0, Line =   85, Start =  1424, Len =     8
+      Location: Id =   61, FId =  0, Line =   85, Start =  1424, Len =    16
+      Location: Id =   62, FId =  0, Line =   86, Start =  1445, Len =     8
+      Location: Id =   63, FId =  0, Line =   86, Start =  1445, Len =    23
+      Location: Id =   64, FId =  0, Line =   86, Start =  1463, Len =     4
+      Location: Id =   65, FId =  0, Line =   87, Start =  1473, Len =     4
+      Location: Id =   66, FId =  0, Line =   87, Start =  1473, Len =    16
+      Location: Id =   67, FId =  0, Line =   87, Start =  1484, Len =     4
+      Location: Id =   68, FId =  0, Line =   84, Start =  1413, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  423, LId =   60, Ident = ...
+      Identifier: Id =  424, LId =   61, Ident = ...
+      Invocation: Id =  425, LId =   61, Ident = revdebug.block(), Method = block
+      Identifier: Id =  427, LId =   62, Ident = ...
+      Identifier: Id =  428, LId =   63, Ident = ...
+      Identifier: Id =  429, LId =   64, Ident = ...
+      Invocation: Id =  430, LId =   63, Ident = revdebug.snapshot(name), Method = snapshot
+      Identifier: Id =  432, LId =   65, Ident = ...
+      Identifier: Id =  433, LId =   66, Ident = ...
+      Invocation: Id =  435, LId =   66, Ident = time.sleep(0.02), Method = sleep
+      Parameter:  Id =  439, LId =   68, Ident = name, ParamIdx = 0
+      Method:     Id =  440, LId =   39, Ident = func4, Method = func4
+      Argument:   Id =  441, LId =   64, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  442, LId =   67, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_blocks.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_blocks.py_9_2021-09-09_13_42_27, Display = Version
+  Variable:  SId =  119, Value = '9'
+  Static:    SId =  100
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_blocks.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    21
+      Location: Id =    1, FId =  0, Line =    4, Start =    45, Len =    36
+      Location: Id =    2, FId =  0, Line =    5, Start =    82, Len =    11
+      Location: Id =    3, FId =  0, Line =    8, Start =    96, Len =    64
+      Location: Id =    4, FId =  0, Line =    8, Start =    96, Len =    15
+      Location: Id =    5, FId =  0, Line =   13, Start =   162, Len =    64
+      Location: Id =    6, FId =  0, Line =   13, Start =   162, Len =    15
+      Location: Id =    7, FId =  0, Line =   18, Start =   228, Len =    64
+      Location: Id =    8, FId =  0, Line =   18, Start =   228, Len =    15
+      Location: Id =    9, FId =  0, Line =   23, Start =   294, Len =   254
+      Location: Id =   10, FId =  0, Line =   23, Start =   294, Len =    15
+      Location: Id =   11, FId =  0, Line =   35, Start =   550, Len =     3
+      Location: Id =   12, FId =  0, Line =   35, Start =   550, Len =    16
+      Location: Id =   13, FId =  0, Line =   35, Start =   558, Len =     5
+      Location: Id =   14, FId =  0, Line =   35, Start =   558, Len =     7
+      Location: Id =   15, FId =  0, Line =   38, Start =   569, Len =   223
+      Location: Id =   16, FId =  0, Line =   38, Start =   569, Len =    15
+      Location: Id =   17, FId =  0, Line =   50, Start =   794, Len =     3
+      Location: Id =   18, FId =  0, Line =   50, Start =   794, Len =    16
+      Location: Id =   19, FId =  0, Line =   50, Start =   802, Len =     5
+      Location: Id =   20, FId =  0, Line =   50, Start =   802, Len =     7
+      Location: Id =   21, FId =  0, Line =   52, Start =   812, Len =     8
+      Location: Id =   22, FId =  0, Line =   52, Start =   812, Len =    25
+      Location: Id =   23, FId =  0, Line =   52, Start =   830, Len =     6
+      Location: Id =   24, FId =  0, Line =   53, Start =   838, Len =     4
+      Location: Id =   25, FId =  0, Line =   53, Start =   838, Len =    16
+      Location: Id =   26, FId =  0, Line =   53, Start =   849, Len =     4
+      Location: Id =   27, FId =  0, Line =   56, Start =   857, Len =   484
+      Location: Id =   28, FId =  0, Line =   56, Start =   857, Len =    15
+      Location: Id =   29, FId =  0, Line =   78, Start =  1343, Len =     3
+      Location: Id =   30, FId =  0, Line =   78, Start =  1343, Len =    16
+      Location: Id =   31, FId =  0, Line =   78, Start =  1351, Len =     5
+      Location: Id =   32, FId =  0, Line =   78, Start =  1351, Len =     7
+      Location: Id =   33, FId =  0, Line =   80, Start =  1361, Len =     8
+      Location: Id =   34, FId =  0, Line =   80, Start =  1361, Len =    22
+      Location: Id =   35, FId =  0, Line =   80, Start =  1379, Len =     3
+      Location: Id =   36, FId =  0, Line =   81, Start =  1384, Len =     4
+      Location: Id =   37, FId =  0, Line =   81, Start =  1384, Len =    16
+      Location: Id =   38, FId =  0, Line =   81, Start =  1395, Len =     4
+      Location: Id =   39, FId =  0, Line =   84, Start =  1403, Len =    86
+      Location: Id =   40, FId =  0, Line =   84, Start =  1403, Len =     9
+      Location: Id =   41, FId =  0, Line =   89, Start =  1491, Len =    12
+      Location: Id =   42, FId =  0, Line =   89, Start =  1491, Len =    14
+      Location: Id =   43, FId =  0, Line =   89, Start =  1491, Len =    30
+      Location: Id =   44, FId =  0, Line =   89, Start =  1510, Len =     5
+      Location: Id =   45, FId =  0, Line =   89, Start =  1517, Len =     3
+      Location: Id =   46, FId =  0, Line =   91, Start =  1524, Len =     8
+      Location: Id =   47, FId =  0, Line =   91, Start =  1524, Len =    17
+      Location: Id =   48, FId =  0, Line =   91, Start =  1524, Len =    65
+      Location: Id =   49, FId =  0, Line =   91, Start =  1523, Len =    18
+      Location: Id =   50, FId =  0, Line =   92, Start =  1542, Len =     9
+      Location: Id =   51, FId =  0, Line =   95, Start =  1591, Len =     5
+      Location: Id =   52, FId =  0, Line =   95, Start =  1591, Len =     7
+      Location: Id =   53, FId =  0, Line =   97, Start =  1600, Len =     8
+      Location: Id =   54, FId =  0, Line =   97, Start =  1600, Len =    22
+      Location: Id =   55, FId =  0, Line =   97, Start =  1618, Len =     3
+      Location: Id =   56, FId =  0, Line =   98, Start =  1623, Len =     4
+      Location: Id =   57, FId =  0, Line =   98, Start =  1623, Len =    16
+      Location: Id =   58, FId =  0, Line =   98, Start =  1634, Len =     4
+      Location: Id =   59, FId =  0, Line =    3, Start =    23, Len =  1616
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = aio
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = ...
+      Identifier: Id =    8, LId =    1, Ident = copy_context
+      Identifier: Id =   12, LId =    2, Ident = ...
+      Identifier: Id =   13, LId =    2, Ident = time
+      Identifier: Id =   16, LId =    3, Ident = ...
+      Identifier: Id =   17, LId =    4, Ident = func1
+      Identifier: Id =   20, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    6, Ident = func2
+      Identifier: Id =   24, LId =    7, Ident = ...
+      Identifier: Id =   25, LId =    8, Ident = func3
+      Identifier: Id =   28, LId =    9, Ident = ...
+      Identifier: Id =   29, LId =   10, Ident = main1
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Identifier: Id =   32, LId =   13, Ident = ...
+      Invocation: Id =   33, LId =   14, Ident = main1(), Method = main1
+      Invocation: Id =   34, LId =   12, Ident = aio.run(main1()), Method = run
+      Identifier: Id =   38, LId =   15, Ident = ...
+      Identifier: Id =   39, LId =   16, Ident = main2
+      Identifier: Id =   40, LId =   17, Ident = ...
+      Identifier: Id =   41, LId =   18, Ident = ...
+      Identifier: Id =   42, LId =   19, Ident = ...
+      Invocation: Id =   43, LId =   20, Ident = main2(), Method = main2
+      Invocation: Id =   44, LId =   18, Ident = aio.run(main2()), Method = run
+      Identifier: Id =   46, LId =   21, Ident = ...
+      Identifier: Id =   47, LId =   22, Ident = ...
+      Invocation: Id =   49, LId =   22, Ident = revdebug.snapshot('main'), Method = snapshot
+      Identifier: Id =   51, LId =   24, Ident = ...
+      Identifier: Id =   52, LId =   25, Ident = ...
+      Invocation: Id =   54, LId =   25, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   58, LId =   27, Ident = ...
+      Identifier: Id =   59, LId =   28, Ident = main3
+      Identifier: Id =   60, LId =   29, Ident = ...
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   63, LId =   32, Ident = main3(), Method = main3
+      Invocation: Id =   64, LId =   30, Ident = aio.run(main3()), Method = run
+      Identifier: Id =   66, LId =   33, Ident = ...
+      Identifier: Id =   67, LId =   34, Ident = ...
+      Invocation: Id =   69, LId =   34, Ident = revdebug.snapshot('6'), Method = snapshot
+      Identifier: Id =   71, LId =   36, Ident = ...
+      Identifier: Id =   72, LId =   37, Ident = ...
+      Invocation: Id =   74, LId =   37, Ident = time.sleep(0.02), Method = sleep
+      Identifier: Id =   78, LId =   39, Ident = ...
+      Identifier: Id =   79, LId =   40, Ident = func4
+      Identifier: Id =   80, LId =   41, Ident = ...
+      Invocation: Id =   81, LId =   42, Ident = copy_context(), Method = copy_context
+      Identifier: Id =   82, LId =   43, Ident = ...
+      Identifier: Id =   83, LId =   44, Ident = ...
+      Invocation: Id =   85, LId =   43, Ident = copy_context().run(func4, '7'), Method = run
+      Identifier: Id =   87, LId =   46, Ident = ...
+      Identifier: Id =   88, LId =   47, Ident = ...
+      Identifier: Id =   91, LId =   48, Ident = ...
+      Invocation: Id =   92, LId =   49, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   93, LId =   50, Ident = func5
+      Identifier: Id =   94, LId =   51, Ident = ...
+      Invocation: Id =   95, LId =   52, Ident = func5(), Method = func5
+      Identifier: Id =   97, LId =   53, Ident = ...
+      Identifier: Id =   98, LId =   54, Ident = ...
+      Invocation: Id =  100, LId =   54, Ident = revdebug.snapshot('9'), Method = snapshot
+      Identifier: Id =  102, LId =   56, Ident = ...
+      Identifier: Id =  103, LId =   57, Ident = ...
+      Invocation: Id =  105, LId =   57, Ident = time.sleep(0.02), Method = sleep
+      Method:     Id =  109, LId =   59, Ident = test_blocks.py, Method = test_blocks.py
+      Argument:   Id =  110, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  111, LId =   20, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  112, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  113, LId =   26, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  114, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  115, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  116, LId =   38, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  117, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  118, LId =   45, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  119, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  120, LId =   58, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes

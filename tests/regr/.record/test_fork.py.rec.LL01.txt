@@ -1,0 +1,122 @@
+Handshake: Solution = Solution, App = test_fork.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   32, Phase = Enter
+  Variable:  SId =    3, Value = <module 'os'>
+  Variable:  SId =    7, Value = <module 'time'>
+  Variable:  SId =   11, Value = <module 'revdebug'>
+  Static:    SId =   14
+  Variable:  SId =   15, Value = True
+  Variable:  SId =   33, Value = 'parent'
+  Static:    SId =   18
+  Method:    SId =   32, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_fork.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     9
+      Location: Id =    1, FId =  0, Line =    4, Start =    33, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    46, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    66, Len =     2
+      Location: Id =    4, FId =  0, Line =    8, Start =    66, Len =     9
+      Location: Id =    5, FId =  0, Line =    8, Start =    63, Len =    13
+      Location: Id =    6, FId =  0, Line =    9, Start =    81, Len =     5
+      Location: Id =    7, FId =  0, Line =    9, Start =    81, Len =    15
+      Location: Id =    8, FId =  0, Line =    9, Start =    87, Len =     8
+      Location: Id =    9, FId =  0, Line =   12, Start =   108, Len =     4
+      Location: Id =   10, FId =  0, Line =   12, Start =   108, Len =    15
+      Location: Id =   11, FId =  0, Line =   12, Start =   119, Len =     3
+      Location: Id =   12, FId =  0, Line =   14, Start =   129, Len =     5
+      Location: Id =   13, FId =  0, Line =   14, Start =   129, Len =    14
+      Location: Id =   14, FId =  0, Line =   14, Start =   135, Len =     7
+      Location: Id =   15, FId =  0, Line =    3, Start =    23, Len =   120
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = os
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   12, LId =    3, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Invocation: Id =   14, LId =    4, Ident = os.fork(), Method = fork
+      Identifier: Id =   15, LId =    5, Ident = if
+      Identifier: Id =   16, LId =    6, Ident = ...
+      Invocation: Id =   18, LId =    7, Ident = print('parent'), Method = print
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Identifier: Id =   22, LId =   10, Ident = ...
+      Invocation: Id =   24, LId =   10, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   26, LId =   12, Ident = ...
+      Invocation: Id =   28, LId =   13, Ident = print('child'), Method = print
+      Method:     Id =   32, LId =   15, Ident = test_fork.py, Method = test_fork.py
+      Argument:   Id =   33, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   34, LId =   11, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   35, LId =   14, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_fork.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Variable:  SId =   15, Value = False
+  Variable:  SId =   34, Value = 0.2
+  Static:    SId =   24
+  Variable:  SId =   35, Value = 'child'
+  Static:    SId =   28
+  Method:    SId =   32, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_fork.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     9
+      Location: Id =    1, FId =  0, Line =    4, Start =    33, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    46, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    66, Len =     2
+      Location: Id =    4, FId =  0, Line =    8, Start =    66, Len =     9
+      Location: Id =    5, FId =  0, Line =    8, Start =    63, Len =    13
+      Location: Id =    6, FId =  0, Line =    9, Start =    81, Len =     5
+      Location: Id =    7, FId =  0, Line =    9, Start =    81, Len =    15
+      Location: Id =    8, FId =  0, Line =    9, Start =    87, Len =     8
+      Location: Id =    9, FId =  0, Line =   12, Start =   108, Len =     4
+      Location: Id =   10, FId =  0, Line =   12, Start =   108, Len =    15
+      Location: Id =   11, FId =  0, Line =   12, Start =   119, Len =     3
+      Location: Id =   12, FId =  0, Line =   14, Start =   129, Len =     5
+      Location: Id =   13, FId =  0, Line =   14, Start =   129, Len =    14
+      Location: Id =   14, FId =  0, Line =   14, Start =   135, Len =     7
+      Location: Id =   15, FId =  0, Line =    3, Start =    23, Len =   120
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = os
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   12, LId =    3, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Invocation: Id =   14, LId =    4, Ident = os.fork(), Method = fork
+      Identifier: Id =   15, LId =    5, Ident = if
+      Identifier: Id =   16, LId =    6, Ident = ...
+      Invocation: Id =   18, LId =    7, Ident = print('parent'), Method = print
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Identifier: Id =   22, LId =   10, Ident = ...
+      Invocation: Id =   24, LId =   10, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   26, LId =   12, Ident = ...
+      Invocation: Id =   28, LId =   13, Ident = print('child'), Method = print
+      Method:     Id =   32, LId =   15, Ident = test_fork.py, Method = test_fork.py
+      Argument:   Id =   33, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   34, LId =   11, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   35, LId =   14, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

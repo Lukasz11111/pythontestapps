@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  py-rdb:
+    image: py-rdb:latest
+    build: 
+      context: .

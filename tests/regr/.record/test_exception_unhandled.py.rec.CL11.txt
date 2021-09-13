@@ -1,0 +1,203 @@
+Handshake: Solution = Solution, App = test_exception_unhandled.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_exception_unhandled.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ZeroDivisionError
+    Message = division by zero
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+        i = 1 / 0
+    ZeroDivisionError: division by zero
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    4, Start =    39, Len =    10
+      Location: Id =    2, FId =  0, Line =    5, Start =    50, Len =    11
+      Location: Id =    3, FId =  0, Line =    7, Start =    63, Len =     8
+      Location: Id =    4, FId =  0, Line =    7, Start =    63, Len =    16
+      Location: Id =    5, FId =  0, Line =    9, Start =    81, Len =    83
+      Location: Id =    6, FId =  0, Line =   10, Start =    94, Len =     5
+      Location: Id =    7, FId =  0, Line =   10, Start =    90, Len =     1
+      Location: Id =    8, FId =  0, Line =   13, Start =   124, Len =     3
+      Location: Id =    9, FId =  0, Line =   13, Start =   124, Len =    14
+      Location: Id =   10, FId =  0, Line =   13, Start =   113, Len =     8
+      Location: Id =   11, FId =  0, Line =   15, Start =   144, Len =     8
+      Location: Id =   12, FId =  0, Line =   15, Start =   144, Len =    20
+      Location: Id =   13, FId =  0, Line =   17, Start =   166, Len =     4
+      Location: Id =   14, FId =  0, Line =   17, Start =   166, Len =    15
+      Location: Id =   15, FId =  0, Line =   17, Start =   177, Len =     3
+      Location: Id =   16, FId =  0, Line =   19, Start =   183, Len =     8
+      Location: Id =   17, FId =  0, Line =   19, Start =   183, Len =    18
+      Location: Id =   18, FId =  0, Line =   19, Start =   203, Len =     8
+      Location: Id =   19, FId =  0, Line =   19, Start =   183, Len =    29
+      Location: Id =   20, FId =  0, Line =   19, Start =   202, Len =     9
+      Location: Id =   21, FId =  0, Line =    3, Start =    23, Len =   189
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = sys
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = time
+      Identifier: Id =   12, LId =    3, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Invocation: Id =   14, LId =    4, Ident = revdebug.flush(), Method = flush
+      Invocation: Id =   16, LId =    5, Ident = try, Method = try
+      Identifier: Id =   19, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = i
+      Identifier: Id =   26, LId =    8, Ident = ...
+      Identifier: Id =   27, LId =    9, Ident = ...
+      Invocation: Id =   28, LId =    9, Ident = sys.exc_info(), Method = exc_info
+      Identifier: Id =   29, LId =   10, Ident = exc_info
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Invocation: Id =   32, LId =   12, Ident = revdebug.exception(), Method = exception
+      Identifier: Id =   34, LId =   12, Ident = ...
+      Identifier: Id =   36, LId =   12, Ident = ...
+      Identifier: Id =   37, LId =   13, Ident = ...
+      Identifier: Id =   38, LId =   14, Ident = ...
+      Invocation: Id =   40, LId =   14, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   42, LId =   16, Ident = ...
+      Identifier: Id =   43, LId =   17, Ident = ...
+      Identifier: Id =   44, LId =   18, Ident = ...
+      Invocation: Id =   45, LId =   19, Ident = revdebug.exception(*exc_info), Method = exception
+      Method:     Id =   49, LId =   21, Ident = test_exception_unhandled.py, Method = test_exception_unhandled.py
+      Argument:   Id =   50, LId =   15, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   51, LId =   20, Ident = *args, ArgIdx = 0
+      Argument:   Id =   52, LId =   20, Ident = **kwargs, ArgIdx = 0
+
+DownloadRecording:
+  Method:    SId =   49, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Variable:  SId =    7, Value = <module 'sys' (built-in)>
+  Variable:  SId =   11, Value = <module 'time' (built-in)>
+  Static:    SId =   14
+  Static:    SId =   16
+  Exception: SId =   19, Unhandled = False, Type = ZeroDivisionError
+    Message = division by zero
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+  Static:    SId =   28
+  Variable:  SId =   29, Value = (<class 'ZeroDivisionError'>, ZeroDivisionError('division by zero'), <traceback object at 0x7f3eab323190>)
+  Static:    SId =   32
+  Exception: SId =   -1, Unhandled = True, Type = ZeroDivisionError
+    Message = division by zero
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+        i = 1 / 0
+    ZeroDivisionError: division by zero
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_exception_unhandled.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ZeroDivisionError
+    Message = division by zero
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+        i = 1 / 0
+    ZeroDivisionError: division by zero
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    4, Start =    39, Len =    10
+      Location: Id =    2, FId =  0, Line =    5, Start =    50, Len =    11
+      Location: Id =    3, FId =  0, Line =    7, Start =    63, Len =     8
+      Location: Id =    4, FId =  0, Line =    7, Start =    63, Len =    16
+      Location: Id =    5, FId =  0, Line =    9, Start =    81, Len =    83
+      Location: Id =    6, FId =  0, Line =   10, Start =    94, Len =     5
+      Location: Id =    7, FId =  0, Line =   10, Start =    90, Len =     1
+      Location: Id =    8, FId =  0, Line =   13, Start =   124, Len =     3
+      Location: Id =    9, FId =  0, Line =   13, Start =   124, Len =    14
+      Location: Id =   10, FId =  0, Line =   13, Start =   113, Len =     8
+      Location: Id =   11, FId =  0, Line =   15, Start =   144, Len =     8
+      Location: Id =   12, FId =  0, Line =   15, Start =   144, Len =    20
+      Location: Id =   13, FId =  0, Line =   17, Start =   166, Len =     4
+      Location: Id =   14, FId =  0, Line =   17, Start =   166, Len =    15
+      Location: Id =   15, FId =  0, Line =   17, Start =   177, Len =     3
+      Location: Id =   16, FId =  0, Line =   19, Start =   183, Len =     8
+      Location: Id =   17, FId =  0, Line =   19, Start =   183, Len =    18
+      Location: Id =   18, FId =  0, Line =   19, Start =   203, Len =     8
+      Location: Id =   19, FId =  0, Line =   19, Start =   183, Len =    29
+      Location: Id =   20, FId =  0, Line =   19, Start =   202, Len =     9
+      Location: Id =   21, FId =  0, Line =    3, Start =    23, Len =   189
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = sys
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = time
+      Identifier: Id =   12, LId =    3, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Invocation: Id =   14, LId =    4, Ident = revdebug.flush(), Method = flush
+      Invocation: Id =   16, LId =    5, Ident = try, Method = try
+      Identifier: Id =   19, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = i
+      Identifier: Id =   26, LId =    8, Ident = ...
+      Identifier: Id =   27, LId =    9, Ident = ...
+      Invocation: Id =   28, LId =    9, Ident = sys.exc_info(), Method = exc_info
+      Identifier: Id =   29, LId =   10, Ident = exc_info
+      Identifier: Id =   30, LId =   11, Ident = ...
+      Identifier: Id =   31, LId =   12, Ident = ...
+      Invocation: Id =   32, LId =   12, Ident = revdebug.exception(), Method = exception
+      Identifier: Id =   34, LId =   12, Ident = ...
+      Identifier: Id =   36, LId =   12, Ident = ...
+      Identifier: Id =   37, LId =   13, Ident = ...
+      Identifier: Id =   38, LId =   14, Ident = ...
+      Invocation: Id =   40, LId =   14, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   42, LId =   16, Ident = ...
+      Identifier: Id =   43, LId =   17, Ident = ...
+      Identifier: Id =   44, LId =   18, Ident = ...
+      Invocation: Id =   45, LId =   19, Ident = revdebug.exception(*exc_info), Method = exception
+      Method:     Id =   49, LId =   21, Ident = test_exception_unhandled.py, Method = test_exception_unhandled.py
+      Argument:   Id =   50, LId =   15, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   51, LId =   20, Ident = *args, ArgIdx = 0
+      Argument:   Id =   52, LId =   20, Ident = **kwargs, ArgIdx = 0
+
+DownloadRecording:
+  Method:    SId =   49, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Variable:  SId =    7, Value = <module 'sys' (built-in)>
+  Variable:  SId =   11, Value = <module 'time' (built-in)>
+  Static:    SId =   14
+  Static:    SId =   16
+  Exception: SId =   19, Unhandled = False, Type = ZeroDivisionError
+    Message = division by zero
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+  Static:    SId =   28
+  Variable:  SId =   29, Value = (<class 'ZeroDivisionError'>, ZeroDivisionError('division by zero'), <traceback object at 0x7f3eab323190>)
+  Static:    SId =   32
+  Exception: SId =   -1, Unhandled = True, Type = ZeroDivisionError
+    Message = division by zero
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+        i = 1 / 0
+    ZeroDivisionError: division by zero
+  Variable:  SId =   50, Value = 0.1
+  Static:    SId =   40
+  Variable:  SId =   51, Value = (<class 'ZeroDivisionError'>, ZeroDivisionError('division by zero'), <traceback object at 0x7f3eab323190>)
+  Static:    SId =   45
+  Exception: SId =   -1, Unhandled = True, Type = ZeroDivisionError
+    Message = division by zero
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exception_unhandled.py", line 10, in <module>
+        i = 1 / 0
+    ZeroDivisionError: division by zero
+
+Connection closed: NoMoreBytes

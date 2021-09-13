@@ -1,0 +1,23 @@
+Handshake: Solution = Solution, App = test_multiprocessing_spawn.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = __COMMAND__.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = __COMMAND__.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

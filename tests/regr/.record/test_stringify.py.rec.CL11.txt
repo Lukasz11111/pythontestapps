@@ -1,0 +1,2683 @@
+Handshake: Solution = Solution, App = test_stringify.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_stringify.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = done
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_stringify.py", line 132, in <module>
+        raise RuntimeError('done')
+    RuntimeError: done
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_stringify.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    5, Start =    40, Len =    13
+      Location: Id =    2, FId =  0, Line =    6, Start =    54, Len =    10
+      Location: Id =    3, FId =  0, Line =    8, Start =    66, Len =     8
+      Location: Id =    4, FId =  0, Line =    8, Start =    66, Len =    16
+      Location: Id =    5, FId =  0, Line =   10, Start =   155, Len =    16
+      Location: Id =    6, FId =  0, Line =   10, Start =   155, Len =     8
+      Location: Id =    7, FId =  0, Line =   12, Start =   173, Len =   155
+      Location: Id =    8, FId =  0, Line =   12, Start =   173, Len =    10
+      Location: Id =    9, FId =  0, Line =   12, Start =   173, Len =     9
+      Location: Id =   10, FId =  0, Line =   25, Start =   338, Len =     3
+      Location: Id =   11, FId =  0, Line =   25, Start =   338, Len =     5
+      Location: Id =   12, FId =  0, Line =   25, Start =   331, Len =     4
+      Location: Id =   13, FId =  0, Line =   33, Start =   465, Len =     8
+      Location: Id =   14, FId =  0, Line =   38, Start =   547, Len =    39
+      Location: Id =   15, FId =  0, Line =   38, Start =   579, Len =     6
+      Location: Id =   16, FId =  0, Line =   39, Start =   596, Len =     9
+      Location: Id =   17, FId =  0, Line =   39, Start =   606, Len =    39
+      Location: Id =   18, FId =  0, Line =   39, Start =   638, Len =     6
+      Location: Id =   19, FId =  0, Line =   39, Start =   596, Len =    50
+      Location: Id =   20, FId =  0, Line =   40, Start =   656, Len =    35
+      Location: Id =   21, FId =  0, Line =   40, Start =   663, Len =    28
+      Location: Id =   22, FId =  0, Line =   40, Start =   680, Len =     5
+      Location: Id =   23, FId =  0, Line =   40, Start =   680, Len =    10
+      Location: Id =   24, FId =  0, Line =   40, Start =   686, Len =     3
+      Location: Id =   25, FId =  0, Line =   41, Start =   701, Len =     5
+      Location: Id =   26, FId =  0, Line =   41, Start =   707, Len =     5
+      Location: Id =   27, FId =  0, Line =   41, Start =   707, Len =    10
+      Location: Id =   28, FId =  0, Line =   41, Start =   713, Len =     3
+      Location: Id =   29, FId =  0, Line =   41, Start =   701, Len =    17
+      Location: Id =   30, FId =  0, Line =   42, Start =   728, Len =     9
+      Location: Id =   31, FId =  0, Line =   42, Start =   738, Len =     5
+      Location: Id =   32, FId =  0, Line =   42, Start =   738, Len =    10
+      Location: Id =   33, FId =  0, Line =   42, Start =   744, Len =     3
+      Location: Id =   34, FId =  0, Line =   42, Start =   728, Len =    21
+      Location: Id =   35, FId =  0, Line =   56, Start =  1037, Len =    14
+      Location: Id =   36, FId =  0, Line =   57, Start =  1061, Len =    17
+      Location: Id =   37, FId =  0, Line =   62, Start =  1132, Len =     5
+      Location: Id =   38, FId =  0, Line =   62, Start =  1132, Len =    12
+      Location: Id =   39, FId =  0, Line =   62, Start =  1138, Len =     5
+      Location: Id =   40, FId =  0, Line =   63, Start =  1154, Len =     5
+      Location: Id =   41, FId =  0, Line =   63, Start =  1154, Len =    13
+      Location: Id =   42, FId =  0, Line =   63, Start =  1160, Len =     6
+      Location: Id =   43, FId =  0, Line =   64, Start =  1177, Len =     5
+      Location: Id =   44, FId =  0, Line =   64, Start =  1177, Len =    12
+      Location: Id =   45, FId =  0, Line =   64, Start =  1183, Len =     5
+      Location: Id =   46, FId =  0, Line =   65, Start =  1199, Len =     5
+      Location: Id =   47, FId =  0, Line =   65, Start =  1199, Len =    13
+      Location: Id =   48, FId =  0, Line =   65, Start =  1205, Len =     6
+      Location: Id =   49, FId =  0, Line =   71, Start =  1293, Len =     5
+      Location: Id =   50, FId =  0, Line =   71, Start =  1293, Len =    12
+      Location: Id =   51, FId =  0, Line =   71, Start =  1299, Len =     5
+      Location: Id =   52, FId =  0, Line =   71, Start =  1293, Len =    17
+      Location: Id =   53, FId =  0, Line =   72, Start =  1320, Len =     5
+      Location: Id =   54, FId =  0, Line =   72, Start =  1320, Len =    13
+      Location: Id =   55, FId =  0, Line =   72, Start =  1326, Len =     6
+      Location: Id =   56, FId =  0, Line =   72, Start =  1320, Len =    18
+      Location: Id =   57, FId =  0, Line =   73, Start =  1348, Len =     5
+      Location: Id =   58, FId =  0, Line =   73, Start =  1348, Len =    12
+      Location: Id =   59, FId =  0, Line =   73, Start =  1354, Len =     5
+      Location: Id =   60, FId =  0, Line =   73, Start =  1348, Len =    17
+      Location: Id =   61, FId =  0, Line =   74, Start =  1375, Len =     5
+      Location: Id =   62, FId =  0, Line =   74, Start =  1375, Len =    13
+      Location: Id =   63, FId =  0, Line =   74, Start =  1381, Len =     6
+      Location: Id =   64, FId =  0, Line =   74, Start =  1375, Len =    18
+      Location: Id =   65, FId =  0, Line =   75, Start =  1403, Len =     5
+      Location: Id =   66, FId =  0, Line =   75, Start =  1403, Len =    12
+      Location: Id =   67, FId =  0, Line =   75, Start =  1409, Len =     5
+      Location: Id =   68, FId =  0, Line =   75, Start =  1403, Len =    17
+      Location: Id =   69, FId =  0, Line =   75, Start =  1403, Len =    22
+      Location: Id =   70, FId =  0, Line =   76, Start =  1435, Len =     5
+      Location: Id =   71, FId =  0, Line =   76, Start =  1435, Len =    13
+      Location: Id =   72, FId =  0, Line =   76, Start =  1441, Len =     6
+      Location: Id =   73, FId =  0, Line =   76, Start =  1435, Len =    18
+      Location: Id =   74, FId =  0, Line =   76, Start =  1435, Len =    23
+      Location: Id =   75, FId =  0, Line =   81, Start =  1511, Len =     5
+      Location: Id =   76, FId =  0, Line =   81, Start =  1517, Len =     5
+      Location: Id =   77, FId =  0, Line =   81, Start =  1517, Len =     9
+      Location: Id =   78, FId =  0, Line =   81, Start =  1523, Len =     2
+      Location: Id =   79, FId =  0, Line =   81, Start =  1511, Len =    16
+      Location: Id =   80, FId =  0, Line =   82, Start =  1537, Len =     9
+      Location: Id =   81, FId =  0, Line =   82, Start =  1547, Len =     2
+      Location: Id =   82, FId =  0, Line =   82, Start =  1537, Len =    13
+      Location: Id =   83, FId =  0, Line =   83, Start =  1560, Len =     9
+      Location: Id =   84, FId =  0, Line =   83, Start =  1570, Len =     3
+      Location: Id =   85, FId =  0, Line =   83, Start =  1560, Len =    14
+      Location: Id =   86, FId =  0, Line =   84, Start =  1584, Len =     9
+      Location: Id =   87, FId =  0, Line =   84, Start =  1594, Len =     6
+      Location: Id =   88, FId =  0, Line =   84, Start =  1584, Len =    17
+      Location: Id =   89, FId =  0, Line =   85, Start =  1611, Len =     9
+      Location: Id =   90, FId =  0, Line =   85, Start =  1621, Len =     5
+      Location: Id =   91, FId =  0, Line =   85, Start =  1621, Len =     9
+      Location: Id =   92, FId =  0, Line =   85, Start =  1627, Len =     2
+      Location: Id =   93, FId =  0, Line =   85, Start =  1611, Len =    20
+      Location: Id =   94, FId =  0, Line =   87, Start =  1642, Len =     4
+      Location: Id =   95, FId =  0, Line =   88, Start =  1656, Len =     3
+      Location: Id =   96, FId =  0, Line =   89, Start =  1669, Len =     3
+      Location: Id =   97, FId =  0, Line =   89, Start =  1669, Len =     8
+      Location: Id =   98, FId =  0, Line =   90, Start =  1687, Len =     3
+      Location: Id =   99, FId =  0, Line =   90, Start =  1687, Len =     9
+      Location: Id =  100, FId =  0, Line =   91, Start =  1706, Len =     3
+      Location: Id =  101, FId =  0, Line =   91, Start =  1706, Len =     9
+      Location: Id =  102, FId =  0, Line =   92, Start =  1725, Len =     3
+      Location: Id =  103, FId =  0, Line =   92, Start =  1725, Len =     8
+      Location: Id =  104, FId =  0, Line =   93, Start =  1743, Len =     4
+      Location: Id =  105, FId =  0, Line =   94, Start =  1757, Len =     4
+      Location: Id =  106, FId =  0, Line =   94, Start =  1757, Len =     9
+      Location: Id =  107, FId =  0, Line =   95, Start =  1776, Len =     4
+      Location: Id =  108, FId =  0, Line =   95, Start =  1776, Len =    10
+      Location: Id =  109, FId =  0, Line =   96, Start =  1796, Len =     4
+      Location: Id =  110, FId =  0, Line =   96, Start =  1796, Len =    10
+      Location: Id =  111, FId =  0, Line =   98, Start =  1817, Len =     9
+      Location: Id =  112, FId =  0, Line =  100, Start =  1837, Len =     6
+      Location: Id =  113, FId =  0, Line =  101, Start =  1853, Len =     3
+      Location: Id =  114, FId =  0, Line =  102, Start =  1866, Len =     8
+      Location: Id =  115, FId =  0, Line =  103, Start =  1884, Len =    10
+      Location: Id =  116, FId =  0, Line =  103, Start =  1884, Len =    25
+      Location: Id =  117, FId =  0, Line =  103, Start =  1895, Len =    13
+      Location: Id =  118, FId =  0, Line =  104, Start =  1919, Len =    12
+      Location: Id =  119, FId =  0, Line =  105, Start =  1941, Len =    12
+      Location: Id =  120, FId =  0, Line =  105, Start =  1941, Len =    29
+      Location: Id =  121, FId =  0, Line =  105, Start =  1954, Len =    15
+      Location: Id =  122, FId =  0, Line =  107, Start =  1981, Len =     9
+      Location: Id =  123, FId =  0, Line =  108, Start =  2000, Len =    15
+      Location: Id =  124, FId =  0, Line =  109, Start =  2025, Len =     9
+      Location: Id =  125, FId =  0, Line =  110, Start =  2044, Len =     4
+      Location: Id =  126, FId =  0, Line =  110, Start =  2049, Len =     5
+      Location: Id =  127, FId =  0, Line =  110, Start =  2049, Len =     9
+      Location: Id =  128, FId =  0, Line =  110, Start =  2055, Len =     2
+      Location: Id =  129, FId =  0, Line =  110, Start =  2044, Len =    15
+      Location: Id =  130, FId =  0, Line =  111, Start =  2069, Len =    30
+      Location: Id =  131, FId =  0, Line =  111, Start =  2089, Len =     5
+      Location: Id =  132, FId =  0, Line =  111, Start =  2089, Len =     9
+      Location: Id =  133, FId =  0, Line =  111, Start =  2095, Len =     2
+      Location: Id =  134, FId =  0, Line =  112, Start =  2109, Len =     3
+      Location: Id =  135, FId =  0, Line =  112, Start =  2113, Len =     5
+      Location: Id =  136, FId =  0, Line =  112, Start =  2113, Len =     9
+      Location: Id =  137, FId =  0, Line =  112, Start =  2119, Len =     2
+      Location: Id =  138, FId =  0, Line =  112, Start =  2109, Len =    14
+      Location: Id =  139, FId =  0, Line =  113, Start =  2145, Len =     9
+      Location: Id =  140, FId =  0, Line =  113, Start =  2156, Len =    15
+      Location: Id =  141, FId =  0, Line =  113, Start =  2173, Len =     9
+      Location: Id =  142, FId =  0, Line =  113, Start =  2133, Len =    50
+      Location: Id =  143, FId =  0, Line =  114, Start =  2205, Len =     9
+      Location: Id =  144, FId =  0, Line =  114, Start =  2216, Len =    15
+      Location: Id =  145, FId =  0, Line =  114, Start =  2233, Len =     9
+      Location: Id =  146, FId =  0, Line =  114, Start =  2193, Len =    50
+      Location: Id =  147, FId =  0, Line =  115, Start =  2269, Len =     9
+      Location: Id =  148, FId =  0, Line =  115, Start =  2280, Len =    15
+      Location: Id =  149, FId =  0, Line =  115, Start =  2297, Len =     9
+      Location: Id =  150, FId =  0, Line =  115, Start =  2257, Len =    50
+      Location: Id =  151, FId =  0, Line =  115, Start =  2253, Len =    55
+      Location: Id =  152, FId =  0, Line =  116, Start =  2330, Len =     9
+      Location: Id =  153, FId =  0, Line =  116, Start =  2340, Len =     9
+      Location: Id =  154, FId =  0, Line =  116, Start =  2330, Len =    20
+      Location: Id =  155, FId =  0, Line =  116, Start =  2318, Len =    33
+      Location: Id =  156, FId =  0, Line =  117, Start =  2361, Len =     9
+      Location: Id =  157, FId =  0, Line =  117, Start =  2383, Len =     9
+      Location: Id =  158, FId =  0, Line =  117, Start =  2393, Len =     9
+      Location: Id =  159, FId =  0, Line =  117, Start =  2383, Len =    20
+      Location: Id =  160, FId =  0, Line =  117, Start =  2371, Len =    33
+      Location: Id =  161, FId =  0, Line =  117, Start =  2361, Len =    44
+      Location: Id =  162, FId =  0, Line =   31, Start =   441, Len =  2006
+      Location: Id =  163, FId =  0, Line =   31, Start =   434, Len =     4
+      Location: Id =  164, FId =  0, Line =  123, Start =  2449, Len =     5
+      Location: Id =  165, FId =  0, Line =  123, Start =  2449, Len =     7
+      Location: Id =  166, FId =  0, Line =  124, Start =  2466, Len =     4
+      Location: Id =  167, FId =  0, Line =  124, Start =  2457, Len =   113
+      Location: Id =  168, FId =  0, Line =  124, Start =  2461, Len =     1
+      Location: Id =  169, FId =  0, Line =  125, Start =  2489, Len =     4
+      Location: Id =  170, FId =  0, Line =  125, Start =  2494, Len =     1
+      Location: Id =  171, FId =  0, Line =  125, Start =  2489, Len =     7
+      Location: Id =  172, FId =  0, Line =  125, Start =  2480, Len =    16
+      Location: Id =  173, FId =  0, Line =  125, Start =  2480, Len =    27
+      Location: Id =  174, FId =  0, Line =  125, Start =  2510, Len =     8
+      Location: Id =  175, FId =  0, Line =  125, Start =  2510, Len =    24
+      Location: Id =  176, FId =  0, Line =  125, Start =  2529, Len =     1
+      Location: Id =  177, FId =  0, Line =  125, Start =  2532, Len =     1
+      Location: Id =  178, FId =  0, Line =  125, Start =  2510, Len =    40
+      Location: Id =  179, FId =  0, Line =  125, Start =  2542, Len =     7
+      Location: Id =  180, FId =  0, Line =  125, Start =  2480, Len =    70
+      Location: Id =  181, FId =  0, Line =  125, Start =  2480, Len =    77
+      Location: Id =  182, FId =  0, Line =  125, Start =  2476, Len =     1
+      Location: Id =  183, FId =  0, Line =  126, Start =  2562, Len =     5
+      Location: Id =  184, FId =  0, Line =  126, Start =  2568, Len =     1
+      Location: Id =  185, FId =  0, Line =  126, Start =  2562, Len =     8
+      Location: Id =  186, FId =  0, Line =  132, Start =  2625, Len =    12
+      Location: Id =  187, FId =  0, Line =  132, Start =  2625, Len =    20
+      Location: Id =  188, FId =  0, Line =  132, Start =  2638, Len =     6
+      Location: Id =  189, FId =  0, Line =  132, Start =  2619, Len =    26
+      Location: Id =  190, FId =  0, Line =    3, Start =    23, Len =  2622
+      Location: Id =  191, FId =  0, Line =   13, Start =   188, Len =    20
+      Location: Id =  192, FId =  0, Line =   13, Start =   188, Len =     8
+      Location: Id =  193, FId =  0, Line =   15, Start =   215, Len =    11
+      Location: Id =  194, FId =  0, Line =   15, Start =   215, Len =    36
+      Location: Id =  195, FId =  0, Line =   15, Start =   214, Len =    12
+      Location: Id =  196, FId =  0, Line =   16, Start =   231, Len =     9
+      Location: Id =  197, FId =  0, Line =   18, Start =   258, Len =    12
+      Location: Id =  198, FId =  0, Line =   18, Start =   258, Len =    34
+      Location: Id =  199, FId =  0, Line =   18, Start =   257, Len =    13
+      Location: Id =  200, FId =  0, Line =   19, Start =   275, Len =     9
+      Location: Id =  201, FId =  0, Line =   21, Start =   299, Len =     8
+      Location: Id =  202, FId =  0, Line =   21, Start =   299, Len =    29
+      Location: Id =  203, FId =  0, Line =   21, Start =   298, Len =     9
+      Location: Id =  204, FId =  0, Line =   22, Start =   312, Len =     8
+      Location: Id =  205, FId =  0, Line =   40, Start =   675, Len =     1
+      Location: Id =  206, FId =  0, Line =   40, Start =   664, Len =     3
+      Location: Id =  207, FId =  0, Line =   40, Start =   668, Len =     1
+      Location: Id =  208, FId =  0, Line =   40, Start =   664, Len =     6
+      Location: Id =  209, FId =  0, Line =  111, Start =  2084, Len =     1
+      Location: Id =  210, FId =  0, Line =  111, Start =  2070, Len =     1
+      Location: Id =  211, FId =  0, Line =  111, Start =  2073, Len =     3
+      Location: Id =  212, FId =  0, Line =  111, Start =  2077, Len =     1
+      Location: Id =  213, FId =  0, Line =  111, Start =  2073, Len =     6
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = socket
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = sys
+      Identifier: Id =   12, LId =    3, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Invocation: Id =   14, LId =    4, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   18, LId =    5, Ident = ...
+      Identifier: Id =   19, LId =    6, Ident = func
+      Identifier: Id =   20, LId =    7, Ident = ...
+      Identifier: Id =   23, LId =    7, Ident = ...
+      Invocation: Id =   25, LId =    8, Ident = class cls, Method = class cls
+      Identifier: Id =   26, LId =    9, Ident = cls
+      Identifier: Id =   27, LId =   10, Ident = ...
+      Invocation: Id =   28, LId =   11, Ident = cls(), Method = cls
+      Identifier: Id =   29, LId =   12, Ident = inst
+      Identifier: Id =   31, LId =   13, Ident = ...
+      Identifier: Id =   36, LId =   14, Ident = ...
+      Invocation: Id =   38, LId =   14, Ident = 'Szczęście = 无知, \u0380'.encode('utf8'), Method = encode
+      Identifier: Id =   39, LId =   16, Ident = ...
+      Identifier: Id =   41, LId =   17, Ident = ...
+      Invocation: Id =   43, LId =   17, Ident = 'Szczęście = 无知, \u0380'.encode('utf8'), Method = encode
+      Invocation: Id =   44, LId =   19, Ident = bytearray('Szczęście = 无知, \u0380'.encode('utf8')), Method = bytearray
+      Identifier: Id =   46, LId =   20, Ident = ...
+      Identifier: Id =   49, LId =   21, Ident = ...
+      Identifier: Id =   50, LId =   22, Ident = ...
+      Invocation: Id =   52, LId =   23, Ident = range(160), Method = range
+      Identifier: Id =   53, LId =   21, Ident = ...
+      Invocation: Id =   54, LId =   21, Ident = (chr(i) for i in range(160)), Method = (chr(i) for i in range(160))
+      Invocation: Id =   55, LId =   20, Ident = ''.join(chr(i) for i in range(160)), Method = join
+      Identifier: Id =   56, LId =   25, Ident = ...
+      Identifier: Id =   57, LId =   26, Ident = ...
+      Invocation: Id =   59, LId =   27, Ident = range(160), Method = range
+      Invocation: Id =   60, LId =   29, Ident = bytes(range(160)), Method = bytes
+      Identifier: Id =   61, LId =   30, Ident = ...
+      Identifier: Id =   62, LId =   31, Ident = ...
+      Invocation: Id =   64, LId =   32, Ident = range(160), Method = range
+      Invocation: Id =   65, LId =   34, Ident = bytearray(range(160)), Method = bytearray
+      Identifier: Id =   80, LId =   35, Ident = ...
+      Identifier: Id =   83, LId =   36, Ident = ...
+      Identifier: Id =   87, LId =   37, Ident = ...
+      Invocation: Id =   89, LId =   38, Ident = float('inf'), Method = float
+      Identifier: Id =   90, LId =   40, Ident = ...
+      Invocation: Id =   92, LId =   41, Ident = float('-inf'), Method = float
+      Identifier: Id =   93, LId =   43, Ident = ...
+      Invocation: Id =   95, LId =   44, Ident = float('nan'), Method = float
+      Identifier: Id =   96, LId =   46, Ident = ...
+      Invocation: Id =   98, LId =   47, Ident = float('-nan'), Method = float
+      Identifier: Id =  104, LId =   49, Ident = ...
+      Invocation: Id =  106, LId =   50, Ident = float('inf'), Method = float
+      Identifier: Id =  108, LId =   52, Ident = ...
+      Identifier: Id =  109, LId =   53, Ident = ...
+      Invocation: Id =  111, LId =   54, Ident = float('-inf'), Method = float
+      Identifier: Id =  113, LId =   56, Ident = ...
+      Identifier: Id =  114, LId =   57, Ident = ...
+      Invocation: Id =  116, LId =   58, Ident = float('inf'), Method = float
+      Identifier: Id =  118, LId =   60, Ident = ...
+      Identifier: Id =  119, LId =   61, Ident = ...
+      Invocation: Id =  121, LId =   62, Ident = float('-inf'), Method = float
+      Identifier: Id =  123, LId =   64, Ident = ...
+      Identifier: Id =  124, LId =   65, Ident = ...
+      Invocation: Id =  126, LId =   66, Ident = float('inf'), Method = float
+      Identifier: Id =  128, LId =   68, Ident = ...
+      Identifier: Id =  130, LId =   69, Ident = ...
+      Identifier: Id =  131, LId =   70, Ident = ...
+      Invocation: Id =  133, LId =   71, Ident = float('-inf'), Method = float
+      Identifier: Id =  135, LId =   73, Ident = ...
+      Identifier: Id =  137, LId =   74, Ident = ...
+      Identifier: Id =  141, LId =   75, Ident = ...
+      Identifier: Id =  142, LId =   76, Ident = ...
+      Invocation: Id =  144, LId =   77, Ident = range(80), Method = range
+      Invocation: Id =  145, LId =   79, Ident = tuple(range(80)), Method = tuple
+      Identifier: Id =  146, LId =   80, Ident = ...
+      Identifier: Id =  147, LId =   81, Ident = ...
+      Invocation: Id =  148, LId =   82, Ident = frozenset({}), Method = frozenset
+      Identifier: Id =  149, LId =   83, Ident = ...
+      Identifier: Id =  151, LId =   84, Ident = ...
+      Invocation: Id =  152, LId =   85, Ident = frozenset({1}), Method = frozenset
+      Identifier: Id =  153, LId =   86, Ident = ...
+      Identifier: Id =  156, LId =   87, Ident = ...
+      Invocation: Id =  157, LId =   88, Ident = frozenset({1, 2}), Method = frozenset
+      Identifier: Id =  158, LId =   89, Ident = ...
+      Identifier: Id =  159, LId =   90, Ident = ...
+      Invocation: Id =  161, LId =   91, Ident = range(80), Method = range
+      Invocation: Id =  162, LId =   93, Ident = frozenset(range(80)), Method = frozenset
+      Identifier: Id =  163, LId =   94, Ident = ...
+      Identifier: Id =  164, LId =   95, Ident = ...
+      Identifier: Id =  165, LId =   96, Ident = ...
+      Identifier: Id =  166, LId =   97, Ident = ...
+      Identifier: Id =  167, LId =   98, Ident = ...
+      Identifier: Id =  168, LId =   99, Ident = ...
+      Identifier: Id =  169, LId =  100, Ident = ...
+      Identifier: Id =  170, LId =  101, Ident = ...
+      Identifier: Id =  171, LId =  102, Ident = ...
+      Identifier: Id =  172, LId =  103, Ident = ...
+      Identifier: Id =  173, LId =  104, Ident = ...
+      Identifier: Id =  174, LId =  105, Ident = ...
+      Identifier: Id =  175, LId =  106, Ident = ...
+      Identifier: Id =  176, LId =  107, Ident = ...
+      Identifier: Id =  177, LId =  108, Ident = ...
+      Identifier: Id =  178, LId =  109, Ident = ...
+      Identifier: Id =  179, LId =  110, Ident = ...
+      Identifier: Id =  180, LId =  111, Ident = ...
+      Identifier: Id =  181, LId =  112, Ident = ...
+      Identifier: Id =  182, LId =  113, Ident = ...
+      Identifier: Id =  183, LId =  114, Ident = ...
+      Identifier: Id =  184, LId =  115, Ident = ...
+      Invocation: Id =  186, LId =  116, Ident = ValueError('value_error'), Method = ValueError
+      Identifier: Id =  187, LId =  118, Ident = ...
+      Identifier: Id =  188, LId =  119, Ident = ...
+      Invocation: Id =  190, LId =  120, Ident = RuntimeError('runtime_error'), Method = RuntimeError
+      Identifier: Id =  191, LId =  122, Ident = ...
+      Identifier: Id =  193, LId =  122, Ident = ...
+      Identifier: Id =  198, LId =  123, Ident = ...
+      Identifier: Id =  199, LId =  124, Ident = ...
+      Identifier: Id =  201, LId =  124, Ident = ...
+      Identifier: Id =  202, LId =  125, Ident = ...
+      Identifier: Id =  203, LId =  126, Ident = ...
+      Invocation: Id =  205, LId =  127, Ident = range(80), Method = range
+      Invocation: Id =  206, LId =  129, Ident = list(range(80)), Method = list
+      Identifier: Id =  209, LId =  130, Ident = ...
+      Identifier: Id =  210, LId =  131, Ident = ...
+      Invocation: Id =  212, LId =  132, Ident = range(80), Method = range
+      Identifier: Id =  213, LId =  130, Ident = ...
+      Invocation: Id =  214, LId =  130, Ident = {i: str(i) for i in range(80)}, Method = {i: str(i) for i in range(80)}
+      Identifier: Id =  215, LId =  134, Ident = ...
+      Identifier: Id =  216, LId =  135, Ident = ...
+      Invocation: Id =  218, LId =  136, Ident = range(80), Method = range
+      Invocation: Id =  219, LId =  138, Ident = set(range(80)), Method = set
+      Identifier: Id =  221, LId =  139, Ident = ...
+      Identifier: Id =  223, LId =  139, Ident = ...
+      Identifier: Id =  228, LId =  140, Ident = ...
+      Identifier: Id =  229, LId =  141, Ident = ...
+      Identifier: Id =  231, LId =  141, Ident = ...
+      Identifier: Id =  232, LId =  142, Ident = ...
+      Identifier: Id =  234, LId =  143, Ident = ...
+      Identifier: Id =  236, LId =  143, Ident = ...
+      Identifier: Id =  241, LId =  144, Ident = ...
+      Identifier: Id =  242, LId =  145, Ident = ...
+      Identifier: Id =  244, LId =  145, Ident = ...
+      Identifier: Id =  245, LId =  146, Ident = ...
+      Identifier: Id =  248, LId =  147, Ident = ...
+      Identifier: Id =  250, LId =  147, Ident = ...
+      Identifier: Id =  255, LId =  148, Ident = ...
+      Identifier: Id =  256, LId =  149, Ident = ...
+      Identifier: Id =  258, LId =  149, Ident = ...
+      Identifier: Id =  259, LId =  150, Ident = ...
+      Identifier: Id =  260, LId =  151, Ident = ...
+      Identifier: Id =  262, LId =  152, Ident = ...
+      Identifier: Id =  263, LId =  153, Ident = ...
+      Identifier: Id =  265, LId =  153, Ident = ...
+      Invocation: Id =  266, LId =  154, Ident = frozenset({1, 2, 3}), Method = frozenset
+      Identifier: Id =  267, LId =  155, Ident = ...
+      Identifier: Id =  268, LId =  156, Ident = ...
+      Identifier: Id =  270, LId =  157, Ident = ...
+      Identifier: Id =  271, LId =  158, Ident = ...
+      Identifier: Id =  273, LId =  158, Ident = ...
+      Invocation: Id =  274, LId =  159, Ident = frozenset({1, 2, 3}), Method = frozenset
+      Identifier: Id =  275, LId =  160, Ident = ...
+      Invocation: Id =  276, LId =  161, Ident = frozenset({(1, 2, 3), frozenset({1, 2, 3})}), Method = frozenset
+      Identifier: Id =  277, LId =  162, Ident = ...
+      Identifier: Id =  278, LId =  163, Ident = objs
+      Identifier: Id =  279, LId =  164, Ident = ...
+      Invocation: Id =  280, LId =  165, Ident = print(), Method = print
+      Identifier: Id =  282, LId =  166, Ident = ...
+      Identifier: Id =  283, LId =  167, Ident = ...
+      Identifier: Id =  284, LId =  167, Ident = ...
+      Identifier: Id =  285, LId =  168, Ident = i
+      Identifier: Id =  287, LId =  169, Ident = ...
+      Identifier: Id =  288, LId =  170, Ident = ...
+      Invocation: Id =  289, LId =  171, Ident = repr(i), Method = repr
+      Identifier: Id =  290, LId =  172, Ident = ...
+      Identifier: Id =  292, LId =  173, Ident = ...
+      Identifier: Id =  293, LId =  174, Ident = ...
+      Identifier: Id =  294, LId =  175, Ident = ...
+      Identifier: Id =  295, LId =  176, Ident = ...
+      Invocation: Id =  297, LId =  175, Ident = revdebug.stringify(i, 1), Method = stringify
+      Identifier: Id =  298, LId =  178, Ident = ...
+      Invocation: Id =  300, LId =  178, Ident = revdebug.stringify(i, 1).decode("utf-8"), Method = decode
+      Identifier: Id =  301, LId =  180, Ident = ...
+      Identifier: Id =  303, LId =  181, Ident = ...
+      Identifier: Id =  304, LId =  182, Ident = s
+      Identifier: Id =  305, LId =  183, Ident = ...
+      Identifier: Id =  306, LId =  184, Ident = ...
+      Invocation: Id =  307, LId =  185, Ident = print(s), Method = print
+      Identifier: Id =  311, LId =  186, Ident = ...
+      Invocation: Id =  313, LId =  187, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =  314, LId =  189, Ident = ...
+      Method:     Id =  317, LId =  190, Ident = test_stringify.py, Method = test_stringify.py
+      Argument:   Id =  318, LId =   15, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  319, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  320, LId =   17, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  321, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  322, LId =   21, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  323, LId =   28, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  324, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  325, LId =   33, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  326, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  327, LId =   39, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  328, LId =   42, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  329, LId =   45, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  330, LId =   48, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  331, LId =   51, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  332, LId =   55, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  333, LId =   59, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  334, LId =   63, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  335, LId =   67, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  336, LId =   72, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  337, LId =   78, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  338, LId =   77, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  339, LId =   81, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  340, LId =   84, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  341, LId =   87, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  342, LId =   92, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  343, LId =   91, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  344, LId =  117, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  345, LId =  121, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  346, LId =  128, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  347, LId =  127, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  348, LId =  133, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  349, LId =  137, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  350, LId =  136, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  351, LId =  153, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  352, LId =  158, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  353, LId =  160, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  354, LId =  170, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  355, LId =  176, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  356, LId =  177, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  357, LId =  179, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  358, LId =  184, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  359, LId =  188, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  366, LId =  191, Ident = ...
+      Identifier: Id =  367, LId =  192, Ident = meth
+      Identifier: Id =  368, LId =  193, Ident = ...
+      Identifier: Id =  371, LId =  194, Ident = ...
+      Invocation: Id =  372, LId =  195, Ident = @classmethod, Method = classmethod
+      Identifier: Id =  373, LId =  196, Ident = cmeth
+      Identifier: Id =  374, LId =  197, Ident = ...
+      Identifier: Id =  377, LId =  198, Ident = ...
+      Invocation: Id =  378, LId =  199, Ident = @staticmethod, Method = staticmethod
+      Identifier: Id =  379, LId =  200, Ident = smeth
+      Identifier: Id =  380, LId =  201, Ident = ...
+      Identifier: Id =  383, LId =  202, Ident = ...
+      Invocation: Id =  384, LId =  203, Ident = @property, Method = property
+      Identifier: Id =  385, LId =  204, Ident = prop
+      Method:     Id =  388, LId =    7, Ident = cls, Method = cls
+      Identifier: Id =  389, LId =   21, Ident = ...
+      Identifier: Id =  390, LId =   21, Ident = ...
+      Identifier: Id =  391, LId =  205, Ident = i
+      Identifier: Id =  392, LId =  206, Ident = ...
+      Identifier: Id =  393, LId =  207, Ident = ...
+      Invocation: Id =  394, LId =  208, Ident = chr(i), Method = chr
+      Identifier: Id =  395, LId =   21, Ident = yield
+      Method:     Id =  400, LId =   21, Ident = <genexpr>, Method = <genexpr>
+      Argument:   Id =  401, LId =  207, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  402, LId =  130, Ident = ...
+      Identifier: Id =  403, LId =  130, Ident = ...
+      Identifier: Id =  404, LId =  130, Ident = ...
+      Identifier: Id =  405, LId =  209, Ident = i
+      Identifier: Id =  406, LId =  210, Ident = ...
+      Identifier: Id =  407, LId =  211, Ident = ...
+      Identifier: Id =  408, LId =  212, Ident = ...
+      Invocation: Id =  409, LId =  213, Ident = str(i), Method = str
+      Identifier: Id =  410, LId =  130, Ident = ...
+      Identifier: Id =  412, LId =  130, Ident = return
+      Method:     Id =  413, LId =  130, Ident = <dictcomp>, Method = <dictcomp>
+      Argument:   Id =  414, LId =  212, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Method:    SId =  317, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Variable:  SId =    7, Value = <module 'socket' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py'>
+  Variable:  SId =   11, Value = <module 'sys' (built-in)>
+  Static:    SId =   14
+  Variable:  SId =   19, Value = <function func at 0x7f5ae1490730>
+  Static:    SId =   25
+  Method:    SId =  388, Phase = Enter
+  Variable:  SId =  367, Value = <function cls.meth at 0x7f5ae03e27d0>
+  Static:    SId =  372
+  Variable:  SId =  373, Value = <classmethod object at 0x7f5ae14411e0>
+  Static:    SId =  378
+  Variable:  SId =  379, Value = <staticmethod object at 0x7f5ae14412d0>
+  Static:    SId =  384
+  Variable:  SId =  385, Value = <property object at 0x7f5ae1435530>
+  Method:    SId =  388, Phase = Exit
+  Variable:  SId =   26, Value = <class '__main__.cls'>
+  Static:    SId =   28
+  Variable:  SId =   29, Value = <__main__.cls object at 0x7f5ae1439b40>
+  Variable:  SId =  318, Value = 'utf8'
+  Static:    SId =   38
+  Variable:  SId =  319, Value = 'utf8'
+  Static:    SId =   43
+  Variable:  SId =  320, Value = b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80'
+  Static:    SId =   44
+  Variable:  SId =  321, Value = 160
+  Static:    SId =   52
+  Static:    SId =   54
+  Variable:  SId =  322, Value = <generator object <genexpr> at 0x7f5ae03c8560>
+  Static:    SId =   55
+  Variable:  SId =  400, Value = <range_iterator object at 0x7f5ae1439b80>
+  Method:    SId =  400, Phase = Enter
+  Variable:  SId =  391, Value = 0
+  Variable:  SId =  401, Value = 0
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x00'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 1
+  Variable:  SId =  401, Value = 1
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x01'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 2
+  Variable:  SId =  401, Value = 2
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x02'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 3
+  Variable:  SId =  401, Value = 3
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x03'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 4
+  Variable:  SId =  401, Value = 4
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x04'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 5
+  Variable:  SId =  401, Value = 5
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x05'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 6
+  Variable:  SId =  401, Value = 6
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x06'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 7
+  Variable:  SId =  401, Value = 7
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x07'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 8
+  Variable:  SId =  401, Value = 8
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x08'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 9
+  Variable:  SId =  401, Value = 9
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\t'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 10
+  Variable:  SId =  401, Value = 10
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\n'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 11
+  Variable:  SId =  401, Value = 11
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x0b'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 12
+  Variable:  SId =  401, Value = 12
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x0c'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 13
+  Variable:  SId =  401, Value = 13
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\r'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 14
+  Variable:  SId =  401, Value = 14
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x0e'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 15
+  Variable:  SId =  401, Value = 15
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x0f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 16
+  Variable:  SId =  401, Value = 16
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x10'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 17
+  Variable:  SId =  401, Value = 17
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x11'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 18
+  Variable:  SId =  401, Value = 18
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x12'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 19
+  Variable:  SId =  401, Value = 19
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x13'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 20
+  Variable:  SId =  401, Value = 20
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x14'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 21
+  Variable:  SId =  401, Value = 21
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x15'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 22
+  Variable:  SId =  401, Value = 22
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x16'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 23
+  Variable:  SId =  401, Value = 23
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x17'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 24
+  Variable:  SId =  401, Value = 24
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x18'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 25
+  Variable:  SId =  401, Value = 25
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x19'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 26
+  Variable:  SId =  401, Value = 26
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1a'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 27
+  Variable:  SId =  401, Value = 27
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1b'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 28
+  Variable:  SId =  401, Value = 28
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1c'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 29
+  Variable:  SId =  401, Value = 29
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1d'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 30
+  Variable:  SId =  401, Value = 30
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1e'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 31
+  Variable:  SId =  401, Value = 31
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x1f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 32
+  Variable:  SId =  401, Value = 32
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ' '
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 33
+  Variable:  SId =  401, Value = 33
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '!'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 34
+  Variable:  SId =  401, Value = 34
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '"'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 35
+  Variable:  SId =  401, Value = 35
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '#'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 36
+  Variable:  SId =  401, Value = 36
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '$'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 37
+  Variable:  SId =  401, Value = 37
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '%'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 38
+  Variable:  SId =  401, Value = 38
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '&'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 39
+  Variable:  SId =  401, Value = 39
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\''
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 40
+  Variable:  SId =  401, Value = 40
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '('
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 41
+  Variable:  SId =  401, Value = 41
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ')'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 42
+  Variable:  SId =  401, Value = 42
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '*'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 43
+  Variable:  SId =  401, Value = 43
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '+'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 44
+  Variable:  SId =  401, Value = 44
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ','
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 45
+  Variable:  SId =  401, Value = 45
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '-'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 46
+  Variable:  SId =  401, Value = 46
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '.'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 47
+  Variable:  SId =  401, Value = 47
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '/'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 48
+  Variable:  SId =  401, Value = 48
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '0'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 49
+  Variable:  SId =  401, Value = 49
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '1'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 50
+  Variable:  SId =  401, Value = 50
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '2'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 51
+  Variable:  SId =  401, Value = 51
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '3'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 52
+  Variable:  SId =  401, Value = 52
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '4'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 53
+  Variable:  SId =  401, Value = 53
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '5'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 54
+  Variable:  SId =  401, Value = 54
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '6'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 55
+  Variable:  SId =  401, Value = 55
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '7'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 56
+  Variable:  SId =  401, Value = 56
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '8'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 57
+  Variable:  SId =  401, Value = 57
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '9'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 58
+  Variable:  SId =  401, Value = 58
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ':'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 59
+  Variable:  SId =  401, Value = 59
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ';'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 60
+  Variable:  SId =  401, Value = 60
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '<'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 61
+  Variable:  SId =  401, Value = 61
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '='
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 62
+  Variable:  SId =  401, Value = 62
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '>'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 63
+  Variable:  SId =  401, Value = 63
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '?'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 64
+  Variable:  SId =  401, Value = 64
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '@'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 65
+  Variable:  SId =  401, Value = 65
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'A'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 66
+  Variable:  SId =  401, Value = 66
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'B'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 67
+  Variable:  SId =  401, Value = 67
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'C'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 68
+  Variable:  SId =  401, Value = 68
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'D'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 69
+  Variable:  SId =  401, Value = 69
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'E'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 70
+  Variable:  SId =  401, Value = 70
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'F'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 71
+  Variable:  SId =  401, Value = 71
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'G'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 72
+  Variable:  SId =  401, Value = 72
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'H'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 73
+  Variable:  SId =  401, Value = 73
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'I'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 74
+  Variable:  SId =  401, Value = 74
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'J'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 75
+  Variable:  SId =  401, Value = 75
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'K'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 76
+  Variable:  SId =  401, Value = 76
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'L'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 77
+  Variable:  SId =  401, Value = 77
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'M'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 78
+  Variable:  SId =  401, Value = 78
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'N'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 79
+  Variable:  SId =  401, Value = 79
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'O'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 80
+  Variable:  SId =  401, Value = 80
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'P'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 81
+  Variable:  SId =  401, Value = 81
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'Q'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 82
+  Variable:  SId =  401, Value = 82
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'R'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 83
+  Variable:  SId =  401, Value = 83
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'S'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 84
+  Variable:  SId =  401, Value = 84
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'T'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 85
+  Variable:  SId =  401, Value = 85
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'U'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 86
+  Variable:  SId =  401, Value = 86
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'V'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 87
+  Variable:  SId =  401, Value = 87
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'W'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 88
+  Variable:  SId =  401, Value = 88
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'X'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 89
+  Variable:  SId =  401, Value = 89
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'Y'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 90
+  Variable:  SId =  401, Value = 90
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'Z'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 91
+  Variable:  SId =  401, Value = 91
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '['
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 92
+  Variable:  SId =  401, Value = 92
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\\'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 93
+  Variable:  SId =  401, Value = 93
+  Static:    SId =  394
+  Variable:  SId =  395, Value = ']'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 94
+  Variable:  SId =  401, Value = 94
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '^'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 95
+  Variable:  SId =  401, Value = 95
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '_'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 96
+  Variable:  SId =  401, Value = 96
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '`'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 97
+  Variable:  SId =  401, Value = 97
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'a'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 98
+  Variable:  SId =  401, Value = 98
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'b'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 99
+  Variable:  SId =  401, Value = 99
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'c'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 100
+  Variable:  SId =  401, Value = 100
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'd'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 101
+  Variable:  SId =  401, Value = 101
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'e'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 102
+  Variable:  SId =  401, Value = 102
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 103
+  Variable:  SId =  401, Value = 103
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'g'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 104
+  Variable:  SId =  401, Value = 104
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'h'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 105
+  Variable:  SId =  401, Value = 105
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'i'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 106
+  Variable:  SId =  401, Value = 106
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'j'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 107
+  Variable:  SId =  401, Value = 107
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'k'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 108
+  Variable:  SId =  401, Value = 108
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'l'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 109
+  Variable:  SId =  401, Value = 109
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'm'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 110
+  Variable:  SId =  401, Value = 110
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'n'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 111
+  Variable:  SId =  401, Value = 111
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'o'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 112
+  Variable:  SId =  401, Value = 112
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'p'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 113
+  Variable:  SId =  401, Value = 113
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'q'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 114
+  Variable:  SId =  401, Value = 114
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'r'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 115
+  Variable:  SId =  401, Value = 115
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 's'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 116
+  Variable:  SId =  401, Value = 116
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 't'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 117
+  Variable:  SId =  401, Value = 117
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'u'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 118
+  Variable:  SId =  401, Value = 118
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'v'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 119
+  Variable:  SId =  401, Value = 119
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'w'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 120
+  Variable:  SId =  401, Value = 120
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'x'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 121
+  Variable:  SId =  401, Value = 121
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'y'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 122
+  Variable:  SId =  401, Value = 122
+  Static:    SId =  394
+  Variable:  SId =  395, Value = 'z'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 123
+  Variable:  SId =  401, Value = 123
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '{'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 124
+  Variable:  SId =  401, Value = 124
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '|'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 125
+  Variable:  SId =  401, Value = 125
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '}'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 126
+  Variable:  SId =  401, Value = 126
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '~'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 127
+  Variable:  SId =  401, Value = 127
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x7f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 128
+  Variable:  SId =  401, Value = 128
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x80'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 129
+  Variable:  SId =  401, Value = 129
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x81'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 130
+  Variable:  SId =  401, Value = 130
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x82'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 131
+  Variable:  SId =  401, Value = 131
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x83'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 132
+  Variable:  SId =  401, Value = 132
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x84'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 133
+  Variable:  SId =  401, Value = 133
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x85'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 134
+  Variable:  SId =  401, Value = 134
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x86'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 135
+  Variable:  SId =  401, Value = 135
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x87'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 136
+  Variable:  SId =  401, Value = 136
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x88'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 137
+  Variable:  SId =  401, Value = 137
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x89'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 138
+  Variable:  SId =  401, Value = 138
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8a'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 139
+  Variable:  SId =  401, Value = 139
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8b'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 140
+  Variable:  SId =  401, Value = 140
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8c'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 141
+  Variable:  SId =  401, Value = 141
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8d'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 142
+  Variable:  SId =  401, Value = 142
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8e'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 143
+  Variable:  SId =  401, Value = 143
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x8f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 144
+  Variable:  SId =  401, Value = 144
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x90'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 145
+  Variable:  SId =  401, Value = 145
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x91'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 146
+  Variable:  SId =  401, Value = 146
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x92'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 147
+  Variable:  SId =  401, Value = 147
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x93'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 148
+  Variable:  SId =  401, Value = 148
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x94'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 149
+  Variable:  SId =  401, Value = 149
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x95'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 150
+  Variable:  SId =  401, Value = 150
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x96'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 151
+  Variable:  SId =  401, Value = 151
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x97'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 152
+  Variable:  SId =  401, Value = 152
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x98'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 153
+  Variable:  SId =  401, Value = 153
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x99'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 154
+  Variable:  SId =  401, Value = 154
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9a'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 155
+  Variable:  SId =  401, Value = 155
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9b'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 156
+  Variable:  SId =  401, Value = 156
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9c'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 157
+  Variable:  SId =  401, Value = 157
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9d'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 158
+  Variable:  SId =  401, Value = 158
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9e'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Variable:  SId =  391, Value = 159
+  Variable:  SId =  401, Value = 159
+  Static:    SId =  394
+  Variable:  SId =  395, Value = '\x9f'
+  Method:    SId =  400, Phase = Yield
+  Method:    SId =  400, Phase = Continue
+  Method:    SId =  400, Phase = Exit
+  Variable:  SId =  323, Value = 160
+  Static:    SId =   59
+  Variable:  SId =  324, Value = range(0, 160)
+  Static:    SId =   60
+  Variable:  SId =  325, Value = 160
+  Static:    SId =   64
+  Variable:  SId =  326, Value = range(0, 160)
+  Static:    SId =   65
+  Variable:  SId =  327, Value = 'inf'
+  Static:    SId =   89
+  Variable:  SId =  328, Value = '-inf'
+  Static:    SId =   92
+  Variable:  SId =  329, Value = 'nan'
+  Static:    SId =   95
+  Variable:  SId =  330, Value = '-nan'
+  Static:    SId =   98
+  Variable:  SId =  331, Value = 'inf'
+  Static:    SId =  106
+  Variable:  SId =  332, Value = '-inf'
+  Static:    SId =  111
+  Variable:  SId =  333, Value = 'inf'
+  Static:    SId =  116
+  Variable:  SId =  334, Value = '-inf'
+  Static:    SId =  121
+  Variable:  SId =  335, Value = 'inf'
+  Static:    SId =  126
+  Variable:  SId =  336, Value = '-inf'
+  Static:    SId =  133
+  Variable:  SId =  337, Value = 80
+  Static:    SId =  144
+  Variable:  SId =  338, Value = range(0, 80)
+  Static:    SId =  145
+  Variable:  SId =  339, Value = {}
+  Static:    SId =  148
+  Variable:  SId =  340, Value = {1}
+  Static:    SId =  152
+  Variable:  SId =  341, Value = {1, 2}
+  Static:    SId =  157
+  Variable:  SId =  342, Value = 80
+  Static:    SId =  161
+  Variable:  SId =  343, Value = range(0, 80)
+  Static:    SId =  162
+  Variable:  SId =  344, Value = 'value_error'
+  Static:    SId =  186
+  Variable:  SId =  345, Value = 'runtime_error'
+  Static:    SId =  190
+  Variable:  SId =  346, Value = 80
+  Static:    SId =  205
+  Variable:  SId =  347, Value = range(0, 80)
+  Static:    SId =  206
+  Variable:  SId =  348, Value = 80
+  Static:    SId =  212
+  Static:    SId =  214
+  Variable:  SId =  413, Value = <range_iterator object at 0x7f5ae03e3090>
+  Method:    SId =  413, Phase = Enter
+  Variable:  SId =  405, Value = 0
+  Variable:  SId =  414, Value = 0
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 1
+  Variable:  SId =  414, Value = 1
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 2
+  Variable:  SId =  414, Value = 2
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 3
+  Variable:  SId =  414, Value = 3
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 4
+  Variable:  SId =  414, Value = 4
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 5
+  Variable:  SId =  414, Value = 5
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 6
+  Variable:  SId =  414, Value = 6
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 7
+  Variable:  SId =  414, Value = 7
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 8
+  Variable:  SId =  414, Value = 8
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 9
+  Variable:  SId =  414, Value = 9
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 10
+  Variable:  SId =  414, Value = 10
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 11
+  Variable:  SId =  414, Value = 11
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 12
+  Variable:  SId =  414, Value = 12
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 13
+  Variable:  SId =  414, Value = 13
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 14
+  Variable:  SId =  414, Value = 14
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 15
+  Variable:  SId =  414, Value = 15
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 16
+  Variable:  SId =  414, Value = 16
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 17
+  Variable:  SId =  414, Value = 17
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 18
+  Variable:  SId =  414, Value = 18
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 19
+  Variable:  SId =  414, Value = 19
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 20
+  Variable:  SId =  414, Value = 20
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 21
+  Variable:  SId =  414, Value = 21
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 22
+  Variable:  SId =  414, Value = 22
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 23
+  Variable:  SId =  414, Value = 23
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 24
+  Variable:  SId =  414, Value = 24
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 25
+  Variable:  SId =  414, Value = 25
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 26
+  Variable:  SId =  414, Value = 26
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 27
+  Variable:  SId =  414, Value = 27
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 28
+  Variable:  SId =  414, Value = 28
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 29
+  Variable:  SId =  414, Value = 29
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 30
+  Variable:  SId =  414, Value = 30
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 31
+  Variable:  SId =  414, Value = 31
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 32
+  Variable:  SId =  414, Value = 32
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 33
+  Variable:  SId =  414, Value = 33
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 34
+  Variable:  SId =  414, Value = 34
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 35
+  Variable:  SId =  414, Value = 35
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 36
+  Variable:  SId =  414, Value = 36
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 37
+  Variable:  SId =  414, Value = 37
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 38
+  Variable:  SId =  414, Value = 38
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 39
+  Variable:  SId =  414, Value = 39
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 40
+  Variable:  SId =  414, Value = 40
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 41
+  Variable:  SId =  414, Value = 41
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 42
+  Variable:  SId =  414, Value = 42
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 43
+  Variable:  SId =  414, Value = 43
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 44
+  Variable:  SId =  414, Value = 44
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 45
+  Variable:  SId =  414, Value = 45
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 46
+  Variable:  SId =  414, Value = 46
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 47
+  Variable:  SId =  414, Value = 47
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 48
+  Variable:  SId =  414, Value = 48
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 49
+  Variable:  SId =  414, Value = 49
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 50
+  Variable:  SId =  414, Value = 50
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 51
+  Variable:  SId =  414, Value = 51
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 52
+  Variable:  SId =  414, Value = 52
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 53
+  Variable:  SId =  414, Value = 53
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 54
+  Variable:  SId =  414, Value = 54
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 55
+  Variable:  SId =  414, Value = 55
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 56
+  Variable:  SId =  414, Value = 56
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 57
+  Variable:  SId =  414, Value = 57
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 58
+  Variable:  SId =  414, Value = 58
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 59
+  Variable:  SId =  414, Value = 59
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 60
+  Variable:  SId =  414, Value = 60
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 61
+  Variable:  SId =  414, Value = 61
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 62
+  Variable:  SId =  414, Value = 62
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 63
+  Variable:  SId =  414, Value = 63
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 64
+  Variable:  SId =  414, Value = 64
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 65
+  Variable:  SId =  414, Value = 65
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 66
+  Variable:  SId =  414, Value = 66
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 67
+  Variable:  SId =  414, Value = 67
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 68
+  Variable:  SId =  414, Value = 68
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 69
+  Variable:  SId =  414, Value = 69
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 70
+  Variable:  SId =  414, Value = 70
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 71
+  Variable:  SId =  414, Value = 71
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 72
+  Variable:  SId =  414, Value = 72
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 73
+  Variable:  SId =  414, Value = 73
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 74
+  Variable:  SId =  414, Value = 74
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 75
+  Variable:  SId =  414, Value = 75
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 76
+  Variable:  SId =  414, Value = 76
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 77
+  Variable:  SId =  414, Value = 77
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 78
+  Variable:  SId =  414, Value = 78
+  Static:    SId =  409
+  Variable:  SId =  405, Value = 79
+  Variable:  SId =  414, Value = 79
+  Static:    SId =  409
+  Variable:  SId =  412, Value = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '12', 13: '13', 14: '14', 15: '15', 16: '16', 17: '17', 18: '18', 19: '19', 20: '20', 21: '21', 22: '22', 23: '23', 24: '24', 25: '25', 26: '26', 27...
+  Method:    SId =  413, Phase = Exit
+  Variable:  SId =  349, Value = 80
+  Static:    SId =  218
+  Variable:  SId =  350, Value = range(0, 80)
+  Static:    SId =  219
+  Variable:  SId =  351, Value = {1, 2, 3}
+  Static:    SId =  266
+  Variable:  SId =  352, Value = {1, 2, 3}
+  Static:    SId =  274
+  Variable:  SId =  353, Value = {frozenset({1, 2, 3}), (1, 2, 3)}
+  Static:    SId =  276
+  Variable:  SId =  278, Value = (None, Ellipsis, True, False, 'Szczęście = 无知, \u0380', b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80', bytearray(b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80'), '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\...
+  Static:    SId =  280
+  Variable:  SId =  285, Value = None
+  Variable:  SId =  354, Value = None
+  Static:    SId =  289
+  Variable:  SId =  355, Value = None
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: None\nmy: None\n'
+  Variable:  SId =  358, Value = 'py: None\nmy: None\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = Ellipsis
+  Variable:  SId =  354, Value = Ellipsis
+  Static:    SId =  289
+  Variable:  SId =  355, Value = Ellipsis
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: Ellipsis\nmy: Ellipsis\n'
+  Variable:  SId =  358, Value = 'py: Ellipsis\nmy: Ellipsis\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = True
+  Variable:  SId =  354, Value = True
+  Static:    SId =  289
+  Variable:  SId =  355, Value = True
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: True\nmy: True\n'
+  Variable:  SId =  358, Value = 'py: True\nmy: True\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = False
+  Variable:  SId =  354, Value = False
+  Static:    SId =  289
+  Variable:  SId =  355, Value = False
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: False\nmy: False\n'
+  Variable:  SId =  358, Value = 'py: False\nmy: False\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 'Szczęście = 无知, \u0380'
+  Variable:  SId =  354, Value = 'Szczęście = 无知, \u0380'
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 'Szczęście = 无知, \u0380'
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: \'Szczęście = 无知, \\u0380\'\nmy: \'Szczęście = 无知, \\u0380\'\n'
+  Variable:  SId =  358, Value = 'py: \'Szczęście = 无知, \\u0380\'\nmy: \'Szczęście = 无知, \\u0380\'\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80'
+  Variable:  SId =  354, Value = b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80'
+  Static:    SId =  289
+  Variable:  SId =  355, Value = b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80'
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\'\nmy: b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\'\n'
+  Variable:  SId =  358, Value = 'py: b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\'\nmy: b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\'\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = bytearray(b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80')
+  Variable:  SId =  354, Value = bytearray(b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80')
+  Static:    SId =  289
+  Variable:  SId =  355, Value = bytearray(b'Szcz\xc4\x99\xc5\x9bcie = \xe6\x97\xa0\xe7\x9f\xa5, \xce\x80')
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: bytearray(b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\')\nmy: bytearray(b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\')\n'
+  Variable:  SId =  358, Value = 'py: bytearray(b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\')\nmy: bytearray(b\'Szcz\\xc4\\x99\\xc5\\x9bcie = \\xe6\\x97\\xa0\\xe7\\x9f\\xa5, \\xce\\x80\')\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86\...
+  Variable:  SId =  354, Value = '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86\...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86\...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: \'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstu...
+  Variable:  SId =  358, Value = 'py: \'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrstu...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86...
+  Variable:  SId =  354, Value = b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x84\x85\x86...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: b\'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrst...
+  Variable:  SId =  358, Value = 'py: b\'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghijklmnopqrst...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = bytearray(b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x...
+  Variable:  SId =  354, Value = bytearray(b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = bytearray(b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\x0c\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\x7f\x80\x81\x82\x83\x...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: bytearray(b\'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghij...
+  Variable:  SId =  358, Value = 'py: bytearray(b\'\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x0c\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f !"#$%&\\\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\\\]^_`abcdefghij...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 0
+  Variable:  SId =  354, Value = 0
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 0
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 0\nmy: 0\n'
+  Variable:  SId =  358, Value = 'py: 0\nmy: 0\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1
+  Variable:  SId =  354, Value = 1
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1\nmy: 1\n'
+  Variable:  SId =  358, Value = 'py: 1\nmy: 1\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = -1
+  Variable:  SId =  354, Value = -1
+  Static:    SId =  289
+  Variable:  SId =  355, Value = -1
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: -1\nmy: -1\n'
+  Variable:  SId =  358, Value = 'py: -1\nmy: -1\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 10000
+  Variable:  SId =  354, Value = 10000
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 10000
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 10000\nmy: 10000\n'
+  Variable:  SId =  358, Value = 'py: 10000\nmy: 10000\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1000000000
+  Variable:  SId =  354, Value = 1000000000
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1000000000
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1000000000\nmy: 1000000000\n'
+  Variable:  SId =  358, Value = 'py: 1000000000\nmy: 1000000000\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1073741823
+  Variable:  SId =  354, Value = 1073741823
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1073741823
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1073741823\nmy: 1073741823\n'
+  Variable:  SId =  358, Value = 'py: 1073741823\nmy: 1073741823\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = -1073741823
+  Variable:  SId =  354, Value = -1073741823
+  Static:    SId =  289
+  Variable:  SId =  355, Value = -1073741823
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: -1073741823\nmy: -1073741823\n'
+  Variable:  SId =  358, Value = 'py: -1073741823\nmy: -1073741823\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1073741824
+  Variable:  SId =  354, Value = 1073741824
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1073741824
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1073741824\nmy: 1073741824\n'
+  Variable:  SId =  358, Value = 'py: 1073741824\nmy: 1073741824\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 10000000000
+  Variable:  SId =  354, Value = 10000000000
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 10000000000
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 10000000000\nmy: 10000000000\n'
+  Variable:  SId =  358, Value = 'py: 10000000000\nmy: 10000000000\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1152921504606846975
+  Variable:  SId =  354, Value = 1152921504606846975
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1152921504606846975
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1152921504606846975\nmy: 1152921504606846975\n'
+  Variable:  SId =  358, Value = 'py: 1152921504606846975\nmy: 1152921504606846975\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1152921504606846976
+  Variable:  SId =  354, Value = 1152921504606846976
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1152921504606846976
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1152921504606846976\nmy: 1152921504606846976\n'
+  Variable:  SId =  358, Value = 'py: 1152921504606846976\nmy: 1152921504606846976\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = -1152921504606846976
+  Variable:  SId =  354, Value = -1152921504606846976
+  Static:    SId =  289
+  Variable:  SId =  355, Value = -1152921504606846976
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: -1152921504606846976\nmy: -1152921504606846976\n'
+  Variable:  SId =  358, Value = 'py: -1152921504606846976\nmy: -1152921504606846976\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 7872201966280717348342236651726314522606839627565764220475565031568317153405023507392663596386569558004653379220621715171372109048108541030444785631640845193093816697582678260933332408613360539868835105124282664122403089594119217080450011771426148362301...
+  Variable:  SId =  354, Value = 7872201966280717348342236651726314522606839627565764220475565031568317153405023507392663596386569558004653379220621715171372109048108541030444785631640845193093816697582678260933332408613360539868835105124282664122403089594119217080450011771426148362301...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 7872201966280717348342236651726314522606839627565764220475565031568317153405023507392663596386569558004653379220621715171372109048108541030444785631640845193093816697582678260933332408613360539868835105124282664122403089594119217080450011771426148362301...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 78722019662807173483422366517263145226068396275657642204755650315683171534050235073926635963865695580046533792206217151713721090481085410304447856316408451930938166975826782609333324086133605398688351051242826641224030895941192170804500117714261483...
+  Variable:  SId =  358, Value = 'py: 78722019662807173483422366517263145226068396275657642204755650315683171534050235073926635963865695580046533792206217151713721090481085410304447856316408451930938166975826782609333324086133605398688351051242826641224030895941192170804500117714261483...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 8135171247370976873127053775480457085471867752637465655682709907845365524918351396737083720047450418098516803489153071224119860327368595856394020563639646736722354634538100668668641766402788908282482404005632522512079572611380934098666366164626169137177...
+  Variable:  SId =  354, Value = 8135171247370976873127053775480457085471867752637465655682709907845365524918351396737083720047450418098516803489153071224119860327368595856394020563639646736722354634538100668668641766402788908282482404005632522512079572611380934098666366164626169137177...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 8135171247370976873127053775480457085471867752637465655682709907845365524918351396737083720047450418098516803489153071224119860327368595856394020563639646736722354634538100668668641766402788908282482404005632522512079572611380934098666366164626169137177...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 81351712473709768731270537754804570854718677526374656556827099078453655249183513967370837200474504180985168034891530712241198603273685958563940205636396467367223546345381006686686417664027889082824824040056325225120795726113809340986663661646261691...
+  Variable:  SId =  358, Value = 'py: 81351712473709768731270537754804570854718677526374656556827099078453655249183513967370837200474504180985168034891530712241198603273685958563940205636396467367223546345381006686686417664027889082824824040056325225120795726113809340986663661646261691...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1.0
+  Variable:  SId =  354, Value = 1.0
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1.0
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1.0\nmy: 1.0\n'
+  Variable:  SId =  358, Value = 'py: 1.0\nmy: 1.0\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 0.2
+  Variable:  SId =  354, Value = 0.2
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 0.2
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 0.2\nmy: 0.2\n'
+  Variable:  SId =  358, Value = 'py: 0.2\nmy: 0.2\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 0.14285714285714285
+  Variable:  SId =  354, Value = 0.14285714285714285
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 0.14285714285714285
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 0.14285714285714285\nmy: 0.14285714285714285\n'
+  Variable:  SId =  358, Value = 'py: 0.14285714285714285\nmy: 0.14285714285714285\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = inf
+  Variable:  SId =  354, Value = inf
+  Static:    SId =  289
+  Variable:  SId =  355, Value = inf
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: inf\nmy: inf\n'
+  Variable:  SId =  358, Value = 'py: inf\nmy: inf\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = -inf
+  Variable:  SId =  354, Value = -inf
+  Static:    SId =  289
+  Variable:  SId =  355, Value = -inf
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: -inf\nmy: -inf\n'
+  Variable:  SId =  358, Value = 'py: -inf\nmy: -inf\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = nan
+  Variable:  SId =  354, Value = nan
+  Static:    SId =  289
+  Variable:  SId =  355, Value = nan
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: nan\nmy: nan\n'
+  Variable:  SId =  358, Value = 'py: nan\nmy: nan\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = nan
+  Variable:  SId =  354, Value = nan
+  Static:    SId =  289
+  Variable:  SId =  355, Value = nan
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: nan\nmy: nan\n'
+  Variable:  SId =  358, Value = 'py: nan\nmy: nan\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1j
+  Variable:  SId =  354, Value = 1j
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1j
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1j\nmy: 1j\n'
+  Variable:  SId =  358, Value = 'py: 1j\nmy: 1j\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 0.2j
+  Variable:  SId =  354, Value = 0.2j
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 0.2j
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 0.2j\nmy: 0.2j\n'
+  Variable:  SId =  358, Value = 'py: 0.2j\nmy: 0.2j\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 0.14285714285714285j
+  Variable:  SId =  354, Value = 0.14285714285714285j
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 0.14285714285714285j
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 0.14285714285714285j\nmy: 0.14285714285714285j\n'
+  Variable:  SId =  358, Value = 'py: 0.14285714285714285j\nmy: 0.14285714285714285j\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = 1.0
+  Variable:  SId =  354, Value = 1.0
+  Static:    SId =  289
+  Variable:  SId =  355, Value = 1.0
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: 1.0\nmy: 1.0\n'
+  Variable:  SId =  358, Value = 'py: 1.0\nmy: 1.0\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (1+1j)
+  Variable:  SId =  354, Value = (1+1j)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (1+1j)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (1+1j)\nmy: (1+1j)\n'
+  Variable:  SId =  358, Value = 'py: (1+1j)\nmy: (1+1j)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (inf+1j)
+  Variable:  SId =  354, Value = (inf+1j)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (inf+1j)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (inf+1j)\nmy: (inf+1j)\n'
+  Variable:  SId =  358, Value = 'py: (inf+1j)\nmy: (inf+1j)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (-inf-1j)
+  Variable:  SId =  354, Value = (-inf-1j)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (-inf-1j)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (-inf-1j)\nmy: (-inf-1j)\n'
+  Variable:  SId =  358, Value = 'py: (-inf-1j)\nmy: (-inf-1j)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (nan+infj)
+  Variable:  SId =  354, Value = (nan+infj)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (nan+infj)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (nan+infj)\nmy: (nan+infj)\n'
+  Variable:  SId =  358, Value = 'py: (nan+infj)\nmy: (nan+infj)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (nan-infj)
+  Variable:  SId =  354, Value = (nan-infj)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (nan-infj)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (nan-infj)\nmy: (nan-infj)\n'
+  Variable:  SId =  358, Value = 'py: (nan-infj)\nmy: (nan-infj)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (nan+nanj)
+  Variable:  SId =  354, Value = (nan+nanj)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (nan+nanj)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (nan+nanj)\nmy: (nan+nanj)\n'
+  Variable:  SId =  358, Value = 'py: (nan+nanj)\nmy: (nan+nanj)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (nan+nanj)
+  Variable:  SId =  354, Value = (nan+nanj)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (nan+nanj)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (nan+nanj)\nmy: (nan+nanj)\n'
+  Variable:  SId =  358, Value = 'py: (nan+nanj)\nmy: (nan+nanj)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = ()
+  Variable:  SId =  354, Value = ()
+  Static:    SId =  289
+  Variable:  SId =  355, Value = ()
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: ()\nmy: ()\n'
+  Variable:  SId =  358, Value = 'py: ()\nmy: ()\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (1,)
+  Variable:  SId =  354, Value = (1,)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (1,)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (1,)\nmy: (1,)\n'
+  Variable:  SId =  358, Value = 'py: (1,)\nmy: (1,)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (1, 2)
+  Variable:  SId =  354, Value = (1, 2)
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (1, 2)
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (1, 2)\nmy: (1, 2)\n'
+  Variable:  SId =  358, Value = 'py: (1, 2)\nmy: (1, 2)\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  354, Value = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Variable:  SId =  358, Value = 'py: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = frozenset()
+  Variable:  SId =  354, Value = frozenset()
+  Static:    SId =  289
+  Variable:  SId =  355, Value = frozenset()
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: frozenset()\nmy: frozenset()\n'
+  Variable:  SId =  358, Value = 'py: frozenset()\nmy: frozenset()\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = frozenset({1})
+  Variable:  SId =  354, Value = frozenset({1})
+  Static:    SId =  289
+  Variable:  SId =  355, Value = frozenset({1})
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: frozenset({1})\nmy: frozenset({1})\n'
+  Variable:  SId =  358, Value = 'py: frozenset({1})\nmy: frozenset({1})\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = frozenset({1, 2})
+  Variable:  SId =  354, Value = frozenset({1, 2})
+  Static:    SId =  289
+  Variable:  SId =  355, Value = frozenset({1, 2})
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: frozenset({1, 2})\nmy: frozenset({1, 2})\n'
+  Variable:  SId =  358, Value = 'py: frozenset({1, 2})\nmy: frozenset({1, 2})\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, ...
+  Variable:  SId =  354, Value = frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, ...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, ...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61,...
+  Variable:  SId =  358, Value = 'py: frozenset({0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61,...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <function func at 0x7f5ae1490730>
+  Variable:  SId =  354, Value = <function func at 0x7f5ae1490730>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <function func at 0x7f5ae1490730>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <function func at 0x7f5ae1490730>\nmy: <function func at 0x7f5ae1490730>\n'
+  Variable:  SId =  358, Value = 'py: <function func at 0x7f5ae1490730>\nmy: <function func at 0x7f5ae1490730>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <class '__main__.cls'>
+  Variable:  SId =  354, Value = <class '__main__.cls'>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <class '__main__.cls'>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <class \'__main__.cls\'>\nmy: <class \'__main__.cls\'>\n'
+  Variable:  SId =  358, Value = 'py: <class \'__main__.cls\'>\nmy: <class \'__main__.cls\'>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <function cls.meth at 0x7f5ae03e27d0>
+  Variable:  SId =  354, Value = <function cls.meth at 0x7f5ae03e27d0>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <function cls.meth at 0x7f5ae03e27d0>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <function cls.meth at 0x7f5ae03e27d0>\nmy: <function cls.meth at 0x7f5ae03e27d0>\n'
+  Variable:  SId =  358, Value = 'py: <function cls.meth at 0x7f5ae03e27d0>\nmy: <function cls.meth at 0x7f5ae03e27d0>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Variable:  SId =  354, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <bound method cls.cmeth of <class \'__main__.cls\'>>\nmy: <bound method cls.cmeth of <class \'__main__.cls\'>>\n'
+  Variable:  SId =  358, Value = 'py: <bound method cls.cmeth of <class \'__main__.cls\'>>\nmy: <bound method cls.cmeth of <class \'__main__.cls\'>>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Variable:  SId =  354, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <function cls.smeth at 0x7f5ae03e2910>\nmy: <function cls.smeth at 0x7f5ae03e2910>\n'
+  Variable:  SId =  358, Value = 'py: <function cls.smeth at 0x7f5ae03e2910>\nmy: <function cls.smeth at 0x7f5ae03e2910>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <property object at 0x7f5ae1435530>
+  Variable:  SId =  354, Value = <property object at 0x7f5ae1435530>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <property object at 0x7f5ae1435530>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <property object at 0x7f5ae1435530>\nmy: <property object at 0x7f5ae1435530>\n'
+  Variable:  SId =  358, Value = 'py: <property object at 0x7f5ae1435530>\nmy: <property object at 0x7f5ae1435530>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <__main__.cls object at 0x7f5ae1439b40>
+  Variable:  SId =  354, Value = <__main__.cls object at 0x7f5ae1439b40>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <__main__.cls object at 0x7f5ae1439b40>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <__main__.cls object at 0x7f5ae1439b40>\nmy: <__main__.cls object at 0x7f5ae1439b40>\n'
+  Variable:  SId =  358, Value = 'py: <__main__.cls object at 0x7f5ae1439b40>\nmy: <__main__.cls object at 0x7f5ae1439b40>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>
+  Variable:  SId =  354, Value = <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>\nmy: <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>\n'
+  Variable:  SId =  358, Value = 'py: <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>\nmy: <bound method cls.meth of <__main__.cls object at 0x7f5ae1439b40>>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Variable:  SId =  354, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <bound method cls.cmeth of <class '__main__.cls'>>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <bound method cls.cmeth of <class \'__main__.cls\'>>\nmy: <bound method cls.cmeth of <class \'__main__.cls\'>>\n'
+  Variable:  SId =  358, Value = 'py: <bound method cls.cmeth of <class \'__main__.cls\'>>\nmy: <bound method cls.cmeth of <class \'__main__.cls\'>>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Variable:  SId =  354, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <function cls.smeth at 0x7f5ae03e2910>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <function cls.smeth at 0x7f5ae03e2910>\nmy: <function cls.smeth at 0x7f5ae03e2910>\n'
+  Variable:  SId =  358, Value = 'py: <function cls.smeth at 0x7f5ae03e2910>\nmy: <function cls.smeth at 0x7f5ae03e2910>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <class 'bytearray'>
+  Variable:  SId =  354, Value = <class 'bytearray'>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <class 'bytearray'>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <class \'bytearray\'>\nmy: <class \'bytearray\'>\n'
+  Variable:  SId =  358, Value = 'py: <class \'bytearray\'>\nmy: <class \'bytearray\'>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <module 'socket' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py'>
+  Variable:  SId =  354, Value = <module 'socket' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py'>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <module 'socket' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py'>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <module \'socket\' from \'/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py\'>\nmy: <module \'socket\' from \'/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py\'>\n'
+  Variable:  SId =  358, Value = 'py: <module \'socket\' from \'/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py\'>\nmy: <module \'socket\' from \'/home/tom/src/revdebugpy/debug39/lib/python3.9/socket.py\'>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <module 'sys' (built-in)>
+  Variable:  SId =  354, Value = <module 'sys' (built-in)>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <module 'sys' (built-in)>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <module \'sys\' (built-in)>\nmy: <module \'sys\' (built-in)>\n'
+  Variable:  SId =  358, Value = 'py: <module \'sys\' (built-in)>\nmy: <module \'sys\' (built-in)>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <module 'revdebug'>
+  Variable:  SId =  354, Value = <module 'revdebug'>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <module 'revdebug'>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <module \'revdebug\'>\nmy: <module \'revdebug\'>\n'
+  Variable:  SId =  358, Value = 'py: <module \'revdebug\'>\nmy: <module \'revdebug\'>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = ValueError('value_error')
+  Variable:  SId =  354, Value = ValueError('value_error')
+  Static:    SId =  289
+  Variable:  SId =  355, Value = ValueError('value_error')
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: ValueError(\'value_error\')\nmy: ValueError(\'value_error\')\n'
+  Variable:  SId =  358, Value = 'py: ValueError(\'value_error\')\nmy: ValueError(\'value_error\')\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = <class 'RuntimeError'>
+  Variable:  SId =  354, Value = <class 'RuntimeError'>
+  Static:    SId =  289
+  Variable:  SId =  355, Value = <class 'RuntimeError'>
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: <class \'RuntimeError\'>\nmy: <class \'RuntimeError\'>\n'
+  Variable:  SId =  358, Value = 'py: <class \'RuntimeError\'>\nmy: <class \'RuntimeError\'>\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = RuntimeError('runtime_error')
+  Variable:  SId =  354, Value = RuntimeError('runtime_error')
+  Static:    SId =  289
+  Variable:  SId =  355, Value = RuntimeError('runtime_error')
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: RuntimeError(\'runtime_error\')\nmy: RuntimeError(\'runtime_error\')\n'
+  Variable:  SId =  358, Value = 'py: RuntimeError(\'runtime_error\')\nmy: RuntimeError(\'runtime_error\')\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = [1, 2, 3]
+  Variable:  SId =  354, Value = [1, 2, 3]
+  Static:    SId =  289
+  Variable:  SId =  355, Value = [1, 2, 3]
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: [1, 2, 3]\nmy: [1, 2, 3]\n'
+  Variable:  SId =  358, Value = 'py: [1, 2, 3]\nmy: [1, 2, 3]\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {1: 2, 3: 4, 5: 6}
+  Variable:  SId =  354, Value = {1: 2, 3: 4, 5: 6}
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {1: 2, 3: 4, 5: 6}
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {1: 2, 3: 4, 5: 6}\nmy: {1: 2, 3: 4, 5: 6}\n'
+  Variable:  SId =  358, Value = 'py: {1: 2, 3: 4, 5: 6}\nmy: {1: 2, 3: 4, 5: 6}\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {1, 2, 3}
+  Variable:  SId =  354, Value = {1, 2, 3}
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {1, 2, 3}
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {1, 2, 3}\nmy: {1, 2, 3}\n'
+  Variable:  SId =  358, Value = 'py: {1, 2, 3}\nmy: {1, 2, 3}\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  354, Value = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Variable:  SId =  358, Value = 'py: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '12', 13: '13', 14: '14', 15: '15', 16: '16', 17: '17', 18: '18', 19: '19', 20: '20', 21: '21', 22: '22', 23: '23', 24: '24', 25: '25', 26: '26', 27...
+  Variable:  SId =  354, Value = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '12', 13: '13', 14: '14', 15: '15', 16: '16', 17: '17', 18: '18', 19: '19', 20: '20', 21: '21', 22: '22', 23: '23', 24: '24', 25: '25', 26: '26', 27...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10', 11: '11', 12: '12', 13: '13', 14: '14', 15: '15', 16: '16', 17: '17', 18: '18', 19: '19', 20: '20', 21: '21', 22: '22', 23: '23', 24: '24', 25: '25', 26: '26', 27...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {0: \'0\', 1: \'1\', 2: \'2\', 3: \'3\', 4: \'4\', 5: \'5\', 6: \'6\', 7: \'7\', 8: \'8\', 9: \'9\', 10: \'10\', 11: \'11\', 12: \'12\', 13: \'13\', 14: \'14\', 15: \'15\', 16: \'16\', 17: \'17\', 18: \'18\', 19: \'19\', 20: \'20\', 21: \'21\', 22:...
+  Variable:  SId =  358, Value = 'py: {0: \'0\', 1: \'1\', 2: \'2\', 3: \'3\', 4: \'4\', 5: \'5\', 6: \'6\', 7: \'7\', 8: \'8\', 9: \'9\', 10: \'10\', 11: \'11\', 12: \'12\', 13: \'13\', 14: \'14\', 15: \'15\', 16: \'16\', 17: \'17\', 18: \'18\', 19: \'19\', 20: \'20\', 21: \'21\', 22:...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  354, Value = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Variable:  SId =  358, Value = 'py: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 6...
+  Static:    SId =  307
+  Variable:  SId =  285, Value = ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})
+  Variable:  SId =  354, Value = ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})
+  Static:    SId =  289
+  Variable:  SId =  355, Value = ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})\nmy: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})\n'
+  Variable:  SId =  358, Value = 'py: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})\nmy: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]
+  Variable:  SId =  354, Value = [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]
+  Static:    SId =  289
+  Variable:  SId =  355, Value = [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]\nmy: [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]\n'
+  Variable:  SId =  358, Value = 'py: [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]\nmy: [(1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3}]\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}
+  Variable:  SId =  354, Value = {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}\nmy: {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}\n'
+  Variable:  SId =  358, Value = 'py: {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}\nmy: {1: ((1, 2, 3), [1, 2, 3], {1: 2, 3: 4, 5: 6}, {1, 2, 3})}\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = {frozenset({1, 2, 3}), (1, 2, 3)}
+  Variable:  SId =  354, Value = {frozenset({1, 2, 3}), (1, 2, 3)}
+  Static:    SId =  289
+  Variable:  SId =  355, Value = {frozenset({1, 2, 3}), (1, 2, 3)}
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: {frozenset({1, 2, 3}), (1, 2, 3)}\nmy: {frozenset({1, 2, 3}), (1, 2, 3)}\n'
+  Variable:  SId =  358, Value = 'py: {frozenset({1, 2, 3}), (1, 2, 3)}\nmy: {frozenset({1, 2, 3}), (1, 2, 3)}\n'
+  Static:    SId =  307
+  Variable:  SId =  285, Value = frozenset({frozenset({1, 2, 3}), (1, 2, 3)})
+  Variable:  SId =  354, Value = frozenset({frozenset({1, 2, 3}), (1, 2, 3)})
+  Static:    SId =  289
+  Variable:  SId =  355, Value = frozenset({frozenset({1, 2, 3}), (1, 2, 3)})
+  Variable:  SId =  356, Value = 1
+  Static:    SId =  297
+  Variable:  SId =  357, Value = 'utf-8'
+  Static:    SId =  300
+  Variable:  SId =  304, Value = 'py: frozenset({frozenset({1, 2, 3}), (1, 2, 3)})\nmy: frozenset({frozenset({1, 2, 3}), (1, 2, 3)})\n'
+  Variable:  SId =  358, Value = 'py: frozenset({frozenset({1, 2, 3}), (1, 2, 3)})\nmy: frozenset({frozenset({1, 2, 3}), (1, 2, 3)})\n'
+  Static:    SId =  307
+  Variable:  SId =  359, Value = 'done'
+  Static:    SId =  313
+  Exception: SId =  314, Unhandled = False, Type = RuntimeError
+    Message = done
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_stringify.py", line 132, in <module>
+  Method:    SId =  317, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = done
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_stringify.py", line 132, in <module>
+        raise RuntimeError('done')
+    RuntimeError: done
+
+Connection closed: NoMoreBytes

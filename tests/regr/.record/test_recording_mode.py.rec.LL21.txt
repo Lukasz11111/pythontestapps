@@ -1,0 +1,1526 @@
+Handshake: Solution = Solution, App = test_recording_mode.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =  124, Phase = Enter
+  Variable:  SId =    4, Value = <built-in function sleep>
+  Variable:  SId =    7, Value = 1
+  Variable:  SId =  125, Value = 1
+  Static:    SId =   12
+  Variable:  SId =   34, Value = 3
+  Variable:  SId =  130, Value = '3'
+  Static:    SId =   39
+  Variable:  SId =  131, Value = ValueError('3')
+  Static:    SId =   40
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 3
+    
+  Variable:  SId =  132, Value = 0.05
+  Static:    SId =   44
+  Variable:  SId =  133, Value = 3
+  Static:    SId =   50
+  Variable:  SId =   53, Value = 4
+  Variable:  SId =  134, Value = '4'
+  Static:    SId =   58
+  Variable:  SId =  135, Value = ValueError('4')
+  Static:    SId =   59
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 4
+    
+  Variable:  SId =  136, Value = 0.05
+  Static:    SId =   63
+  Variable:  SId =  137, Value = 4
+  Static:    SId =   69
+  Variable:  SId =  110, Value = 7
+  Variable:  SId =  146, Value = '7'
+  Static:    SId =  115
+  Variable:  SId =  147, Value = ValueError('7')
+  Static:    SId =  116
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 7
+    
+  Variable:  SId =  148, Value = 0.05
+  Static:    SId =  120
+  Method:    SId =  124, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_recording_mode.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 3
+    
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =   34, Value = 3
+  Variable:  SId =  130, Value = '3'
+  Static:    SId =   39
+  Variable:  SId =  131, Value = ValueError('3')
+  Static:    SId =   40
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 3
+    
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_recording_mode.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 4
+    
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =   34, Value = 3
+  Variable:  SId =  130, Value = '3'
+  Static:    SId =   39
+  Variable:  SId =  131, Value = ValueError('3')
+  Static:    SId =   40
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 3
+    
+  Variable:  SId =  132, Value = 0.05
+  Static:    SId =   44
+  Variable:  SId =  133, Value = 3
+  Static:    SId =   50
+  Variable:  SId =   53, Value = 4
+  Variable:  SId =  134, Value = '4'
+  Static:    SId =   58
+  Variable:  SId =  135, Value = ValueError('4')
+  Static:    SId =   59
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 4
+    
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_recording_mode.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 5
+    
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =   34, Value = 3
+  Variable:  SId =  130, Value = '3'
+  Static:    SId =   39
+  Variable:  SId =  131, Value = ValueError('3')
+  Static:    SId =   40
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 3
+    
+  Variable:  SId =  132, Value = 0.05
+  Static:    SId =   44
+  Variable:  SId =  133, Value = 3
+  Static:    SId =   50
+  Variable:  SId =   53, Value = 4
+  Variable:  SId =  134, Value = '4'
+  Static:    SId =   58
+  Variable:  SId =  135, Value = ValueError('4')
+  Static:    SId =   59
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 4
+    
+  Variable:  SId =  136, Value = 0.05
+  Static:    SId =   63
+  Variable:  SId =  137, Value = 4
+  Static:    SId =   69
+  Variable:  SId =   72, Value = 5
+  Variable:  SId =  138, Value = '5'
+  Static:    SId =   77
+  Variable:  SId =  139, Value = ValueError('5')
+  Static:    SId =   78
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 5
+    
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_recording_mode.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 7
+    
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recording_mode.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    22
+      Location: Id =    1, FId =  0, Line =    5, Start =    47, Len =     1
+      Location: Id =    2, FId =  0, Line =    7, Start =    54, Len =     8
+      Location: Id =    3, FId =  0, Line =    7, Start =    54, Len =    33
+      Location: Id =    4, FId =  0, Line =    7, Start =    74, Len =     8
+      Location: Id =    5, FId =  0, Line =    7, Start =    74, Len =    12
+      Location: Id =    6, FId =  0, Line =    8, Start =    88, Len =     5
+      Location: Id =    7, FId =  0, Line =    8, Start =    88, Len =    11
+      Location: Id =    8, FId =  0, Line =    8, Start =    94, Len =     4
+      Location: Id =    9, FId =  0, Line =   10, Start =   101, Len =     1
+      Location: Id =   10, FId =  0, Line =   11, Start =   107, Len =     8
+      Location: Id =   11, FId =  0, Line =   11, Start =   107, Len =    35
+      Location: Id =   12, FId =  0, Line =   11, Start =   126, Len =    10
+      Location: Id =   13, FId =  0, Line =   11, Start =   126, Len =    15
+      Location: Id =   14, FId =  0, Line =   11, Start =   137, Len =     3
+      Location: Id =   15, FId =  0, Line =   13, Start =   144, Len =     8
+      Location: Id =   16, FId =  0, Line =   13, Start =   144, Len =    35
+      Location: Id =   17, FId =  0, Line =   13, Start =   164, Len =     8
+      Location: Id =   18, FId =  0, Line =   13, Start =   164, Len =    14
+      Location: Id =   19, FId =  0, Line =   15, Start =   181, Len =     1
+      Location: Id =   20, FId =  0, Line =   16, Start =   187, Len =     8
+      Location: Id =   21, FId =  0, Line =   16, Start =   187, Len =    35
+      Location: Id =   22, FId =  0, Line =   16, Start =   206, Len =    10
+      Location: Id =   23, FId =  0, Line =   16, Start =   206, Len =    15
+      Location: Id =   24, FId =  0, Line =   16, Start =   217, Len =     3
+      Location: Id =   25, FId =  0, Line =   17, Start =   223, Len =     5
+      Location: Id =   26, FId =  0, Line =   17, Start =   223, Len =    11
+      Location: Id =   27, FId =  0, Line =   17, Start =   229, Len =     4
+      Location: Id =   28, FId =  0, Line =   19, Start =   236, Len =     8
+      Location: Id =   29, FId =  0, Line =   19, Start =   236, Len =    34
+      Location: Id =   30, FId =  0, Line =   19, Start =   256, Len =     8
+      Location: Id =   31, FId =  0, Line =   19, Start =   256, Len =    13
+      Location: Id =   32, FId =  0, Line =   21, Start =   272, Len =     1
+      Location: Id =   33, FId =  0, Line =   22, Start =   278, Len =     8
+      Location: Id =   34, FId =  0, Line =   22, Start =   278, Len =    35
+      Location: Id =   35, FId =  0, Line =   22, Start =   297, Len =    10
+      Location: Id =   36, FId =  0, Line =   22, Start =   297, Len =    15
+      Location: Id =   37, FId =  0, Line =   22, Start =   308, Len =     3
+      Location: Id =   38, FId =  0, Line =   23, Start =   314, Len =     5
+      Location: Id =   39, FId =  0, Line =   23, Start =   314, Len =    11
+      Location: Id =   40, FId =  0, Line =   23, Start =   320, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   327, Len =     8
+      Location: Id =   42, FId =  0, Line =   25, Start =   327, Len =    35
+      Location: Id =   43, FId =  0, Line =   25, Start =   347, Len =     8
+      Location: Id =   44, FId =  0, Line =   25, Start =   347, Len =    14
+      Location: Id =   45, FId =  0, Line =   27, Start =   364, Len =     1
+      Location: Id =   46, FId =  0, Line =   28, Start =   370, Len =     8
+      Location: Id =   47, FId =  0, Line =   28, Start =   370, Len =    35
+      Location: Id =   48, FId =  0, Line =   28, Start =   389, Len =    10
+      Location: Id =   49, FId =  0, Line =   28, Start =   389, Len =    15
+      Location: Id =   50, FId =  0, Line =   28, Start =   400, Len =     3
+      Location: Id =   51, FId =  0, Line =   29, Start =   406, Len =     5
+      Location: Id =   52, FId =  0, Line =   29, Start =   406, Len =    11
+      Location: Id =   53, FId =  0, Line =   29, Start =   412, Len =     4
+      Location: Id =   54, FId =  0, Line =   31, Start =   419, Len =     8
+      Location: Id =   55, FId =  0, Line =   31, Start =   419, Len =    33
+      Location: Id =   56, FId =  0, Line =   31, Start =   439, Len =     8
+      Location: Id =   57, FId =  0, Line =   31, Start =   439, Len =    12
+      Location: Id =   58, FId =  0, Line =   32, Start =   453, Len =     5
+      Location: Id =   59, FId =  0, Line =   32, Start =   453, Len =    11
+      Location: Id =   60, FId =  0, Line =   32, Start =   459, Len =     4
+      Location: Id =   61, FId =  0, Line =   34, Start =   466, Len =     1
+      Location: Id =   62, FId =  0, Line =   35, Start =   472, Len =     8
+      Location: Id =   63, FId =  0, Line =   35, Start =   472, Len =    35
+      Location: Id =   64, FId =  0, Line =   35, Start =   491, Len =    10
+      Location: Id =   65, FId =  0, Line =   35, Start =   491, Len =    15
+      Location: Id =   66, FId =  0, Line =   35, Start =   502, Len =     3
+      Location: Id =   67, FId =  0, Line =   37, Start =   509, Len =     8
+      Location: Id =   68, FId =  0, Line =   37, Start =   509, Len =    34
+      Location: Id =   69, FId =  0, Line =   37, Start =   529, Len =     8
+      Location: Id =   70, FId =  0, Line =   37, Start =   529, Len =    13
+      Location: Id =   71, FId =  0, Line =   39, Start =   545, Len =     1
+      Location: Id =   72, FId =  0, Line =   40, Start =   551, Len =     8
+      Location: Id =   73, FId =  0, Line =   40, Start =   551, Len =    35
+      Location: Id =   74, FId =  0, Line =   40, Start =   570, Len =    10
+      Location: Id =   75, FId =  0, Line =   40, Start =   570, Len =    15
+      Location: Id =   76, FId =  0, Line =   40, Start =   581, Len =     3
+      Location: Id =   77, FId =  0, Line =   41, Start =   587, Len =     5
+      Location: Id =   78, FId =  0, Line =   41, Start =   587, Len =    11
+      Location: Id =   79, FId =  0, Line =   41, Start =   593, Len =     4
+      Location: Id =   80, FId =  0, Line =    3, Start =    23, Len =   575
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = ...
+      Identifier: Id =    4, LId =    0, Ident = sleep
+      Identifier: Id =    7, LId =    1, Ident = i
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Invocation: Id =   12, LId =    3, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   14, LId =    6, Ident = ...
+      Invocation: Id =   16, LId =    7, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   19, LId =    9, Ident = i
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Identifier: Id =   21, LId =   11, Ident = ...
+      Identifier: Id =   22, LId =   12, Ident = ...
+      Invocation: Id =   24, LId =   13, Ident = ValueError('2'), Method = ValueError
+      Invocation: Id =   25, LId =   11, Ident = revdebug.exception(ValueError('2')), Method = exception
+      Identifier: Id =   27, LId =   15, Ident = ...
+      Identifier: Id =   28, LId =   16, Ident = ...
+      Identifier: Id =   29, LId =   17, Ident = ...
+      Identifier: Id =   30, LId =   18, Ident = ...
+      Invocation: Id =   31, LId =   16, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   34, LId =   19, Ident = i
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Identifier: Id =   36, LId =   21, Ident = ...
+      Identifier: Id =   37, LId =   22, Ident = ...
+      Invocation: Id =   39, LId =   23, Ident = ValueError('3'), Method = ValueError
+      Invocation: Id =   40, LId =   21, Ident = revdebug.exception(ValueError('3')), Method = exception
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   26, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = ...
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Invocation: Id =   50, LId =   29, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =   53, LId =   32, Ident = i
+      Identifier: Id =   54, LId =   33, Ident = ...
+      Identifier: Id =   55, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   35, Ident = ...
+      Invocation: Id =   58, LId =   36, Ident = ValueError('4'), Method = ValueError
+      Invocation: Id =   59, LId =   34, Ident = revdebug.exception(ValueError('4')), Method = exception
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Invocation: Id =   63, LId =   39, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   65, LId =   41, Ident = ...
+      Identifier: Id =   66, LId =   42, Ident = ...
+      Identifier: Id =   67, LId =   43, Ident = ...
+      Identifier: Id =   68, LId =   44, Ident = ...
+      Invocation: Id =   69, LId =   42, Ident = revdebug.setrecmode(revdebug.Crash), Method = setrecmode
+      Identifier: Id =   72, LId =   45, Ident = i
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Identifier: Id =   74, LId =   47, Ident = ...
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   77, LId =   49, Ident = ValueError('5'), Method = ValueError
+      Invocation: Id =   78, LId =   47, Ident = revdebug.exception(ValueError('5')), Method = exception
+      Identifier: Id =   80, LId =   51, Ident = ...
+      Invocation: Id =   82, LId =   52, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   84, LId =   54, Ident = ...
+      Identifier: Id =   85, LId =   55, Ident = ...
+      Identifier: Id =   86, LId =   56, Ident = ...
+      Identifier: Id =   87, LId =   57, Ident = ...
+      Invocation: Id =   88, LId =   55, Ident = revdebug.setrecmode(revdebug.Off), Method = setrecmode
+      Identifier: Id =   90, LId =   58, Ident = ...
+      Invocation: Id =   92, LId =   59, Ident = sleep(0.05), Method = sleep
+      Identifier: Id =   95, LId =   61, Ident = i
+      Identifier: Id =   96, LId =   62, Ident = ...
+      Identifier: Id =   97, LId =   63, Ident = ...
+      Identifier: Id =   98, LId =   64, Ident = ...
+      Invocation: Id =  100, LId =   65, Ident = ValueError('6'), Method = ValueError
+      Invocation: Id =  101, LId =   63, Ident = revdebug.exception(ValueError('6')), Method = exception
+      Identifier: Id =  103, LId =   67, Ident = ...
+      Identifier: Id =  104, LId =   68, Ident = ...
+      Identifier: Id =  105, LId =   69, Ident = ...
+      Identifier: Id =  106, LId =   70, Ident = ...
+      Invocation: Id =  107, LId =   68, Ident = revdebug.setrecmode(revdebug.Live), Method = setrecmode
+      Identifier: Id =  110, LId =   71, Ident = i
+      Identifier: Id =  111, LId =   72, Ident = ...
+      Identifier: Id =  112, LId =   73, Ident = ...
+      Identifier: Id =  113, LId =   74, Ident = ...
+      Invocation: Id =  115, LId =   75, Ident = ValueError('7'), Method = ValueError
+      Invocation: Id =  116, LId =   73, Ident = revdebug.exception(ValueError('7')), Method = exception
+      Identifier: Id =  118, LId =   77, Ident = ...
+      Invocation: Id =  120, LId =   78, Ident = sleep(0.05), Method = sleep
+      Method:     Id =  124, LId =   80, Ident = test_recording_mode.py, Method = test_recording_mode.py
+      Argument:   Id =  125, LId =    5, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  126, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  127, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  128, LId =   13, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  129, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  130, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  131, LId =   23, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  132, LId =   27, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  133, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  134, LId =   37, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  135, LId =   36, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  136, LId =   40, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  137, LId =   44, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  138, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  139, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  140, LId =   53, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  141, LId =   57, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  142, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  143, LId =   66, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  144, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  145, LId =   70, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  146, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  147, LId =   75, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  148, LId =   79, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =  110, Value = 7
+  Variable:  SId =  146, Value = '7'
+  Static:    SId =  115
+  Variable:  SId =  147, Value = ValueError('7')
+  Static:    SId =  116
+  Exception: SId =   -1, Unhandled = True, Type = ValueError
+    Message = 7
+    
+
+Connection closed: NoMoreBytes

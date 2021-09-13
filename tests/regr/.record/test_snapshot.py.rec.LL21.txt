@@ -1,0 +1,611 @@
+Handshake: Solution = Solution, App = test_snapshot.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   75, Phase = Enter
+  Variable:  SId =    3, Value = <module 'threading' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/threading.py'>
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <module 'revdebug'>
+  Variable:  SId =   15, Value = <function thread_func at 0x7fa03dfdb730>
+  Static:    SId =   21
+  Variable:  SId =   22, Value = <function thread_wrapper at 0x7fa03df77910>
+  Static:    SId =   25
+  Variable:  SId =   76, Value = 'Hello'
+  Static:    SId =   30
+  Variable:  SId =   77, Value = <function thread_func at 0x7fa03dfdb730>
+  Variable:  SId =   78, Value = ()
+  Static:    SId =   37
+  Variable:  SId =   38, Value = <Thread(Thread-1)>
+  Variable:  SId =   79, Value = 0.1
+  Static:    SId =   42
+  Static:    SId =   46
+  Variable:  SId =   80, Value = 0.1
+  Static:    SId =   51
+  Variable:  SId =   81, Value = <Thread(Thread-1)>
+  Static:    SId =   55
+  Variable:  SId =   82, Value = 0.2
+  Static:    SId =   60
+  Variable:  SId =   68, Value = False
+  Method:    SId =   75, Phase = Exit
+
+AppState: Thread = 1
+  Method:    SId =   99, Phase = Enter
+  Static:    SId =   86
+  Variable:  SId =  100, Value = 0.1
+  Static:    SId =   91
+  Static:    SId =   95
+  Method:    SId =   99, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_snapshot.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    1, FId =  0, Line =    4, Start =    40, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    53, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    70, Len =    91
+      Location: Id =    4, FId =  0, Line =    8, Start =    70, Len =    15
+      Location: Id =    5, FId =  0, Line =   15, Start =   164, Len =     8
+      Location: Id =    6, FId =  0, Line =   15, Start =   164, Len =    17
+      Location: Id =    7, FId =  0, Line =   15, Start =   164, Len =   104
+      Location: Id =    8, FId =  0, Line =   15, Start =   163, Len =    18
+      Location: Id =    9, FId =  0, Line =   16, Start =   182, Len =    18
+      Location: Id =   10, FId =  0, Line =   20, Start =   270, Len =     8
+      Location: Id =   11, FId =  0, Line =   20, Start =   270, Len =    16
+      Location: Id =   12, FId =  0, Line =   21, Start =   287, Len =     8
+      Location: Id =   13, FId =  0, Line =   21, Start =   287, Len =    26
+      Location: Id =   14, FId =  0, Line =   21, Start =   305, Len =     7
+      Location: Id =   15, FId =  0, Line =   23, Start =   324, Len =     9
+      Location: Id =   16, FId =  0, Line =   23, Start =   324, Len =    16
+      Location: Id =   17, FId =  0, Line =   23, Start =   350, Len =    11
+      Location: Id =   18, FId =  0, Line =   23, Start =   324, Len =    49
+      Location: Id =   19, FId =  0, Line =   23, Start =   341, Len =    20
+      Location: Id =   20, FId =  0, Line =   23, Start =   363, Len =     9
+      Location: Id =   21, FId =  0, Line =   23, Start =   315, Len =     6
+      Location: Id =   22, FId =  0, Line =   25, Start =   375, Len =     4
+      Location: Id =   23, FId =  0, Line =   25, Start =   375, Len =    15
+      Location: Id =   24, FId =  0, Line =   25, Start =   386, Len =     3
+      Location: Id =   25, FId =  0, Line =   27, Start =   392, Len =     8
+      Location: Id =   26, FId =  0, Line =   27, Start =   392, Len =    19
+      Location: Id =   27, FId =  0, Line =   29, Start =   413, Len =     4
+      Location: Id =   28, FId =  0, Line =   29, Start =   413, Len =    15
+      Location: Id =   29, FId =  0, Line =   29, Start =   424, Len =     3
+      Location: Id =   30, FId =  0, Line =   31, Start =   430, Len =    14
+      Location: Id =   31, FId =  0, Line =   31, Start =   445, Len =     6
+      Location: Id =   32, FId =  0, Line =   31, Start =   430, Len =    22
+      Location: Id =   33, FId =  0, Line =   33, Start =   454, Len =     4
+      Location: Id =   34, FId =  0, Line =   33, Start =   454, Len =    15
+      Location: Id =   35, FId =  0, Line =   33, Start =   465, Len =     3
+      Location: Id =   36, FId =  0, Line =   35, Start =   474, Len =     8
+      Location: Id =   37, FId =  0, Line =   35, Start =   474, Len =    13
+      Location: Id =   38, FId =  0, Line =   35, Start =   474, Len =    18
+      Location: Id =   39, FId =  0, Line =   35, Start =   496, Len =     8
+      Location: Id =   40, FId =  0, Line =   35, Start =   496, Len =    14
+      Location: Id =   41, FId =  0, Line =   35, Start =   474, Len =    36
+      Location: Id =   42, FId =  0, Line =   35, Start =   471, Len =    40
+      Location: Id =   43, FId =  0, Line =   36, Start =   522, Len =    12
+      Location: Id =   44, FId =  0, Line =   36, Start =   522, Len =    20
+      Location: Id =   45, FId =  0, Line =   36, Start =   535, Len =     6
+      Location: Id =   46, FId =  0, Line =   36, Start =   516, Len =    26
+      Location: Id =   47, FId =  0, Line =    3, Start =    23, Len =   519
+      Location: Id =   48, FId =  0, Line =    9, Start =    93, Len =     8
+      Location: Id =   49, FId =  0, Line =    9, Start =    93, Len =    19
+      Location: Id =   50, FId =  0, Line =   11, Start =   118, Len =     4
+      Location: Id =   51, FId =  0, Line =   11, Start =   118, Len =    15
+      Location: Id =   52, FId =  0, Line =   11, Start =   129, Len =     3
+      Location: Id =   53, FId =  0, Line =   13, Start =   139, Len =     8
+      Location: Id =   54, FId =  0, Line =   13, Start =   139, Len =    22
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = threading
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   14, LId =    3, Ident = ...
+      Identifier: Id =   15, LId =    4, Ident = thread_func
+      Identifier: Id =   16, LId =    5, Ident = ...
+      Identifier: Id =   17, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = ...
+      Invocation: Id =   21, LId =    8, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   22, LId =    9, Ident = thread_wrapper
+      Identifier: Id =   23, LId =   10, Ident = ...
+      Identifier: Id =   24, LId =   11, Ident = ...
+      Invocation: Id =   25, LId =   11, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   27, LId =   12, Ident = ...
+      Identifier: Id =   28, LId =   13, Ident = ...
+      Invocation: Id =   30, LId =   13, Ident = revdebug.snapshot('Hello'), Method = snapshot
+      Identifier: Id =   32, LId =   15, Ident = ...
+      Identifier: Id =   33, LId =   16, Ident = ...
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = threading.Thread(target = thread_func, args = ()), Method = Thread
+      Identifier: Id =   38, LId =   21, Ident = thread
+      Identifier: Id =   39, LId =   22, Ident = ...
+      Identifier: Id =   40, LId =   23, Ident = ...
+      Invocation: Id =   42, LId =   23, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   44, LId =   25, Ident = ...
+      Identifier: Id =   45, LId =   26, Ident = ...
+      Invocation: Id =   46, LId =   26, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   48, LId =   27, Ident = ...
+      Identifier: Id =   49, LId =   28, Ident = ...
+      Invocation: Id =   51, LId =   28, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   53, LId =   30, Ident = ...
+      Identifier: Id =   54, LId =   31, Ident = ...
+      Invocation: Id =   55, LId =   32, Ident = thread_wrapper(thread), Method = thread_wrapper
+      Identifier: Id =   57, LId =   33, Ident = ...
+      Identifier: Id =   58, LId =   34, Ident = ...
+      Invocation: Id =   60, LId =   34, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   62, LId =   36, Ident = ...
+      Identifier: Id =   63, LId =   37, Ident = ...
+      Identifier: Id =   64, LId =   38, Ident = ...
+      Identifier: Id =   65, LId =   39, Ident = ...
+      Identifier: Id =   66, LId =   40, Ident = ...
+      Identifier: Id =   67, LId =   41, Ident = ...
+      Identifier: Id =   68, LId =   42, Ident = if
+      Identifier: Id =   69, LId =   43, Ident = ...
+      Invocation: Id =   71, LId =   44, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =   72, LId =   46, Ident = ...
+      Method:     Id =   75, LId =   47, Ident = test_snapshot.py, Method = test_snapshot.py
+      Argument:   Id =   76, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   77, LId =   19, Ident = target, ArgIdx = 0
+      Argument:   Id =   78, LId =   20, Ident = args, ArgIdx = 1
+      Argument:   Id =   79, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   80, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   81, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   82, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   83, LId =   45, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   84, LId =   48, Ident = ...
+      Identifier: Id =   85, LId =   49, Ident = ...
+      Invocation: Id =   86, LId =   49, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   88, LId =   50, Ident = ...
+      Identifier: Id =   89, LId =   51, Ident = ...
+      Invocation: Id =   91, LId =   51, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   93, LId =   53, Ident = ...
+      Identifier: Id =   94, LId =   54, Ident = ...
+      Invocation: Id =   95, LId =   54, Ident = revdebug.snapshotall(), Method = snapshotall
+      Method:     Id =   99, LId =    3, Ident = thread_func, Method = thread_func
+      Argument:   Id =  100, LId =   52, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_snapshot.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_snapshot.py_Hello_2021-09-01_16_04_20, Display = Version
+  Variable:  SId =   76, Value = 'Hello'
+  Static:    SId =   30
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_snapshot.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    1, FId =  0, Line =    4, Start =    40, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    53, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    70, Len =    91
+      Location: Id =    4, FId =  0, Line =    8, Start =    70, Len =    15
+      Location: Id =    5, FId =  0, Line =   15, Start =   164, Len =     8
+      Location: Id =    6, FId =  0, Line =   15, Start =   164, Len =    17
+      Location: Id =    7, FId =  0, Line =   15, Start =   164, Len =   104
+      Location: Id =    8, FId =  0, Line =   15, Start =   163, Len =    18
+      Location: Id =    9, FId =  0, Line =   16, Start =   182, Len =    18
+      Location: Id =   10, FId =  0, Line =   20, Start =   270, Len =     8
+      Location: Id =   11, FId =  0, Line =   20, Start =   270, Len =    16
+      Location: Id =   12, FId =  0, Line =   21, Start =   287, Len =     8
+      Location: Id =   13, FId =  0, Line =   21, Start =   287, Len =    26
+      Location: Id =   14, FId =  0, Line =   21, Start =   305, Len =     7
+      Location: Id =   15, FId =  0, Line =   23, Start =   324, Len =     9
+      Location: Id =   16, FId =  0, Line =   23, Start =   324, Len =    16
+      Location: Id =   17, FId =  0, Line =   23, Start =   350, Len =    11
+      Location: Id =   18, FId =  0, Line =   23, Start =   324, Len =    49
+      Location: Id =   19, FId =  0, Line =   23, Start =   341, Len =    20
+      Location: Id =   20, FId =  0, Line =   23, Start =   363, Len =     9
+      Location: Id =   21, FId =  0, Line =   23, Start =   315, Len =     6
+      Location: Id =   22, FId =  0, Line =   25, Start =   375, Len =     4
+      Location: Id =   23, FId =  0, Line =   25, Start =   375, Len =    15
+      Location: Id =   24, FId =  0, Line =   25, Start =   386, Len =     3
+      Location: Id =   25, FId =  0, Line =   27, Start =   392, Len =     8
+      Location: Id =   26, FId =  0, Line =   27, Start =   392, Len =    19
+      Location: Id =   27, FId =  0, Line =   29, Start =   413, Len =     4
+      Location: Id =   28, FId =  0, Line =   29, Start =   413, Len =    15
+      Location: Id =   29, FId =  0, Line =   29, Start =   424, Len =     3
+      Location: Id =   30, FId =  0, Line =   31, Start =   430, Len =    14
+      Location: Id =   31, FId =  0, Line =   31, Start =   445, Len =     6
+      Location: Id =   32, FId =  0, Line =   31, Start =   430, Len =    22
+      Location: Id =   33, FId =  0, Line =   33, Start =   454, Len =     4
+      Location: Id =   34, FId =  0, Line =   33, Start =   454, Len =    15
+      Location: Id =   35, FId =  0, Line =   33, Start =   465, Len =     3
+      Location: Id =   36, FId =  0, Line =   35, Start =   474, Len =     8
+      Location: Id =   37, FId =  0, Line =   35, Start =   474, Len =    13
+      Location: Id =   38, FId =  0, Line =   35, Start =   474, Len =    18
+      Location: Id =   39, FId =  0, Line =   35, Start =   496, Len =     8
+      Location: Id =   40, FId =  0, Line =   35, Start =   496, Len =    14
+      Location: Id =   41, FId =  0, Line =   35, Start =   474, Len =    36
+      Location: Id =   42, FId =  0, Line =   35, Start =   471, Len =    40
+      Location: Id =   43, FId =  0, Line =   36, Start =   522, Len =    12
+      Location: Id =   44, FId =  0, Line =   36, Start =   522, Len =    20
+      Location: Id =   45, FId =  0, Line =   36, Start =   535, Len =     6
+      Location: Id =   46, FId =  0, Line =   36, Start =   516, Len =    26
+      Location: Id =   47, FId =  0, Line =    3, Start =    23, Len =   519
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = threading
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   14, LId =    3, Ident = ...
+      Identifier: Id =   15, LId =    4, Ident = thread_func
+      Identifier: Id =   16, LId =    5, Ident = ...
+      Identifier: Id =   17, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = ...
+      Invocation: Id =   21, LId =    8, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   22, LId =    9, Ident = thread_wrapper
+      Identifier: Id =   23, LId =   10, Ident = ...
+      Identifier: Id =   24, LId =   11, Ident = ...
+      Invocation: Id =   25, LId =   11, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   27, LId =   12, Ident = ...
+      Identifier: Id =   28, LId =   13, Ident = ...
+      Invocation: Id =   30, LId =   13, Ident = revdebug.snapshot('Hello'), Method = snapshot
+      Identifier: Id =   32, LId =   15, Ident = ...
+      Identifier: Id =   33, LId =   16, Ident = ...
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = threading.Thread(target = thread_func, args = ()), Method = Thread
+      Identifier: Id =   38, LId =   21, Ident = thread
+      Identifier: Id =   39, LId =   22, Ident = ...
+      Identifier: Id =   40, LId =   23, Ident = ...
+      Invocation: Id =   42, LId =   23, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   44, LId =   25, Ident = ...
+      Identifier: Id =   45, LId =   26, Ident = ...
+      Invocation: Id =   46, LId =   26, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   48, LId =   27, Ident = ...
+      Identifier: Id =   49, LId =   28, Ident = ...
+      Invocation: Id =   51, LId =   28, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   53, LId =   30, Ident = ...
+      Identifier: Id =   54, LId =   31, Ident = ...
+      Invocation: Id =   55, LId =   32, Ident = thread_wrapper(thread), Method = thread_wrapper
+      Identifier: Id =   57, LId =   33, Ident = ...
+      Identifier: Id =   58, LId =   34, Ident = ...
+      Invocation: Id =   60, LId =   34, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   62, LId =   36, Ident = ...
+      Identifier: Id =   63, LId =   37, Ident = ...
+      Identifier: Id =   64, LId =   38, Ident = ...
+      Identifier: Id =   65, LId =   39, Ident = ...
+      Identifier: Id =   66, LId =   40, Ident = ...
+      Identifier: Id =   67, LId =   41, Ident = ...
+      Identifier: Id =   68, LId =   42, Ident = if
+      Identifier: Id =   69, LId =   43, Ident = ...
+      Invocation: Id =   71, LId =   44, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =   72, LId =   46, Ident = ...
+      Method:     Id =   75, LId =   47, Ident = test_snapshot.py, Method = test_snapshot.py
+      Argument:   Id =   76, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   77, LId =   19, Ident = target, ArgIdx = 0
+      Argument:   Id =   78, LId =   20, Ident = args, ArgIdx = 1
+      Argument:   Id =   79, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   80, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   81, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   82, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   83, LId =   45, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_snapshot.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_snapshot.py_Snapshot_2021-09-01_16_04_20, Display = Version
+  Variable:  SId =   76, Value = 'Hello'
+  Static:    SId =   30
+  Variable:  SId =   77, Value = <function thread_func at 0x7fa03dfdb730>
+  Variable:  SId =   78, Value = ()
+  Static:    SId =   37
+  Variable:  SId =   38, Value = <Thread(Thread-1)>
+  Variable:  SId =   79, Value = 0.1
+  Static:    SId =   42
+  Static:    SId =   46
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_snapshot.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    1, FId =  0, Line =    4, Start =    40, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    53, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    70, Len =    91
+      Location: Id =    4, FId =  0, Line =    8, Start =    70, Len =    15
+      Location: Id =    5, FId =  0, Line =   15, Start =   164, Len =     8
+      Location: Id =    6, FId =  0, Line =   15, Start =   164, Len =    17
+      Location: Id =    7, FId =  0, Line =   15, Start =   164, Len =   104
+      Location: Id =    8, FId =  0, Line =   15, Start =   163, Len =    18
+      Location: Id =    9, FId =  0, Line =   16, Start =   182, Len =    18
+      Location: Id =   10, FId =  0, Line =   20, Start =   270, Len =     8
+      Location: Id =   11, FId =  0, Line =   20, Start =   270, Len =    16
+      Location: Id =   12, FId =  0, Line =   21, Start =   287, Len =     8
+      Location: Id =   13, FId =  0, Line =   21, Start =   287, Len =    26
+      Location: Id =   14, FId =  0, Line =   21, Start =   305, Len =     7
+      Location: Id =   15, FId =  0, Line =   23, Start =   324, Len =     9
+      Location: Id =   16, FId =  0, Line =   23, Start =   324, Len =    16
+      Location: Id =   17, FId =  0, Line =   23, Start =   350, Len =    11
+      Location: Id =   18, FId =  0, Line =   23, Start =   324, Len =    49
+      Location: Id =   19, FId =  0, Line =   23, Start =   341, Len =    20
+      Location: Id =   20, FId =  0, Line =   23, Start =   363, Len =     9
+      Location: Id =   21, FId =  0, Line =   23, Start =   315, Len =     6
+      Location: Id =   22, FId =  0, Line =   25, Start =   375, Len =     4
+      Location: Id =   23, FId =  0, Line =   25, Start =   375, Len =    15
+      Location: Id =   24, FId =  0, Line =   25, Start =   386, Len =     3
+      Location: Id =   25, FId =  0, Line =   27, Start =   392, Len =     8
+      Location: Id =   26, FId =  0, Line =   27, Start =   392, Len =    19
+      Location: Id =   27, FId =  0, Line =   29, Start =   413, Len =     4
+      Location: Id =   28, FId =  0, Line =   29, Start =   413, Len =    15
+      Location: Id =   29, FId =  0, Line =   29, Start =   424, Len =     3
+      Location: Id =   30, FId =  0, Line =   31, Start =   430, Len =    14
+      Location: Id =   31, FId =  0, Line =   31, Start =   445, Len =     6
+      Location: Id =   32, FId =  0, Line =   31, Start =   430, Len =    22
+      Location: Id =   33, FId =  0, Line =   33, Start =   454, Len =     4
+      Location: Id =   34, FId =  0, Line =   33, Start =   454, Len =    15
+      Location: Id =   35, FId =  0, Line =   33, Start =   465, Len =     3
+      Location: Id =   36, FId =  0, Line =   35, Start =   474, Len =     8
+      Location: Id =   37, FId =  0, Line =   35, Start =   474, Len =    13
+      Location: Id =   38, FId =  0, Line =   35, Start =   474, Len =    18
+      Location: Id =   39, FId =  0, Line =   35, Start =   496, Len =     8
+      Location: Id =   40, FId =  0, Line =   35, Start =   496, Len =    14
+      Location: Id =   41, FId =  0, Line =   35, Start =   474, Len =    36
+      Location: Id =   42, FId =  0, Line =   35, Start =   471, Len =    40
+      Location: Id =   43, FId =  0, Line =   36, Start =   522, Len =    12
+      Location: Id =   44, FId =  0, Line =   36, Start =   522, Len =    20
+      Location: Id =   45, FId =  0, Line =   36, Start =   535, Len =     6
+      Location: Id =   46, FId =  0, Line =   36, Start =   516, Len =    26
+      Location: Id =   47, FId =  0, Line =    3, Start =    23, Len =   519
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = threading
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   14, LId =    3, Ident = ...
+      Identifier: Id =   15, LId =    4, Ident = thread_func
+      Identifier: Id =   16, LId =    5, Ident = ...
+      Identifier: Id =   17, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = ...
+      Invocation: Id =   21, LId =    8, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   22, LId =    9, Ident = thread_wrapper
+      Identifier: Id =   23, LId =   10, Ident = ...
+      Identifier: Id =   24, LId =   11, Ident = ...
+      Invocation: Id =   25, LId =   11, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   27, LId =   12, Ident = ...
+      Identifier: Id =   28, LId =   13, Ident = ...
+      Invocation: Id =   30, LId =   13, Ident = revdebug.snapshot('Hello'), Method = snapshot
+      Identifier: Id =   32, LId =   15, Ident = ...
+      Identifier: Id =   33, LId =   16, Ident = ...
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = threading.Thread(target = thread_func, args = ()), Method = Thread
+      Identifier: Id =   38, LId =   21, Ident = thread
+      Identifier: Id =   39, LId =   22, Ident = ...
+      Identifier: Id =   40, LId =   23, Ident = ...
+      Invocation: Id =   42, LId =   23, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   44, LId =   25, Ident = ...
+      Identifier: Id =   45, LId =   26, Ident = ...
+      Invocation: Id =   46, LId =   26, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   48, LId =   27, Ident = ...
+      Identifier: Id =   49, LId =   28, Ident = ...
+      Invocation: Id =   51, LId =   28, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   53, LId =   30, Ident = ...
+      Identifier: Id =   54, LId =   31, Ident = ...
+      Invocation: Id =   55, LId =   32, Ident = thread_wrapper(thread), Method = thread_wrapper
+      Identifier: Id =   57, LId =   33, Ident = ...
+      Identifier: Id =   58, LId =   34, Ident = ...
+      Invocation: Id =   60, LId =   34, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   62, LId =   36, Ident = ...
+      Identifier: Id =   63, LId =   37, Ident = ...
+      Identifier: Id =   64, LId =   38, Ident = ...
+      Identifier: Id =   65, LId =   39, Ident = ...
+      Identifier: Id =   66, LId =   40, Ident = ...
+      Identifier: Id =   67, LId =   41, Ident = ...
+      Identifier: Id =   68, LId =   42, Ident = if
+      Identifier: Id =   69, LId =   43, Ident = ...
+      Invocation: Id =   71, LId =   44, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =   72, LId =   46, Ident = ...
+      Method:     Id =   75, LId =   47, Ident = test_snapshot.py, Method = test_snapshot.py
+      Argument:   Id =   76, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   77, LId =   19, Ident = target, ArgIdx = 0
+      Argument:   Id =   78, LId =   20, Ident = args, ArgIdx = 1
+      Argument:   Id =   79, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   80, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   81, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   82, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   83, LId =   45, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_snapshot.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_snapshot.py_Snapshot_2021-09-01_16_04_21, Display = Version
+  Method:    SId =   99, Phase = Enter
+  Static:    SId =   86
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_snapshot.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    9, Start =    93, Len =     8
+      Location: Id =    1, FId =  0, Line =    9, Start =    93, Len =    19
+      Location: Id =    2, FId =  0, Line =   11, Start =   118, Len =     4
+      Location: Id =    3, FId =  0, Line =   11, Start =   118, Len =    15
+      Location: Id =    4, FId =  0, Line =   11, Start =   129, Len =     3
+      Location: Id =    5, FId =  0, Line =   13, Start =   139, Len =     8
+      Location: Id =    6, FId =  0, Line =   13, Start =   139, Len =    22
+      Location: Id =    7, FId =  0, Line =    8, Start =    70, Len =    91
+    Statements:
+      Identifier: Id =   84, LId =    0, Ident = ...
+      Identifier: Id =   85, LId =    1, Ident = ...
+      Invocation: Id =   86, LId =    1, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   88, LId =    2, Ident = ...
+      Identifier: Id =   89, LId =    3, Ident = ...
+      Invocation: Id =   91, LId =    3, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   93, LId =    5, Ident = ...
+      Identifier: Id =   94, LId =    6, Ident = ...
+      Invocation: Id =   95, LId =    6, Ident = revdebug.snapshotall(), Method = snapshotall
+      Method:     Id =   99, LId =    7, Ident = thread_func, Method = thread_func
+      Argument:   Id =  100, LId =    4, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_snapshot.py, Backlog = 1000, isLive = False, Display = Version
+
+Snapshot: Solution = Solution, Name = test_snapshot.py_Snapshot_2021-09-01_16_04_21, Display = Version
+  Variable:  SId =   76, Value = 'Hello'
+  Static:    SId =   30
+  Variable:  SId =   77, Value = <function thread_func at 0x7fa03dfdb730>
+  Variable:  SId =   78, Value = ()
+  Static:    SId =   37
+  Variable:  SId =   38, Value = <Thread(Thread-1)>
+  Variable:  SId =   79, Value = 0.1
+  Static:    SId =   42
+  Static:    SId =   46
+  Variable:  SId =   80, Value = 0.1
+  Static:    SId =   51
+  Variable:  SId =   81, Value = <Thread(Thread-1)>
+  Static:    SId =   55
+  Method:    SId =   99, Phase = Enter
+  Static:    SId =   86
+  Variable:  SId =  100, Value = 0.1
+  Static:    SId =   91
+  Static:    SId =   95
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_snapshot.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    1, FId =  0, Line =    4, Start =    40, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    53, Len =    15
+      Location: Id =    3, FId =  0, Line =    8, Start =    70, Len =    91
+      Location: Id =    4, FId =  0, Line =    8, Start =    70, Len =    15
+      Location: Id =    5, FId =  0, Line =   15, Start =   164, Len =     8
+      Location: Id =    6, FId =  0, Line =   15, Start =   164, Len =    17
+      Location: Id =    7, FId =  0, Line =   15, Start =   164, Len =   104
+      Location: Id =    8, FId =  0, Line =   15, Start =   163, Len =    18
+      Location: Id =    9, FId =  0, Line =   16, Start =   182, Len =    18
+      Location: Id =   10, FId =  0, Line =   20, Start =   270, Len =     8
+      Location: Id =   11, FId =  0, Line =   20, Start =   270, Len =    16
+      Location: Id =   12, FId =  0, Line =   21, Start =   287, Len =     8
+      Location: Id =   13, FId =  0, Line =   21, Start =   287, Len =    26
+      Location: Id =   14, FId =  0, Line =   21, Start =   305, Len =     7
+      Location: Id =   15, FId =  0, Line =   23, Start =   324, Len =     9
+      Location: Id =   16, FId =  0, Line =   23, Start =   324, Len =    16
+      Location: Id =   17, FId =  0, Line =   23, Start =   350, Len =    11
+      Location: Id =   18, FId =  0, Line =   23, Start =   324, Len =    49
+      Location: Id =   19, FId =  0, Line =   23, Start =   341, Len =    20
+      Location: Id =   20, FId =  0, Line =   23, Start =   363, Len =     9
+      Location: Id =   21, FId =  0, Line =   23, Start =   315, Len =     6
+      Location: Id =   22, FId =  0, Line =   25, Start =   375, Len =     4
+      Location: Id =   23, FId =  0, Line =   25, Start =   375, Len =    15
+      Location: Id =   24, FId =  0, Line =   25, Start =   386, Len =     3
+      Location: Id =   25, FId =  0, Line =   27, Start =   392, Len =     8
+      Location: Id =   26, FId =  0, Line =   27, Start =   392, Len =    19
+      Location: Id =   27, FId =  0, Line =   29, Start =   413, Len =     4
+      Location: Id =   28, FId =  0, Line =   29, Start =   413, Len =    15
+      Location: Id =   29, FId =  0, Line =   29, Start =   424, Len =     3
+      Location: Id =   30, FId =  0, Line =   31, Start =   430, Len =    14
+      Location: Id =   31, FId =  0, Line =   31, Start =   445, Len =     6
+      Location: Id =   32, FId =  0, Line =   31, Start =   430, Len =    22
+      Location: Id =   33, FId =  0, Line =   33, Start =   454, Len =     4
+      Location: Id =   34, FId =  0, Line =   33, Start =   454, Len =    15
+      Location: Id =   35, FId =  0, Line =   33, Start =   465, Len =     3
+      Location: Id =   36, FId =  0, Line =   35, Start =   474, Len =     8
+      Location: Id =   37, FId =  0, Line =   35, Start =   474, Len =    13
+      Location: Id =   38, FId =  0, Line =   35, Start =   474, Len =    18
+      Location: Id =   39, FId =  0, Line =   35, Start =   496, Len =     8
+      Location: Id =   40, FId =  0, Line =   35, Start =   496, Len =    14
+      Location: Id =   41, FId =  0, Line =   35, Start =   474, Len =    36
+      Location: Id =   42, FId =  0, Line =   35, Start =   471, Len =    40
+      Location: Id =   43, FId =  0, Line =   36, Start =   522, Len =    12
+      Location: Id =   44, FId =  0, Line =   36, Start =   522, Len =    20
+      Location: Id =   45, FId =  0, Line =   36, Start =   535, Len =     6
+      Location: Id =   46, FId =  0, Line =   36, Start =   516, Len =    26
+      Location: Id =   47, FId =  0, Line =    3, Start =    23, Len =   519
+      Location: Id =   48, FId =  0, Line =    9, Start =    93, Len =     8
+      Location: Id =   49, FId =  0, Line =    9, Start =    93, Len =    19
+      Location: Id =   50, FId =  0, Line =   11, Start =   118, Len =     4
+      Location: Id =   51, FId =  0, Line =   11, Start =   118, Len =    15
+      Location: Id =   52, FId =  0, Line =   11, Start =   129, Len =     3
+      Location: Id =   53, FId =  0, Line =   13, Start =   139, Len =     8
+      Location: Id =   54, FId =  0, Line =   13, Start =   139, Len =    22
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = threading
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    2, Ident = revdebug
+      Identifier: Id =   14, LId =    3, Ident = ...
+      Identifier: Id =   15, LId =    4, Ident = thread_func
+      Identifier: Id =   16, LId =    5, Ident = ...
+      Identifier: Id =   17, LId =    6, Ident = ...
+      Identifier: Id =   20, LId =    7, Ident = ...
+      Invocation: Id =   21, LId =    8, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   22, LId =    9, Ident = thread_wrapper
+      Identifier: Id =   23, LId =   10, Ident = ...
+      Identifier: Id =   24, LId =   11, Ident = ...
+      Invocation: Id =   25, LId =   11, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   27, LId =   12, Ident = ...
+      Identifier: Id =   28, LId =   13, Ident = ...
+      Invocation: Id =   30, LId =   13, Ident = revdebug.snapshot('Hello'), Method = snapshot
+      Identifier: Id =   32, LId =   15, Ident = ...
+      Identifier: Id =   33, LId =   16, Ident = ...
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = threading.Thread(target = thread_func, args = ()), Method = Thread
+      Identifier: Id =   38, LId =   21, Ident = thread
+      Identifier: Id =   39, LId =   22, Ident = ...
+      Identifier: Id =   40, LId =   23, Ident = ...
+      Invocation: Id =   42, LId =   23, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   44, LId =   25, Ident = ...
+      Identifier: Id =   45, LId =   26, Ident = ...
+      Invocation: Id =   46, LId =   26, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   48, LId =   27, Ident = ...
+      Identifier: Id =   49, LId =   28, Ident = ...
+      Invocation: Id =   51, LId =   28, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   53, LId =   30, Ident = ...
+      Identifier: Id =   54, LId =   31, Ident = ...
+      Invocation: Id =   55, LId =   32, Ident = thread_wrapper(thread), Method = thread_wrapper
+      Identifier: Id =   57, LId =   33, Ident = ...
+      Identifier: Id =   58, LId =   34, Ident = ...
+      Invocation: Id =   60, LId =   34, Ident = time.sleep(0.2), Method = sleep
+      Identifier: Id =   62, LId =   36, Ident = ...
+      Identifier: Id =   63, LId =   37, Ident = ...
+      Identifier: Id =   64, LId =   38, Ident = ...
+      Identifier: Id =   65, LId =   39, Ident = ...
+      Identifier: Id =   66, LId =   40, Ident = ...
+      Identifier: Id =   67, LId =   41, Ident = ...
+      Identifier: Id =   68, LId =   42, Ident = if
+      Identifier: Id =   69, LId =   43, Ident = ...
+      Invocation: Id =   71, LId =   44, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =   72, LId =   46, Ident = ...
+      Method:     Id =   75, LId =   47, Ident = test_snapshot.py, Method = test_snapshot.py
+      Argument:   Id =   76, LId =   14, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   77, LId =   19, Ident = target, ArgIdx = 0
+      Argument:   Id =   78, LId =   20, Ident = args, ArgIdx = 1
+      Argument:   Id =   79, LId =   24, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   80, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   81, LId =   31, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   82, LId =   35, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   83, LId =   45, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   84, LId =   48, Ident = ...
+      Identifier: Id =   85, LId =   49, Ident = ...
+      Invocation: Id =   86, LId =   49, Ident = revdebug.snapshot(), Method = snapshot
+      Identifier: Id =   88, LId =   50, Ident = ...
+      Identifier: Id =   89, LId =   51, Ident = ...
+      Invocation: Id =   91, LId =   51, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   93, LId =   53, Ident = ...
+      Identifier: Id =   94, LId =   54, Ident = ...
+      Invocation: Id =   95, LId =   54, Ident = revdebug.snapshotall(), Method = snapshotall
+      Method:     Id =   99, LId =    3, Ident = thread_func, Method = thread_func
+      Argument:   Id =  100, LId =   52, Ident = arg1, ArgIdx = 0
+
+Connection closed: NoMoreBytes

@@ -1,0 +1,474 @@
+Handshake: Solution = Solution, App = test_exceptions.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =  330, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Variable:  SId =    7, Value = <module 'os'>
+  Static:    SId =    8
+  Exception: SId =   11, Unhandled = False, Type = OverflowError
+    Message = (34, 'Numerical result out of range')
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 7, in <module>
+  Static:    SId =   18
+  Static:    SId =   22
+  Exception: SId =   25, Unhandled = False, Type = ZeroDivisionError
+    Message = division by zero
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 12, in <module>
+  Static:    SId =   32
+  Static:    SId =   36
+  Variable:  SId =   38, Value = False
+  Static:    SId =   41
+  Exception: SId =   42, Unhandled = False, Type = AssertionError
+    Message = message
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 17, in <module>
+  Static:    SId =   48
+  Static:    SId =   52
+  Exception: SId =   54, Unhandled = False, Type = AttributeError
+    Message = module 'revdebug' has no attribute 'nonexistent_attribute'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 22, in <module>
+  Static:    SId =   61
+  Static:    SId =   65
+  Variable:  SId =  331, Value = b'0123452678'
+  Static:    SId =   68
+  Variable:  SId =   69, Value = <bytearray object at 0x7f6acc74dc70>
+  Variable:  SId =  332, Value = <bytearray object at 0x7f6acc74dc70>
+  Static:    SId =   72
+  Variable:  SId =   73, Value = <memory at 0x7f6acc7412c0>
+  Static:    SId =   76
+  Exception: SId =   76, Unhandled = False, Type = BufferError
+    Message = Existing exports of data: object cannot be re-sized
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 29, in <module>
+  Static:    SId =   82
+  Static:    SId =   83
+  Static:    SId =   87
+  Exception: SId =   90, Unhandled = False, Type = ModuleNotFoundError
+    Message = No module named 'nonexistent_module'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 36, in <module>
+  Static:    SId =   97
+  Static:    SId =  101
+  Exception: SId =  105, Unhandled = False, Type = IndexError
+    Message = list index out of range
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 41, in <module>
+  Static:    SId =  112
+  Static:    SId =  116
+  Static:    SId =  117
+  Exception: SId =  122, Unhandled = False, Type = KeyError
+    Message = 'a'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 47, in <module>
+  Exception: SId =  129, Unhandled = False, Type = KeyError
+    Message = 'a'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 47, in <module>
+  Static:    SId =  138
+  Static:    SId =  142
+  Variable:  SId =  333, Value = 1152921504606846976
+  Static:    SId =  145
+  Exception: SId =  145, Unhandled = False, Type = MemoryError
+    Message = None
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 54, in <module>
+  Static:    SId =  152
+  Static:    SId =  156
+  Variable:  SId =  160, Value = <function func at 0x7f6acc7af730>
+  Static:    SId =  162
+  Method:    SId =  355, Phase = Enter
+  Exception: SId =  349, Unhandled = False, Type = UnboundLocalError
+    Message = local variable 'x' referenced before assignment
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 60, in func
+  Method:    SId =  355, Phase = Exit
+  Exception: SId =  162, Unhandled = False, Type = UnboundLocalError
+    Message = local variable 'x' referenced before assignment
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 60, in func
+  Static:    SId =  169
+  Static:    SId =  173
+  Variable:  SId =  334, Value = 'nonexistent_file'
+  Static:    SId =  176
+  Exception: SId =  176, Unhandled = False, Type = FileNotFoundError
+    Message = [Errno 2] No such file or directory: 'nonexistent_file'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 68, in <module>
+  Static:    SId =  183
+  Static:    SId =  187
+  Variable:  SId =  335, Value = 'nonexistent_file'
+  Variable:  SId =  336, Value = 'another_nonexistent_file'
+  Static:    SId =  192
+  Exception: SId =  192, Unhandled = False, Type = FileNotFoundError
+    Message = [Errno 2] No such file or directory: 'nonexistent_file' -> 'another_nonexistent_file'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 73, in <module>
+  Static:    SId =  199
+  Static:    SId =  203
+  Static:    SId =  204
+  Variable:  SId =  337, Value = 'i = [1, 2,'
+  Variable:  SId =  338, Value = 'dir/filename.py'
+  Variable:  SId =  339, Value = 'exec'
+  Static:    SId =  209
+  Exception: SId =  209, Unhandled = False, Type = SyntaxError
+    Message = unexpected EOF while parsing (filename.py, 1)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 81, in <module>
+  Exception: SId =  216, Unhandled = False, Type = SyntaxError
+    Message = unexpected EOF while parsing (filename.py, 1)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 81, in <module>
+  Static:    SId =  225
+  Static:    SId =  229
+  Static:    SId =  230
+  Variable:  SId =  340, Value = 'def f():\ni = 1'
+  Variable:  SId =  341, Value = 'dir/filename.py'
+  Variable:  SId =  342, Value = 'exec'
+  Static:    SId =  235
+  Exception: SId =  235, Unhandled = False, Type = IndentationError
+    Message = expected an indented block (filename.py, 2)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 89, in <module>
+  Exception: SId =  242, Unhandled = False, Type = IndentationError
+    Message = expected an indented block (filename.py, 2)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 89, in <module>
+  Static:    SId =  251
+  Static:    SId =  255
+  Static:    SId =  256
+  Variable:  SId =  343, Value = 'def f():\n i = 1\n\tj = 2'
+  Variable:  SId =  344, Value = 'dir/filename.py'
+  Variable:  SId =  345, Value = 'exec'
+  Static:    SId =  261
+  Exception: SId =  261, Unhandled = False, Type = TabError
+    Message = inconsistent use of tabs and spaces in indentation (filename.py, 3)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 97, in <module>
+  Exception: SId =  268, Unhandled = False, Type = TabError
+    Message = inconsistent use of tabs and spaces in indentation (filename.py, 3)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 97, in <module>
+  Static:    SId =  277
+  Static:    SId =  281
+  Exception: SId =  286, Unhandled = False, Type = TypeError
+    Message = unhashable type: 'list'
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 104, in <module>
+  Static:    SId =  294
+  Static:    SId =  298
+  Variable:  SId =  347, Value = -1
+  Static:    SId =  301
+  Exception: SId =  301, Unhandled = False, Type = ValueError
+    Message = negative count
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py", line 109, in <module>
+  Static:    SId =  308
+  Static:    SId =  314
+  Variable:  SId =  322, Value = False
+  Method:    SId =  330, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_exceptions.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    4, Start =    39, Len =     9
+      Location: Id =    2, FId =  0, Line =    6, Start =    50, Len =    71
+      Location: Id =    3, FId =  0, Line =    7, Start =    80, Len =    24
+      Location: Id =    4, FId =  0, Line =    7, Start =    76, Len =     1
+      Location: Id =    5, FId =  0, Line =    9, Start =   117, Len =     4
+      Location: Id =    6, FId =  0, Line =   11, Start =   123, Len =    56
+      Location: Id =    7, FId =  0, Line =   12, Start =   157, Len =     5
+      Location: Id =    8, FId =  0, Line =   12, Start =   153, Len =     1
+      Location: Id =    9, FId =  0, Line =   14, Start =   175, Len =     4
+      Location: Id =   10, FId =  0, Line =   16, Start =   181, Len =    67
+      Location: Id =   11, FId =  0, Line =   17, Start =   208, Len =    12
+      Location: Id =   12, FId =  0, Line =   17, Start =   208, Len =    23
+      Location: Id =   13, FId =  0, Line =   19, Start =   244, Len =     4
+      Location: Id =   14, FId =  0, Line =   21, Start =   250, Len =    78
+      Location: Id =   15, FId =  0, Line =   22, Start =   281, Len =     8
+      Location: Id =   16, FId =  0, Line =   22, Start =   281, Len =    30
+      Location: Id =   17, FId =  0, Line =   22, Start =   277, Len =     1
+      Location: Id =   18, FId =  0, Line =   24, Start =   324, Len =     4
+      Location: Id =   19, FId =  0, Line =   26, Start =   330, Len =   108
+      Location: Id =   20, FId =  0, Line =   27, Start =   358, Len =     9
+      Location: Id =   21, FId =  0, Line =   27, Start =   358, Len =    24
+      Location: Id =   22, FId =  0, Line =   27, Start =   368, Len =    13
+      Location: Id =   23, FId =  0, Line =   27, Start =   354, Len =     1
+      Location: Id =   24, FId =  0, Line =   28, Start =   391, Len =    10
+      Location: Id =   25, FId =  0, Line =   28, Start =   402, Len =     1
+      Location: Id =   26, FId =  0, Line =   28, Start =   391, Len =    13
+      Location: Id =   27, FId =  0, Line =   28, Start =   387, Len =     1
+      Location: Id =   28, FId =  0, Line =   29, Start =   413, Len =     1
+      Location: Id =   29, FId =  0, Line =   29, Start =   413, Len =     4
+      Location: Id =   30, FId =  0, Line =   31, Start =   434, Len =     1
+      Location: Id =   31, FId =  0, Line =   31, Start =   437, Len =     1
+      Location: Id =   32, FId =  0, Line =   31, Start =   430, Len =     8
+      Location: Id =   33, FId =  0, Line =   35, Start =   458, Len =    88
+      Location: Id =   34, FId =  0, Line =   36, Start =   504, Len =    25
+      Location: Id =   35, FId =  0, Line =   38, Start =   542, Len =     4
+      Location: Id =   36, FId =  0, Line =   40, Start =   548, Len =    64
+      Location: Id =   37, FId =  0, Line =   41, Start =   589, Len =     3
+      Location: Id =   38, FId =  0, Line =   41, Start =   589, Len =     6
+      Location: Id =   39, FId =  0, Line =   41, Start =   585, Len =     1
+      Location: Id =   40, FId =  0, Line =   43, Start =   608, Len =     4
+      Location: Id =   41, FId =  0, Line =   45, Start =   614, Len =   106
+      Location: Id =   42, FId =  0, Line =   46, Start =   649, Len =    54
+      Location: Id =   43, FId =  0, Line =   47, Start =   666, Len =     6
+      Location: Id =   44, FId =  0, Line =   47, Start =   666, Len =    11
+      Location: Id =   45, FId =  0, Line =   47, Start =   662, Len =     1
+      Location: Id =   46, FId =  0, Line =   49, Start =   698, Len =     5
+      Location: Id =   47, FId =  0, Line =   51, Start =   716, Len =     4
+      Location: Id =   48, FId =  0, Line =   53, Start =   722, Len =    74
+      Location: Id =   49, FId =  0, Line =   54, Start =   750, Len =     9
+      Location: Id =   50, FId =  0, Line =   54, Start =   750, Len =    29
+      Location: Id =   51, FId =  0, Line =   54, Start =   760, Len =    18
+      Location: Id =   52, FId =  0, Line =   54, Start =   746, Len =     1
+      Location: Id =   53, FId =  0, Line =   56, Start =   792, Len =     4
+      Location: Id =   54, FId =  0, Line =   58, Start =   798, Len =    84
+      Location: Id =   55, FId =  0, Line =   59, Start =   828, Len =    26
+      Location: Id =   56, FId =  0, Line =   59, Start =   828, Len =     8
+      Location: Id =   57, FId =  0, Line =   61, Start =   859, Len =     4
+      Location: Id =   58, FId =  0, Line =   61, Start =   859, Len =     6
+      Location: Id =   59, FId =  0, Line =   63, Start =   878, Len =     4
+      Location: Id =   60, FId =  0, Line =   67, Start =   895, Len =    54
+      Location: Id =   61, FId =  0, Line =   68, Start =   908, Len =     4
+      Location: Id =   62, FId =  0, Line =   68, Start =   908, Len =    24
+      Location: Id =   63, FId =  0, Line =   68, Start =   913, Len =    18
+      Location: Id =   64, FId =  0, Line =   68, Start =   904, Len =     1
+      Location: Id =   65, FId =  0, Line =   70, Start =   945, Len =     4
+      Location: Id =   66, FId =  0, Line =   72, Start =   951, Len =    83
+      Location: Id =   67, FId =  0, Line =   73, Start =   960, Len =     2
+      Location: Id =   68, FId =  0, Line =   73, Start =   960, Len =    57
+      Location: Id =   69, FId =  0, Line =   73, Start =   970, Len =    18
+      Location: Id =   70, FId =  0, Line =   73, Start =   990, Len =    26
+      Location: Id =   71, FId =  0, Line =   75, Start =  1030, Len =     4
+      Location: Id =   72, FId =  0, Line =   79, Start =  1060, Len =   132
+      Location: Id =   73, FId =  0, Line =   80, Start =  1084, Len =    91
+      Location: Id =   74, FId =  0, Line =   81, Start =  1101, Len =     7
+      Location: Id =   75, FId =  0, Line =   81, Start =  1101, Len =    48
+      Location: Id =   76, FId =  0, Line =   81, Start =  1109, Len =    12
+      Location: Id =   77, FId =  0, Line =   81, Start =  1123, Len =    17
+      Location: Id =   78, FId =  0, Line =   81, Start =  1142, Len =     6
+      Location: Id =   79, FId =  0, Line =   81, Start =  1097, Len =     1
+      Location: Id =   80, FId =  0, Line =   83, Start =  1170, Len =     5
+      Location: Id =   81, FId =  0, Line =   85, Start =  1188, Len =     4
+      Location: Id =   82, FId =  0, Line =   87, Start =  1194, Len =   155
+      Location: Id =   83, FId =  0, Line =   88, Start =  1236, Len =    96
+      Location: Id =   84, FId =  0, Line =   89, Start =  1253, Len =     7
+      Location: Id =   85, FId =  0, Line =   89, Start =  1253, Len =    53
+      Location: Id =   86, FId =  0, Line =   89, Start =  1261, Len =    17
+      Location: Id =   87, FId =  0, Line =   89, Start =  1280, Len =    17
+      Location: Id =   88, FId =  0, Line =   89, Start =  1299, Len =     6
+      Location: Id =   89, FId =  0, Line =   89, Start =  1249, Len =     1
+      Location: Id =   90, FId =  0, Line =   91, Start =  1327, Len =     5
+      Location: Id =   91, FId =  0, Line =   93, Start =  1345, Len =     4
+      Location: Id =   92, FId =  0, Line =   95, Start =  1351, Len =   175
+      Location: Id =   93, FId =  0, Line =   96, Start =  1403, Len =   106
+      Location: Id =   94, FId =  0, Line =   97, Start =  1420, Len =     7
+      Location: Id =   95, FId =  0, Line =   97, Start =  1420, Len =    63
+      Location: Id =   96, FId =  0, Line =   97, Start =  1428, Len =    27
+      Location: Id =   97, FId =  0, Line =   97, Start =  1457, Len =    17
+      Location: Id =   98, FId =  0, Line =   97, Start =  1476, Len =     6
+      Location: Id =   99, FId =  0, Line =   97, Start =  1416, Len =     1
+      Location: Id =  100, FId =  0, Line =   99, Start =  1504, Len =     5
+      Location: Id =  101, FId =  0, Line =  101, Start =  1522, Len =     4
+      Location: Id =  102, FId =  0, Line =  103, Start =  1528, Len =    65
+      Location: Id =  103, FId =  0, Line =  104, Start =  1554, Len =     9
+      Location: Id =  104, FId =  0, Line =  104, Start =  1565, Len =     9
+      Location: Id =  105, FId =  0, Line =  104, Start =  1564, Len =    11
+      Location: Id =  106, FId =  0, Line =  104, Start =  1554, Len =    22
+      Location: Id =  107, FId =  0, Line =  104, Start =  1550, Len =     1
+      Location: Id =  108, FId =  0, Line =  106, Start =  1589, Len =     4
+      Location: Id =  109, FId =  0, Line =  108, Start =  1595, Len =    57
+      Location: Id =  110, FId =  0, Line =  109, Start =  1622, Len =     9
+      Location: Id =  111, FId =  0, Line =  109, Start =  1622, Len =    13
+      Location: Id =  112, FId =  0, Line =  109, Start =  1632, Len =     2
+      Location: Id =  113, FId =  0, Line =  109, Start =  1618, Len =     1
+      Location: Id =  114, FId =  0, Line =  111, Start =  1648, Len =     4
+      Location: Id =  115, FId =  0, Line =  113, Start =  1654, Len =     8
+      Location: Id =  116, FId =  0, Line =  113, Start =  1654, Len =    16
+      Location: Id =  117, FId =  0, Line =  115, Start =  1696, Len =     8
+      Location: Id =  118, FId =  0, Line =  115, Start =  1696, Len =    13
+      Location: Id =  119, FId =  0, Line =  115, Start =  1696, Len =    18
+      Location: Id =  120, FId =  0, Line =  115, Start =  1718, Len =     8
+      Location: Id =  121, FId =  0, Line =  115, Start =  1718, Len =    14
+      Location: Id =  122, FId =  0, Line =  115, Start =  1696, Len =    36
+      Location: Id =  123, FId =  0, Line =  115, Start =  1693, Len =    40
+      Location: Id =  124, FId =  0, Line =  116, Start =  1744, Len =    12
+      Location: Id =  125, FId =  0, Line =  116, Start =  1744, Len =    41
+      Location: Id =  126, FId =  0, Line =  116, Start =  1757, Len =    27
+      Location: Id =  127, FId =  0, Line =  116, Start =  1738, Len =    47
+      Location: Id =  128, FId =  0, Line =    3, Start =    23, Len =  1762
+      Location: Id =  129, FId =  0, Line =   60, Start =   848, Len =     6
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = os
+      Invocation: Id =    8, LId =    2, Ident = try, Method = try
+      Identifier: Id =   11, LId =    3, Ident = ...
+      Identifier: Id =   12, LId =    4, Ident = f
+      Invocation: Id =   18, LId =    5, Ident = pass, Method = pass
+      Identifier: Id =   19, LId =    5, Ident = ...
+      Identifier: Id =   21, LId =    5, Ident = ...
+      Invocation: Id =   22, LId =    6, Ident = try, Method = try
+      Identifier: Id =   25, LId =    7, Ident = ...
+      Identifier: Id =   26, LId =    8, Ident = i
+      Invocation: Id =   32, LId =    9, Ident = pass, Method = pass
+      Identifier: Id =   33, LId =    9, Ident = ...
+      Identifier: Id =   35, LId =    9, Ident = ...
+      Invocation: Id =   36, LId =   10, Ident = try, Method = try
+      Identifier: Id =   38, LId =   11, Ident = assert
+      Invocation: Id =   41, LId =   12, Ident = assert False, 'message', Method = assert
+      Identifier: Id =   42, LId =   12, Ident = ...
+      Invocation: Id =   48, LId =   13, Ident = pass, Method = pass
+      Identifier: Id =   49, LId =   13, Ident = ...
+      Identifier: Id =   51, LId =   13, Ident = ...
+      Invocation: Id =   52, LId =   14, Ident = try, Method = try
+      Identifier: Id =   53, LId =   15, Ident = ...
+      Identifier: Id =   54, LId =   16, Ident = ...
+      Identifier: Id =   55, LId =   17, Ident = i
+      Invocation: Id =   61, LId =   18, Ident = pass, Method = pass
+      Identifier: Id =   62, LId =   18, Ident = ...
+      Identifier: Id =   64, LId =   18, Ident = ...
+      Invocation: Id =   65, LId =   19, Ident = try, Method = try
+      Identifier: Id =   66, LId =   20, Ident = ...
+      Invocation: Id =   68, LId =   21, Ident = bytearray(b'0123452678'), Method = bytearray
+      Identifier: Id =   69, LId =   23, Ident = b
+      Identifier: Id =   70, LId =   24, Ident = ...
+      Identifier: Id =   71, LId =   25, Ident = ...
+      Invocation: Id =   72, LId =   26, Ident = memoryview(b), Method = memoryview
+      Identifier: Id =   73, LId =   27, Ident = m
+      Identifier: Id =   74, LId =   28, Ident = ...
+      Invocation: Id =   76, LId =   29, Ident = del b[1], Method = del
+      Invocation: Id =   82, LId =   30, Ident = del b, Method = del
+      Invocation: Id =   83, LId =   31, Ident = del m, Method = del
+      Identifier: Id =   84, LId =   32, Ident = ...
+      Identifier: Id =   86, LId =   32, Ident = ...
+      Invocation: Id =   87, LId =   33, Ident = try, Method = try
+      Identifier: Id =   90, LId =   34, Ident = ...
+      Identifier: Id =   91, LId =   34, Ident = nonexistent_module
+      Invocation: Id =   97, LId =   35, Ident = pass, Method = pass
+      Identifier: Id =   98, LId =   35, Ident = ...
+      Identifier: Id =  100, LId =   35, Ident = ...
+      Invocation: Id =  101, LId =   36, Ident = try, Method = try
+      Identifier: Id =  103, LId =   37, Ident = ...
+      Identifier: Id =  105, LId =   38, Ident = ...
+      Identifier: Id =  106, LId =   39, Ident = i
+      Invocation: Id =  112, LId =   40, Ident = pass, Method = pass
+      Identifier: Id =  113, LId =   40, Ident = ...
+      Identifier: Id =  115, LId =   40, Ident = ...
+      Invocation: Id =  116, LId =   41, Ident = try, Method = try
+      Invocation: Id =  117, LId =   42, Ident = try, Method = try
+      Identifier: Id =  120, LId =   43, Ident = ...
+      Identifier: Id =  122, LId =   44, Ident = ...
+      Identifier: Id =  123, LId =   45, Ident = i
+      Identifier: Id =  129, LId =   46, Ident = ...
+      Identifier: Id =  130, LId =   46, Ident = ...
+      Identifier: Id =  132, LId =   46, Ident = ...
+      Invocation: Id =  138, LId =   47, Ident = pass, Method = pass
+      Identifier: Id =  139, LId =   47, Ident = ...
+      Identifier: Id =  141, LId =   47, Ident = ...
+      Invocation: Id =  142, LId =   48, Ident = try, Method = try
+      Identifier: Id =  143, LId =   49, Ident = ...
+      Invocation: Id =  145, LId =   50, Ident = bytearray(0x1000000000000000), Method = bytearray
+      Identifier: Id =  146, LId =   52, Ident = b
+      Invocation: Id =  152, LId =   53, Ident = pass, Method = pass
+      Identifier: Id =  153, LId =   53, Ident = ...
+      Identifier: Id =  155, LId =   53, Ident = ...
+      Invocation: Id =  156, LId =   54, Ident = try, Method = try
+      Identifier: Id =  159, LId =   55, Ident = ...
+      Identifier: Id =  160, LId =   56, Ident = func
+      Identifier: Id =  161, LId =   57, Ident = ...
+      Invocation: Id =  162, LId =   58, Ident = func(), Method = func
+      Invocation: Id =  169, LId =   59, Ident = pass, Method = pass
+      Identifier: Id =  170, LId =   59, Ident = ...
+      Identifier: Id =  172, LId =   59, Ident = ...
+      Invocation: Id =  173, LId =   60, Ident = try, Method = try
+      Identifier: Id =  174, LId =   61, Ident = ...
+      Invocation: Id =  176, LId =   62, Ident = open('nonexistent_file'), Method = open
+      Identifier: Id =  177, LId =   64, Ident = f
+      Invocation: Id =  183, LId =   65, Ident = pass, Method = pass
+      Identifier: Id =  184, LId =   65, Ident = ...
+      Identifier: Id =  186, LId =   65, Ident = ...
+      Invocation: Id =  187, LId =   66, Ident = try, Method = try
+      Identifier: Id =  188, LId =   67, Ident = ...
+      Identifier: Id =  189, LId =   68, Ident = ...
+      Invocation: Id =  192, LId =   68, Ident = os.rename('nonexistent_file', 'another_nonexistent_file'), Method = rename
+      Invocation: Id =  199, LId =   71, Ident = pass, Method = pass
+      Identifier: Id =  200, LId =   71, Ident = ...
+      Identifier: Id =  202, LId =   71, Ident = ...
+      Invocation: Id =  203, LId =   72, Ident = try, Method = try
+      Invocation: Id =  204, LId =   73, Ident = try, Method = try
+      Identifier: Id =  205, LId =   74, Ident = ...
+      Invocation: Id =  209, LId =   75, Ident = compile('i = [1, 2,', 'dir/filename.py', 'exec'), Method = compile
+      Identifier: Id =  210, LId =   79, Ident = c
+      Identifier: Id =  216, LId =   80, Ident = ...
+      Identifier: Id =  217, LId =   80, Ident = ...
+      Identifier: Id =  219, LId =   80, Ident = ...
+      Invocation: Id =  225, LId =   81, Ident = pass, Method = pass
+      Identifier: Id =  226, LId =   81, Ident = ...
+      Identifier: Id =  228, LId =   81, Ident = ...
+      Invocation: Id =  229, LId =   82, Ident = try, Method = try
+      Invocation: Id =  230, LId =   83, Ident = try, Method = try
+      Identifier: Id =  231, LId =   84, Ident = ...
+      Invocation: Id =  235, LId =   85, Ident = compile('def f():\ni = 1', 'dir/filename.py', 'exec'), Method = compile
+      Identifier: Id =  236, LId =   89, Ident = c
+      Identifier: Id =  242, LId =   90, Ident = ...
+      Identifier: Id =  243, LId =   90, Ident = ...
+      Identifier: Id =  245, LId =   90, Ident = ...
+      Invocation: Id =  251, LId =   91, Ident = pass, Method = pass
+      Identifier: Id =  252, LId =   91, Ident = ...
+      Identifier: Id =  254, LId =   91, Ident = ...
+      Invocation: Id =  255, LId =   92, Ident = try, Method = try
+      Invocation: Id =  256, LId =   93, Ident = try, Method = try
+      Identifier: Id =  257, LId =   94, Ident = ...
+      Invocation: Id =  261, LId =   95, Ident = compile('def f():\n i = 1\n\tj = 2', 'dir/filename.py', 'exec'), Method = compile
+      Identifier: Id =  262, LId =   99, Ident = c
+      Identifier: Id =  268, LId =  100, Ident = ...
+      Identifier: Id =  269, LId =  100, Ident = ...
+      Identifier: Id =  271, LId =  100, Ident = ...
+      Invocation: Id =  277, LId =  101, Ident = pass, Method = pass
+      Identifier: Id =  278, LId =  101, Ident = ...
+      Identifier: Id =  280, LId =  101, Ident = ...
+      Invocation: Id =  281, LId =  102, Ident = try, Method = try
+      Identifier: Id =  282, LId =  103, Ident = ...
+      Identifier: Id =  283, LId =  104, Ident = ...
+      Identifier: Id =  285, LId =  104, Ident = ...
+      Identifier: Id =  286, LId =  105, Ident = ...
+      Invocation: Id =  287, LId =  106, Ident = frozenset({[1, 2, 3]}), Method = frozenset
+      Identifier: Id =  288, LId =  107, Ident = s
+      Invocation: Id =  294, LId =  108, Ident = pass, Method = pass
+      Identifier: Id =  295, LId =  108, Ident = ...
+      Identifier: Id =  297, LId =  108, Ident = ...
+      Invocation: Id =  298, LId =  109, Ident = try, Method = try
+      Identifier: Id =  299, LId =  110, Ident = ...
+      Invocation: Id =  301, LId =  111, Ident = bytearray(-1), Method = bytearray
+      Identifier: Id =  302, LId =  113, Ident = b
+      Invocation: Id =  308, LId =  114, Ident = pass, Method = pass
+      Identifier: Id =  309, LId =  114, Ident = ...
+      Identifier: Id =  311, LId =  114, Ident = ...
+      Identifier: Id =  312, LId =  115, Ident = ...
+      Identifier: Id =  313, LId =  116, Ident = ...
+      Invocation: Id =  314, LId =  116, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =  316, LId =  117, Ident = ...
+      Identifier: Id =  317, LId =  118, Ident = ...
+      Identifier: Id =  318, LId =  119, Ident = ...
+      Identifier: Id =  319, LId =  120, Ident = ...
+      Identifier: Id =  320, LId =  121, Ident = ...
+      Identifier: Id =  321, LId =  122, Ident = ...
+      Identifier: Id =  322, LId =  123, Ident = if
+      Identifier: Id =  324, LId =  124, Ident = ...
+      Invocation: Id =  326, LId =  125, Ident = RuntimeError('some abnormal termination'), Method = RuntimeError
+      Identifier: Id =  327, LId =  127, Ident = ...
+      Method:     Id =  330, LId =  128, Ident = test_exceptions.py, Method = test_exceptions.py
+      Argument:   Id =  331, LId =   22, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  332, LId =   25, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  333, LId =   51, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  334, LId =   63, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  335, LId =   69, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  336, LId =   70, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  337, LId =   76, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  338, LId =   77, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  339, LId =   78, Ident = arg3, ArgIdx = 2
+      Argument:   Id =  340, LId =   86, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  341, LId =   87, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  342, LId =   88, Ident = arg3, ArgIdx = 2
+      Argument:   Id =  343, LId =   96, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  344, LId =   97, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  345, LId =   98, Ident = arg3, ArgIdx = 2
+      Argument:   Id =  346, LId =  105, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  347, LId =  112, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  348, LId =  126, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  349, LId =  129, Ident = ...
+      Identifier: Id =  351, LId =  129, Ident = ...
+      Identifier: Id =  352, LId =  129, Ident = x
+      Method:     Id =  355, LId =   55, Ident = func, Method = func
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

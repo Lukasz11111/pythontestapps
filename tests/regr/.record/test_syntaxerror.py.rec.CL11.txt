@@ -1,0 +1,33 @@
+Handshake: Solution = Solution, App = test_syntaxerror.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_syntaxerror.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = SyntaxError
+    Message = invalid syntax (test_syntaxerror.py, line 3)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_syntaxerror.py", line 3
+        print(1 + 1var)
+                   ^
+    SyntaxError: invalid syntax
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+    Locations:
+    Statements:
+
+DownloadRecording:
+  Exception: SId =   -1, Unhandled = True, Type = SyntaxError
+    Message = invalid syntax (test_syntaxerror.py, line 3)
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_syntaxerror.py", line 3
+        print(1 + 1var)
+                   ^
+    SyntaxError: invalid syntax
+
+Connection closed: NoMoreBytes

@@ -1,0 +1,1023 @@
+Handshake: Solution = Solution, App = test_user_serialization_inheritance.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =  439, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Static:    SId =    6
+  Variable:  SId =    9, Value = '____ inheritance ____________________________________________________________________________________________'
+  Static:    SId =   16
+  Method:    SId =  515, Phase = Enter
+  Static:    SId =  512
+  Method:    SId =  515, Phase = Exit
+  Variable:  SId =   17, Value = <class '__main__.mylist'>
+  Variable:  SId =  440, Value = [1, 2, 3]
+  Static:    SId =   22
+  Variable:  SId =   23, Value = [1, 2, 3]
+  Variable:  SId =   27, Value = -2
+  Variable:  SId =   29, Value = [1, -2, 3]
+  Variable:  SId =  441, Value = <class '__main__.mylist'>
+  Variable:  SId =  442, Value = <function <lambda> at 0x7f6d71050550>
+  Static:    SId =   36
+  Variable:  SId =   37, Value = None
+  Variable:  SId =   39, Value = <list of 3 objects>
+  Variable:  SId =  443, Value = <class '__main__.mylist'>
+  Variable:  SId =  444, Value = None
+  Static:    SId =   44
+  Variable:  SId =   45, Value = <function <lambda> at 0x7f6d71050550>
+  Variable:  SId =   47, Value = [1, -2, 3]
+  Variable:  SId =  445, Value = <class '__main__.mylist'>
+  Variable:  SId =  446, Value = False
+  Static:    SId =   52
+  Variable:  SId =   53, Value = None
+  Variable:  SId =   55, Value = <__main__.mylist object at 0x7f6d7106b7d0>
+  Variable:  SId =  447, Value = <class '__main__.mylist'>
+  Variable:  SId =  448, Value = None
+  Static:    SId =   60
+  Variable:  SId =   61, Value = False
+  Variable:  SId =   63, Value = [1, -2, 3]
+  Static:    SId =   70
+  Method:    SId =  523, Phase = Enter
+  Static:    SId =  520
+  Method:    SId =  523, Phase = Exit
+  Variable:  SId =   71, Value = <class '__main__.mylist2'>
+  Variable:  SId =  449, Value = [1, 2, 3]
+  Static:    SId =   76
+  Variable:  SId =   77, Value = [1, 2, 3]
+  Variable:  SId =   81, Value = -2
+  Variable:  SId =   83, Value = [1, -2, 3]
+  Variable:  SId =  450, Value = <class '__main__.mylist2'>
+  Variable:  SId =  451, Value = <function <lambda> at 0x7f6d71050690>
+  Static:    SId =   90
+  Variable:  SId =   91, Value = None
+  Variable:  SId =   93, Value = <list of 3 objects>
+  Variable:  SId =  452, Value = <class '__main__.mylist2'>
+  Variable:  SId =  453, Value = None
+  Static:    SId =   98
+  Variable:  SId =   99, Value = <function <lambda> at 0x7f6d71050690>
+  Variable:  SId =  101, Value = [1, -2, 3]
+  Variable:  SId =  454, Value = <class '__main__.mylist2'>
+  Variable:  SId =  455, Value = False
+  Static:    SId =  106
+  Variable:  SId =  107, Value = None
+  Variable:  SId =  109, Value = <__main__.mylist2 object at 0x7f6d7106b8f0>
+  Variable:  SId =  456, Value = <class '__main__.mylist2'>
+  Variable:  SId =  457, Value = None
+  Static:    SId =  114
+  Variable:  SId =  115, Value = False
+  Variable:  SId =  117, Value = [1, -2, 3]
+  Static:    SId =  124
+  Method:    SId =  534, Phase = Enter
+  Variable:  SId =  531, Value = <function <lambda> at 0x7f6d710507d0>
+  Method:    SId =  534, Phase = Exit
+  Variable:  SId =  125, Value = <class '__main__.mylist3'>
+  Variable:  SId =  458, Value = [1, 2, 3]
+  Static:    SId =  130
+  Variable:  SId =  131, Value = <list of 3 objects>
+  Static:    SId =  138
+  Method:    SId =  543, Phase = Enter
+  Variable:  SId =  540, Value = None
+  Method:    SId =  543, Phase = Exit
+  Variable:  SId =  139, Value = <class '__main__.mylist4'>
+  Variable:  SId =  459, Value = [1, 2, 3]
+  Static:    SId =  144
+  Variable:  SId =  145, Value = [1, 2, 3]
+  Static:    SId =  152
+  Method:    SId =  552, Phase = Enter
+  Variable:  SId =  549, Value = False
+  Method:    SId =  552, Phase = Exit
+  Variable:  SId =  153, Value = <class '__main__.mylist5'>
+  Variable:  SId =  460, Value = [1, 2, 3]
+  Static:    SId =  158
+  Variable:  SId =  159, Value = <__main__.mylist5 object at 0x7f6d7106bb90>
+  Variable:  SId =  161, Value = '____ from other builtin objects ____________________________________________________________________________________________'
+  Static:    SId =  168
+  Method:    SId =  560, Phase = Enter
+  Static:    SId =  557
+  Method:    SId =  560, Phase = Exit
+  Variable:  SId =  169, Value = <class '__main__.myset'>
+  Variable:  SId =  461, Value = [1, 2, 3]
+  Static:    SId =  174
+  Variable:  SId =  175, Value = {1, 2, 3}
+  Variable:  SId =  462, Value = -2
+  Static:    SId =  179
+  Variable:  SId =  182, Value = {1, 2, 3, -2}
+  Variable:  SId =  463, Value = <class '__main__.myset'>
+  Variable:  SId =  464, Value = <function <lambda> at 0x7f6d71050a50>
+  Static:    SId =  189
+  Variable:  SId =  190, Value = None
+  Variable:  SId =  192, Value = <set of 4 objects>
+  Variable:  SId =  465, Value = <class '__main__.myset'>
+  Variable:  SId =  466, Value = None
+  Static:    SId =  197
+  Variable:  SId =  198, Value = <function <lambda> at 0x7f6d71050a50>
+  Variable:  SId =  200, Value = {1, 2, 3, -2}
+  Variable:  SId =  467, Value = <class '__main__.myset'>
+  Variable:  SId =  468, Value = False
+  Static:    SId =  205
+  Variable:  SId =  206, Value = None
+  Variable:  SId =  208, Value = <__main__.myset object at 0x7f6d7104d150>
+  Variable:  SId =  469, Value = <class '__main__.myset'>
+  Variable:  SId =  470, Value = None
+  Static:    SId =  213
+  Variable:  SId =  214, Value = False
+  Variable:  SId =  216, Value = {1, 2, 3, -2}
+  Static:    SId =  223
+  Method:    SId =  568, Phase = Enter
+  Static:    SId =  565
+  Method:    SId =  568, Phase = Exit
+  Variable:  SId =  224, Value = <class '__main__.mytuple'>
+  Variable:  SId =  471, Value = [1, 2, 3]
+  Static:    SId =  229
+  Variable:  SId =  230, Value = (1, 2, 3)
+  Variable:  SId =  472, Value = <class '__main__.mytuple'>
+  Variable:  SId =  473, Value = <function <lambda> at 0x7f6d71050b90>
+  Static:    SId =  237
+  Variable:  SId =  238, Value = None
+  Variable:  SId =  240, Value = <tuple of 3 objects>
+  Variable:  SId =  474, Value = <class '__main__.mytuple'>
+  Variable:  SId =  475, Value = None
+  Static:    SId =  245
+  Variable:  SId =  246, Value = <function <lambda> at 0x7f6d71050b90>
+  Variable:  SId =  248, Value = (1, 2, 3)
+  Variable:  SId =  476, Value = <class '__main__.mytuple'>
+  Variable:  SId =  477, Value = False
+  Static:    SId =  253
+  Variable:  SId =  254, Value = None
+  Variable:  SId =  256, Value = (1, 2, 3)
+  Variable:  SId =  478, Value = <class '__main__.mytuple'>
+  Variable:  SId =  479, Value = None
+  Static:    SId =  261
+  Variable:  SId =  262, Value = False
+  Variable:  SId =  264, Value = (1, 2, 3)
+  Static:    SId =  271
+  Method:    SId =  576, Phase = Enter
+  Static:    SId =  573
+  Method:    SId =  576, Phase = Exit
+  Variable:  SId =  272, Value = <class '__main__.mydict'>
+  Variable:  SId =  480, Value = [(1, 1), (2, 2), (3, 3)]
+  Static:    SId =  277
+  Variable:  SId =  278, Value = {1: 1, 2: 2, 3: 3}
+  Variable:  SId =  282, Value = -2
+  Variable:  SId =  284, Value = {1: -2, 2: 2, 3: 3}
+  Variable:  SId =  481, Value = <class '__main__.mydict'>
+  Variable:  SId =  482, Value = <function <lambda> at 0x7f6d71050cd0>
+  Static:    SId =  291
+  Variable:  SId =  292, Value = None
+  Variable:  SId =  294, Value = <dict of 3 objects>
+  Variable:  SId =  483, Value = <class '__main__.mydict'>
+  Variable:  SId =  484, Value = None
+  Static:    SId =  299
+  Variable:  SId =  300, Value = <function <lambda> at 0x7f6d71050cd0>
+  Variable:  SId =  302, Value = {1: -2, 2: 2, 3: 3}
+  Variable:  SId =  485, Value = <class '__main__.mydict'>
+  Variable:  SId =  486, Value = False
+  Static:    SId =  307
+  Variable:  SId =  308, Value = None
+  Variable:  SId =  310, Value = <__main__.mydict object at 0x7f6d7106a520>
+  Variable:  SId =  487, Value = <class '__main__.mydict'>
+  Variable:  SId =  488, Value = None
+  Static:    SId =  315
+  Variable:  SId =  316, Value = False
+  Variable:  SId =  318, Value = {1: -2, 2: 2, 3: 3}
+  Static:    SId =  325
+  Method:    SId =  584, Phase = Enter
+  Static:    SId =  581
+  Method:    SId =  584, Phase = Exit
+  Variable:  SId =  326, Value = <class '__main__.myfrozenset'>
+  Variable:  SId =  489, Value = [1, 2, 3]
+  Static:    SId =  331
+  Variable:  SId =  332, Value = frozenset({1, 2, 3})
+  Variable:  SId =  490, Value = <class '__main__.myfrozenset'>
+  Variable:  SId =  491, Value = <function <lambda> at 0x7f6d71050e10>
+  Static:    SId =  339
+  Variable:  SId =  340, Value = False
+  Variable:  SId =  342, Value = <frozenset of 3 objects>
+  Variable:  SId =  492, Value = <class '__main__.myfrozenset'>
+  Variable:  SId =  493, Value = None
+  Static:    SId =  347
+  Variable:  SId =  348, Value = <function <lambda> at 0x7f6d71050e10>
+  Variable:  SId =  350, Value = frozenset({1, 2, 3})
+  Variable:  SId =  494, Value = <class '__main__.myfrozenset'>
+  Variable:  SId =  495, Value = False
+  Static:    SId =  355
+  Variable:  SId =  356, Value = False
+  Variable:  SId =  358, Value = frozenset({1, 2, 3})
+  Variable:  SId =  496, Value = <class '__main__.myfrozenset'>
+  Variable:  SId =  497, Value = False
+  Static:    SId =  363
+  Variable:  SId =  364, Value = False
+  Variable:  SId =  366, Value = frozenset({1, 2, 3})
+  Static:    SId =  373
+  Method:    SId =  592, Phase = Enter
+  Static:    SId =  589
+  Method:    SId =  592, Phase = Exit
+  Variable:  SId =  374, Value = <class '__main__.mybytearray'>
+  Variable:  SId =  498, Value = [1, 2, 3]
+  Static:    SId =  379
+  Variable:  SId =  380, Value = mybytearray(b'\x01\x02\x03')
+  Variable:  SId =  384, Value = 4
+  Variable:  SId =  386, Value = mybytearray(b'\x01\x04\x03')
+  Variable:  SId =  499, Value = <class '__main__.mybytearray'>
+  Variable:  SId =  500, Value = <function <lambda> at 0x7f6d71050f50>
+  Static:    SId =  393
+  Variable:  SId =  394, Value = None
+  Variable:  SId =  396, Value = <bytearray of 3 objects>
+  Variable:  SId =  501, Value = <class '__main__.mybytearray'>
+  Variable:  SId =  502, Value = None
+  Static:    SId =  401
+  Variable:  SId =  402, Value = <function <lambda> at 0x7f6d71050f50>
+  Variable:  SId =  404, Value = mybytearray(b'\x01\x04\x03')
+  Variable:  SId =  503, Value = <class '__main__.mybytearray'>
+  Variable:  SId =  504, Value = False
+  Static:    SId =  409
+  Variable:  SId =  410, Value = None
+  Variable:  SId =  412, Value = <__main__.mybytearray object at 0x7f6d7106a6e0>
+  Variable:  SId =  505, Value = <class '__main__.mybytearray'>
+  Variable:  SId =  506, Value = None
+  Static:    SId =  417
+  Variable:  SId =  418, Value = False
+  Variable:  SId =  420, Value = mybytearray(b'\x01\x04\x03')
+  Static:    SId =  423
+  Variable:  SId =  431, Value = False
+  Method:    SId =  439, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_user_serialization_inheritance.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    5, Start =    57, Len =     8
+      Location: Id =    2, FId =  0, Line =    5, Start =    57, Len =    16
+      Location: Id =    3, FId =  0, Line =    7, Start =   146, Len =     1
+      Location: Id =    4, FId =  0, Line =    8, Start =   262, Len =    28
+      Location: Id =    5, FId =  0, Line =    8, Start =   275, Len =     4
+      Location: Id =    6, FId =  0, Line =    8, Start =   262, Len =    19
+      Location: Id =    7, FId =  0, Line =    8, Start =   262, Len =    12
+      Location: Id =    8, FId =  0, Line =   11, Start =   296, Len =     6
+      Location: Id =    9, FId =  0, Line =   11, Start =   303, Len =     9
+      Location: Id =   10, FId =  0, Line =   11, Start =   296, Len =    17
+      Location: Id =   11, FId =  0, Line =   11, Start =   292, Len =     1
+      Location: Id =   12, FId =  0, Line =   12, Start =   314, Len =     1
+      Location: Id =   13, FId =  0, Line =   12, Start =   314, Len =     4
+      Location: Id =   14, FId =  0, Line =   14, Start =   329, Len =     1
+      Location: Id =   15, FId =  0, Line =   14, Start =   325, Len =     1
+      Location: Id =   16, FId =  0, Line =   16, Start =   339, Len =     8
+      Location: Id =   17, FId =  0, Line =   16, Start =   339, Len =    71
+      Location: Id =   18, FId =  0, Line =   16, Start =   356, Len =     6
+      Location: Id =   19, FId =  0, Line =   16, Start =   364, Len =    45
+      Location: Id =   20, FId =  0, Line =   16, Start =   332, Len =     4
+      Location: Id =   21, FId =  0, Line =   17, Start =   415, Len =     1
+      Location: Id =   22, FId =  0, Line =   17, Start =   411, Len =     1
+      Location: Id =   23, FId =  0, Line =   19, Start =   426, Len =     8
+      Location: Id =   24, FId =  0, Line =   19, Start =   426, Len =    30
+      Location: Id =   25, FId =  0, Line =   19, Start =   443, Len =     6
+      Location: Id =   26, FId =  0, Line =   19, Start =   451, Len =     4
+      Location: Id =   27, FId =  0, Line =   19, Start =   418, Len =     5
+      Location: Id =   28, FId =  0, Line =   20, Start =   461, Len =     1
+      Location: Id =   29, FId =  0, Line =   20, Start =   457, Len =     1
+      Location: Id =   30, FId =  0, Line =   22, Start =   472, Len =     8
+      Location: Id =   31, FId =  0, Line =   22, Start =   472, Len =    31
+      Location: Id =   32, FId =  0, Line =   22, Start =   489, Len =     6
+      Location: Id =   33, FId =  0, Line =   22, Start =   497, Len =     5
+      Location: Id =   34, FId =  0, Line =   22, Start =   464, Len =     5
+      Location: Id =   35, FId =  0, Line =   23, Start =   508, Len =     1
+      Location: Id =   36, FId =  0, Line =   23, Start =   504, Len =     1
+      Location: Id =   37, FId =  0, Line =   25, Start =   519, Len =     8
+      Location: Id =   38, FId =  0, Line =   25, Start =   519, Len =    30
+      Location: Id =   39, FId =  0, Line =   25, Start =   536, Len =     6
+      Location: Id =   40, FId =  0, Line =   25, Start =   544, Len =     4
+      Location: Id =   41, FId =  0, Line =   25, Start =   511, Len =     5
+      Location: Id =   42, FId =  0, Line =   26, Start =   554, Len =     1
+      Location: Id =   43, FId =  0, Line =   26, Start =   550, Len =     1
+      Location: Id =   44, FId =  0, Line =   28, Start =   557, Len =    31
+      Location: Id =   45, FId =  0, Line =   28, Start =   571, Len =     6
+      Location: Id =   46, FId =  0, Line =   28, Start =   557, Len =    22
+      Location: Id =   47, FId =  0, Line =   28, Start =   557, Len =    13
+      Location: Id =   48, FId =  0, Line =   31, Start =   594, Len =     7
+      Location: Id =   49, FId =  0, Line =   31, Start =   602, Len =     9
+      Location: Id =   50, FId =  0, Line =   31, Start =   594, Len =    18
+      Location: Id =   51, FId =  0, Line =   31, Start =   590, Len =     1
+      Location: Id =   52, FId =  0, Line =   32, Start =   613, Len =     1
+      Location: Id =   53, FId =  0, Line =   32, Start =   613, Len =     4
+      Location: Id =   54, FId =  0, Line =   34, Start =   628, Len =     1
+      Location: Id =   55, FId =  0, Line =   34, Start =   624, Len =     1
+      Location: Id =   56, FId =  0, Line =   36, Start =   638, Len =     8
+      Location: Id =   57, FId =  0, Line =   36, Start =   638, Len =    72
+      Location: Id =   58, FId =  0, Line =   36, Start =   655, Len =     7
+      Location: Id =   59, FId =  0, Line =   36, Start =   664, Len =    45
+      Location: Id =   60, FId =  0, Line =   36, Start =   631, Len =     4
+      Location: Id =   61, FId =  0, Line =   37, Start =   715, Len =     1
+      Location: Id =   62, FId =  0, Line =   37, Start =   711, Len =     1
+      Location: Id =   63, FId =  0, Line =   39, Start =   726, Len =     8
+      Location: Id =   64, FId =  0, Line =   39, Start =   726, Len =    31
+      Location: Id =   65, FId =  0, Line =   39, Start =   743, Len =     7
+      Location: Id =   66, FId =  0, Line =   39, Start =   752, Len =     4
+      Location: Id =   67, FId =  0, Line =   39, Start =   718, Len =     5
+      Location: Id =   68, FId =  0, Line =   40, Start =   762, Len =     1
+      Location: Id =   69, FId =  0, Line =   40, Start =   758, Len =     1
+      Location: Id =   70, FId =  0, Line =   42, Start =   773, Len =     8
+      Location: Id =   71, FId =  0, Line =   42, Start =   773, Len =    32
+      Location: Id =   72, FId =  0, Line =   42, Start =   790, Len =     7
+      Location: Id =   73, FId =  0, Line =   42, Start =   799, Len =     5
+      Location: Id =   74, FId =  0, Line =   42, Start =   765, Len =     5
+      Location: Id =   75, FId =  0, Line =   43, Start =   810, Len =     1
+      Location: Id =   76, FId =  0, Line =   43, Start =   806, Len =     1
+      Location: Id =   77, FId =  0, Line =   45, Start =   821, Len =     8
+      Location: Id =   78, FId =  0, Line =   45, Start =   821, Len =    31
+      Location: Id =   79, FId =  0, Line =   45, Start =   838, Len =     7
+      Location: Id =   80, FId =  0, Line =   45, Start =   847, Len =     4
+      Location: Id =   81, FId =  0, Line =   45, Start =   813, Len =     5
+      Location: Id =   82, FId =  0, Line =   46, Start =   857, Len =     1
+      Location: Id =   83, FId =  0, Line =   46, Start =   853, Len =     1
+      Location: Id =   84, FId =  0, Line =   48, Start =   860, Len =    87
+      Location: Id =   85, FId =  0, Line =   48, Start =   874, Len =     7
+      Location: Id =   86, FId =  0, Line =   48, Start =   860, Len =    23
+      Location: Id =   87, FId =  0, Line =   48, Start =   860, Len =    13
+      Location: Id =   88, FId =  0, Line =   51, Start =   953, Len =     7
+      Location: Id =   89, FId =  0, Line =   51, Start =   961, Len =     9
+      Location: Id =   90, FId =  0, Line =   51, Start =   953, Len =    18
+      Location: Id =   91, FId =  0, Line =   51, Start =   949, Len =     1
+      Location: Id =   92, FId =  0, Line =   53, Start =   973, Len =    46
+      Location: Id =   93, FId =  0, Line =   53, Start =   987, Len =     7
+      Location: Id =   94, FId =  0, Line =   53, Start =   973, Len =    23
+      Location: Id =   95, FId =  0, Line =   53, Start =   973, Len =    13
+      Location: Id =   96, FId =  0, Line =   56, Start =  1025, Len =     7
+      Location: Id =   97, FId =  0, Line =   56, Start =  1033, Len =     9
+      Location: Id =   98, FId =  0, Line =   56, Start =  1025, Len =    18
+      Location: Id =   99, FId =  0, Line =   56, Start =  1021, Len =     1
+      Location: Id =  100, FId =  0, Line =   58, Start =  1045, Len =    47
+      Location: Id =  101, FId =  0, Line =   58, Start =  1059, Len =     7
+      Location: Id =  102, FId =  0, Line =   58, Start =  1045, Len =    23
+      Location: Id =  103, FId =  0, Line =   58, Start =  1045, Len =    13
+      Location: Id =  104, FId =  0, Line =   61, Start =  1098, Len =     7
+      Location: Id =  105, FId =  0, Line =   61, Start =  1106, Len =     9
+      Location: Id =  106, FId =  0, Line =   61, Start =  1098, Len =    18
+      Location: Id =  107, FId =  0, Line =   61, Start =  1094, Len =     1
+      Location: Id =  108, FId =  0, Line =   63, Start =  1118, Len =     1
+      Location: Id =  109, FId =  0, Line =   64, Start =  1249, Len =    26
+      Location: Id =  110, FId =  0, Line =   64, Start =  1261, Len =     3
+      Location: Id =  111, FId =  0, Line =   64, Start =  1249, Len =    17
+      Location: Id =  112, FId =  0, Line =   64, Start =  1249, Len =    11
+      Location: Id =  113, FId =  0, Line =   67, Start =  1281, Len =     5
+      Location: Id =  114, FId =  0, Line =   67, Start =  1287, Len =     9
+      Location: Id =  115, FId =  0, Line =   67, Start =  1281, Len =    16
+      Location: Id =  116, FId =  0, Line =   67, Start =  1277, Len =     1
+      Location: Id =  117, FId =  0, Line =   68, Start =  1298, Len =     1
+      Location: Id =  118, FId =  0, Line =   68, Start =  1298, Len =     9
+      Location: Id =  119, FId =  0, Line =   68, Start =  1304, Len =     2
+      Location: Id =  120, FId =  0, Line =   70, Start =  1313, Len =     1
+      Location: Id =  121, FId =  0, Line =   70, Start =  1309, Len =     1
+      Location: Id =  122, FId =  0, Line =   72, Start =  1323, Len =     8
+      Location: Id =  123, FId =  0, Line =   72, Start =  1323, Len =    69
+      Location: Id =  124, FId =  0, Line =   72, Start =  1340, Len =     5
+      Location: Id =  125, FId =  0, Line =   72, Start =  1347, Len =    44
+      Location: Id =  126, FId =  0, Line =   72, Start =  1316, Len =     4
+      Location: Id =  127, FId =  0, Line =   73, Start =  1397, Len =     1
+      Location: Id =  128, FId =  0, Line =   73, Start =  1393, Len =     1
+      Location: Id =  129, FId =  0, Line =   75, Start =  1408, Len =     8
+      Location: Id =  130, FId =  0, Line =   75, Start =  1408, Len =    29
+      Location: Id =  131, FId =  0, Line =   75, Start =  1425, Len =     5
+      Location: Id =  132, FId =  0, Line =   75, Start =  1432, Len =     4
+      Location: Id =  133, FId =  0, Line =   75, Start =  1400, Len =     5
+      Location: Id =  134, FId =  0, Line =   76, Start =  1442, Len =     1
+      Location: Id =  135, FId =  0, Line =   76, Start =  1438, Len =     1
+      Location: Id =  136, FId =  0, Line =   78, Start =  1453, Len =     8
+      Location: Id =  137, FId =  0, Line =   78, Start =  1453, Len =    30
+      Location: Id =  138, FId =  0, Line =   78, Start =  1470, Len =     5
+      Location: Id =  139, FId =  0, Line =   78, Start =  1477, Len =     5
+      Location: Id =  140, FId =  0, Line =   78, Start =  1445, Len =     5
+      Location: Id =  141, FId =  0, Line =   79, Start =  1488, Len =     1
+      Location: Id =  142, FId =  0, Line =   79, Start =  1484, Len =     1
+      Location: Id =  143, FId =  0, Line =   81, Start =  1499, Len =     8
+      Location: Id =  144, FId =  0, Line =   81, Start =  1499, Len =    29
+      Location: Id =  145, FId =  0, Line =   81, Start =  1516, Len =     5
+      Location: Id =  146, FId =  0, Line =   81, Start =  1523, Len =     4
+      Location: Id =  147, FId =  0, Line =   81, Start =  1491, Len =     5
+      Location: Id =  148, FId =  0, Line =   82, Start =  1533, Len =     1
+      Location: Id =  149, FId =  0, Line =   82, Start =  1529, Len =     1
+      Location: Id =  150, FId =  0, Line =   84, Start =  1536, Len =    30
+      Location: Id =  151, FId =  0, Line =   84, Start =  1550, Len =     5
+      Location: Id =  152, FId =  0, Line =   84, Start =  1536, Len =    21
+      Location: Id =  153, FId =  0, Line =   84, Start =  1536, Len =    13
+      Location: Id =  154, FId =  0, Line =   87, Start =  1572, Len =     7
+      Location: Id =  155, FId =  0, Line =   87, Start =  1580, Len =     9
+      Location: Id =  156, FId =  0, Line =   87, Start =  1572, Len =    18
+      Location: Id =  157, FId =  0, Line =   87, Start =  1568, Len =     1
+      Location: Id =  158, FId =  0, Line =   89, Start =  1599, Len =     8
+      Location: Id =  159, FId =  0, Line =   89, Start =  1599, Len =    73
+      Location: Id =  160, FId =  0, Line =   89, Start =  1616, Len =     7
+      Location: Id =  161, FId =  0, Line =   89, Start =  1625, Len =    46
+      Location: Id =  162, FId =  0, Line =   89, Start =  1592, Len =     4
+      Location: Id =  163, FId =  0, Line =   90, Start =  1677, Len =     1
+      Location: Id =  164, FId =  0, Line =   90, Start =  1673, Len =     1
+      Location: Id =  165, FId =  0, Line =   92, Start =  1688, Len =     8
+      Location: Id =  166, FId =  0, Line =   92, Start =  1688, Len =    31
+      Location: Id =  167, FId =  0, Line =   92, Start =  1705, Len =     7
+      Location: Id =  168, FId =  0, Line =   92, Start =  1714, Len =     4
+      Location: Id =  169, FId =  0, Line =   92, Start =  1680, Len =     5
+      Location: Id =  170, FId =  0, Line =   93, Start =  1724, Len =     1
+      Location: Id =  171, FId =  0, Line =   93, Start =  1720, Len =     1
+      Location: Id =  172, FId =  0, Line =   95, Start =  1735, Len =     8
+      Location: Id =  173, FId =  0, Line =   95, Start =  1735, Len =    32
+      Location: Id =  174, FId =  0, Line =   95, Start =  1752, Len =     7
+      Location: Id =  175, FId =  0, Line =   95, Start =  1761, Len =     5
+      Location: Id =  176, FId =  0, Line =   95, Start =  1727, Len =     5
+      Location: Id =  177, FId =  0, Line =   96, Start =  1772, Len =     1
+      Location: Id =  178, FId =  0, Line =   96, Start =  1768, Len =     1
+      Location: Id =  179, FId =  0, Line =   98, Start =  1783, Len =     8
+      Location: Id =  180, FId =  0, Line =   98, Start =  1783, Len =    31
+      Location: Id =  181, FId =  0, Line =   98, Start =  1800, Len =     7
+      Location: Id =  182, FId =  0, Line =   98, Start =  1809, Len =     4
+      Location: Id =  183, FId =  0, Line =   98, Start =  1775, Len =     5
+      Location: Id =  184, FId =  0, Line =   99, Start =  1819, Len =     1
+      Location: Id =  185, FId =  0, Line =   99, Start =  1815, Len =     1
+      Location: Id =  186, FId =  0, Line =  101, Start =  1822, Len =    28
+      Location: Id =  187, FId =  0, Line =  101, Start =  1835, Len =     4
+      Location: Id =  188, FId =  0, Line =  101, Start =  1822, Len =    19
+      Location: Id =  189, FId =  0, Line =  101, Start =  1822, Len =    12
+      Location: Id =  190, FId =  0, Line =  104, Start =  1856, Len =     6
+      Location: Id =  191, FId =  0, Line =  104, Start =  1863, Len =    24
+      Location: Id =  192, FId =  0, Line =  104, Start =  1856, Len =    32
+      Location: Id =  193, FId =  0, Line =  104, Start =  1852, Len =     1
+      Location: Id =  194, FId =  0, Line =  105, Start =  1889, Len =     1
+      Location: Id =  195, FId =  0, Line =  105, Start =  1889, Len =     4
+      Location: Id =  196, FId =  0, Line =  107, Start =  1904, Len =     1
+      Location: Id =  197, FId =  0, Line =  107, Start =  1900, Len =     1
+      Location: Id =  198, FId =  0, Line =  109, Start =  1914, Len =     8
+      Location: Id =  199, FId =  0, Line =  109, Start =  1914, Len =    71
+      Location: Id =  200, FId =  0, Line =  109, Start =  1931, Len =     6
+      Location: Id =  201, FId =  0, Line =  109, Start =  1939, Len =    45
+      Location: Id =  202, FId =  0, Line =  109, Start =  1907, Len =     4
+      Location: Id =  203, FId =  0, Line =  110, Start =  1990, Len =     1
+      Location: Id =  204, FId =  0, Line =  110, Start =  1986, Len =     1
+      Location: Id =  205, FId =  0, Line =  112, Start =  2001, Len =     8
+      Location: Id =  206, FId =  0, Line =  112, Start =  2001, Len =    30
+      Location: Id =  207, FId =  0, Line =  112, Start =  2018, Len =     6
+      Location: Id =  208, FId =  0, Line =  112, Start =  2026, Len =     4
+      Location: Id =  209, FId =  0, Line =  112, Start =  1993, Len =     5
+      Location: Id =  210, FId =  0, Line =  113, Start =  2036, Len =     1
+      Location: Id =  211, FId =  0, Line =  113, Start =  2032, Len =     1
+      Location: Id =  212, FId =  0, Line =  115, Start =  2047, Len =     8
+      Location: Id =  213, FId =  0, Line =  115, Start =  2047, Len =    31
+      Location: Id =  214, FId =  0, Line =  115, Start =  2064, Len =     6
+      Location: Id =  215, FId =  0, Line =  115, Start =  2072, Len =     5
+      Location: Id =  216, FId =  0, Line =  115, Start =  2039, Len =     5
+      Location: Id =  217, FId =  0, Line =  116, Start =  2083, Len =     1
+      Location: Id =  218, FId =  0, Line =  116, Start =  2079, Len =     1
+      Location: Id =  219, FId =  0, Line =  118, Start =  2094, Len =     8
+      Location: Id =  220, FId =  0, Line =  118, Start =  2094, Len =    30
+      Location: Id =  221, FId =  0, Line =  118, Start =  2111, Len =     6
+      Location: Id =  222, FId =  0, Line =  118, Start =  2119, Len =     4
+      Location: Id =  223, FId =  0, Line =  118, Start =  2086, Len =     5
+      Location: Id =  224, FId =  0, Line =  119, Start =  2129, Len =     1
+      Location: Id =  225, FId =  0, Line =  119, Start =  2125, Len =     1
+      Location: Id =  226, FId =  0, Line =  121, Start =  2132, Len =    38
+      Location: Id =  227, FId =  0, Line =  121, Start =  2150, Len =     9
+      Location: Id =  228, FId =  0, Line =  121, Start =  2132, Len =    29
+      Location: Id =  229, FId =  0, Line =  121, Start =  2132, Len =    17
+      Location: Id =  230, FId =  0, Line =  124, Start =  2176, Len =    11
+      Location: Id =  231, FId =  0, Line =  124, Start =  2188, Len =     9
+      Location: Id =  232, FId =  0, Line =  124, Start =  2176, Len =    22
+      Location: Id =  233, FId =  0, Line =  124, Start =  2172, Len =     1
+      Location: Id =  234, FId =  0, Line =  126, Start =  2207, Len =     8
+      Location: Id =  235, FId =  0, Line =  126, Start =  2207, Len =    81
+      Location: Id =  236, FId =  0, Line =  126, Start =  2224, Len =    11
+      Location: Id =  237, FId =  0, Line =  126, Start =  2237, Len =    50
+      Location: Id =  238, FId =  0, Line =  126, Start =  2200, Len =     4
+      Location: Id =  239, FId =  0, Line =  127, Start =  2293, Len =     1
+      Location: Id =  240, FId =  0, Line =  127, Start =  2289, Len =     1
+      Location: Id =  241, FId =  0, Line =  129, Start =  2304, Len =     8
+      Location: Id =  242, FId =  0, Line =  129, Start =  2304, Len =    35
+      Location: Id =  243, FId =  0, Line =  129, Start =  2321, Len =    11
+      Location: Id =  244, FId =  0, Line =  129, Start =  2334, Len =     4
+      Location: Id =  245, FId =  0, Line =  129, Start =  2296, Len =     5
+      Location: Id =  246, FId =  0, Line =  130, Start =  2344, Len =     1
+      Location: Id =  247, FId =  0, Line =  130, Start =  2340, Len =     1
+      Location: Id =  248, FId =  0, Line =  132, Start =  2355, Len =     8
+      Location: Id =  249, FId =  0, Line =  132, Start =  2355, Len =    36
+      Location: Id =  250, FId =  0, Line =  132, Start =  2372, Len =    11
+      Location: Id =  251, FId =  0, Line =  132, Start =  2385, Len =     5
+      Location: Id =  252, FId =  0, Line =  132, Start =  2347, Len =     5
+      Location: Id =  253, FId =  0, Line =  133, Start =  2396, Len =     1
+      Location: Id =  254, FId =  0, Line =  133, Start =  2392, Len =     1
+      Location: Id =  255, FId =  0, Line =  135, Start =  2407, Len =     8
+      Location: Id =  256, FId =  0, Line =  135, Start =  2407, Len =    35
+      Location: Id =  257, FId =  0, Line =  135, Start =  2424, Len =    11
+      Location: Id =  258, FId =  0, Line =  135, Start =  2437, Len =     4
+      Location: Id =  259, FId =  0, Line =  135, Start =  2399, Len =     5
+      Location: Id =  260, FId =  0, Line =  136, Start =  2447, Len =     1
+      Location: Id =  261, FId =  0, Line =  136, Start =  2443, Len =     1
+      Location: Id =  262, FId =  0, Line =  138, Start =  2450, Len =    38
+      Location: Id =  263, FId =  0, Line =  138, Start =  2468, Len =     9
+      Location: Id =  264, FId =  0, Line =  138, Start =  2450, Len =    29
+      Location: Id =  265, FId =  0, Line =  138, Start =  2450, Len =    17
+      Location: Id =  266, FId =  0, Line =  141, Start =  2494, Len =    11
+      Location: Id =  267, FId =  0, Line =  141, Start =  2506, Len =     9
+      Location: Id =  268, FId =  0, Line =  141, Start =  2494, Len =    22
+      Location: Id =  269, FId =  0, Line =  141, Start =  2490, Len =     1
+      Location: Id =  270, FId =  0, Line =  142, Start =  2517, Len =     1
+      Location: Id =  271, FId =  0, Line =  142, Start =  2517, Len =     4
+      Location: Id =  272, FId =  0, Line =  144, Start =  2531, Len =     1
+      Location: Id =  273, FId =  0, Line =  144, Start =  2527, Len =     1
+      Location: Id =  274, FId =  0, Line =  146, Start =  2541, Len =     8
+      Location: Id =  275, FId =  0, Line =  146, Start =  2541, Len =    81
+      Location: Id =  276, FId =  0, Line =  146, Start =  2558, Len =    11
+      Location: Id =  277, FId =  0, Line =  146, Start =  2571, Len =    50
+      Location: Id =  278, FId =  0, Line =  146, Start =  2534, Len =     4
+      Location: Id =  279, FId =  0, Line =  147, Start =  2627, Len =     1
+      Location: Id =  280, FId =  0, Line =  147, Start =  2623, Len =     1
+      Location: Id =  281, FId =  0, Line =  149, Start =  2638, Len =     8
+      Location: Id =  282, FId =  0, Line =  149, Start =  2638, Len =    35
+      Location: Id =  283, FId =  0, Line =  149, Start =  2655, Len =    11
+      Location: Id =  284, FId =  0, Line =  149, Start =  2668, Len =     4
+      Location: Id =  285, FId =  0, Line =  149, Start =  2630, Len =     5
+      Location: Id =  286, FId =  0, Line =  150, Start =  2678, Len =     1
+      Location: Id =  287, FId =  0, Line =  150, Start =  2674, Len =     1
+      Location: Id =  288, FId =  0, Line =  152, Start =  2689, Len =     8
+      Location: Id =  289, FId =  0, Line =  152, Start =  2689, Len =    36
+      Location: Id =  290, FId =  0, Line =  152, Start =  2706, Len =    11
+      Location: Id =  291, FId =  0, Line =  152, Start =  2719, Len =     5
+      Location: Id =  292, FId =  0, Line =  152, Start =  2681, Len =     5
+      Location: Id =  293, FId =  0, Line =  153, Start =  2730, Len =     1
+      Location: Id =  294, FId =  0, Line =  153, Start =  2726, Len =     1
+      Location: Id =  295, FId =  0, Line =  155, Start =  2741, Len =     8
+      Location: Id =  296, FId =  0, Line =  155, Start =  2741, Len =    35
+      Location: Id =  297, FId =  0, Line =  155, Start =  2758, Len =    11
+      Location: Id =  298, FId =  0, Line =  155, Start =  2771, Len =     4
+      Location: Id =  299, FId =  0, Line =  155, Start =  2733, Len =     5
+      Location: Id =  300, FId =  0, Line =  156, Start =  2781, Len =     1
+      Location: Id =  301, FId =  0, Line =  156, Start =  2777, Len =     1
+      Location: Id =  302, FId =  0, Line =  158, Start =  2784, Len =     8
+      Location: Id =  303, FId =  0, Line =  158, Start =  2784, Len =    16
+      Location: Id =  304, FId =  0, Line =  160, Start =  2826, Len =     8
+      Location: Id =  305, FId =  0, Line =  160, Start =  2826, Len =    13
+      Location: Id =  306, FId =  0, Line =  160, Start =  2826, Len =    18
+      Location: Id =  307, FId =  0, Line =  160, Start =  2848, Len =     8
+      Location: Id =  308, FId =  0, Line =  160, Start =  2848, Len =    14
+      Location: Id =  309, FId =  0, Line =  160, Start =  2826, Len =    36
+      Location: Id =  310, FId =  0, Line =  160, Start =  2823, Len =    40
+      Location: Id =  311, FId =  0, Line =  161, Start =  2874, Len =    12
+      Location: Id =  312, FId =  0, Line =  161, Start =  2874, Len =    20
+      Location: Id =  313, FId =  0, Line =  161, Start =  2887, Len =     6
+      Location: Id =  314, FId =  0, Line =  161, Start =  2868, Len =    26
+      Location: Id =  315, FId =  0, Line =    3, Start =    23, Len =  2871
+      Location: Id =  316, FId =  0, Line =    9, Start =   286, Len =     4
+      Location: Id =  317, FId =  0, Line =   29, Start =   584, Len =     4
+      Location: Id =  318, FId =  0, Line =   49, Start =   902, Len =    45
+      Location: Id =  319, FId =  0, Line =   49, Start =   888, Len =    11
+      Location: Id =  320, FId =  0, Line =   54, Start =  1001, Len =    11
+      Location: Id =  321, FId =  0, Line =   59, Start =  1073, Len =    11
+      Location: Id =  322, FId =  0, Line =   65, Start =  1271, Len =     4
+      Location: Id =  323, FId =  0, Line =   85, Start =  1562, Len =     4
+      Location: Id =  324, FId =  0, Line =  102, Start =  1846, Len =     4
+      Location: Id =  325, FId =  0, Line =  122, Start =  2166, Len =     4
+      Location: Id =  326, FId =  0, Line =  139, Start =  2484, Len =     4
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    4, LId =    1, Ident = ...
+      Identifier: Id =    5, LId =    2, Ident = ...
+      Invocation: Id =    6, LId =    2, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    9, LId =    3, Ident = _
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Identifier: Id =   15, LId =    5, Ident = ...
+      Invocation: Id =   16, LId =    6, Ident = class mylist(list), Method = class mylist
+      Identifier: Id =   17, LId =    7, Ident = mylist
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Identifier: Id =   19, LId =    9, Ident = ...
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Invocation: Id =   22, LId =   10, Ident = mylist([1, 2, 3]), Method = mylist
+      Identifier: Id =   23, LId =   11, Ident = i
+      Identifier: Id =   25, LId =   12, Ident = ...
+      Identifier: Id =   27, LId =   13, Ident = i[1]
+      Identifier: Id =   28, LId =   14, Ident = ...
+      Identifier: Id =   29, LId =   15, Ident = i
+      Identifier: Id =   30, LId =   16, Ident = ...
+      Identifier: Id =   31, LId =   17, Ident = ...
+      Identifier: Id =   32, LId =   18, Ident = ...
+      Identifier: Id =   35, LId =   19, Ident = ...
+      Invocation: Id =   36, LId =   17, Ident = revdebug.recrepr(mylist, lambda self: f'<list of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =   37, LId =   20, Ident = prev
+      Identifier: Id =   38, LId =   21, Ident = ...
+      Identifier: Id =   39, LId =   22, Ident = i
+      Identifier: Id =   40, LId =   23, Ident = ...
+      Identifier: Id =   41, LId =   24, Ident = ...
+      Identifier: Id =   42, LId =   25, Ident = ...
+      Invocation: Id =   44, LId =   24, Ident = revdebug.recrepr(mylist, None), Method = recrepr
+      Identifier: Id =   45, LId =   27, Ident = prev2
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Identifier: Id =   47, LId =   29, Ident = i
+      Identifier: Id =   48, LId =   30, Ident = ...
+      Identifier: Id =   49, LId =   31, Ident = ...
+      Identifier: Id =   50, LId =   32, Ident = ...
+      Invocation: Id =   52, LId =   31, Ident = revdebug.recrepr(mylist, False), Method = recrepr
+      Identifier: Id =   53, LId =   34, Ident = prev2
+      Identifier: Id =   54, LId =   35, Ident = ...
+      Identifier: Id =   55, LId =   36, Ident = i
+      Identifier: Id =   56, LId =   37, Ident = ...
+      Identifier: Id =   57, LId =   38, Ident = ...
+      Identifier: Id =   58, LId =   39, Ident = ...
+      Identifier: Id =   59, LId =   40, Ident = ...
+      Invocation: Id =   60, LId =   38, Ident = revdebug.recrepr(mylist, prev), Method = recrepr
+      Identifier: Id =   61, LId =   41, Ident = prev2
+      Identifier: Id =   62, LId =   42, Ident = ...
+      Identifier: Id =   63, LId =   43, Ident = i
+      Identifier: Id =   64, LId =   44, Ident = ...
+      Identifier: Id =   67, LId =   44, Ident = ...
+      Identifier: Id =   69, LId =   45, Ident = ...
+      Invocation: Id =   70, LId =   46, Ident = class mylist2(mylist), Method = class mylist2
+      Identifier: Id =   71, LId =   47, Ident = mylist2
+      Identifier: Id =   72, LId =   48, Ident = ...
+      Identifier: Id =   73, LId =   49, Ident = ...
+      Identifier: Id =   75, LId =   49, Ident = ...
+      Invocation: Id =   76, LId =   50, Ident = mylist2([1, 2, 3]), Method = mylist2
+      Identifier: Id =   77, LId =   51, Ident = i
+      Identifier: Id =   79, LId =   52, Ident = ...
+      Identifier: Id =   81, LId =   53, Ident = i[1]
+      Identifier: Id =   82, LId =   54, Ident = ...
+      Identifier: Id =   83, LId =   55, Ident = i
+      Identifier: Id =   84, LId =   56, Ident = ...
+      Identifier: Id =   85, LId =   57, Ident = ...
+      Identifier: Id =   86, LId =   58, Ident = ...
+      Identifier: Id =   89, LId =   59, Ident = ...
+      Invocation: Id =   90, LId =   57, Ident = revdebug.recrepr(mylist2, lambda self: f'<list of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =   91, LId =   60, Ident = prev
+      Identifier: Id =   92, LId =   61, Ident = ...
+      Identifier: Id =   93, LId =   62, Ident = i
+      Identifier: Id =   94, LId =   63, Ident = ...
+      Identifier: Id =   95, LId =   64, Ident = ...
+      Identifier: Id =   96, LId =   65, Ident = ...
+      Invocation: Id =   98, LId =   64, Ident = revdebug.recrepr(mylist2, None), Method = recrepr
+      Identifier: Id =   99, LId =   67, Ident = prev2
+      Identifier: Id =  100, LId =   68, Ident = ...
+      Identifier: Id =  101, LId =   69, Ident = i
+      Identifier: Id =  102, LId =   70, Ident = ...
+      Identifier: Id =  103, LId =   71, Ident = ...
+      Identifier: Id =  104, LId =   72, Ident = ...
+      Invocation: Id =  106, LId =   71, Ident = revdebug.recrepr(mylist2, False), Method = recrepr
+      Identifier: Id =  107, LId =   74, Ident = prev2
+      Identifier: Id =  108, LId =   75, Ident = ...
+      Identifier: Id =  109, LId =   76, Ident = i
+      Identifier: Id =  110, LId =   77, Ident = ...
+      Identifier: Id =  111, LId =   78, Ident = ...
+      Identifier: Id =  112, LId =   79, Ident = ...
+      Identifier: Id =  113, LId =   80, Ident = ...
+      Invocation: Id =  114, LId =   78, Ident = revdebug.recrepr(mylist2, prev), Method = recrepr
+      Identifier: Id =  115, LId =   81, Ident = prev2
+      Identifier: Id =  116, LId =   82, Ident = ...
+      Identifier: Id =  117, LId =   83, Ident = i
+      Identifier: Id =  118, LId =   84, Ident = ...
+      Identifier: Id =  121, LId =   84, Ident = ...
+      Identifier: Id =  123, LId =   85, Ident = ...
+      Invocation: Id =  124, LId =   86, Ident = class mylist3(mylist2), Method = class mylist3
+      Identifier: Id =  125, LId =   87, Ident = mylist3
+      Identifier: Id =  126, LId =   88, Ident = ...
+      Identifier: Id =  127, LId =   89, Ident = ...
+      Identifier: Id =  129, LId =   89, Ident = ...
+      Invocation: Id =  130, LId =   90, Ident = mylist3([1, 2, 3]), Method = mylist3
+      Identifier: Id =  131, LId =   91, Ident = i
+      Identifier: Id =  132, LId =   92, Ident = ...
+      Identifier: Id =  135, LId =   92, Ident = ...
+      Identifier: Id =  137, LId =   93, Ident = ...
+      Invocation: Id =  138, LId =   94, Ident = class mylist4(mylist2), Method = class mylist4
+      Identifier: Id =  139, LId =   95, Ident = mylist4
+      Identifier: Id =  140, LId =   96, Ident = ...
+      Identifier: Id =  141, LId =   97, Ident = ...
+      Identifier: Id =  143, LId =   97, Ident = ...
+      Invocation: Id =  144, LId =   98, Ident = mylist4([1, 2, 3]), Method = mylist4
+      Identifier: Id =  145, LId =   99, Ident = i
+      Identifier: Id =  146, LId =  100, Ident = ...
+      Identifier: Id =  149, LId =  100, Ident = ...
+      Identifier: Id =  151, LId =  101, Ident = ...
+      Invocation: Id =  152, LId =  102, Ident = class mylist5(mylist2), Method = class mylist5
+      Identifier: Id =  153, LId =  103, Ident = mylist5
+      Identifier: Id =  154, LId =  104, Ident = ...
+      Identifier: Id =  155, LId =  105, Ident = ...
+      Identifier: Id =  157, LId =  105, Ident = ...
+      Invocation: Id =  158, LId =  106, Ident = mylist5([1, 2, 3]), Method = mylist5
+      Identifier: Id =  159, LId =  107, Ident = i
+      Identifier: Id =  161, LId =  108, Ident = _
+      Identifier: Id =  162, LId =  109, Ident = ...
+      Identifier: Id =  165, LId =  109, Ident = ...
+      Identifier: Id =  167, LId =  110, Ident = ...
+      Invocation: Id =  168, LId =  111, Ident = class myset(set), Method = class myset
+      Identifier: Id =  169, LId =  112, Ident = myset
+      Identifier: Id =  170, LId =  113, Ident = ...
+      Identifier: Id =  171, LId =  114, Ident = ...
+      Identifier: Id =  173, LId =  114, Ident = ...
+      Invocation: Id =  174, LId =  115, Ident = myset([1, 2, 3]), Method = myset
+      Identifier: Id =  175, LId =  116, Ident = i
+      Identifier: Id =  176, LId =  117, Ident = ...
+      Identifier: Id =  177, LId =  118, Ident = ...
+      Invocation: Id =  179, LId =  118, Ident = i.add(-2), Method = add
+      Identifier: Id =  181, LId =  120, Ident = ...
+      Identifier: Id =  182, LId =  121, Ident = i
+      Identifier: Id =  183, LId =  122, Ident = ...
+      Identifier: Id =  184, LId =  123, Ident = ...
+      Identifier: Id =  185, LId =  124, Ident = ...
+      Identifier: Id =  188, LId =  125, Ident = ...
+      Invocation: Id =  189, LId =  123, Ident = revdebug.recrepr(myset, lambda self: f'<set of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  190, LId =  126, Ident = prev
+      Identifier: Id =  191, LId =  127, Ident = ...
+      Identifier: Id =  192, LId =  128, Ident = i
+      Identifier: Id =  193, LId =  129, Ident = ...
+      Identifier: Id =  194, LId =  130, Ident = ...
+      Identifier: Id =  195, LId =  131, Ident = ...
+      Invocation: Id =  197, LId =  130, Ident = revdebug.recrepr(myset, None), Method = recrepr
+      Identifier: Id =  198, LId =  133, Ident = prev2
+      Identifier: Id =  199, LId =  134, Ident = ...
+      Identifier: Id =  200, LId =  135, Ident = i
+      Identifier: Id =  201, LId =  136, Ident = ...
+      Identifier: Id =  202, LId =  137, Ident = ...
+      Identifier: Id =  203, LId =  138, Ident = ...
+      Invocation: Id =  205, LId =  137, Ident = revdebug.recrepr(myset, False), Method = recrepr
+      Identifier: Id =  206, LId =  140, Ident = prev2
+      Identifier: Id =  207, LId =  141, Ident = ...
+      Identifier: Id =  208, LId =  142, Ident = i
+      Identifier: Id =  209, LId =  143, Ident = ...
+      Identifier: Id =  210, LId =  144, Ident = ...
+      Identifier: Id =  211, LId =  145, Ident = ...
+      Identifier: Id =  212, LId =  146, Ident = ...
+      Invocation: Id =  213, LId =  144, Ident = revdebug.recrepr(myset, prev), Method = recrepr
+      Identifier: Id =  214, LId =  147, Ident = prev2
+      Identifier: Id =  215, LId =  148, Ident = ...
+      Identifier: Id =  216, LId =  149, Ident = i
+      Identifier: Id =  217, LId =  150, Ident = ...
+      Identifier: Id =  220, LId =  150, Ident = ...
+      Identifier: Id =  222, LId =  151, Ident = ...
+      Invocation: Id =  223, LId =  152, Ident = class mytuple(tuple), Method = class mytuple
+      Identifier: Id =  224, LId =  153, Ident = mytuple
+      Identifier: Id =  225, LId =  154, Ident = ...
+      Identifier: Id =  226, LId =  155, Ident = ...
+      Identifier: Id =  228, LId =  155, Ident = ...
+      Invocation: Id =  229, LId =  156, Ident = mytuple([1, 2, 3]), Method = mytuple
+      Identifier: Id =  230, LId =  157, Ident = i
+      Identifier: Id =  231, LId =  158, Ident = ...
+      Identifier: Id =  232, LId =  159, Ident = ...
+      Identifier: Id =  233, LId =  160, Ident = ...
+      Identifier: Id =  236, LId =  161, Ident = ...
+      Invocation: Id =  237, LId =  159, Ident = revdebug.recrepr(mytuple, lambda self: f'<tuple of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  238, LId =  162, Ident = prev
+      Identifier: Id =  239, LId =  163, Ident = ...
+      Identifier: Id =  240, LId =  164, Ident = i
+      Identifier: Id =  241, LId =  165, Ident = ...
+      Identifier: Id =  242, LId =  166, Ident = ...
+      Identifier: Id =  243, LId =  167, Ident = ...
+      Invocation: Id =  245, LId =  166, Ident = revdebug.recrepr(mytuple, None), Method = recrepr
+      Identifier: Id =  246, LId =  169, Ident = prev2
+      Identifier: Id =  247, LId =  170, Ident = ...
+      Identifier: Id =  248, LId =  171, Ident = i
+      Identifier: Id =  249, LId =  172, Ident = ...
+      Identifier: Id =  250, LId =  173, Ident = ...
+      Identifier: Id =  251, LId =  174, Ident = ...
+      Invocation: Id =  253, LId =  173, Ident = revdebug.recrepr(mytuple, False), Method = recrepr
+      Identifier: Id =  254, LId =  176, Ident = prev2
+      Identifier: Id =  255, LId =  177, Ident = ...
+      Identifier: Id =  256, LId =  178, Ident = i
+      Identifier: Id =  257, LId =  179, Ident = ...
+      Identifier: Id =  258, LId =  180, Ident = ...
+      Identifier: Id =  259, LId =  181, Ident = ...
+      Identifier: Id =  260, LId =  182, Ident = ...
+      Invocation: Id =  261, LId =  180, Ident = revdebug.recrepr(mytuple, prev), Method = recrepr
+      Identifier: Id =  262, LId =  183, Ident = prev2
+      Identifier: Id =  263, LId =  184, Ident = ...
+      Identifier: Id =  264, LId =  185, Ident = i
+      Identifier: Id =  265, LId =  186, Ident = ...
+      Identifier: Id =  268, LId =  186, Ident = ...
+      Identifier: Id =  270, LId =  187, Ident = ...
+      Invocation: Id =  271, LId =  188, Ident = class mydict(dict), Method = class mydict
+      Identifier: Id =  272, LId =  189, Ident = mydict
+      Identifier: Id =  273, LId =  190, Ident = ...
+      Identifier: Id =  274, LId =  191, Ident = ...
+      Identifier: Id =  276, LId =  191, Ident = ...
+      Invocation: Id =  277, LId =  192, Ident = mydict([(1, 1), (2, 2), (3, 3)]), Method = mydict
+      Identifier: Id =  278, LId =  193, Ident = i
+      Identifier: Id =  280, LId =  194, Ident = ...
+      Identifier: Id =  282, LId =  195, Ident = i[1]
+      Identifier: Id =  283, LId =  196, Ident = ...
+      Identifier: Id =  284, LId =  197, Ident = i
+      Identifier: Id =  285, LId =  198, Ident = ...
+      Identifier: Id =  286, LId =  199, Ident = ...
+      Identifier: Id =  287, LId =  200, Ident = ...
+      Identifier: Id =  290, LId =  201, Ident = ...
+      Invocation: Id =  291, LId =  199, Ident = revdebug.recrepr(mydict, lambda self: f'<dict of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  292, LId =  202, Ident = prev
+      Identifier: Id =  293, LId =  203, Ident = ...
+      Identifier: Id =  294, LId =  204, Ident = i
+      Identifier: Id =  295, LId =  205, Ident = ...
+      Identifier: Id =  296, LId =  206, Ident = ...
+      Identifier: Id =  297, LId =  207, Ident = ...
+      Invocation: Id =  299, LId =  206, Ident = revdebug.recrepr(mydict, None), Method = recrepr
+      Identifier: Id =  300, LId =  209, Ident = prev2
+      Identifier: Id =  301, LId =  210, Ident = ...
+      Identifier: Id =  302, LId =  211, Ident = i
+      Identifier: Id =  303, LId =  212, Ident = ...
+      Identifier: Id =  304, LId =  213, Ident = ...
+      Identifier: Id =  305, LId =  214, Ident = ...
+      Invocation: Id =  307, LId =  213, Ident = revdebug.recrepr(mydict, False), Method = recrepr
+      Identifier: Id =  308, LId =  216, Ident = prev2
+      Identifier: Id =  309, LId =  217, Ident = ...
+      Identifier: Id =  310, LId =  218, Ident = i
+      Identifier: Id =  311, LId =  219, Ident = ...
+      Identifier: Id =  312, LId =  220, Ident = ...
+      Identifier: Id =  313, LId =  221, Ident = ...
+      Identifier: Id =  314, LId =  222, Ident = ...
+      Invocation: Id =  315, LId =  220, Ident = revdebug.recrepr(mydict, prev), Method = recrepr
+      Identifier: Id =  316, LId =  223, Ident = prev2
+      Identifier: Id =  317, LId =  224, Ident = ...
+      Identifier: Id =  318, LId =  225, Ident = i
+      Identifier: Id =  319, LId =  226, Ident = ...
+      Identifier: Id =  322, LId =  226, Ident = ...
+      Identifier: Id =  324, LId =  227, Ident = ...
+      Invocation: Id =  325, LId =  228, Ident = class myfrozenset(frozenset), Method = class myfrozenset
+      Identifier: Id =  326, LId =  229, Ident = myfrozenset
+      Identifier: Id =  327, LId =  230, Ident = ...
+      Identifier: Id =  328, LId =  231, Ident = ...
+      Identifier: Id =  330, LId =  231, Ident = ...
+      Invocation: Id =  331, LId =  232, Ident = myfrozenset([1, 2, 3]), Method = myfrozenset
+      Identifier: Id =  332, LId =  233, Ident = i
+      Identifier: Id =  333, LId =  234, Ident = ...
+      Identifier: Id =  334, LId =  235, Ident = ...
+      Identifier: Id =  335, LId =  236, Ident = ...
+      Identifier: Id =  338, LId =  237, Ident = ...
+      Invocation: Id =  339, LId =  235, Ident = revdebug.recrepr(myfrozenset, lambda self: f'<frozenset of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  340, LId =  238, Ident = prev
+      Identifier: Id =  341, LId =  239, Ident = ...
+      Identifier: Id =  342, LId =  240, Ident = i
+      Identifier: Id =  343, LId =  241, Ident = ...
+      Identifier: Id =  344, LId =  242, Ident = ...
+      Identifier: Id =  345, LId =  243, Ident = ...
+      Invocation: Id =  347, LId =  242, Ident = revdebug.recrepr(myfrozenset, None), Method = recrepr
+      Identifier: Id =  348, LId =  245, Ident = prev2
+      Identifier: Id =  349, LId =  246, Ident = ...
+      Identifier: Id =  350, LId =  247, Ident = i
+      Identifier: Id =  351, LId =  248, Ident = ...
+      Identifier: Id =  352, LId =  249, Ident = ...
+      Identifier: Id =  353, LId =  250, Ident = ...
+      Invocation: Id =  355, LId =  249, Ident = revdebug.recrepr(myfrozenset, False), Method = recrepr
+      Identifier: Id =  356, LId =  252, Ident = prev2
+      Identifier: Id =  357, LId =  253, Ident = ...
+      Identifier: Id =  358, LId =  254, Ident = i
+      Identifier: Id =  359, LId =  255, Ident = ...
+      Identifier: Id =  360, LId =  256, Ident = ...
+      Identifier: Id =  361, LId =  257, Ident = ...
+      Identifier: Id =  362, LId =  258, Ident = ...
+      Invocation: Id =  363, LId =  256, Ident = revdebug.recrepr(myfrozenset, prev), Method = recrepr
+      Identifier: Id =  364, LId =  259, Ident = prev2
+      Identifier: Id =  365, LId =  260, Ident = ...
+      Identifier: Id =  366, LId =  261, Ident = i
+      Identifier: Id =  367, LId =  262, Ident = ...
+      Identifier: Id =  370, LId =  262, Ident = ...
+      Identifier: Id =  372, LId =  263, Ident = ...
+      Invocation: Id =  373, LId =  264, Ident = class mybytearray(bytearray), Method = class mybytearray
+      Identifier: Id =  374, LId =  265, Ident = mybytearray
+      Identifier: Id =  375, LId =  266, Ident = ...
+      Identifier: Id =  376, LId =  267, Ident = ...
+      Identifier: Id =  378, LId =  267, Ident = ...
+      Invocation: Id =  379, LId =  268, Ident = mybytearray([1, 2, 3]), Method = mybytearray
+      Identifier: Id =  380, LId =  269, Ident = i
+      Identifier: Id =  382, LId =  270, Ident = ...
+      Identifier: Id =  384, LId =  271, Ident = i[1]
+      Identifier: Id =  385, LId =  272, Ident = ...
+      Identifier: Id =  386, LId =  273, Ident = i
+      Identifier: Id =  387, LId =  274, Ident = ...
+      Identifier: Id =  388, LId =  275, Ident = ...
+      Identifier: Id =  389, LId =  276, Ident = ...
+      Identifier: Id =  392, LId =  277, Ident = ...
+      Invocation: Id =  393, LId =  275, Ident = revdebug.recrepr(mybytearray, lambda self: f'<bytearray of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  394, LId =  278, Ident = prev
+      Identifier: Id =  395, LId =  279, Ident = ...
+      Identifier: Id =  396, LId =  280, Ident = i
+      Identifier: Id =  397, LId =  281, Ident = ...
+      Identifier: Id =  398, LId =  282, Ident = ...
+      Identifier: Id =  399, LId =  283, Ident = ...
+      Invocation: Id =  401, LId =  282, Ident = revdebug.recrepr(mybytearray, None), Method = recrepr
+      Identifier: Id =  402, LId =  285, Ident = prev2
+      Identifier: Id =  403, LId =  286, Ident = ...
+      Identifier: Id =  404, LId =  287, Ident = i
+      Identifier: Id =  405, LId =  288, Ident = ...
+      Identifier: Id =  406, LId =  289, Ident = ...
+      Identifier: Id =  407, LId =  290, Ident = ...
+      Invocation: Id =  409, LId =  289, Ident = revdebug.recrepr(mybytearray, False), Method = recrepr
+      Identifier: Id =  410, LId =  292, Ident = prev2
+      Identifier: Id =  411, LId =  293, Ident = ...
+      Identifier: Id =  412, LId =  294, Ident = i
+      Identifier: Id =  413, LId =  295, Ident = ...
+      Identifier: Id =  414, LId =  296, Ident = ...
+      Identifier: Id =  415, LId =  297, Ident = ...
+      Identifier: Id =  416, LId =  298, Ident = ...
+      Invocation: Id =  417, LId =  296, Ident = revdebug.recrepr(mybytearray, prev), Method = recrepr
+      Identifier: Id =  418, LId =  299, Ident = prev2
+      Identifier: Id =  419, LId =  300, Ident = ...
+      Identifier: Id =  420, LId =  301, Ident = i
+      Identifier: Id =  421, LId =  302, Ident = ...
+      Identifier: Id =  422, LId =  303, Ident = ...
+      Invocation: Id =  423, LId =  303, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =  425, LId =  304, Ident = ...
+      Identifier: Id =  426, LId =  305, Ident = ...
+      Identifier: Id =  427, LId =  306, Ident = ...
+      Identifier: Id =  428, LId =  307, Ident = ...
+      Identifier: Id =  429, LId =  308, Ident = ...
+      Identifier: Id =  430, LId =  309, Ident = ...
+      Identifier: Id =  431, LId =  310, Ident = if
+      Identifier: Id =  433, LId =  311, Ident = ...
+      Invocation: Id =  435, LId =  312, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =  436, LId =  314, Ident = ...
+      Method:     Id =  439, LId =  315, Ident = test_user_serialization_inheritance.py, Method = test_user_serialization_inheritance.py
+      Argument:   Id =  440, LId =    9, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  441, LId =   18, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  442, LId =   19, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  443, LId =   25, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  444, LId =   26, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  445, LId =   32, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  446, LId =   33, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  447, LId =   39, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  448, LId =   40, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  449, LId =   49, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  450, LId =   58, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  451, LId =   59, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  452, LId =   65, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  453, LId =   66, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  454, LId =   72, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  455, LId =   73, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  456, LId =   79, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  457, LId =   80, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  458, LId =   89, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  459, LId =   97, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  460, LId =  105, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  461, LId =  114, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  462, LId =  119, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  463, LId =  124, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  464, LId =  125, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  465, LId =  131, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  466, LId =  132, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  467, LId =  138, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  468, LId =  139, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  469, LId =  145, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  470, LId =  146, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  471, LId =  155, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  472, LId =  160, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  473, LId =  161, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  474, LId =  167, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  475, LId =  168, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  476, LId =  174, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  477, LId =  175, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  478, LId =  181, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  479, LId =  182, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  480, LId =  191, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  481, LId =  200, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  482, LId =  201, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  483, LId =  207, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  484, LId =  208, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  485, LId =  214, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  486, LId =  215, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  487, LId =  221, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  488, LId =  222, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  489, LId =  231, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  490, LId =  236, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  491, LId =  237, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  492, LId =  243, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  493, LId =  244, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  494, LId =  250, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  495, LId =  251, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  496, LId =  257, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  497, LId =  258, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  498, LId =  267, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  499, LId =  276, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  500, LId =  277, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  501, LId =  283, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  502, LId =  284, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  503, LId =  290, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  504, LId =  291, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  505, LId =  297, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  506, LId =  298, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  507, LId =  313, Ident = arg1, ArgIdx = 0
+      Invocation: Id =  512, LId =  316, Ident = pass, Method = pass
+      Method:     Id =  515, LId =    4, Ident = mylist, Method = mylist
+      Invocation: Id =  520, LId =  317, Ident = pass, Method = pass
+      Method:     Id =  523, LId =   44, Ident = mylist2, Method = mylist2
+      Identifier: Id =  530, LId =  318, Ident = ...
+      Identifier: Id =  531, LId =  319, Ident = __recrepr__
+      Method:     Id =  534, LId =   84, Ident = mylist3, Method = mylist3
+      Identifier: Id =  540, LId =  320, Ident = __recrepr__
+      Method:     Id =  543, LId =   92, Ident = mylist4, Method = mylist4
+      Identifier: Id =  549, LId =  321, Ident = __recrepr__
+      Method:     Id =  552, LId =  100, Ident = mylist5, Method = mylist5
+      Invocation: Id =  557, LId =  322, Ident = pass, Method = pass
+      Method:     Id =  560, LId =  109, Ident = myset, Method = myset
+      Invocation: Id =  565, LId =  323, Ident = pass, Method = pass
+      Method:     Id =  568, LId =  150, Ident = mytuple, Method = mytuple
+      Invocation: Id =  573, LId =  324, Ident = pass, Method = pass
+      Method:     Id =  576, LId =  186, Ident = mydict, Method = mydict
+      Invocation: Id =  581, LId =  325, Ident = pass, Method = pass
+      Method:     Id =  584, LId =  226, Ident = myfrozenset, Method = myfrozenset
+      Invocation: Id =  589, LId =  326, Ident = pass, Method = pass
+      Method:     Id =  592, LId =  262, Ident = mybytearray, Method = mybytearray
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

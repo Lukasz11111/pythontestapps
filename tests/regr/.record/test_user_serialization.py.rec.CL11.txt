@@ -1,0 +1,764 @@
+Handshake: Solution = Solution, App = test_user_serialization.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_user_serialization.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = done
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_user_serialization.py", line 127, in <module>
+        raise RuntimeError('done')
+    RuntimeError: done
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_user_serialization.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    15
+      Location: Id =    1, FId =  0, Line =    5, Start =    57, Len =     8
+      Location: Id =    2, FId =  0, Line =    5, Start =    57, Len =    16
+      Location: Id =    3, FId =  0, Line =    7, Start =   146, Len =     1
+      Location: Id =    4, FId =  0, Line =    8, Start =   284, Len =     8
+      Location: Id =    5, FId =  0, Line =    8, Start =   284, Len =    17
+      Location: Id =    6, FId =  0, Line =    9, Start =   302, Len =   183
+      Location: Id =    7, FId =  0, Line =    9, Start =   302, Len =    10
+      Location: Id =    8, FId =  0, Line =    8, Start =   283, Len =    18
+      Location: Id =    9, FId =  0, Line =    9, Start =   302, Len =     9
+      Location: Id =   10, FId =  0, Line =   17, Start =   498, Len =     3
+      Location: Id =   11, FId =  0, Line =   17, Start =   498, Len =     9
+      Location: Id =   12, FId =  0, Line =   17, Start =   502, Len =     1
+      Location: Id =   13, FId =  0, Line =   17, Start =   505, Len =     1
+      Location: Id =   14, FId =  0, Line =   17, Start =   487, Len =     8
+      Location: Id =   15, FId =  0, Line =   19, Start =   509, Len =     8
+      Location: Id =   16, FId =  0, Line =   19, Start =   509, Len =    10
+      Location: Id =   17, FId =  0, Line =   21, Start =   530, Len =     8
+      Location: Id =   18, FId =  0, Line =   21, Start =   526, Len =     1
+      Location: Id =   19, FId =  0, Line =   23, Start =   540, Len =    27
+      Location: Id =   20, FId =  0, Line =   23, Start =   553, Len =     3
+      Location: Id =   21, FId =  0, Line =   23, Start =   540, Len =    18
+      Location: Id =   22, FId =  0, Line =   23, Start =   540, Len =    12
+      Location: Id =   23, FId =  0, Line =   26, Start =   583, Len =     6
+      Location: Id =   24, FId =  0, Line =   26, Start =   583, Len =     8
+      Location: Id =   25, FId =  0, Line =   26, Start =   569, Len =    11
+      Location: Id =   26, FId =  0, Line =   28, Start =   594, Len =     8
+      Location: Id =   27, FId =  0, Line =   28, Start =   594, Len =    17
+      Location: Id =   28, FId =  0, Line =   29, Start =   612, Len =    20
+      Location: Id =   29, FId =  0, Line =   29, Start =   612, Len =    11
+      Location: Id =   30, FId =  0, Line =   28, Start =   593, Len =    18
+      Location: Id =   31, FId =  0, Line =   29, Start =   612, Len =    10
+      Location: Id =   32, FId =  0, Line =   32, Start =   635, Len =     8
+      Location: Id =   33, FId =  0, Line =   32, Start =   635, Len =    17
+      Location: Id =   34, FId =  0, Line =   33, Start =   653, Len =    33
+      Location: Id =   35, FId =  0, Line =   33, Start =   653, Len =    11
+      Location: Id =   36, FId =  0, Line =   32, Start =   634, Len =    18
+      Location: Id =   37, FId =  0, Line =   33, Start =   653, Len =    10
+      Location: Id =   38, FId =  0, Line =   36, Start =   689, Len =     8
+      Location: Id =   39, FId =  0, Line =   36, Start =   689, Len =    17
+      Location: Id =   40, FId =  0, Line =   37, Start =   707, Len =   104
+      Location: Id =   41, FId =  0, Line =   37, Start =   707, Len =    11
+      Location: Id =   42, FId =  0, Line =   36, Start =   688, Len =    18
+      Location: Id =   43, FId =  0, Line =   37, Start =   707, Len =    10
+      Location: Id =   44, FId =  0, Line =   41, Start =   818, Len =     4
+      Location: Id =   45, FId =  0, Line =   41, Start =   818, Len =     6
+      Location: Id =   46, FId =  0, Line =   41, Start =   826, Len =     4
+      Location: Id =   47, FId =  0, Line =   41, Start =   826, Len =     6
+      Location: Id =   48, FId =  0, Line =   41, Start =   834, Len =     4
+      Location: Id =   49, FId =  0, Line =   41, Start =   834, Len =     6
+      Location: Id =   50, FId =  0, Line =   41, Start =   817, Len =    24
+      Location: Id =   51, FId =  0, Line =   41, Start =   813, Len =     1
+      Location: Id =   52, FId =  0, Line =   43, Start =   856, Len =     1
+      Location: Id =   53, FId =  0, Line =   43, Start =   843, Len =    10
+      Location: Id =   54, FId =  0, Line =   43, Start =   843, Len =     2
+      Location: Id =   55, FId =  0, Line =   43, Start =   847, Len =     2
+      Location: Id =   56, FId =  0, Line =   43, Start =   851, Len =     2
+      Location: Id =   57, FId =  0, Line =   46, Start =   860, Len =     1
+      Location: Id =   58, FId =  0, Line =   47, Start =   983, Len =     8
+      Location: Id =   59, FId =  0, Line =   47, Start =   983, Len =    30
+      Location: Id =   60, FId =  0, Line =   47, Start =  1000, Len =     6
+      Location: Id =   61, FId =  0, Line =   47, Start =  1008, Len =     4
+      Location: Id =   62, FId =  0, Line =   47, Start =   976, Len =     4
+      Location: Id =   63, FId =  0, Line =   49, Start =  1019, Len =    11
+      Location: Id =   64, FId =  0, Line =   49, Start =  1015, Len =     1
+      Location: Id =   65, FId =  0, Line =   50, Start =  1035, Len =     8
+      Location: Id =   66, FId =  0, Line =   50, Start =  1031, Len =     1
+      Location: Id =   67, FId =  0, Line =   52, Start =  1052, Len =     8
+      Location: Id =   68, FId =  0, Line =   52, Start =  1052, Len =    30
+      Location: Id =   69, FId =  0, Line =   52, Start =  1069, Len =     6
+      Location: Id =   70, FId =  0, Line =   52, Start =  1077, Len =     4
+      Location: Id =   71, FId =  0, Line =   52, Start =  1045, Len =     4
+      Location: Id =   72, FId =  0, Line =   54, Start =  1088, Len =    11
+      Location: Id =   73, FId =  0, Line =   54, Start =  1084, Len =     1
+      Location: Id =   74, FId =  0, Line =   56, Start =  1101, Len =     1
+      Location: Id =   75, FId =  0, Line =   57, Start =  1225, Len =    35
+      Location: Id =   76, FId =  0, Line =   59, Start =  1266, Len =    11
+      Location: Id =   77, FId =  0, Line =   59, Start =  1266, Len =    29
+      Location: Id =   78, FId =  0, Line =   59, Start =  1278, Len =    16
+      Location: Id =   79, FId =  0, Line =   59, Start =  1262, Len =     1
+      Location: Id =   80, FId =  0, Line =   60, Start =  1296, Len =     1
+      Location: Id =   81, FId =  0, Line =   60, Start =  1296, Len =     4
+      Location: Id =   82, FId =  0, Line =   61, Start =  1310, Len =     1
+      Location: Id =   83, FId =  0, Line =   61, Start =  1306, Len =     1
+      Location: Id =   84, FId =  0, Line =   63, Start =  1320, Len =     8
+      Location: Id =   85, FId =  0, Line =   63, Start =  1320, Len =    34
+      Location: Id =   86, FId =  0, Line =   63, Start =  1337, Len =    11
+      Location: Id =   87, FId =  0, Line =   63, Start =  1350, Len =     3
+      Location: Id =   88, FId =  0, Line =   63, Start =  1313, Len =     4
+      Location: Id =   89, FId =  0, Line =   65, Start =  1360, Len =     1
+      Location: Id =   90, FId =  0, Line =   65, Start =  1356, Len =     1
+      Location: Id =   91, FId =  0, Line =   66, Start =  1362, Len =     1
+      Location: Id =   92, FId =  0, Line =   66, Start =  1362, Len =     4
+      Location: Id =   93, FId =  0, Line =   67, Start =  1376, Len =     1
+      Location: Id =   94, FId =  0, Line =   67, Start =  1372, Len =     1
+      Location: Id =   95, FId =  0, Line =   69, Start =  1379, Len =     8
+      Location: Id =   96, FId =  0, Line =   69, Start =  1379, Len =    35
+      Location: Id =   97, FId =  0, Line =   69, Start =  1396, Len =    11
+      Location: Id =   98, FId =  0, Line =   69, Start =  1409, Len =     4
+      Location: Id =   99, FId =  0, Line =   71, Start =  1420, Len =     1
+      Location: Id =  100, FId =  0, Line =   71, Start =  1416, Len =     1
+      Location: Id =  101, FId =  0, Line =   72, Start =  1422, Len =     1
+      Location: Id =  102, FId =  0, Line =   72, Start =  1422, Len =     4
+      Location: Id =  103, FId =  0, Line =   74, Start =  1433, Len =     1
+      Location: Id =  104, FId =  0, Line =   75, Start =  1563, Len =     9
+      Location: Id =  105, FId =  0, Line =   75, Start =  1559, Len =     1
+      Location: Id =  106, FId =  0, Line =   76, Start =  1580, Len =     8
+      Location: Id =  107, FId =  0, Line =   76, Start =  1580, Len =    69
+      Location: Id =  108, FId =  0, Line =   76, Start =  1597, Len =     4
+      Location: Id =  109, FId =  0, Line =   76, Start =  1603, Len =    45
+      Location: Id =  110, FId =  0, Line =   76, Start =  1573, Len =     4
+      Location: Id =  111, FId =  0, Line =   77, Start =  1654, Len =     1
+      Location: Id =  112, FId =  0, Line =   77, Start =  1650, Len =     1
+      Location: Id =  113, FId =  0, Line =   78, Start =  1656, Len =     8
+      Location: Id =  114, FId =  0, Line =   78, Start =  1656, Len =    28
+      Location: Id =  115, FId =  0, Line =   78, Start =  1673, Len =     4
+      Location: Id =  116, FId =  0, Line =   78, Start =  1679, Len =     4
+      Location: Id =  117, FId =  0, Line =   79, Start =  1689, Len =     1
+      Location: Id =  118, FId =  0, Line =   79, Start =  1685, Len =     1
+      Location: Id =  119, FId =  0, Line =   81, Start =  1696, Len =    18
+      Location: Id =  120, FId =  0, Line =   81, Start =  1692, Len =     1
+      Location: Id =  121, FId =  0, Line =   82, Start =  1722, Len =     8
+      Location: Id =  122, FId =  0, Line =   82, Start =  1722, Len =    69
+      Location: Id =  123, FId =  0, Line =   82, Start =  1739, Len =     4
+      Location: Id =  124, FId =  0, Line =   82, Start =  1745, Len =    45
+      Location: Id =  125, FId =  0, Line =   82, Start =  1715, Len =     4
+      Location: Id =  126, FId =  0, Line =   83, Start =  1796, Len =     1
+      Location: Id =  127, FId =  0, Line =   83, Start =  1792, Len =     1
+      Location: Id =  128, FId =  0, Line =   84, Start =  1798, Len =     8
+      Location: Id =  129, FId =  0, Line =   84, Start =  1798, Len =    28
+      Location: Id =  130, FId =  0, Line =   84, Start =  1815, Len =     4
+      Location: Id =  131, FId =  0, Line =   84, Start =  1821, Len =     4
+      Location: Id =  132, FId =  0, Line =   85, Start =  1831, Len =     1
+      Location: Id =  133, FId =  0, Line =   85, Start =  1827, Len =     1
+      Location: Id =  134, FId =  0, Line =   87, Start =  1838, Len =     9
+      Location: Id =  135, FId =  0, Line =   87, Start =  1834, Len =     1
+      Location: Id =  136, FId =  0, Line =   88, Start =  1855, Len =     8
+      Location: Id =  137, FId =  0, Line =   88, Start =  1855, Len =    67
+      Location: Id =  138, FId =  0, Line =   88, Start =  1872, Len =     3
+      Location: Id =  139, FId =  0, Line =   88, Start =  1877, Len =    44
+      Location: Id =  140, FId =  0, Line =   88, Start =  1848, Len =     4
+      Location: Id =  141, FId =  0, Line =   89, Start =  1927, Len =     1
+      Location: Id =  142, FId =  0, Line =   89, Start =  1923, Len =     1
+      Location: Id =  143, FId =  0, Line =   90, Start =  1929, Len =     8
+      Location: Id =  144, FId =  0, Line =   90, Start =  1929, Len =    27
+      Location: Id =  145, FId =  0, Line =   90, Start =  1946, Len =     3
+      Location: Id =  146, FId =  0, Line =   90, Start =  1951, Len =     4
+      Location: Id =  147, FId =  0, Line =   91, Start =  1961, Len =     1
+      Location: Id =  148, FId =  0, Line =   91, Start =  1957, Len =     1
+      Location: Id =  149, FId =  0, Line =   93, Start =  1968, Len =     9
+      Location: Id =  150, FId =  0, Line =   93, Start =  1968, Len =    17
+      Location: Id =  151, FId =  0, Line =   93, Start =  1978, Len =     6
+      Location: Id =  152, FId =  0, Line =   93, Start =  1964, Len =     1
+      Location: Id =  153, FId =  0, Line =   94, Start =  1993, Len =     8
+      Location: Id =  154, FId =  0, Line =   94, Start =  1993, Len =    77
+      Location: Id =  155, FId =  0, Line =   94, Start =  2010, Len =     9
+      Location: Id =  156, FId =  0, Line =   94, Start =  2021, Len =    48
+      Location: Id =  157, FId =  0, Line =   94, Start =  1986, Len =     4
+      Location: Id =  158, FId =  0, Line =   95, Start =  2075, Len =     1
+      Location: Id =  159, FId =  0, Line =   95, Start =  2071, Len =     1
+      Location: Id =  160, FId =  0, Line =   96, Start =  2077, Len =     8
+      Location: Id =  161, FId =  0, Line =   96, Start =  2077, Len =    33
+      Location: Id =  162, FId =  0, Line =   96, Start =  2094, Len =     9
+      Location: Id =  163, FId =  0, Line =   96, Start =  2105, Len =     4
+      Location: Id =  164, FId =  0, Line =   97, Start =  2115, Len =     1
+      Location: Id =  165, FId =  0, Line =   97, Start =  2111, Len =     1
+      Location: Id =  166, FId =  0, Line =   99, Start =  2123, Len =     3
+      Location: Id =  167, FId =  0, Line =   99, Start =  2128, Len =     3
+      Location: Id =  168, FId =  0, Line =   99, Start =  2133, Len =     3
+      Location: Id =  169, FId =  0, Line =   99, Start =  2122, Len =    15
+      Location: Id =  170, FId =  0, Line =   99, Start =  2118, Len =     1
+      Location: Id =  171, FId =  0, Line =  100, Start =  2145, Len =     8
+      Location: Id =  172, FId =  0, Line =  100, Start =  2145, Len =    71
+      Location: Id =  173, FId =  0, Line =  100, Start =  2162, Len =     5
+      Location: Id =  174, FId =  0, Line =  100, Start =  2169, Len =    46
+      Location: Id =  175, FId =  0, Line =  100, Start =  2138, Len =     4
+      Location: Id =  176, FId =  0, Line =  101, Start =  2221, Len =     1
+      Location: Id =  177, FId =  0, Line =  101, Start =  2217, Len =     1
+      Location: Id =  178, FId =  0, Line =  102, Start =  2223, Len =     8
+      Location: Id =  179, FId =  0, Line =  102, Start =  2223, Len =    29
+      Location: Id =  180, FId =  0, Line =  102, Start =  2240, Len =     5
+      Location: Id =  181, FId =  0, Line =  102, Start =  2247, Len =     4
+      Location: Id =  182, FId =  0, Line =  103, Start =  2257, Len =     1
+      Location: Id =  183, FId =  0, Line =  103, Start =  2253, Len =     1
+      Location: Id =  184, FId =  0, Line =  105, Start =  2260, Len =     1
+      Location: Id =  185, FId =  0, Line =  106, Start =  2423, Len =     4
+      Location: Id =  186, FId =  0, Line =  106, Start =  2428, Len =     5
+      Location: Id =  187, FId =  0, Line =  106, Start =  2428, Len =    10
+      Location: Id =  188, FId =  0, Line =  106, Start =  2434, Len =     3
+      Location: Id =  189, FId =  0, Line =  106, Start =  2423, Len =    16
+      Location: Id =  190, FId =  0, Line =  106, Start =  2419, Len =     1
+      Location: Id =  191, FId =  0, Line =  107, Start =  2448, Len =     8
+      Location: Id =  192, FId =  0, Line =  107, Start =  2448, Len =    27
+      Location: Id =  193, FId =  0, Line =  107, Start =  2465, Len =     4
+      Location: Id =  194, FId =  0, Line =  107, Start =  2471, Len =     3
+      Location: Id =  195, FId =  0, Line =  107, Start =  2440, Len =     5
+      Location: Id =  196, FId =  0, Line =  108, Start =  2480, Len =     1
+      Location: Id =  197, FId =  0, Line =  108, Start =  2476, Len =     1
+      Location: Id =  198, FId =  0, Line =  109, Start =  2487, Len =     1
+      Location: Id =  199, FId =  0, Line =  109, Start =  2490, Len =     1
+      Location: Id =  200, FId =  0, Line =  109, Start =  2486, Len =     6
+      Location: Id =  201, FId =  0, Line =  109, Start =  2482, Len =     1
+      Location: Id =  202, FId =  0, Line =  111, Start =  2563, Len =     8
+      Location: Id =  203, FId =  0, Line =  111, Start =  2563, Len =    28
+      Location: Id =  204, FId =  0, Line =  111, Start =  2580, Len =     5
+      Location: Id =  205, FId =  0, Line =  111, Start =  2587, Len =     3
+      Location: Id =  206, FId =  0, Line =  111, Start =  2555, Len =     5
+      Location: Id =  207, FId =  0, Line =  112, Start =  2625, Len =     1
+      Location: Id =  208, FId =  0, Line =  112, Start =  2621, Len =     1
+      Location: Id =  209, FId =  0, Line =  114, Start =  2628, Len =     8
+      Location: Id =  210, FId =  0, Line =  114, Start =  2628, Len =    29
+      Location: Id =  211, FId =  0, Line =  114, Start =  2645, Len =     4
+      Location: Id =  212, FId =  0, Line =  114, Start =  2651, Len =     5
+      Location: Id =  213, FId =  0, Line =  115, Start =  2658, Len =     8
+      Location: Id =  214, FId =  0, Line =  115, Start =  2658, Len =    30
+      Location: Id =  215, FId =  0, Line =  115, Start =  2675, Len =     5
+      Location: Id =  216, FId =  0, Line =  115, Start =  2682, Len =     5
+      Location: Id =  217, FId =  0, Line =  117, Start =  2690, Len =     1
+      Location: Id =  218, FId =  0, Line =  118, Start =  2809, Len =    12
+      Location: Id =  219, FId =  0, Line =  118, Start =  2805, Len =     1
+      Location: Id =  220, FId =  0, Line =  121, Start =  2934, Len =     8
+      Location: Id =  221, FId =  0, Line =  121, Start =  2934, Len =    68
+      Location: Id =  222, FId =  0, Line =  121, Start =  2951, Len =     3
+      Location: Id =  223, FId =  0, Line =  121, Start =  2956, Len =    45
+      Location: Id =  224, FId =  0, Line =  123, Start =  3008, Len =    12
+      Location: Id =  225, FId =  0, Line =  123, Start =  3004, Len =     1
+      Location: Id =  226, FId =  0, Line =  127, Start =  3030, Len =    12
+      Location: Id =  227, FId =  0, Line =  127, Start =  3030, Len =    20
+      Location: Id =  228, FId =  0, Line =  127, Start =  3043, Len =     6
+      Location: Id =  229, FId =  0, Line =  127, Start =  3024, Len =    26
+      Location: Id =  230, FId =  0, Line =    3, Start =    23, Len =  3027
+      Location: Id =  231, FId =  0, Line =   10, Start =   317, Len =    71
+      Location: Id =  232, FId =  0, Line =   10, Start =   317, Len =    12
+      Location: Id =  233, FId =  0, Line =   14, Start =   394, Len =    91
+      Location: Id =  234, FId =  0, Line =   14, Start =   394, Len =    15
+      Location: Id =  235, FId =  0, Line =    8, Start =   283, Len =   202
+      Location: Id =  236, FId =  0, Line =   24, Start =   563, Len =     4
+      Location: Id =  237, FId =  0, Line =   30, Start =   628, Len =     4
+      Location: Id =  238, FId =  0, Line =   28, Start =   593, Len =    39
+      Location: Id =  239, FId =  0, Line =   34, Start =   683, Len =     3
+      Location: Id =  240, FId =  0, Line =   34, Start =   669, Len =    11
+      Location: Id =  241, FId =  0, Line =   32, Start =   634, Len =    52
+      Location: Id =  242, FId =  0, Line =   38, Start =   723, Len =    88
+      Location: Id =  243, FId =  0, Line =   38, Start =   723, Len =    15
+      Location: Id =  244, FId =  0, Line =   36, Start =   688, Len =   123
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = revdebug
+      Identifier: Id =    4, LId =    1, Ident = ...
+      Identifier: Id =    5, LId =    2, Ident = ...
+      Invocation: Id =    6, LId =    2, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    9, LId =    3, Ident = _
+      Identifier: Id =   10, LId =    4, Ident = ...
+      Identifier: Id =   11, LId =    5, Ident = ...
+      Identifier: Id =   12, LId =    6, Ident = ...
+      Identifier: Id =   15, LId =    6, Ident = ...
+      Invocation: Id =   17, LId =    7, Ident = class cls, Method = class cls
+      Invocation: Id =   18, LId =    8, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   19, LId =    9, Ident = cls
+      Identifier: Id =   20, LId =   10, Ident = ...
+      Invocation: Id =   23, LId =   11, Ident = cls(3, 4), Method = cls
+      Identifier: Id =   24, LId =   14, Ident = cls_inst
+      Identifier: Id =   26, LId =   15, Ident = ...
+      Identifier: Id =   27, LId =   16, Ident = cls_inst.x
+      Identifier: Id =   28, LId =   17, Ident = ...
+      Identifier: Id =   29, LId =   18, Ident = i
+      Identifier: Id =   30, LId =   19, Ident = ...
+      Identifier: Id =   33, LId =   19, Ident = ...
+      Identifier: Id =   35, LId =   20, Ident = ...
+      Invocation: Id =   36, LId =   21, Ident = class subcls(cls), Method = class subcls
+      Identifier: Id =   37, LId =   22, Ident = subcls
+      Identifier: Id =   38, LId =   23, Ident = ...
+      Invocation: Id =   39, LId =   24, Ident = subcls(), Method = subcls
+      Identifier: Id =   40, LId =   25, Ident = subcls_inst
+      Identifier: Id =   41, LId =   26, Ident = ...
+      Identifier: Id =   42, LId =   27, Ident = ...
+      Identifier: Id =   43, LId =   28, Ident = ...
+      Identifier: Id =   46, LId =   28, Ident = ...
+      Invocation: Id =   48, LId =   29, Ident = class cls1, Method = class cls1
+      Invocation: Id =   49, LId =   30, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   50, LId =   31, Ident = cls1
+      Identifier: Id =   51, LId =   32, Ident = ...
+      Identifier: Id =   52, LId =   33, Ident = ...
+      Identifier: Id =   53, LId =   34, Ident = ...
+      Identifier: Id =   56, LId =   34, Ident = ...
+      Invocation: Id =   58, LId =   35, Ident = class cls2, Method = class cls2
+      Invocation: Id =   59, LId =   36, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   60, LId =   37, Ident = cls2
+      Identifier: Id =   61, LId =   38, Ident = ...
+      Identifier: Id =   62, LId =   39, Ident = ...
+      Identifier: Id =   63, LId =   40, Ident = ...
+      Identifier: Id =   66, LId =   40, Ident = ...
+      Invocation: Id =   68, LId =   41, Ident = class cls3, Method = class cls3
+      Invocation: Id =   69, LId =   42, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   70, LId =   43, Ident = cls3
+      Identifier: Id =   71, LId =   44, Ident = ...
+      Invocation: Id =   72, LId =   45, Ident = cls1(), Method = cls1
+      Identifier: Id =   73, LId =   46, Ident = ...
+      Invocation: Id =   74, LId =   47, Ident = cls2(), Method = cls2
+      Identifier: Id =   75, LId =   48, Ident = ...
+      Invocation: Id =   76, LId =   49, Ident = cls3(), Method = cls3
+      Identifier: Id =   77, LId =   50, Ident = ...
+      Identifier: Id =   78, LId =   51, Ident = l
+      Identifier: Id =   79, LId =   52, Ident = ...
+      Identifier: Id =   80, LId =   53, Ident = ...
+      Identifier: Id =   81, LId =   54, Ident = i1
+      Identifier: Id =   82, LId =   55, Ident = i2
+      Identifier: Id =   83, LId =   56, Ident = i3
+      Identifier: Id =   85, LId =   57, Ident = _
+      Identifier: Id =   86, LId =   58, Ident = ...
+      Identifier: Id =   87, LId =   59, Ident = ...
+      Identifier: Id =   88, LId =   60, Ident = ...
+      Invocation: Id =   90, LId =   59, Ident = revdebug.recrepr(subcls, None), Method = recrepr
+      Identifier: Id =   91, LId =   62, Ident = prev
+      Identifier: Id =   92, LId =   63, Ident = ...
+      Identifier: Id =   93, LId =   64, Ident = i
+      Identifier: Id =   94, LId =   65, Ident = ...
+      Identifier: Id =   95, LId =   66, Ident = i
+      Identifier: Id =   96, LId =   67, Ident = ...
+      Identifier: Id =   97, LId =   68, Ident = ...
+      Identifier: Id =   98, LId =   69, Ident = ...
+      Identifier: Id =   99, LId =   70, Ident = ...
+      Invocation: Id =  100, LId =   68, Ident = revdebug.recrepr(subcls, prev), Method = recrepr
+      Identifier: Id =  101, LId =   71, Ident = prev
+      Identifier: Id =  102, LId =   72, Ident = ...
+      Identifier: Id =  103, LId =   73, Ident = i
+      Identifier: Id =  105, LId =   74, Ident = _
+      Identifier: Id =  108, LId =   75, Ident = ...
+      Identifier: Id =  109, LId =   75, Ident = ...
+      Identifier: Id =  110, LId =   75, Ident = OrderedDict
+      Identifier: Id =  112, LId =   76, Ident = ...
+      Invocation: Id =  114, LId =   77, Ident = OrderedDict(((1, 2), (3, 4))), Method = OrderedDict
+      Identifier: Id =  115, LId =   79, Ident = i
+      Identifier: Id =  117, LId =   80, Ident = ...
+      Identifier: Id =  119, LId =   81, Ident = i[1]
+      Identifier: Id =  120, LId =   82, Ident = ...
+      Identifier: Id =  121, LId =   83, Ident = i
+      Identifier: Id =  122, LId =   84, Ident = ...
+      Identifier: Id =  123, LId =   85, Ident = ...
+      Identifier: Id =  124, LId =   86, Ident = ...
+      Identifier: Id =  125, LId =   87, Ident = ...
+      Invocation: Id =  126, LId =   85, Ident = revdebug.recrepr(OrderedDict, str), Method = recrepr
+      Identifier: Id =  127, LId =   88, Ident = prev
+      Identifier: Id =  128, LId =   89, Ident = ...
+      Identifier: Id =  129, LId =   90, Ident = i
+      Identifier: Id =  131, LId =   91, Ident = ...
+      Identifier: Id =  133, LId =   92, Ident = i[1]
+      Identifier: Id =  134, LId =   93, Ident = ...
+      Identifier: Id =  135, LId =   94, Ident = i
+      Identifier: Id =  136, LId =   95, Ident = ...
+      Identifier: Id =  137, LId =   96, Ident = ...
+      Identifier: Id =  138, LId =   97, Ident = ...
+      Identifier: Id =  139, LId =   98, Ident = ...
+      Invocation: Id =  140, LId =   96, Ident = revdebug.recrepr(OrderedDict, prev), Method = recrepr
+      Identifier: Id =  142, LId =   99, Ident = ...
+      Identifier: Id =  143, LId =  100, Ident = i
+      Identifier: Id =  145, LId =  101, Ident = ...
+      Identifier: Id =  147, LId =  102, Ident = i[1]
+      Identifier: Id =  149, LId =  103, Ident = _
+      Identifier: Id =  150, LId =  104, Ident = ...
+      Identifier: Id =  152, LId =  104, Ident = ...
+      Identifier: Id =  153, LId =  105, Ident = l
+      Identifier: Id =  154, LId =  106, Ident = ...
+      Identifier: Id =  155, LId =  107, Ident = ...
+      Identifier: Id =  156, LId =  108, Ident = ...
+      Identifier: Id =  159, LId =  109, Ident = ...
+      Invocation: Id =  160, LId =  107, Ident = revdebug.recrepr(list, lambda self: f'<list of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  161, LId =  110, Ident = prev
+      Identifier: Id =  162, LId =  111, Ident = ...
+      Identifier: Id =  163, LId =  112, Ident = l
+      Identifier: Id =  164, LId =  113, Ident = ...
+      Identifier: Id =  165, LId =  114, Ident = ...
+      Identifier: Id =  166, LId =  115, Ident = ...
+      Identifier: Id =  167, LId =  116, Ident = ...
+      Invocation: Id =  168, LId =  114, Ident = revdebug.recrepr(list, prev), Method = recrepr
+      Identifier: Id =  170, LId =  117, Ident = ...
+      Identifier: Id =  171, LId =  118, Ident = l
+      Identifier: Id =  176, LId =  119, Ident = ...
+      Identifier: Id =  177, LId =  120, Ident = l
+      Identifier: Id =  178, LId =  121, Ident = ...
+      Identifier: Id =  179, LId =  122, Ident = ...
+      Identifier: Id =  180, LId =  123, Ident = ...
+      Identifier: Id =  183, LId =  124, Ident = ...
+      Invocation: Id =  184, LId =  122, Ident = revdebug.recrepr(dict, lambda self: f'<dict of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  185, LId =  125, Ident = prev
+      Identifier: Id =  186, LId =  126, Ident = ...
+      Identifier: Id =  187, LId =  127, Ident = l
+      Identifier: Id =  188, LId =  128, Ident = ...
+      Identifier: Id =  189, LId =  129, Ident = ...
+      Identifier: Id =  190, LId =  130, Ident = ...
+      Identifier: Id =  191, LId =  131, Ident = ...
+      Invocation: Id =  192, LId =  129, Ident = revdebug.recrepr(dict, prev), Method = recrepr
+      Identifier: Id =  194, LId =  132, Ident = ...
+      Identifier: Id =  195, LId =  133, Ident = l
+      Identifier: Id =  196, LId =  134, Ident = ...
+      Identifier: Id =  198, LId =  134, Ident = ...
+      Identifier: Id =  199, LId =  135, Ident = l
+      Identifier: Id =  200, LId =  136, Ident = ...
+      Identifier: Id =  201, LId =  137, Ident = ...
+      Identifier: Id =  202, LId =  138, Ident = ...
+      Identifier: Id =  205, LId =  139, Ident = ...
+      Invocation: Id =  206, LId =  137, Ident = revdebug.recrepr(set, lambda self: f'<set of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  207, LId =  140, Ident = prev
+      Identifier: Id =  208, LId =  141, Ident = ...
+      Identifier: Id =  209, LId =  142, Ident = l
+      Identifier: Id =  210, LId =  143, Ident = ...
+      Identifier: Id =  211, LId =  144, Ident = ...
+      Identifier: Id =  212, LId =  145, Ident = ...
+      Identifier: Id =  213, LId =  146, Ident = ...
+      Invocation: Id =  214, LId =  144, Ident = revdebug.recrepr(set, prev), Method = recrepr
+      Identifier: Id =  216, LId =  147, Ident = ...
+      Identifier: Id =  217, LId =  148, Ident = l
+      Identifier: Id =  218, LId =  149, Ident = ...
+      Invocation: Id =  220, LId =  150, Ident = bytearray(b'123'), Method = bytearray
+      Identifier: Id =  221, LId =  152, Ident = l
+      Identifier: Id =  222, LId =  153, Ident = ...
+      Identifier: Id =  223, LId =  154, Ident = ...
+      Identifier: Id =  224, LId =  155, Ident = ...
+      Identifier: Id =  227, LId =  156, Ident = ...
+      Invocation: Id =  228, LId =  154, Ident = revdebug.recrepr(bytearray, lambda self: f'<bytearray of {len(self)} bytes>'), Method = recrepr
+      Identifier: Id =  229, LId =  157, Ident = prev
+      Identifier: Id =  230, LId =  158, Ident = ...
+      Identifier: Id =  231, LId =  159, Ident = l
+      Identifier: Id =  232, LId =  160, Ident = ...
+      Identifier: Id =  233, LId =  161, Ident = ...
+      Identifier: Id =  234, LId =  162, Ident = ...
+      Identifier: Id =  235, LId =  163, Ident = ...
+      Invocation: Id =  236, LId =  161, Ident = revdebug.recrepr(bytearray, prev), Method = recrepr
+      Identifier: Id =  238, LId =  164, Ident = ...
+      Identifier: Id =  239, LId =  165, Ident = l
+      Identifier: Id =  241, LId =  166, Ident = ...
+      Identifier: Id =  243, LId =  167, Ident = ...
+      Identifier: Id =  245, LId =  168, Ident = ...
+      Identifier: Id =  246, LId =  169, Ident = ...
+      Identifier: Id =  247, LId =  170, Ident = l
+      Identifier: Id =  248, LId =  171, Ident = ...
+      Identifier: Id =  249, LId =  172, Ident = ...
+      Identifier: Id =  250, LId =  173, Ident = ...
+      Identifier: Id =  253, LId =  174, Ident = ...
+      Invocation: Id =  254, LId =  172, Ident = revdebug.recrepr(tuple, lambda self: f'<tuple of {len(self)} objects>'), Method = recrepr
+      Identifier: Id =  255, LId =  175, Ident = prev
+      Identifier: Id =  256, LId =  176, Ident = ...
+      Identifier: Id =  257, LId =  177, Ident = l
+      Identifier: Id =  258, LId =  178, Ident = ...
+      Identifier: Id =  259, LId =  179, Ident = ...
+      Identifier: Id =  260, LId =  180, Ident = ...
+      Identifier: Id =  261, LId =  181, Ident = ...
+      Invocation: Id =  262, LId =  179, Ident = revdebug.recrepr(tuple, prev), Method = recrepr
+      Identifier: Id =  264, LId =  182, Ident = ...
+      Identifier: Id =  265, LId =  183, Ident = l
+      Identifier: Id =  267, LId =  184, Ident = _
+      Identifier: Id =  268, LId =  185, Ident = ...
+      Identifier: Id =  269, LId =  186, Ident = ...
+      Invocation: Id =  271, LId =  187, Ident = range(200), Method = range
+      Invocation: Id =  272, LId =  189, Ident = list(range(200)), Method = list
+      Identifier: Id =  273, LId =  190, Ident = l
+      Identifier: Id =  274, LId =  191, Ident = ...
+      Identifier: Id =  275, LId =  192, Ident = ...
+      Identifier: Id =  276, LId =  193, Ident = ...
+      Identifier: Id =  277, LId =  194, Ident = ...
+      Invocation: Id =  278, LId =  192, Ident = revdebug.recrepr(list, str), Method = recrepr
+      Identifier: Id =  279, LId =  195, Ident = prevl
+      Identifier: Id =  280, LId =  196, Ident = ...
+      Identifier: Id =  281, LId =  197, Ident = l
+      Identifier: Id =  282, LId =  198, Ident = ...
+      Identifier: Id =  283, LId =  199, Ident = ...
+      Identifier: Id =  284, LId =  200, Ident = ...
+      Identifier: Id =  285, LId =  201, Ident = t
+      Identifier: Id =  286, LId =  202, Ident = ...
+      Identifier: Id =  287, LId =  203, Ident = ...
+      Identifier: Id =  288, LId =  204, Ident = ...
+      Identifier: Id =  289, LId =  205, Ident = ...
+      Invocation: Id =  290, LId =  203, Ident = revdebug.recrepr(tuple, str), Method = recrepr
+      Identifier: Id =  291, LId =  206, Ident = prevt
+      Identifier: Id =  292, LId =  207, Ident = ...
+      Identifier: Id =  293, LId =  208, Ident = t
+      Identifier: Id =  294, LId =  209, Ident = ...
+      Identifier: Id =  295, LId =  210, Ident = ...
+      Identifier: Id =  296, LId =  211, Ident = ...
+      Identifier: Id =  297, LId =  212, Ident = ...
+      Invocation: Id =  298, LId =  210, Ident = revdebug.recrepr(list, prevl), Method = recrepr
+      Identifier: Id =  300, LId =  213, Ident = ...
+      Identifier: Id =  301, LId =  214, Ident = ...
+      Identifier: Id =  302, LId =  215, Ident = ...
+      Identifier: Id =  303, LId =  216, Ident = ...
+      Invocation: Id =  304, LId =  214, Ident = revdebug.recrepr(tuple, prevt), Method = recrepr
+      Identifier: Id =  307, LId =  217, Ident = _
+      Identifier: Id =  308, LId =  218, Ident = ...
+      Identifier: Id =  310, LId =  218, Ident = ...
+      Identifier: Id =  311, LId =  219, Ident = l
+      Identifier: Id =  312, LId =  220, Ident = ...
+      Identifier: Id =  313, LId =  221, Ident = ...
+      Identifier: Id =  314, LId =  222, Ident = ...
+      Identifier: Id =  317, LId =  223, Ident = ...
+      Invocation: Id =  318, LId =  221, Ident = revdebug.recrepr(int, lambda self: str(self) if self != 3 else '-1'), Method = recrepr
+      Identifier: Id =  320, LId =  224, Ident = ...
+      Identifier: Id =  322, LId =  224, Ident = ...
+      Identifier: Id =  323, LId =  225, Ident = l
+      Identifier: Id =  324, LId =  226, Ident = ...
+      Invocation: Id =  326, LId =  227, Ident = RuntimeError('done'), Method = RuntimeError
+      Identifier: Id =  327, LId =  229, Ident = ...
+      Method:     Id =  330, LId =  230, Ident = test_user_serialization.py, Method = test_user_serialization.py
+      Argument:   Id =  331, LId =   12, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  332, LId =   13, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  333, LId =   60, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  334, LId =   61, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  335, LId =   69, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  336, LId =   70, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  337, LId =   78, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  338, LId =   86, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  339, LId =   87, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  340, LId =   97, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  341, LId =   98, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  342, LId =  108, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  343, LId =  109, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  344, LId =  115, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  345, LId =  116, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  346, LId =  123, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  347, LId =  124, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  348, LId =  130, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  349, LId =  131, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  350, LId =  138, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  351, LId =  139, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  352, LId =  145, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  353, LId =  146, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  354, LId =  151, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  355, LId =  155, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  356, LId =  156, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  357, LId =  162, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  358, LId =  163, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  359, LId =  173, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  360, LId =  174, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  361, LId =  180, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  362, LId =  181, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  363, LId =  188, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  364, LId =  187, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  365, LId =  193, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  366, LId =  194, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  367, LId =  204, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  368, LId =  205, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  369, LId =  211, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  370, LId =  212, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  371, LId =  215, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  372, LId =  216, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  373, LId =  222, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  374, LId =  223, Ident = arg2, ArgIdx = 1
+      Argument:   Id =  375, LId =  228, Ident = arg1, ArgIdx = 0
+      Identifier: Id =  380, LId =  231, Ident = ...
+      Identifier: Id =  383, LId =  231, Ident = ...
+      Identifier: Id =  384, LId =  232, Ident = __init__
+      Identifier: Id =  387, LId =  233, Ident = ...
+      Identifier: Id =  388, LId =  234, Ident = __recrepr__
+      Method:     Id =  391, LId =  235, Ident = cls, Method = cls
+      Invocation: Id =  396, LId =  236, Ident = pass, Method = pass
+      Method:     Id =  399, LId =   19, Ident = subcls, Method = subcls
+      Invocation: Id =  404, LId =  237, Ident = pass, Method = pass
+      Method:     Id =  407, LId =  238, Ident = cls1, Method = cls1
+      Identifier: Id =  412, LId =  239, Ident = ...
+      Identifier: Id =  413, LId =  240, Ident = __recrepr__
+      Method:     Id =  416, LId =  241, Ident = cls2, Method = cls2
+      Identifier: Id =  423, LId =  242, Ident = ...
+      Identifier: Id =  424, LId =  243, Ident = __recrepr__
+      Method:     Id =  427, LId =  244, Ident = cls3, Method = cls3
+
+DownloadRecording:
+  Method:    SId =  330, Phase = Enter
+  Variable:  SId =    3, Value = <module 'revdebug'>
+  Static:    SId =    6
+  Variable:  SId =    9, Value = '____ custom user object serialization ____________________________________________________________________________________________'
+  Static:    SId =   17
+  Method:    SId =  391, Phase = Enter
+  Variable:  SId =  384, Value = <function cls.__init__ at 0x7ff7f0a96730>
+  Variable:  SId =  388, Value = <function cls.__recrepr__ at 0x7ff7f0a96690>
+  Method:    SId =  391, Phase = Exit
+  Static:    SId =   18
+  Variable:  SId =   19, Value = <class '__main__.cls'>
+  Variable:  SId =  331, Value = 3
+  Variable:  SId =  332, Value = 4
+  Static:    SId =   23
+  Variable:  SId =   24, Value = <my object stringification x=3, y=4>
+  Variable:  SId =   27, Value = -1
+  Variable:  SId =   29, Value = <my object stringification x=-1, y=4>
+  Static:    SId =   36
+  Method:    SId =  399, Phase = Enter
+  Static:    SId =  396
+  Method:    SId =  399, Phase = Exit
+  Variable:  SId =   37, Value = <class '__main__.subcls'>
+  Static:    SId =   39
+  Variable:  SId =   40, Value = <my object stringification x=1, y=2>
+  Static:    SId =   48
+  Method:    SId =  407, Phase = Enter
+  Static:    SId =  404
+  Method:    SId =  407, Phase = Exit
+  Static:    SId =   49
+  Variable:  SId =   50, Value = <class '__main__.cls1'>
+  Static:    SId =   58
+  Method:    SId =  416, Phase = Enter
+  Variable:  SId =  413, Value = <class 'str'>
+  Method:    SId =  416, Phase = Exit
+  Static:    SId =   59
+  Variable:  SId =   60, Value = <class '__main__.cls2'>
+  Static:    SId =   68
+  Method:    SId =  427, Phase = Enter
+  Variable:  SId =  424, Value = <function cls3.__recrepr__ at 0x7ff7f0a96af0>
+  Method:    SId =  427, Phase = Exit
+  Static:    SId =   69
+  Variable:  SId =   70, Value = <class '__main__.cls3'>
+  Static:    SId =   72
+  Static:    SId =   74
+  Static:    SId =   76
+  Variable:  SId =   78, Value = [<__main__.cls1 object at 0x7ff7f0aa2d70>, <__main__.cls2 object at 0x7ff7f0aa2dc0>, <my object stringification at 0x7ff7f0aa2e10>]
+  Variable:  SId =   81, Value = <__main__.cls1 object at 0x7ff7f0aa2d70>
+  Variable:  SId =   82, Value = <__main__.cls2 object at 0x7ff7f0aa2dc0>
+  Variable:  SId =   83, Value = <my object stringification at 0x7ff7f0aa2e10>
+  Variable:  SId =   85, Value = '.... dynamic set ............................................................................................'
+  Variable:  SId =  333, Value = <class '__main__.subcls'>
+  Variable:  SId =  334, Value = None
+  Static:    SId =   90
+  Variable:  SId =   91, Value = <function cls.__recrepr__ at 0x7ff7f0a96690>
+  Variable:  SId =   93, Value = <__main__.subcls object at 0x7ff7f0aa3e60>
+  Variable:  SId =   95, Value = <my object stringification x=-1, y=4>
+  Variable:  SId =  335, Value = <class '__main__.subcls'>
+  Variable:  SId =  336, Value = <function cls.__recrepr__ at 0x7ff7f0a96690>
+  Static:    SId =  100
+  Variable:  SId =  101, Value = False
+  Variable:  SId =  103, Value = <my object stringification x=1, y=2>
+  Variable:  SId =  105, Value = '.... for foreign objects ............................................................................................'
+  Variable:  SId =  110, Value = <class 'collections.OrderedDict'>
+  Variable:  SId =  337, Value = ((1, 2), (3, 4))
+  Static:    SId =  114
+  Variable:  SId =  115, Value = OrderedDict([(1, -4), (3, 4)])
+  Variable:  SId =  119, Value = -2
+  Variable:  SId =  121, Value = OrderedDict([(1, -4), (3, 4)])
+  Variable:  SId =  338, Value = <class 'collections.OrderedDict'>
+  Variable:  SId =  339, Value = <class 'str'>
+  Static:    SId =  126
+  Variable:  SId =  127, Value = False
+  Variable:  SId =  129, Value = OrderedDict([(1, -2), (3, 4)])
+  Variable:  SId =  133, Value = -3
+  Variable:  SId =  135, Value = OrderedDict([(1, -3), (3, 4)])
+  Variable:  SId =  340, Value = <class 'collections.OrderedDict'>
+  Variable:  SId =  341, Value = False
+  Static:    SId =  140
+  Variable:  SId =  143, Value = OrderedDict([(1, -4), (3, 4)])
+  Variable:  SId =  147, Value = -4
+  Variable:  SId =  149, Value = '.... also built-in objects ............................................................................................'
+  Variable:  SId =  153, Value = [1, 2, 3]
+  Variable:  SId =  342, Value = <class 'list'>
+  Variable:  SId =  343, Value = <function <lambda> at 0x7ff7f0a96c30>
+  Static:    SId =  160
+  Variable:  SId =  161, Value = None
+  Variable:  SId =  163, Value = <list of 3 objects>
+  Variable:  SId =  344, Value = <class 'list'>
+  Variable:  SId =  345, Value = None
+  Static:    SId =  168
+  Variable:  SId =  171, Value = [1, 2, 3]
+  Variable:  SId =  177, Value = {1: 1, 2: 2, 3: 3}
+  Variable:  SId =  346, Value = <class 'dict'>
+  Variable:  SId =  347, Value = <function <lambda> at 0x7ff7f0a96cd0>
+  Static:    SId =  184
+  Variable:  SId =  185, Value = None
+  Variable:  SId =  187, Value = <dict of 3 objects>
+  Variable:  SId =  348, Value = <class 'dict'>
+  Variable:  SId =  349, Value = None
+  Static:    SId =  192
+  Variable:  SId =  195, Value = {1: 1, 2: 2, 3: 3}
+  Variable:  SId =  199, Value = {1, 2, 3}
+  Variable:  SId =  350, Value = <class 'set'>
+  Variable:  SId =  351, Value = <function <lambda> at 0x7ff7f0a96d70>
+  Static:    SId =  206
+  Variable:  SId =  207, Value = None
+  Variable:  SId =  209, Value = <set of 3 objects>
+  Variable:  SId =  352, Value = <class 'set'>
+  Variable:  SId =  353, Value = None
+  Static:    SId =  214
+  Variable:  SId =  217, Value = {1, 2, 3}
+  Variable:  SId =  354, Value = b'123'
+  Static:    SId =  220
+  Variable:  SId =  221, Value = bytearray(b'123')
+  Variable:  SId =  355, Value = <class 'bytearray'>
+  Variable:  SId =  356, Value = <function <lambda> at 0x7ff7f0a96e10>
+  Static:    SId =  228
+  Variable:  SId =  229, Value = None
+  Variable:  SId =  231, Value = <bytearray of 3 bytes>
+  Variable:  SId =  357, Value = <class 'bytearray'>
+  Variable:  SId =  358, Value = None
+  Static:    SId =  236
+  Variable:  SId =  239, Value = bytearray(b'123')
+  Variable:  SId =  247, Value = ([1], [2], [3])
+  Variable:  SId =  359, Value = <class 'tuple'>
+  Variable:  SId =  360, Value = <function <lambda> at 0x7ff7f0a96eb0>
+  Static:    SId =  254
+  Variable:  SId =  255, Value = None
+  Variable:  SId =  257, Value = <tuple of 3 objects>
+  Variable:  SId =  361, Value = <class 'tuple'>
+  Variable:  SId =  362, Value = None
+  Static:    SId =  262
+  Variable:  SId =  265, Value = ([1], [2], [3])
+  Variable:  SId =  267, Value = '.... user serialization not limited in size (within reason) ............................................................................................'
+  Variable:  SId =  363, Value = 200
+  Static:    SId =  271
+  Variable:  SId =  364, Value = range(0, 200)
+  Static:    SId =  272
+  Variable:  SId =  273, Value = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65...
+  Variable:  SId =  365, Value = <class 'list'>
+  Variable:  SId =  366, Value = <class 'str'>
+  Static:    SId =  278
+  Variable:  SId =  279, Value = None
+  Variable:  SId =  281, Value = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199]
+  Variable:  SId =  285, Value = ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 6...
+  Variable:  SId =  367, Value = <class 'tuple'>
+  Variable:  SId =  368, Value = <class 'str'>
+  Static:    SId =  290
+  Variable:  SId =  291, Value = None
+  Variable:  SId =  293, Value = ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199])
+  Variable:  SId =  369, Value = <class 'list'>
+  Variable:  SId =  370, Value = None
+  Static:    SId =  298
+  Variable:  SId =  371, Value = <class 'tuple'>
+  Variable:  SId =  372, Value = None
+  Static:    SId =  304
+  Variable:  SId =  307, Value = '.... having fun ............................................................................................'
+  Variable:  SId =  311, Value = [1, 2, 3, 4]
+  Variable:  SId =  373, Value = <class 'int'>
+  Variable:  SId =  374, Value = <function <lambda> at 0x7ff7f0a96f50>
+  Static:    SId =  318
+  Variable:  SId =  323, Value = [1, 2, -1, 4]
+  Variable:  SId =  375, Value = 'done'
+  Static:    SId =  326
+  Exception: SId =  327, Unhandled = False, Type = RuntimeError
+    Message = done
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_user_serialization.py", line 127, in <module>
+  Method:    SId =  330, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = done
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_user_serialization.py", line 127, in <module>
+        raise RuntimeError('done')
+    RuntimeError: done
+
+Connection closed: NoMoreBytes

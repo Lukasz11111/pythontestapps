@@ -1,0 +1,521 @@
+Handshake: Solution = Solution, App = test_daemon_exit.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   58, Phase = Enter
+  Variable:  SId =    3, Value = <module 'threading' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/threading.py'>
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Static:    SId =   10
+  Variable:  SId =   59, Value = '%X'
+  Static:    SId =   16
+  Static:    SId =   19
+  Variable:  SId =   22, Value = '13:03:56.1630512236045882704: MAIN - START'
+  Variable:  SId =   26, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   60, Value = 16
+  Static:    SId =   29
+  Variable:  SId =   32, Value = 0
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (0,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 1
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (1,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 2
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (2,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 3
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (3,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 4
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (4,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 5
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (5,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 6
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (6,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 7
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (7,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 8
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (8,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 9
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (9,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 10
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (10,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 11
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (11,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 12
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (12,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 13
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (13,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 14
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (14,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   32, Value = 15
+  Variable:  SId =   61, Value = <function thread_function at 0x7f12fe2ae730>
+  Variable:  SId =   62, Value = (15,)
+  Variable:  SId =   63, Value = False
+  Static:    SId =   40
+  Static:    SId =   42
+  Variable:  SId =   43, Value = None
+  Variable:  SId =   64, Value = '%X'
+  Static:    SId =   49
+  Static:    SId =   52
+  Variable:  SId =   55, Value = '13:03:56.1630512236048610499: MAIN - END'
+  Method:    SId =   58, Phase = Exit
+
+AppState: Thread = 1
+  Variable:  SId =   96, Value = 0
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236046347367: 0 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236057576275: 0 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 2
+  Variable:  SId =   96, Value = 1
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236046511555: 1 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236057068491: 1 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 3
+  Variable:  SId =   96, Value = 2
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236046667258: 2 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236057690392: 2 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 4
+  Variable:  SId =   96, Value = 3
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236046863827: 3 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236057749431: 3 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 5
+  Variable:  SId =   96, Value = 4
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047009962: 4 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058299296: 4 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 6
+  Variable:  SId =   96, Value = 5
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047150636: 5 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058137550: 5 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 7
+  Variable:  SId =   96, Value = 6
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047313182: 6 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236057910293: 6 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 8
+  Variable:  SId =   96, Value = 7
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047453485: 7 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058065174: 7 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 9
+  Variable:  SId =   96, Value = 8
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047589080: 8 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058483099: 8 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 10
+  Variable:  SId =   96, Value = 9
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047735615: 9 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058355259: 9 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 11
+  Variable:  SId =   96, Value = 10
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236047884154: 10 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058005572: 10 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 12
+  Variable:  SId =   96, Value = 11
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236048022384: 11 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058431212: 11 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 13
+  Variable:  SId =   96, Value = 12
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236048159472: 12 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058207221: 12 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 14
+  Variable:  SId =   96, Value = 13
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236048305055: 13 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058614861: 13 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 15
+  Variable:  SId =   96, Value = 14
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236048430962: 14 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058556147: 14 - END'
+  Method:    SId =   97, Phase = Exit
+
+AppState: Thread = 16
+  Variable:  SId =   96, Value = 15
+  Method:    SId =   97, Phase = Enter
+  Variable:  SId =   98, Value = '%X'
+  Static:    SId =   69
+  Static:    SId =   72
+  Variable:  SId =   76, Value = '13:03:56.1630512236048572087: 15 - START'
+  Variable:  SId =   99, Value = 0.01
+  Static:    SId =   80
+  Variable:  SId =  100, Value = '%X'
+  Static:    SId =   86
+  Static:    SId =   89
+  Variable:  SId =   93, Value = '13:03:56.1630512236058751203: 15 - END'
+  Method:    SId =   97, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_daemon_exit.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    1, FId =  0, Line =    4, Start =    40, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    53, Len =     8
+      Location: Id =    3, FId =  0, Line =    6, Start =    53, Len =    16
+      Location: Id =    4, FId =  0, Line =    8, Start =   162, Len =     4
+      Location: Id =    5, FId =  0, Line =    8, Start =   162, Len =    19
+      Location: Id =    6, FId =  0, Line =    8, Start =   176, Len =     4
+      Location: Id =    7, FId =  0, Line =    8, Start =   183, Len =     4
+      Location: Id =    8, FId =  0, Line =    8, Start =   183, Len =    14
+      Location: Id =    9, FId =  0, Line =    8, Start =   161, Len =    37
+      Location: Id =   10, FId =  0, Line =    8, Start =   137, Len =    61
+      Location: Id =   11, FId =  0, Line =    8, Start =   131, Len =     3
+      Location: Id =   12, FId =  0, Line =   10, Start =   200, Len =   196
+      Location: Id =   13, FId =  0, Line =   10, Start =   200, Len =    19
+      Location: Id =   14, FId =  0, Line =   17, Start =   407, Len =     5
+      Location: Id =   15, FId =  0, Line =   17, Start =   407, Len =     9
+      Location: Id =   16, FId =  0, Line =   17, Start =   413, Len =     2
+      Location: Id =   17, FId =  0, Line =   17, Start =   398, Len =   109
+      Location: Id =   18, FId =  0, Line =   17, Start =   402, Len =     1
+      Location: Id =   19, FId =  0, Line =   18, Start =   428, Len =     9
+      Location: Id =   20, FId =  0, Line =   18, Start =   428, Len =    16
+      Location: Id =   21, FId =  0, Line =   18, Start =   454, Len =    15
+      Location: Id =   22, FId =  0, Line =   18, Start =   479, Len =     1
+      Location: Id =   23, FId =  0, Line =   18, Start =   478, Len =     4
+      Location: Id =   24, FId =  0, Line =   18, Start =   428, Len =    71
+      Location: Id =   25, FId =  0, Line =   18, Start =   445, Len =    24
+      Location: Id =   26, FId =  0, Line =   18, Start =   471, Len =    11
+      Location: Id =   27, FId =  0, Line =   18, Start =   484, Len =    14
+      Location: Id =   28, FId =  0, Line =   18, Start =   428, Len =    79
+      Location: Id =   29, FId =  0, Line =   18, Start =   422, Len =     3
+      Location: Id =   30, FId =  0, Line =   20, Start =   538, Len =     4
+      Location: Id =   31, FId =  0, Line =   20, Start =   538, Len =    19
+      Location: Id =   32, FId =  0, Line =   20, Start =   552, Len =     4
+      Location: Id =   33, FId =  0, Line =   20, Start =   559, Len =     4
+      Location: Id =   34, FId =  0, Line =   20, Start =   559, Len =    14
+      Location: Id =   35, FId =  0, Line =   20, Start =   537, Len =    37
+      Location: Id =   36, FId =  0, Line =   20, Start =   515, Len =    59
+      Location: Id =   37, FId =  0, Line =   20, Start =   509, Len =     3
+      Location: Id =   38, FId =  0, Line =    3, Start =    23, Len =   551
+      Location: Id =   39, FId =  0, Line =   11, Start =   259, Len =     4
+      Location: Id =   40, FId =  0, Line =   11, Start =   259, Len =    19
+      Location: Id =   41, FId =  0, Line =   11, Start =   273, Len =     4
+      Location: Id =   42, FId =  0, Line =   11, Start =   280, Len =     4
+      Location: Id =   43, FId =  0, Line =   11, Start =   280, Len =    14
+      Location: Id =   44, FId =  0, Line =   11, Start =   296, Len =     3
+      Location: Id =   45, FId =  0, Line =   11, Start =   258, Len =    42
+      Location: Id =   46, FId =  0, Line =   11, Start =   236, Len =    64
+      Location: Id =   47, FId =  0, Line =   11, Start =   230, Len =     3
+      Location: Id =   48, FId =  0, Line =   13, Start =   306, Len =     4
+      Location: Id =   49, FId =  0, Line =   13, Start =   306, Len =    16
+      Location: Id =   50, FId =  0, Line =   13, Start =   317, Len =     4
+      Location: Id =   51, FId =  0, Line =   15, Start =   355, Len =     4
+      Location: Id =   52, FId =  0, Line =   15, Start =   355, Len =    19
+      Location: Id =   53, FId =  0, Line =   15, Start =   369, Len =     4
+      Location: Id =   54, FId =  0, Line =   15, Start =   376, Len =     4
+      Location: Id =   55, FId =  0, Line =   15, Start =   376, Len =    14
+      Location: Id =   56, FId =  0, Line =   15, Start =   392, Len =     3
+      Location: Id =   57, FId =  0, Line =   15, Start =   354, Len =    42
+      Location: Id =   58, FId =  0, Line =   15, Start =   334, Len =    62
+      Location: Id =   59, FId =  0, Line =   15, Start =   328, Len =     3
+      Location: Id =   60, FId =  0, Line =   10, Start =   220, Len =     3
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = threading
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =    8, LId =    2, Ident = ...
+      Identifier: Id =    9, LId =    3, Ident = ...
+      Invocation: Id =   10, LId =    3, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   13, LId =    4, Ident = ...
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Invocation: Id =   16, LId =    5, Ident = time.strftime("%X"), Method = strftime
+      Identifier: Id =   17, LId =    7, Ident = ...
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Invocation: Id =   19, LId =    8, Ident = time.time_ns(), Method = time_ns
+      Identifier: Id =   20, LId =    9, Ident = ...
+      Identifier: Id =   21, LId =   10, Ident = ...
+      Identifier: Id =   22, LId =   11, Ident = log
+      Identifier: Id =   25, LId =   12, Ident = ...
+      Identifier: Id =   26, LId =   13, Ident = thread_function
+      Identifier: Id =   27, LId =   14, Ident = ...
+      Invocation: Id =   29, LId =   15, Ident = range(16), Method = range
+      Identifier: Id =   30, LId =   17, Ident = ...
+      Identifier: Id =   31, LId =   17, Ident = ...
+      Identifier: Id =   32, LId =   18, Ident = i
+      Identifier: Id =   33, LId =   19, Ident = ...
+      Identifier: Id =   34, LId =   20, Ident = ...
+      Identifier: Id =   35, LId =   21, Ident = ...
+      Identifier: Id =   36, LId =   22, Ident = ...
+      Identifier: Id =   37, LId =   23, Ident = ...
+      Invocation: Id =   40, LId =   24, Ident = threading.Thread(target = thread_function, args = (i,), daemon = False), Method = Thread
+      Identifier: Id =   41, LId =   28, Ident = ...
+      Invocation: Id =   42, LId =   28, Ident = threading.Thread(target = thread_function, args = (i,), daemon = False).start(), Method = start
+      Identifier: Id =   43, LId =   29, Ident = thr
+      Identifier: Id =   46, LId =   30, Ident = ...
+      Identifier: Id =   47, LId =   31, Ident = ...
+      Invocation: Id =   49, LId =   31, Ident = time.strftime("%X"), Method = strftime
+      Identifier: Id =   50, LId =   33, Ident = ...
+      Identifier: Id =   51, LId =   34, Ident = ...
+      Invocation: Id =   52, LId =   34, Ident = time.time_ns(), Method = time_ns
+      Identifier: Id =   53, LId =   35, Ident = ...
+      Identifier: Id =   54, LId =   36, Ident = ...
+      Identifier: Id =   55, LId =   37, Ident = log
+      Method:     Id =   58, LId =   38, Ident = test_daemon_exit.py, Method = test_daemon_exit.py
+      Argument:   Id =   59, LId =    6, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   60, LId =   16, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   61, LId =   25, Ident = target, ArgIdx = 0
+      Argument:   Id =   62, LId =   26, Ident = args, ArgIdx = 1
+      Argument:   Id =   63, LId =   27, Ident = daemon, ArgIdx = 2
+      Argument:   Id =   64, LId =   32, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   66, LId =   39, Ident = ...
+      Identifier: Id =   67, LId =   40, Ident = ...
+      Invocation: Id =   69, LId =   40, Ident = time.strftime("%X"), Method = strftime
+      Identifier: Id =   70, LId =   42, Ident = ...
+      Identifier: Id =   71, LId =   43, Ident = ...
+      Invocation: Id =   72, LId =   43, Ident = time.time_ns(), Method = time_ns
+      Identifier: Id =   73, LId =   44, Ident = ...
+      Identifier: Id =   74, LId =   45, Ident = ...
+      Identifier: Id =   75, LId =   46, Ident = ...
+      Identifier: Id =   76, LId =   47, Ident = log
+      Identifier: Id =   77, LId =   48, Ident = ...
+      Identifier: Id =   78, LId =   49, Ident = ...
+      Invocation: Id =   80, LId =   49, Ident = time.sleep(0.01), Method = sleep
+      Identifier: Id =   83, LId =   51, Ident = ...
+      Identifier: Id =   84, LId =   52, Ident = ...
+      Invocation: Id =   86, LId =   52, Ident = time.strftime("%X"), Method = strftime
+      Identifier: Id =   87, LId =   54, Ident = ...
+      Identifier: Id =   88, LId =   55, Ident = ...
+      Invocation: Id =   89, LId =   55, Ident = time.time_ns(), Method = time_ns
+      Identifier: Id =   90, LId =   56, Ident = ...
+      Identifier: Id =   91, LId =   57, Ident = ...
+      Identifier: Id =   92, LId =   58, Ident = ...
+      Identifier: Id =   93, LId =   59, Ident = log
+      Parameter:  Id =   96, LId =   60, Ident = idx, ParamIdx = 0
+      Method:     Id =   97, LId =   12, Ident = thread_function, Method = thread_function
+      Argument:   Id =   98, LId =   41, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   99, LId =   50, Ident = arg1, ArgIdx = 0
+      Argument:   Id =  100, LId =   53, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

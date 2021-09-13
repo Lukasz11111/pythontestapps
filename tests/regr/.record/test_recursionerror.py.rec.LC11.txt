@@ -1,0 +1,1350 @@
+Handshake: Solution = Solution, App = test_recursionerror.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = RecursionError
+    Message = maximum recursion depth exceeded
+    ...ursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+    RecursionError: maximum recursion depth exceeded
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     8
+      Location: Id =    1, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    2, FId =  0, Line =    5, Start =   113, Len =     8
+      Location: Id =    3, FId =  0, Line =    5, Start =   113, Len =    17
+      Location: Id =    4, FId =  0, Line =    5, Start =   113, Len =    34
+      Location: Id =    5, FId =  0, Line =    5, Start =   112, Len =    18
+      Location: Id =    6, FId =  0, Line =    6, Start =   131, Len =     5
+      Location: Id =    7, FId =  0, Line =    9, Start =   150, Len =     8
+      Location: Id =    8, FId =  0, Line =    9, Start =   150, Len =    17
+      Location: Id =    9, FId =  0, Line =    9, Start =   150, Len =    34
+      Location: Id =   10, FId =  0, Line =    9, Start =   149, Len =    18
+      Location: Id =   11, FId =  0, Line =   10, Start =   168, Len =     5
+      Location: Id =   12, FId =  0, Line =   13, Start =   186, Len =     1
+      Location: Id =   13, FId =  0, Line =   13, Start =   186, Len =     3
+      Location: Id =   14, FId =  0, Line =    3, Start =    23, Len =   166
+    Statements:
+      Identifier: Id =    0, LId =    0, Ident = ...
+      Identifier: Id =    1, LId =    1, Ident = ...
+      Invocation: Id =    2, LId =    1, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    4, LId =    2, Ident = ...
+      Identifier: Id =    5, LId =    3, Ident = ...
+      Identifier: Id =    8, LId =    4, Ident = ...
+      Invocation: Id =    9, LId =    5, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   10, LId =    6, Ident = f
+      Identifier: Id =   11, LId =    7, Ident = ...
+      Identifier: Id =   12, LId =    8, Ident = ...
+      Identifier: Id =   15, LId =    9, Ident = ...
+      Invocation: Id =   16, LId =   10, Ident = @revdebug.norecord, Method = norecord
+      Identifier: Id =   17, LId =   11, Ident = g
+      Identifier: Id =   18, LId =   12, Ident = ...
+      Invocation: Id =   19, LId =   13, Ident = f(), Method = f
+      Method:     Id =   23, LId =   14, Ident = test_recursionerror.py, Method = test_recursionerror.py
+
+DownloadRecording:
+  Method:    SId =   23, Phase = Enter
+  Static:    SId =    2
+  Static:    SId =    9
+  Variable:  SId =   10, Value = <function f at 0x7f846fc04730>
+  Static:    SId =   16
+  Variable:  SId =   17, Value = <function g at 0x7f846fba0730>
+  Static:    SId =   19
+  Exception: SId =   19, Unhandled = False, Type = RecursionError
+    Message = maximum recursion depth exceeded
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+  Method:    SId =   23, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RecursionError
+    Message = maximum recursion depth exceeded
+    ...bugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 11, in g
+        f()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_recursionerror.py", line 7, in f
+        g()
+    RecursionError: maximum recursion depth exceeded
+
+Connection closed: NoMoreBytes

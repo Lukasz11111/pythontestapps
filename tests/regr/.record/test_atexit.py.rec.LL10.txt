@@ -1,0 +1,288 @@
+Handshake: Solution = Solution, App = test_atexit.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   27, Phase = Enter
+  Static:    SId =    2
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <function atexit_func at 0x7f7fc08569b0>
+  Variable:  SId =   15, Value = <module 'atexit' (built-in)>
+  Variable:  SId =   28, Value = <function atexit_func at 0x7f7fc08569b0>
+  Static:    SId =   19
+  Variable:  SId =   29, Value = 'some abnormal termination'
+  Static:    SId =   23
+  Exception: SId =   24, Unhandled = False, Type = RuntimeError
+    Message = some abnormal termination
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+  Method:    SId =   27, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = some abnormal termination
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+        raise RuntimeError('some abnormal termination')
+    RuntimeError: some abnormal termination
+  Method:    SId =   45, Phase = Enter
+  Variable:  SId =   46, Value = 'after exit'
+  Static:    SId =   32
+  Variable:  SId =   47, Value = 0.1
+  Static:    SId =   37
+  Variable:  SId =   48, Value = 'abnormal stuff in atexit_func()'
+  Static:    SId =   41
+  Exception: SId =   42, Unhandled = False, Type = RuntimeError
+    Message = abnormal stuff in atexit_func()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 12, in atexit_func
+  Method:    SId =   45, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = abnormal stuff in atexit_func()
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 12, in atexit_func
+        raise RuntimeError('abnormal stuff in atexit_func()')
+    RuntimeError: abnormal stuff in atexit_func()
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     8
+      Location: Id =    1, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    2, FId =  0, Line =    5, Start =   101, Len =    11
+      Location: Id =    3, FId =  0, Line =    7, Start =   114, Len =   122
+      Location: Id =    4, FId =  0, Line =    7, Start =   114, Len =    15
+      Location: Id =    5, FId =  0, Line =   14, Start =   238, Len =    13
+      Location: Id =    6, FId =  0, Line =   16, Start =   253, Len =     6
+      Location: Id =    7, FId =  0, Line =   16, Start =   253, Len =    28
+      Location: Id =    8, FId =  0, Line =   16, Start =   269, Len =    11
+      Location: Id =    9, FId =  0, Line =   18, Start =   289, Len =    12
+      Location: Id =   10, FId =  0, Line =   18, Start =   289, Len =    41
+      Location: Id =   11, FId =  0, Line =   18, Start =   302, Len =    27
+      Location: Id =   12, FId =  0, Line =   18, Start =   283, Len =    47
+      Location: Id =   13, FId =  0, Line =    3, Start =    23, Len =   307
+      Location: Id =   14, FId =  0, Line =    8, Start =   137, Len =     5
+      Location: Id =   15, FId =  0, Line =    8, Start =   137, Len =    19
+      Location: Id =   16, FId =  0, Line =    8, Start =   143, Len =    12
+      Location: Id =   17, FId =  0, Line =   10, Start =   162, Len =     4
+      Location: Id =   18, FId =  0, Line =   10, Start =   162, Len =    15
+      Location: Id =   19, FId =  0, Line =   10, Start =   173, Len =     3
+      Location: Id =   20, FId =  0, Line =   12, Start =   189, Len =    12
+      Location: Id =   21, FId =  0, Line =   12, Start =   189, Len =    47
+      Location: Id =   22, FId =  0, Line =   12, Start =   202, Len =    33
+      Location: Id =   23, FId =  0, Line =   12, Start =   183, Len =    53
+    Statements:
+      Identifier: Id =    0, LId =    0, Ident = ...
+      Identifier: Id =    1, LId =    1, Ident = ...
+      Invocation: Id =    2, LId =    1, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    6, LId =    2, Ident = ...
+      Identifier: Id =    7, LId =    2, Ident = time
+      Identifier: Id =   10, LId =    3, Ident = ...
+      Identifier: Id =   11, LId =    4, Ident = atexit_func
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Identifier: Id =   15, LId =    5, Ident = atexit
+      Identifier: Id =   16, LId =    6, Ident = ...
+      Identifier: Id =   17, LId =    7, Ident = ...
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Invocation: Id =   19, LId =    7, Ident = atexit.register(atexit_func), Method = register
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Invocation: Id =   23, LId =   10, Ident = RuntimeError('some abnormal termination'), Method = RuntimeError
+      Identifier: Id =   24, LId =   12, Ident = ...
+      Method:     Id =   27, LId =   13, Ident = test_atexit.py, Method = test_atexit.py
+      Argument:   Id =   28, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   29, LId =   11, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   30, LId =   14, Ident = ...
+      Invocation: Id =   32, LId =   15, Ident = print('after exit'), Method = print
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Identifier: Id =   35, LId =   18, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   39, LId =   20, Ident = ...
+      Invocation: Id =   41, LId =   21, Ident = RuntimeError('abnormal stuff in atexit_func()'), Method = RuntimeError
+      Identifier: Id =   42, LId =   23, Ident = ...
+      Method:     Id =   45, LId =    3, Ident = atexit_func, Method = atexit_func
+      Argument:   Id =   46, LId =   16, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   47, LId =   19, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   48, LId =   22, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_atexit.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = some abnormal termination
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+        raise RuntimeError('some abnormal termination')
+    RuntimeError: some abnormal termination
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     8
+      Location: Id =    1, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    2, FId =  0, Line =    5, Start =   101, Len =    11
+      Location: Id =    3, FId =  0, Line =    7, Start =   114, Len =   122
+      Location: Id =    4, FId =  0, Line =    7, Start =   114, Len =    15
+      Location: Id =    5, FId =  0, Line =   14, Start =   238, Len =    13
+      Location: Id =    6, FId =  0, Line =   16, Start =   253, Len =     6
+      Location: Id =    7, FId =  0, Line =   16, Start =   253, Len =    28
+      Location: Id =    8, FId =  0, Line =   16, Start =   269, Len =    11
+      Location: Id =    9, FId =  0, Line =   18, Start =   289, Len =    12
+      Location: Id =   10, FId =  0, Line =   18, Start =   289, Len =    41
+      Location: Id =   11, FId =  0, Line =   18, Start =   302, Len =    27
+      Location: Id =   12, FId =  0, Line =   18, Start =   283, Len =    47
+      Location: Id =   13, FId =  0, Line =    3, Start =    23, Len =   307
+    Statements:
+      Identifier: Id =    0, LId =    0, Ident = ...
+      Identifier: Id =    1, LId =    1, Ident = ...
+      Invocation: Id =    2, LId =    1, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    6, LId =    2, Ident = ...
+      Identifier: Id =    7, LId =    2, Ident = time
+      Identifier: Id =   10, LId =    3, Ident = ...
+      Identifier: Id =   11, LId =    4, Ident = atexit_func
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Identifier: Id =   15, LId =    5, Ident = atexit
+      Identifier: Id =   16, LId =    6, Ident = ...
+      Identifier: Id =   17, LId =    7, Ident = ...
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Invocation: Id =   19, LId =    7, Ident = atexit.register(atexit_func), Method = register
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Invocation: Id =   23, LId =   10, Ident = RuntimeError('some abnormal termination'), Method = RuntimeError
+      Identifier: Id =   24, LId =   12, Ident = ...
+      Method:     Id =   27, LId =   13, Ident = test_atexit.py, Method = test_atexit.py
+      Argument:   Id =   28, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   29, LId =   11, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <function atexit_func at 0x7f7fc08569b0>
+  Variable:  SId =   15, Value = <module 'atexit' (built-in)>
+  Variable:  SId =   28, Value = <function atexit_func at 0x7f7fc08569b0>
+  Static:    SId =   19
+  Variable:  SId =   29, Value = 'some abnormal termination'
+  Static:    SId =   23
+  Exception: SId =   24, Unhandled = False, Type = RuntimeError
+    Message = some abnormal termination
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+  Method:    SId =   27, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = some abnormal termination
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+        raise RuntimeError('some abnormal termination')
+    RuntimeError: some abnormal termination
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = test_atexit.py, Backlog = 1000, isLive = False, Display = Version
+
+Exception: Solution = Solution, Display = Version
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = abnormal stuff in atexit_func()
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 12, in atexit_func
+        raise RuntimeError('abnormal stuff in atexit_func()')
+    RuntimeError: abnormal stuff in atexit_func()
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =     8
+      Location: Id =    1, FId =  0, Line =    3, Start =    23, Len =    16
+      Location: Id =    2, FId =  0, Line =    5, Start =   101, Len =    11
+      Location: Id =    3, FId =  0, Line =    7, Start =   114, Len =   122
+      Location: Id =    4, FId =  0, Line =    7, Start =   114, Len =    15
+      Location: Id =    5, FId =  0, Line =   14, Start =   238, Len =    13
+      Location: Id =    6, FId =  0, Line =   16, Start =   253, Len =     6
+      Location: Id =    7, FId =  0, Line =   16, Start =   253, Len =    28
+      Location: Id =    8, FId =  0, Line =   16, Start =   269, Len =    11
+      Location: Id =    9, FId =  0, Line =   18, Start =   289, Len =    12
+      Location: Id =   10, FId =  0, Line =   18, Start =   289, Len =    41
+      Location: Id =   11, FId =  0, Line =   18, Start =   302, Len =    27
+      Location: Id =   12, FId =  0, Line =   18, Start =   283, Len =    47
+      Location: Id =   13, FId =  0, Line =    3, Start =    23, Len =   307
+      Location: Id =   14, FId =  0, Line =    8, Start =   137, Len =     5
+      Location: Id =   15, FId =  0, Line =    8, Start =   137, Len =    19
+      Location: Id =   16, FId =  0, Line =    8, Start =   143, Len =    12
+      Location: Id =   17, FId =  0, Line =   10, Start =   162, Len =     4
+      Location: Id =   18, FId =  0, Line =   10, Start =   162, Len =    15
+      Location: Id =   19, FId =  0, Line =   10, Start =   173, Len =     3
+      Location: Id =   20, FId =  0, Line =   12, Start =   189, Len =    12
+      Location: Id =   21, FId =  0, Line =   12, Start =   189, Len =    47
+      Location: Id =   22, FId =  0, Line =   12, Start =   202, Len =    33
+      Location: Id =   23, FId =  0, Line =   12, Start =   183, Len =    53
+    Statements:
+      Identifier: Id =    0, LId =    0, Ident = ...
+      Identifier: Id =    1, LId =    1, Ident = ...
+      Invocation: Id =    2, LId =    1, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =    6, LId =    2, Ident = ...
+      Identifier: Id =    7, LId =    2, Ident = time
+      Identifier: Id =   10, LId =    3, Ident = ...
+      Identifier: Id =   11, LId =    4, Ident = atexit_func
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Identifier: Id =   15, LId =    5, Ident = atexit
+      Identifier: Id =   16, LId =    6, Ident = ...
+      Identifier: Id =   17, LId =    7, Ident = ...
+      Identifier: Id =   18, LId =    8, Ident = ...
+      Invocation: Id =   19, LId =    7, Ident = atexit.register(atexit_func), Method = register
+      Identifier: Id =   21, LId =    9, Ident = ...
+      Invocation: Id =   23, LId =   10, Ident = RuntimeError('some abnormal termination'), Method = RuntimeError
+      Identifier: Id =   24, LId =   12, Ident = ...
+      Method:     Id =   27, LId =   13, Ident = test_atexit.py, Method = test_atexit.py
+      Argument:   Id =   28, LId =    8, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   29, LId =   11, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   30, LId =   14, Ident = ...
+      Invocation: Id =   32, LId =   15, Ident = print('after exit'), Method = print
+      Identifier: Id =   34, LId =   17, Ident = ...
+      Identifier: Id =   35, LId =   18, Ident = ...
+      Invocation: Id =   37, LId =   18, Ident = time.sleep(0.1), Method = sleep
+      Identifier: Id =   39, LId =   20, Ident = ...
+      Invocation: Id =   41, LId =   21, Ident = RuntimeError('abnormal stuff in atexit_func()'), Method = RuntimeError
+      Identifier: Id =   42, LId =   23, Ident = ...
+      Method:     Id =   45, LId =    3, Ident = atexit_func, Method = atexit_func
+      Argument:   Id =   46, LId =   16, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   47, LId =   19, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   48, LId =   22, Ident = arg1, ArgIdx = 0
+
+DownloadRecording:
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <function atexit_func at 0x7f7fc08569b0>
+  Variable:  SId =   15, Value = <module 'atexit' (built-in)>
+  Variable:  SId =   28, Value = <function atexit_func at 0x7f7fc08569b0>
+  Static:    SId =   19
+  Variable:  SId =   29, Value = 'some abnormal termination'
+  Static:    SId =   23
+  Exception: SId =   24, Unhandled = False, Type = RuntimeError
+    Message = some abnormal termination
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+  Method:    SId =   27, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = some abnormal termination
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 18, in <module>
+        raise RuntimeError('some abnormal termination')
+    RuntimeError: some abnormal termination
+  Method:    SId =   45, Phase = Enter
+  Variable:  SId =   46, Value = 'after exit'
+  Static:    SId =   32
+  Variable:  SId =   47, Value = 0.1
+  Static:    SId =   37
+  Variable:  SId =   48, Value = 'abnormal stuff in atexit_func()'
+  Static:    SId =   41
+  Exception: SId =   42, Unhandled = False, Type = RuntimeError
+    Message = abnormal stuff in atexit_func()
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 12, in atexit_func
+  Method:    SId =   45, Phase = Exit
+  Exception: SId =   -1, Unhandled = True, Type = RuntimeError
+    Message = abnormal stuff in atexit_func()
+    Traceback (most recent call last):
+      File "/home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_atexit.py", line 12, in atexit_func
+        raise RuntimeError('abnormal stuff in atexit_func()')
+    RuntimeError: abnormal stuff in atexit_func()
+
+Connection closed: NoMoreBytes

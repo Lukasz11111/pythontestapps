@@ -1,0 +1,262 @@
+Handshake: Solution = Solution, App = test_multiprocessing_spawn.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   58, Phase = Enter
+  Variable:  SId =    3, Value = <module 'multiprocessing' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/multiprocessing/__init__.py'>
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <function foo at 0x7fa24dbeac30>
+  Variable:  SId =   15, Value = True
+  Static:    SId =   18
+  Variable:  SId =   59, Value = 'spawn'
+  Static:    SId =   23
+  Variable:  SId =   24, Value = <multiprocessing.context.SpawnContext object at 0x7fa24cb64e10>
+  Static:    SId =   27
+  Variable:  SId =   28, Value = <multiprocessing.queues.Queue object at 0x7fa24dbde9b0>
+  Variable:  SId =   60, Value = <function foo at 0x7fa24dbeac30>
+  Variable:  SId =   61, Value = (<multiprocessing.queues.Queue object at 0x7fa24dbde9b0>,)
+  Static:    SId =   35
+  Variable:  SId =   36, Value = <SpawnProcess name='SpawnProcess-1' pid=77142 parent=77137 stopped exitcode=0>
+  Static:    SId =   39
+  Static:    SId =   44
+  Variable:  SId =   62, Value = 'hello'
+  Static:    SId =   45
+  Static:    SId =   49
+  Variable:  SId =   63, Value = 0.1
+  Static:    SId =   54
+  Method:    SId =   58, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_multiprocessing_spawn.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    28
+      Location: Id =    1, FId =  0, Line =    4, Start =    52, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    65, Len =    50
+      Location: Id =    3, FId =  0, Line =    6, Start =    65, Len =     7
+      Location: Id =    4, FId =  0, Line =   10, Start =   120, Len =     8
+      Location: Id =    5, FId =  0, Line =   10, Start =   120, Len =    22
+      Location: Id =    6, FId =  0, Line =   10, Start =   117, Len =    26
+      Location: Id =    7, FId =  0, Line =   11, Start =   148, Len =     8
+      Location: Id =    8, FId =  0, Line =   11, Start =   148, Len =    16
+      Location: Id =    9, FId =  0, Line =   13, Start =   230, Len =     2
+      Location: Id =   10, FId =  0, Line =   13, Start =   230, Len =    23
+      Location: Id =   11, FId =  0, Line =   13, Start =   245, Len =     7
+      Location: Id =   12, FId =  0, Line =   13, Start =   224, Len =     3
+      Location: Id =   13, FId =  0, Line =   14, Start =   262, Len =     3
+      Location: Id =   14, FId =  0, Line =   14, Start =   262, Len =    11
+      Location: Id =   15, FId =  0, Line =   14, Start =   258, Len =     1
+      Location: Id =   16, FId =  0, Line =   15, Start =   282, Len =     3
+      Location: Id =   17, FId =  0, Line =   15, Start =   282, Len =    11
+      Location: Id =   18, FId =  0, Line =   15, Start =   303, Len =     3
+      Location: Id =   19, FId =  0, Line =   15, Start =   316, Len =     1
+      Location: Id =   20, FId =  0, Line =   15, Start =   315, Len =     4
+      Location: Id =   21, FId =  0, Line =   15, Start =   282, Len =    38
+      Location: Id =   22, FId =  0, Line =   15, Start =   294, Len =    12
+      Location: Id =   23, FId =  0, Line =   15, Start =   308, Len =    11
+      Location: Id =   24, FId =  0, Line =   15, Start =   278, Len =     1
+      Location: Id =   25, FId =  0, Line =   17, Start =   326, Len =     1
+      Location: Id =   26, FId =  0, Line =   17, Start =   326, Len =     9
+      Location: Id =   27, FId =  0, Line =   18, Start =   340, Len =     5
+      Location: Id =   28, FId =  0, Line =   18, Start =   346, Len =     1
+      Location: Id =   29, FId =  0, Line =   18, Start =   346, Len =     7
+      Location: Id =   30, FId =  0, Line =   18, Start =   340, Len =    14
+      Location: Id =   31, FId =  0, Line =   19, Start =   359, Len =     1
+      Location: Id =   32, FId =  0, Line =   19, Start =   359, Len =     8
+      Location: Id =   33, FId =  0, Line =   21, Start =   373, Len =     4
+      Location: Id =   34, FId =  0, Line =   21, Start =   373, Len =    15
+      Location: Id =   35, FId =  0, Line =   21, Start =   384, Len =     3
+      Location: Id =   36, FId =  0, Line =    3, Start =    23, Len =   365
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = mp
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    3, Ident = foo
+      Identifier: Id =   12, LId =    4, Ident = ...
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Identifier: Id =   15, LId =    6, Ident = if
+      Identifier: Id =   16, LId =    7, Ident = ...
+      Identifier: Id =   17, LId =    8, Ident = ...
+      Invocation: Id =   18, LId =    8, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   20, LId =    9, Ident = ...
+      Identifier: Id =   21, LId =   10, Ident = ...
+      Invocation: Id =   23, LId =   10, Ident = mp.get_context('spawn'), Method = get_context
+      Identifier: Id =   24, LId =   12, Ident = ctx
+      Identifier: Id =   25, LId =   13, Ident = ...
+      Identifier: Id =   26, LId =   14, Ident = ...
+      Invocation: Id =   27, LId =   14, Ident = ctx.Queue(), Method = Queue
+      Identifier: Id =   28, LId =   15, Ident = q
+      Identifier: Id =   29, LId =   16, Ident = ...
+      Identifier: Id =   30, LId =   17, Ident = ...
+      Identifier: Id =   31, LId =   18, Ident = ...
+      Identifier: Id =   32, LId =   19, Ident = ...
+      Identifier: Id =   33, LId =   20, Ident = ...
+      Invocation: Id =   35, LId =   21, Ident = ctx.Process(target = foo, args = (q,)), Method = Process
+      Identifier: Id =   36, LId =   24, Ident = p
+      Identifier: Id =   37, LId =   25, Ident = ...
+      Identifier: Id =   38, LId =   26, Ident = ...
+      Invocation: Id =   39, LId =   26, Ident = p.start(), Method = start
+      Identifier: Id =   41, LId =   27, Ident = ...
+      Identifier: Id =   42, LId =   28, Ident = ...
+      Identifier: Id =   43, LId =   29, Ident = ...
+      Invocation: Id =   44, LId =   29, Ident = q.get(), Method = get
+      Invocation: Id =   45, LId =   30, Ident = print(q.get()), Method = print
+      Identifier: Id =   47, LId =   31, Ident = ...
+      Identifier: Id =   48, LId =   32, Ident = ...
+      Invocation: Id =   49, LId =   32, Ident = p.join(), Method = join
+      Identifier: Id =   51, LId =   33, Ident = ...
+      Identifier: Id =   52, LId =   34, Ident = ...
+      Invocation: Id =   54, LId =   34, Ident = time.sleep(0.1), Method = sleep
+      Method:     Id =   58, LId =   36, Ident = test_multiprocessing_spawn.py, Method = test_multiprocessing_spawn.py
+      Argument:   Id =   59, LId =   11, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   60, LId =   22, Ident = target, ArgIdx = 0
+      Argument:   Id =   61, LId =   23, Ident = args, ArgIdx = 1
+      Argument:   Id =   62, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   63, LId =   35, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = __COMMAND__.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
+
+Handshake: Solution = Solution, App = __COMMAND__.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppState: Thread = 0
+  Method:    SId =   58, Phase = Enter
+  Variable:  SId =    3, Value = <module 'multiprocessing' from '/home/tom/src/revdebugpy/debug39/lib/python3.9/multiprocessing/__init__.py'>
+  Variable:  SId =    7, Value = <module 'time' (built-in)>
+  Variable:  SId =   11, Value = <function foo at 0x7f10fb1f6a50>
+  Variable:  SId =   15, Value = False
+  Method:    SId =   58, Phase = Exit
+  Variable:  SId =   76, Value = <multiprocessing.queues.Queue object at 0x7f10fb16d8c0>
+  Method:    SId =   77, Phase = Enter
+  Variable:  SId =   78, Value = 'hello'
+  Static:    SId =   67
+  Variable:  SId =   79, Value = 0.2
+  Static:    SId =   72
+  Method:    SId =   77, Phase = Exit
+
+Metadata: Solution = Solution, Display = Version
+  SerializationContext:
+    Files:
+      File: Id =  0, Path = /home/tom/src/revdebugpy/rdbcpython39/RevDeBug/test/regr/test_multiprocessing_spawn.py
+    Locations:
+      Location: Id =    0, FId =  0, Line =    3, Start =    23, Len =    28
+      Location: Id =    1, FId =  0, Line =    4, Start =    52, Len =    11
+      Location: Id =    2, FId =  0, Line =    6, Start =    65, Len =    50
+      Location: Id =    3, FId =  0, Line =    6, Start =    65, Len =     7
+      Location: Id =    4, FId =  0, Line =   10, Start =   120, Len =     8
+      Location: Id =    5, FId =  0, Line =   10, Start =   120, Len =    22
+      Location: Id =    6, FId =  0, Line =   10, Start =   117, Len =    26
+      Location: Id =    7, FId =  0, Line =   11, Start =   148, Len =     8
+      Location: Id =    8, FId =  0, Line =   11, Start =   148, Len =    16
+      Location: Id =    9, FId =  0, Line =   13, Start =   230, Len =     2
+      Location: Id =   10, FId =  0, Line =   13, Start =   230, Len =    23
+      Location: Id =   11, FId =  0, Line =   13, Start =   245, Len =     7
+      Location: Id =   12, FId =  0, Line =   13, Start =   224, Len =     3
+      Location: Id =   13, FId =  0, Line =   14, Start =   262, Len =     3
+      Location: Id =   14, FId =  0, Line =   14, Start =   262, Len =    11
+      Location: Id =   15, FId =  0, Line =   14, Start =   258, Len =     1
+      Location: Id =   16, FId =  0, Line =   15, Start =   282, Len =     3
+      Location: Id =   17, FId =  0, Line =   15, Start =   282, Len =    11
+      Location: Id =   18, FId =  0, Line =   15, Start =   303, Len =     3
+      Location: Id =   19, FId =  0, Line =   15, Start =   316, Len =     1
+      Location: Id =   20, FId =  0, Line =   15, Start =   315, Len =     4
+      Location: Id =   21, FId =  0, Line =   15, Start =   282, Len =    38
+      Location: Id =   22, FId =  0, Line =   15, Start =   294, Len =    12
+      Location: Id =   23, FId =  0, Line =   15, Start =   308, Len =    11
+      Location: Id =   24, FId =  0, Line =   15, Start =   278, Len =     1
+      Location: Id =   25, FId =  0, Line =   17, Start =   326, Len =     1
+      Location: Id =   26, FId =  0, Line =   17, Start =   326, Len =     9
+      Location: Id =   27, FId =  0, Line =   18, Start =   340, Len =     5
+      Location: Id =   28, FId =  0, Line =   18, Start =   346, Len =     1
+      Location: Id =   29, FId =  0, Line =   18, Start =   346, Len =     7
+      Location: Id =   30, FId =  0, Line =   18, Start =   340, Len =    14
+      Location: Id =   31, FId =  0, Line =   19, Start =   359, Len =     1
+      Location: Id =   32, FId =  0, Line =   19, Start =   359, Len =     8
+      Location: Id =   33, FId =  0, Line =   21, Start =   373, Len =     4
+      Location: Id =   34, FId =  0, Line =   21, Start =   373, Len =    15
+      Location: Id =   35, FId =  0, Line =   21, Start =   384, Len =     3
+      Location: Id =   36, FId =  0, Line =    3, Start =    23, Len =   365
+      Location: Id =   37, FId =  0, Line =    7, Start =    81, Len =     1
+      Location: Id =   38, FId =  0, Line =    7, Start =    81, Len =    14
+      Location: Id =   39, FId =  0, Line =    7, Start =    87, Len =     7
+      Location: Id =   40, FId =  0, Line =    8, Start =   100, Len =     4
+      Location: Id =   41, FId =  0, Line =    8, Start =   100, Len =    15
+      Location: Id =   42, FId =  0, Line =    8, Start =   111, Len =     3
+      Location: Id =   43, FId =  0, Line =    6, Start =    73, Len =     1
+    Statements:
+      Identifier: Id =    2, LId =    0, Ident = ...
+      Identifier: Id =    3, LId =    0, Ident = mp
+      Identifier: Id =    6, LId =    1, Ident = ...
+      Identifier: Id =    7, LId =    1, Ident = time
+      Identifier: Id =   10, LId =    2, Ident = ...
+      Identifier: Id =   11, LId =    3, Ident = foo
+      Identifier: Id =   12, LId =    4, Ident = ...
+      Identifier: Id =   14, LId =    5, Ident = ...
+      Identifier: Id =   15, LId =    6, Ident = if
+      Identifier: Id =   16, LId =    7, Ident = ...
+      Identifier: Id =   17, LId =    8, Ident = ...
+      Invocation: Id =   18, LId =    8, Ident = revdebug.flush(), Method = flush
+      Identifier: Id =   20, LId =    9, Ident = ...
+      Identifier: Id =   21, LId =   10, Ident = ...
+      Invocation: Id =   23, LId =   10, Ident = mp.get_context('spawn'), Method = get_context
+      Identifier: Id =   24, LId =   12, Ident = ctx
+      Identifier: Id =   25, LId =   13, Ident = ...
+      Identifier: Id =   26, LId =   14, Ident = ...
+      Invocation: Id =   27, LId =   14, Ident = ctx.Queue(), Method = Queue
+      Identifier: Id =   28, LId =   15, Ident = q
+      Identifier: Id =   29, LId =   16, Ident = ...
+      Identifier: Id =   30, LId =   17, Ident = ...
+      Identifier: Id =   31, LId =   18, Ident = ...
+      Identifier: Id =   32, LId =   19, Ident = ...
+      Identifier: Id =   33, LId =   20, Ident = ...
+      Invocation: Id =   35, LId =   21, Ident = ctx.Process(target = foo, args = (q,)), Method = Process
+      Identifier: Id =   36, LId =   24, Ident = p
+      Identifier: Id =   37, LId =   25, Ident = ...
+      Identifier: Id =   38, LId =   26, Ident = ...
+      Invocation: Id =   39, LId =   26, Ident = p.start(), Method = start
+      Identifier: Id =   41, LId =   27, Ident = ...
+      Identifier: Id =   42, LId =   28, Ident = ...
+      Identifier: Id =   43, LId =   29, Ident = ...
+      Invocation: Id =   44, LId =   29, Ident = q.get(), Method = get
+      Invocation: Id =   45, LId =   30, Ident = print(q.get()), Method = print
+      Identifier: Id =   47, LId =   31, Ident = ...
+      Identifier: Id =   48, LId =   32, Ident = ...
+      Invocation: Id =   49, LId =   32, Ident = p.join(), Method = join
+      Identifier: Id =   51, LId =   33, Ident = ...
+      Identifier: Id =   52, LId =   34, Ident = ...
+      Invocation: Id =   54, LId =   34, Ident = time.sleep(0.1), Method = sleep
+      Method:     Id =   58, LId =   36, Ident = test_multiprocessing_spawn.py, Method = test_multiprocessing_spawn.py
+      Argument:   Id =   59, LId =   11, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   60, LId =   22, Ident = target, ArgIdx = 0
+      Argument:   Id =   61, LId =   23, Ident = args, ArgIdx = 1
+      Argument:   Id =   62, LId =   29, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   63, LId =   35, Ident = arg1, ArgIdx = 0
+      Identifier: Id =   64, LId =   37, Ident = ...
+      Identifier: Id =   65, LId =   38, Ident = ...
+      Invocation: Id =   67, LId =   38, Ident = q.put('hello'), Method = put
+      Identifier: Id =   69, LId =   40, Ident = ...
+      Identifier: Id =   70, LId =   41, Ident = ...
+      Invocation: Id =   72, LId =   41, Ident = time.sleep(0.2), Method = sleep
+      Parameter:  Id =   76, LId =   43, Ident = q, ParamIdx = 0
+      Method:     Id =   77, LId =    2, Ident = foo, Method = foo
+      Argument:   Id =   78, LId =   39, Ident = arg1, ArgIdx = 0
+      Argument:   Id =   79, LId =   42, Ident = arg1, ArgIdx = 0
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes

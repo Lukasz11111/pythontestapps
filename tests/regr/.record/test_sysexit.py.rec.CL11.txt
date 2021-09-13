@@ -1,0 +1,7 @@
+Handshake: Solution = Solution, App = test_sysexit.py, Backlog = 1000, isLive = True, Display = Version
+
+AppBeat: keepConnection = True, Display = Version
+
+AppBeat: keepConnection = False, Display = Version
+
+Connection closed: NoMoreBytes
