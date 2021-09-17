@@ -1,0 +1,16 @@
+FROM  py-rdb:latest
+
+WORKDIR /app
+
+COPY ./tornado /app
+COPY ./tests /app/tests
+
+ENV REVDEBUG_SOLUTION=tornado
+ENV REVDEBUG_APPLICATION=tornado
+ENV REVDEBUG_RELEASE=565575ae
+ENV REVDEBUG_MODE=crash
+ENV REVDEBUG_HOST=20.199.127.147
+
+ENV REVDEBUG_APM=1
+
+CMD python app.py
