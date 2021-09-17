@@ -1,5 +1,5 @@
-# FROM  python-revdebug:3.9
-FROM  docker-test.revdebug.com/python-revdebug:3.9
+FROM  python-revdebug:3.9
+# FROM  docker-test.revdebug.com/python-revdebug:3.9
 WORKDIR /app
 
 RUN pip3 install django==2.2.0

@@ -28,3 +28,10 @@ class Weakref_TPT(tornado.web.RequestHandler):
     async def get(self):
         test_weakref.test_start()
         self.write("Hello, world")
+
+class Test_user_serialization_inheritance(tornado.web.RequestHandler):
+    async def get(self):
+        from tests.regr import test_user_serialization_inheritance
+        test_user_serialization_inheritance
+        self.write("Hello, world")
+        
