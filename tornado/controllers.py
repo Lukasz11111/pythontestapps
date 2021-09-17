@@ -1,5 +1,5 @@
 import tornado.web
-#!/usr/bin/env python3
+
 
 from tests import test_ as t
 from tests.regr import test_weakref
