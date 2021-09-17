@@ -9,7 +9,7 @@ class MainHandler(tornado.web.RequestHandler):
 
 class ErrHandler(tornado.web.RequestHandler):
     def get(self):
-        raise "You shall not pass!"
+        raise "You shall not pass!!"
         self.write("Hello, world")
 
 class GoAsync(tornado.web.RequestHandler):
