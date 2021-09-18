@@ -36,7 +36,7 @@ class Test_user_serialization_inheritance(tornado.web.RequestHandler):
         
 class Atexit(tornado.web.RequestHandler):
     async def get(self):
-        from tests.regr import test_user_serialization_inheritance
-        test_user_serialization_inheritance
+        from tests.regr import test_atexit
+        test_atexit
         self.write("Hello, world")
         
