@@ -11,7 +11,4 @@ ENV REVDEBUG_SOLUTION=tornado \
  REVDEBUG_HOST=20.199.127.147 \
  REVDEBUG_APM=1
 
-RUN pip3 install tornado  ; \
-    pip3 install  gitpython
-
 CMD python appTornado.py

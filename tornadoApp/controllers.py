@@ -34,3 +34,9 @@ class Test_user_serialization_inheritance(tornado.web.RequestHandler):
         test_user_serialization_inheritance
         self.write("Hello, world")
         
+class Atexit(tornado.web.RequestHandler):
+    async def get(self):
+        from tests.regr import test_user_serialization_inheritance
+        test_user_serialization_inheritance
+        self.write("Hello, world")
+        

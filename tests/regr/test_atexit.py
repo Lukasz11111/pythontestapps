@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+revdebug.setrecmode(revdebug.Live)
+
 revdebug.flush()  # to prevent crash from prematurely erasing live recording
 
 import time
@@ -16,3 +18,5 @@ import atexit
 atexit.register(atexit_func)
 
 raise RuntimeError('some abnormal termination')
+
+revdebug.setrecmode(revdebug.Crash)
