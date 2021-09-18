@@ -1,11 +1,7 @@
 import tornado.web
-
+import logging
 from tests import test_ as t
 from tests.regr import test_weakref
-
-class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.write("Hello, world")
 
 class ErrHandler(tornado.web.RequestHandler):
     def get(self):

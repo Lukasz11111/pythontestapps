@@ -1,22 +1,24 @@
 #!/usr/bin/env python
 
-revdebug.setrecmode(revdebug.Live)
 
-revdebug.flush()  # to prevent crash from prematurely erasing live recording
+try:
+    revdebug.setrecmode(revdebug.Live)
 
-import time
+    revdebug.flush()  # to prevent crash from prematurely erasing live recording
 
-def atexit_func():
-    print('after exit')
+    import time
 
-    time.sleep(0.1)
+    def atexit_func():
+        print('after exit')
 
-    raise RuntimeError('abnormal stuff in atexit_func()')
+        time.sleep(0.1)
 
-import atexit
+        raise RuntimeError('abnormal stuff in atexit_func()')
 
-atexit.register(atexit_func)
+    import atexit
 
-raise RuntimeError('some abnormal termination')
+    atexit.register(atexit_func)
 
-revdebug.setrecmode(revdebug.Crash)
+    raise RuntimeError('some abnormal termination')
+except:
+    revdebug.setrecmode(revdebug.Crash)
