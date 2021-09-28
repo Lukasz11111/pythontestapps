@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import logging
 
 try:
     revdebug.setrecmode(revdebug.Live)
@@ -10,7 +11,6 @@ try:
 
     def atexit_func():
         print('after exit')
-
         time.sleep(0.1)
 
         raise RuntimeError('abnormal stuff in atexit_func()')
@@ -20,5 +20,5 @@ try:
     atexit.register(atexit_func)
 
     raise RuntimeError('some abnormal termination')
-except:
+finally:
     revdebug.setrecmode(revdebug.Crash)

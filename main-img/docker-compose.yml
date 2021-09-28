@@ -4,3 +4,5 @@ services:
     image: py-rdb:latest
     build: 
       context: .
+      args: 
+        REVDEBUG_HOST_ARG: 20.199.127.147
