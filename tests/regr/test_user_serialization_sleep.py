@@ -21,36 +21,5 @@ def b():
 
 prev = revdebug.recrepr(mylist, lambda self: f'{b()} poewr rangers'  )
 i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
-i = i
+
 raise "You shall not pass!"

@@ -15,10 +15,12 @@ i[1] = -2
 i = i
 
 def b():
+    print("c")
     raise "You shall not pass!"
 
 prev = revdebug.recrepr(mylist, lambda a: b())
+print("a1")
 i = i
-
-# x = lambda a : b()
-# print(x(3))
+print("a2")
+i = i
+raise "Err"
