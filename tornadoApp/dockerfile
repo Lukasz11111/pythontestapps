@@ -1,4 +1,5 @@
 FROM  py-rdb:latest
+
 WORKDIR /app
 
 COPY ./appTornado.py /app/appTornado.py
@@ -7,8 +8,10 @@ COPY ./tests /app/tests
 
 ENV REVDEBUG_SOLUTION=tornado \
  REVDEBUG_APPLICATION=tornado \
- REVDEBUG_MODE=crash\
  REVDEBUG_HOST=20.199.127.147 \
- REVDEBUG_APM=1
+ REVDEBUG_APM=1 \
+ REVDEBUG_LOGGING=debug \
+ REVDEBUG_MODE=Live 
+
 
 CMD python appTornado.py

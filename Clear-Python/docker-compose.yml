@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  clr-py:
+    image: clr-py
+    build: 
+      context: .
+    ports:
+      - 6999:6999
+    volumes:
+      - ./:/app
+    
