@@ -11,7 +11,7 @@ try:
 
 except:
     exc_info = sys.exc_info()
-
+    print(exc_info)
     revdebug.exception()
 
 time.sleep(0.1)
