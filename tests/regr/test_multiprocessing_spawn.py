@@ -8,6 +8,7 @@ def foo(q):
     time.sleep(0.2)
 
 if __name__ == '__main__':
+    revdebug.setrecmode(revdebug.Live)
     revdebug.flush()  # compensating for live recording deletion on server
 
     ctx = mp.get_context('spawn')

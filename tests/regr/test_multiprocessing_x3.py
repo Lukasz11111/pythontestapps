@@ -1,20 +1,23 @@
-#!/usr/bin/env python
 
+#!/usr/bin/env python
+from multiprocessing import Pool
 import multiprocessing as mp
 import time
-import sys
 
-def f(z):
-    z.put('bye')
+
+def o():
+    return x*x
+
+def f(x):
+    with Pool(5) as z:
+        print(z.map(f, [1, 2, 3]))
+    return x*x
 
 def foo(q):
-    z = mp.Queue()
-    p = mp.Process(target = f, args = (z,))
-    p.start()
-
-    q.put(str(z.get()))
-    p.join()
-
+    with Pool(5) as z:
+        print(z.map(f, [1, 2, 3]))
+    q.put('hello')
+    time.sleep(0.2)
 
 if __name__ == '__main__':
     revdebug.setrecmode(revdebug.Live)
@@ -28,7 +31,4 @@ if __name__ == '__main__':
     print(q.get())
     p.join()
 
-    time.sleep(0.3)
-    
-
-
+    time.sleep(0.1)

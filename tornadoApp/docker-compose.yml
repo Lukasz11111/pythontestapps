@@ -7,6 +7,7 @@ services:
       dockerfile: tornadoApp/dockerfile
     ports:
       - 7000:7000
+      - 8999:8999
     volumes:
       - ../:/app
     
