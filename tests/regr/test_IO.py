@@ -17,4 +17,4 @@ f = open("tests/regr/test.txt", "r", encoding="utf-8")
 print(f.readlines())
 
 if revdebug.conn.mode == revdebug.Crash:
-    raise RuntimeError('done')
+    raise RuntimeError('“:♡.•♬✧⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾*+:•*∴')

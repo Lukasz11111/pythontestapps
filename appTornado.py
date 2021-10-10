@@ -34,9 +34,9 @@ class GetHandler(tornado.web.RequestHandler):
 
 if __name__ == "__main__":
     
-    repo = git.Repo(search_parent_directories=True)
-    sha = repo.head.object.hexsha
-    rdb.release=sha
+    # repo = git.Repo(search_parent_directories=True)
+    # sha = repo.head.object.hexsha
+    # rdb.release=sha
     
     app = make_app()
 

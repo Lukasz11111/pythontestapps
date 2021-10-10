@@ -18,7 +18,10 @@ def thread_wrapper(thread):  # create determinism
     thread.join()
 
 revdebug.flush()
-revdebug.snapshot('Hello')
+revdebug.snapshot('“:♡.•♬✧⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾*+:•*∴')
+revdebug.snapshot('o͡͡͡͡͡͡͡͡͡͡͡͡͡͡╮(｡❛ᴗ❛｡)╭o͡͡͡͡͡͡͡͡͡͡͡͡͡͡')
+revdebug.snapshot('( ❀⃙⃕⃠⃝⃘⃚౪❀⃙⃕⃠⃝⃘⃚ )')
+revdebug.snapshot('▒▒▓█▇▅▂∩( ✧Д✧)∩▂▅▇█▓▒▒')
 
 thread = threading.Thread(target = thread_func, args = ())
 

@@ -1,4 +1,3 @@
-def a():
-    revdebug.flush(a())
 
-revdebug.flush(a())
+revdebug.flush()
+revdebug.flush("s")

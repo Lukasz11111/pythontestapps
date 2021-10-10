@@ -1,4 +1,5 @@
-FROM  py-rdb:latest
+ARG VERSION=3.9
+FROM  py-rdb:$VERSION
 
 WORKDIR /app
 

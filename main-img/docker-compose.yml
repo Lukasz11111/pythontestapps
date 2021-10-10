@@ -1,8 +1,25 @@
 version: "3.0"
 services:
-  py-rdb:
-    image: py-rdb:latest
+  py-rdb3.10:
+    image: py-rdb:3.10
     build: 
       context: .
       args: 
         REVDEBUG_HOST_ARG: 20.199.127.147
+        VERSION: "3.10"
+  py-rdb3.8:
+    image: py-rdb:3.8
+    build: 
+      context: .
+      args: 
+        REVDEBUG_HOST_ARG: 20.199.127.147
+        VERSION: 3.8
+  py-rdb3.9:
+    image: py-rdb:3.9
+    build: 
+      context: .
+      args: 
+        REVDEBUG_HOST_ARG: 20.199.127.147
+        VERSION: 3.9
+
+  

@@ -1,11 +1,33 @@
 version: "3.0"
 services:
-  clr-py:
-    image: clr-py
+  clr-py3.8:
+    image: clr-py3.8
     build: 
       context: .
+      args: 
+        VERSION: 3.8
     ports:
       - 6999:6999
+    volumes:
+      - ./:/app
+  clr-py3.9:
+    image: clr-py3.9
+    build: 
+      context: .
+      args: 
+        VERSION: 3.9
+    ports:
+      - 6998:6999
+    volumes:
+      - ./:/app
+  clr-py3.10:
+    image: clr-py3.10
+    build: 
+      context: .
+      args: 
+        VERSION: "3.10"
+    ports:
+      - 6997:6999
     volumes:
       - ./:/app
     

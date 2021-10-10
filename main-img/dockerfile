@@ -1,4 +1,5 @@
-FROM  python-revdebug:3.9
+ARG VERSION=3.9
+FROM  python-revdebug:$VERSION
 # FROM python:3.9-slim-buster
 # FROM  docker-test.revdebug.com/python-revdebug:3.9
 WORKDIR /app
