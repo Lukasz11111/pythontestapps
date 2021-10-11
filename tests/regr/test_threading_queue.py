@@ -129,7 +129,7 @@ def d():
     print('All work completed')
 
 
-# a()
-# b()
-# c()
-# d()
+a()
+b()
+c()
+d()
