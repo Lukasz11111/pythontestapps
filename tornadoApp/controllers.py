@@ -3,6 +3,8 @@ import logging
 from tests import test_ as t
 from tests.regr import test_weakref
 
+import requests
+
 class ErrHandler(tornado.web.RequestHandler):
     def get(self):
         raise "You shall not pass!!"
@@ -36,3 +38,9 @@ class Atexit(tornado.web.RequestHandler):
         test_atexit
         self.write("Hello, world")
         
+class Req(tornado.web.RequestHandler):
+    async def get(self):
+        r = requests.get(f'{self.get_argument("RHOST")}', auth=('user', 'pass'))
+        self.write("Hello, world")
+
+      

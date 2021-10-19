@@ -9,7 +9,8 @@ services:
         VERSION: 3.8
     ports:
       - 7000:7000
-
+    environment:
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
     volumes:
       - ../:/app
   tornado3.9:
@@ -19,6 +20,8 @@ services:
       dockerfile: tornadoApp/dockerfile
       args: 
         VERSION: 3.9
+    environment:
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
     ports:
       - 7001:7000
     volumes:
@@ -34,3 +37,5 @@ services:
       - 7002:7000
     volumes:
       - ../:/app
+    environment:
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }

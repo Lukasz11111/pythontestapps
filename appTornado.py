@@ -16,6 +16,7 @@ def make_app():
         (r"/async_err_in", controllers.GoAsync_err_in_async),
         (r"/Weakref_TPT", controllers.Weakref_TPT),
         (r"/atexit", controllers.Atexit),  
+        (r"/req", controllers.Req),     
     ]
     return tornado.web.Application(routs)
 
@@ -24,7 +25,7 @@ class MainHandler(tornado.web.RequestHandler):
         result=''
         for x,v in routs:
             result=result+f'<br/><a href={x}>{x}<a>'
-        self.write(str(result))
+        self.write(str(result) )
 
 class GetHandler(tornado.web.RequestHandler):
     def get(self):

@@ -4,7 +4,8 @@ FROM python:$VERSION-slim-buster
 # FROM  docker-test.revdebug.com/python-revdebug:3.9
 WORKDIR /app
 
-RUN pip3 install tornado
+RUN pip3 install tornado  ; \
+pip3 install requests
 
 COPY . /app
 
