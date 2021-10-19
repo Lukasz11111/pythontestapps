@@ -9,6 +9,7 @@ services:
         VERSION: 3.8
     ports:
       - 7000:7000
+      - 6000:6000
     environment:
         REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
     volumes:
@@ -24,6 +25,7 @@ services:
         REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
     ports:
       - 7001:7000
+      - 6001:6000
     volumes:
       - ../:/app
   tornado3.10:
@@ -35,6 +37,7 @@ services:
         VERSION: "3.10"
     ports:
       - 7002:7000
+      - 6002:6000
     volumes:
       - ../:/app
     environment:
