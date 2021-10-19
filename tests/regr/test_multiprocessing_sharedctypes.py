@@ -6,12 +6,12 @@ class Point(Structure):
     _fields_ = [('x', c_double), ('y', c_double)]
 
 def modify(n, x, s, A):
-                                                                                                                                                                                        n.value **= 2
-                                                                                                                                                                                        x.value **= 2
-                                                                                                                                                                                        s.value = s.value.upper()
-                                                                                                                                                                                        for a in A:
-                                                                                                                                                                                            a.x **= 2
-                                                                                                                                                                                            a.y **= 2
+    n.value **= 2
+    x.value **= 2
+    s.value = s.value.upper()
+    for a in A:
+        a.x **= 2
+        a.y **= 2
 
 if __name__ == '__main__':
     lock = Lock()
