@@ -2,6 +2,7 @@ import tornado.web
 import logging
 from tests import test_ as t
 from tests.regr import test_weakref
+# from tests.db import test_pg_rdb
 
 import requests
 
@@ -43,4 +44,3 @@ class Req(tornado.web.RequestHandler):
         r = requests.get(f'{self.get_argument("RHOST")}', auth=('user', 'pass'))
         self.write("Hello, world")
 
-      

@@ -12,6 +12,11 @@ services:
       - 6000:6000
     environment:
         REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}
     volumes:
       - ../:/app
   tornado3.9:
@@ -22,7 +27,12 @@ services:
       args: 
         VERSION: 3.9
     environment:
-        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147}
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}
     ports:
       - 7001:7000
       - 6001:6000
@@ -42,3 +52,8 @@ services:
       - ../:/app
     environment:
         REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147 }
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}

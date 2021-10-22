@@ -20,7 +20,9 @@ RUN pip3 install django==2.2.0          ; \
     pip3 install cryptography           ; \
     pip3 install pymongo                ; \   
     pip3 install  gitpython             ; \
-    pip3 install numpy
+    pip3 install numpy                  ; \
+    pip3 install psycopg[binary]         ; \
+    pip3 install sshtunnel
 
 ARG REVDEBUG_HOST_ARG=localhost
 ENV REVDEBUG_HOST=$REVDEBUG_HOST_ARG

@@ -1,0 +1,11 @@
+version: "3.0"
+services:
+  pg:
+    image: postgres
+    restart: always
+    environment:
+        POSTGRES_PASSWORD: masterkey
+        POSTGRES_DB: revdebug_db
+        POSTGRES_USER: rdb_user
+    ports:
+      - 5432:5432  
