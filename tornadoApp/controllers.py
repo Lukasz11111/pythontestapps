@@ -2,6 +2,7 @@ import tornado.web
 import logging
 from tests import test_ as t
 from tests.regr import test_weakref
+from tests.web import custom_code
 # from tests.db import test_pg_rdb
 
 import requests
@@ -44,3 +45,20 @@ class Req(tornado.web.RequestHandler):
         r = requests.get(f'{self.get_argument("RHOST")}', auth=('user', 'pass'))
         self.write("Hello, world")
 
+class CustomCodeCreate(tornado.web.RequestHandler):
+    async def get(self):
+        custom = customCode.CustomCode()
+
+        err=f'''
+        raise 'You shall not pass!'
+        '''
+        custom.createNewPyFile("tmp", custom.codeGenDef(100, "a=2"), 1, err, "")
+
+        self.write("Hello, world")
+
+class CustomCodeUse(tornado.web.RequestHandler):
+    async def get(self):
+        custom = customCode.CustomCode()
+        custom.start("tmp",'0')
+        
+        self.write("Hello, world")
