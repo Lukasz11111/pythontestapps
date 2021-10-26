@@ -2,7 +2,7 @@ import tornado.web
 import logging
 from tests import test_ as t
 from tests.regr import test_weakref
-from tests.web import custom_code
+from tests.web import custom_code as C
 # from tests.db import test_pg_rdb
 
 import requests
@@ -47,18 +47,25 @@ class Req(tornado.web.RequestHandler):
 
 class CustomCodeCreate(tornado.web.RequestHandler):
     async def get(self):
-        custom = customCode.CustomCode()
+        custom = C.CustomCode()
 
         err=f'''
-        raise 'You shall not pass!'
+raise 'You shall not pass!'
         '''
         custom.createNewPyFile("tmp", custom.codeGenDef(100, "a=2"), 1, err, "")
 
         self.write("Hello, world")
 
+class CustomCodeCreateARGS(tornado.web.RequestHandler):
+    async def get(self):
+        custom = C.CustomCode()
+        custom.createNewPyFile("tmp", f'{self.get_argument("CODE")}', f'{self.get_argument("REPLY")}', f'{self.get_argument("ENDCODE")}', f'{self.get_argument("STARTCODE")}')
+
+        self.write("Hello, world")
+
 class CustomCodeUse(tornado.web.RequestHandler):
     async def get(self):
-        custom = customCode.CustomCode()
+        custom = C.CustomCode()
         custom.start("tmp",'0')
-        
+        # CustomCodeCreateArgs?CODE=print(%27a%27)&REPLY=100&ENDCODE=raise%20%27err%27&STARTCODE=
         self.write("Hello, world")

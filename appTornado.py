@@ -4,6 +4,8 @@ from tornadoApp import controllers as controllers
 import git
 import revdebug as rdb
 
+
+
 import logging
 global routs
 
@@ -17,6 +19,9 @@ def make_app():
         (r"/Weakref_TPT", controllers.Weakref_TPT),
         (r"/atexit", controllers.Atexit),  
         (r"/req", controllers.Req),     
+        (r"/CustomCodeUse", controllers.CustomCodeUse),     
+        (r"/CustomCodeCreate", controllers.CustomCodeCreate),     
+        (r"/CustomCodeCreateArgs", controllers.CustomCodeCreateARGS),     
       
     ]
     return tornado.web.Application(routs)
@@ -34,6 +39,9 @@ class GetHandler(tornado.web.RequestHandler):
         response = {'key': key}
         self.write(response)
 
+
+def a():
+    print("as")
 if __name__ == "__main__":
     
     # repo = git.Repo(search_parent_directories=True)
@@ -43,4 +51,5 @@ if __name__ == "__main__":
     app = make_app()
 
     app.listen(7000)
+
     tornado.ioloop.IOLoop.current().start()

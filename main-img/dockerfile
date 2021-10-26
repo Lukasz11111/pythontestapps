@@ -24,6 +24,13 @@ RUN pip3 install django==2.2.0          ; \
     pip3 install psycopg[binary]         ; \
     pip3 install sshtunnel
 
-ARG REVDEBUG_HOST_ARG=localhost
+
+ARG REVDEBUG_HOST_ARG=20.199.127.147
 ENV REVDEBUG_HOST=$REVDEBUG_HOST_ARG
-ENV REVDEBUG_EXC_STATUS=404
+ENV REVDEBUG_SOLUTION=superset \
+ REVDEBUG_APPLICATION=superset \
+ REVDEBUG_HOST=20.199.127.147 \
+ REVDEBUG_APM=1 \
+ REVDEBUG_LOGGING=debug \
+ REVDEBUG_MODE=Live \
+ REVDEBUG_EXC_STATUS=404
