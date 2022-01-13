@@ -7,7 +7,7 @@ WORKDIR /app
 RUN pip3 install django==2.2.0          ; \
     pip3 install flask                  ; \
     pip3 install tornado                ; \
-    pip3 install sanic                  ; \
+    pip3 install sanic==20.12.3        ; \
     pip3 install requests               ; \
     pip3 install aiohttp                ; \
     pip3 install pyramid                ; \
@@ -22,8 +22,8 @@ RUN pip3 install django==2.2.0          ; \
     pip3 install  gitpython             ; \
     pip3 install numpy                  ; \
     pip3 install psycopg[binary]         ; \
-    pip3 install sshtunnel
-
+    pip3 install sshtunnel              ; \
+    pip3 install psutil
 
 ARG REVDEBUG_HOST_ARG=20.199.127.147
 ENV REVDEBUG_HOST=$REVDEBUG_HOST_ARG

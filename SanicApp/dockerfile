@@ -1,0 +1,18 @@
+ARG VERSION=3.9
+FROM  py-rdb:$VERSION
+
+WORKDIR /app
+
+
+COPY ./SanicApp /app/SanicApp
+COPY ./tests /app/tests
+
+ENV REVDEBUG_SOLUTION=SanicTest \
+ REVDEBUG_APPLICATION=SanicTest \
+ REVDEBUG_HOST=20.199.127.147 \
+ REVDEBUG_APM=1 \
+ REVDEBUG_LOGGING=debug \
+ REVDEBUG_MODE=Live 
+
+
+CMD python SanicApp/appSanic.py

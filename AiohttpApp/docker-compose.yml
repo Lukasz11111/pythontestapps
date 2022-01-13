@@ -1,0 +1,76 @@
+version: "3.0"
+services:
+  AioHttp3.8:
+    image: aiohttp-py-3.8
+    build: 
+      context: ..
+      dockerfile: AiohttpApp/dockerfile
+      args: 
+        VERSION: 3.8
+    ports:
+      - 7006:7000
+      - 6006:6000
+    environment:
+        REVDEBUG_APM: 1
+        REVDEBUG_RELEASE: aaa
+        REVDEBUG_VERSION: aaadsa
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147}
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}
+        REVDEBUG_SOLUTION: AioHttpTest3.8
+        REVDEBUG_APPLICATION: AioHttpTest3.8
+    volumes:
+      - ../:/app
+  AioHttp3.9:
+    image: aiohttp-py-3.9
+    build: 
+      context: ..
+      dockerfile: AiohttpApp/dockerfile
+      args: 
+        VERSION: 3.9
+    environment:
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147}
+        REVDEBUG_RELEASE: aaa
+        REVDEBUG_MODE: crash
+        REVDEBUG_FORCE_TLS: 0OC
+        REVDEBUG_APM: 1
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}
+        SW_AGENT_LOG_REPORTER_LEVEL: INFO
+        SW_AGENT_LOG_REPORTER_ACTIVE: "True"
+        REVDEBUG_SOLUTION: aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaa50aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaa100aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaa50aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaa200
+        REVDEBUG_APPLICATION: aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaa50aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaa100aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaa50aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaaaa1aaaaaaa200
+    ports:
+      - 7007:7000
+      - 6007:6000
+    volumes:
+      - ../:/app
+  AioHttp3.10:
+    image: aiohttp-py-3.10
+    build: 
+      context: ..
+      dockerfile: AiohttpApp/dockerfile
+      args: 
+        VERSION: "3.10"
+    ports:
+      - 7008:7000
+      - 6008:6000
+    volumes:
+      - ../:/app
+    environment:
+        REVDEBUG_APM: 1
+
+        REVDEBUG_HOST: ${REVDEBUG_HOST:-20.199.127.147}
+        DB_TEST_HOST: ${DB_TEST_HOST:-}
+        DB_TEST_PORT: ${DB_TEST_PORT:-5432}
+        DB_TEST_USER: ${DB_TEST_USER:-rdb_user}
+        DB_TEST_PASS: ${DB_TEST_PASS:-masterkey}
+        DB_TEST_DB: ${DB_TEST_DB:-revdebug_db}
+        REVDEBUG_SOLUTION: AioHttpTest3.10
+        REVDEBUG_APPLICATION: AioHttpTest3.10

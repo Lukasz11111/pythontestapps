@@ -3,16 +3,15 @@ FROM  py-rdb:$VERSION
 
 WORKDIR /app
 
-COPY ./appTornado.py /app/appTornado.py
 COPY ./tornadoApp /app/tornadoApp
 COPY ./tests /app/tests
 
-ENV REVDEBUG_SOLUTION=tornado \
- REVDEBUG_APPLICATION=tornado \
+ENV REVDEBUG_SOLUTION=TornadoTest \
+ REVDEBUG_APPLICATION=TornadoTest \
  REVDEBUG_HOST=20.199.127.147 \
  REVDEBUG_APM=1 \
  REVDEBUG_LOGGING=debug \
- REVDEBUG_MODE=Live 
+ REVDEBUG_MODE=Live
 
 
-CMD python appTornado.py
+CMD python tornadoApp/appTornado.py
